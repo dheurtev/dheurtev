@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @dheurtev
 - 👀 I’m interested in Python, Javascript (node.js) 
-- 🌱 I’m currently learning to write and interact with ProxMox API
-- 💞️ I’m looking to collaborate on clustering (ProxMoxVE) 
+- 🌱 
+- 💞️ 
 - 📫 How to reach me [My Linkedin profile](https://www.linkedin.com/in/david-heurtevent/)
 
 Please support my non-profit and open source activities with a donation by Paypal :

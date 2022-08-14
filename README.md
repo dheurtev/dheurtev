@@ -7,7 +7,7 @@
 ## Projects ##
 
 ### MonMotDePasse.com ###
-A simple free secure password generator in French (uses Javascript and Bootstrap): 
+A simple free secure password generator in French (uses Javascript, HTML5 Boilerplate and Bootstrap): 
 
 [https://monmotdepasse.com](https://monmotdepasse.com)
 

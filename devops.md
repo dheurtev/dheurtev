@@ -17,7 +17,8 @@ Tools i have used or consider using
 ## Code ##
 ### Development environment ###
 - [WSL/WSL2](https://docs.microsoft.com/en-us/windows/wsl/compare-versions): Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10, Windows 11, and Windows Server 2019.
-#### Level 2 Virtualization ####
+- [MobaXTerm](https://mobaxterm.mobatek.net/): Xserver and tabbed SSH client for Windows. Proprietary
+### Level 2 Virtualization ###
 #### using ####
 - For VMS:
   * [Multipass](https://multipass.run/): a CLI to launch and manage VMs on Windows, Mac and Linux that simulates a cloud environment with support for cloud-init. Canonical project
@@ -31,7 +32,7 @@ Tools i have used or consider using
 #### considering ####
 - [Docker Desktop Linux](https://docs.docker.com/desktop/install/linux-install/): Docker Desktop for Linux
 
-### Code Editors ##
+### Code Editors ###
 #### using ####
 - [Microsoft Visual Studio Code](https://code.visualstudio.com/): VS Code. Source-code editor made by Microsoft for Windows, Linux and macOS. free for private or commercial use.
 - [Notepad ++](https://notepad-plus-plus.org/): Text and source code editor for use with Microsoft Windows. GPLv2. [Use in Linux](https://itsfoss.com/notepad-plus-plus-linux/) - [Linux Clone - notepadqq](https://notepadqq.com/s/)

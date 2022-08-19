@@ -81,9 +81,19 @@ https://github.com/dheurtev/dheurtev/blob/main/monitoring.md
 https://geekflare.com/open-source-load-balancer/
 - [Nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/):  Open-source web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. BSD 2.0 license. [past]
 
+### Scheduling (CRON) ###
+#### Traditional approach #### 
+- BASH + Cron 
+- Python or Node scrips + Cron
+- JAVA + Cron [past]
+#### Cron Alternatives ####
+- [Jobber](https://github.com/dshearer/jobber): Written in GO. Keeps logs of tasks success or failure [considering]
+- [Anacron](https://linux.die.net/man/8/anacron): Cron that can turn on the server [past]
+- [Fcron](http://fcron.free.fr/): Similar to Anacron, but can work with hourly and minutes [past]
+
 ### Networking ###
 #### Routers ####
-- Non Linux Networking / Router distribution : [OPNsense](https://opnsense.org/) : PfSense fork. BSD license.
+- Non Linux Networking / Router distribution : [OPNsense](https://opnsense.org/) : PfSense fork. Can be virtualized. BSD license [considering].
 #### Virtual Networking ####
 - [Linux Bridge](https://wiki.linuxfoundation.org/networking/bridge): Linux native bridges, bonds, and vlan interfaces
 - [Open vSwitch (OVS)](https://www.openvswitch.org/): open-source implementation of a distributed virtual multilayer switch. Apache License 2.0 [past]

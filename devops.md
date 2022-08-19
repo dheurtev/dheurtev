@@ -15,6 +15,8 @@ Tools and technologies i am using, have used or consider using
 ### Code Versioning (SCM/VCS) ###
 - [Git](https://git-scm.com/): free and open source software for distributed version control. GPL 2.0 - [Documentation](https://git-scm.com/docs)
 - [Apache Subversion](https://subversion.apache.org/): software versioning and revision control system distributed as open source under the Apache License. Apache-2.0 [past]
+- [WinMerge](https://winmerge.org/source-code/?lang=en): Open Source differencing and merging tool for Windows. GPL [past]
+
 ### Development environment ###
 - [WSL/WSL2](https://docs.microsoft.com/en-us/windows/wsl/compare-versions): Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10, Windows 11, and Windows Server 2019.
 - [MobaXTerm](https://mobaxterm.mobatek.net/): Xserver and tabbed SSH client for Windows. Proprietary.

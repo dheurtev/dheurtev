@@ -23,12 +23,6 @@ cryptopyutils is a high-level Python3 cryptography library using cryptography wi
 - [My picks for Databases](https://github.com/dheurtev/dheurtev/blob/main/databases.md)
 - [My picks for Data Science Tools](https://github.com/dheurtev/dheurtev/blob/main/data-science.md)
 
-## Technologies I am using ##
-### Version Control ###
-- [Git](https://git-scm.com/): free and open source software for distributed version control. GPL 2.0 - [Documentation](https://git-scm.com/docs)
-- [WSL/WSL2](https://docs.microsoft.com/en-us/windows/wsl/compare-versions): Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10, Windows 11, and Windows Server 2019.
-- [Apache Subversion](https://subversion.apache.org/): software versioning and revision control system distributed as open source under the Apache License. Apache-2.0
-
 ## Support ##
 
 Please support my non-profit and open source activities with a donation by Paypal :

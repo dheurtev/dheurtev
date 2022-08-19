@@ -71,12 +71,22 @@ https://github.com/dheurtev/dheurtev/blob/main/monitoring.md
 
 ## Other tools ##
 
+### File Systems ###
+- Scaling with additional disks in a node (scale up) : ZFS with mirror or RAID-Z
+- Scaling between nodes (scale out): CEPH
+- User remote access to files : SMB (SAMBA)
+- Shares for backups (on NAS) : NFS
+
 ### Load Balancer and reverse proxy ###
 https://geekflare.com/open-source-load-balancer/
+- [Nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/):  Open-source web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. BSD 2.0 license. [past]
 
-- [Nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/):  Open-source web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. BSD 2.0 license.
-
-### Virtual Networking ###
+### Networking ###
+#### Routers ####
+- Non Linux Networking / Router distribution : [OPNsense](https://opnsense.org/) : PfSense fork. BSD license.
+#### Virtual Networking ####
 - [Linux Bridge](https://wiki.linuxfoundation.org/networking/bridge): Linux native bridges, bonds, and vlan interfaces
-- [Open vSwitch (OVS)](https://www.openvswitch.org/): open-source implementation of a distributed virtual multilayer switch. Apache License 2.0 [Used]
-
+- [Open vSwitch (OVS)](https://www.openvswitch.org/): open-source implementation of a distributed virtual multilayer switch. Apache License 2.0 [past]
+#### VPN ####
+- [Wireguard](https://www.wireguard.com/): communication protocol and free and open-source software that implements encrypted virtual private networks. Cross-platform. GPLv2. 
+- [Tinc](https://www.tinc-vpn.org/): Virtual Private Network (VPN) daemon that uses tunnelling and encryption to create a secure private network between hosts on the Internet. Automatic full mesh routing. Cross-platform. GPL [considering]

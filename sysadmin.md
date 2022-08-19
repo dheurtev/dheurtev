@@ -2,6 +2,14 @@
 
 Tools and technologies i am using, have used or consider using
 
+## Best practices ##
+- Avoid manual changes and GUI as leads to non-reproductible environment.
+- Immutable configuration to avoid configuration drift
+- Infrastructure should be reproductible, disposable, consistent, with no end state
+- Provisioning should be automated after the server starts.
+- Do not store passwords in code. Use instead IAM or Vault. 
+- Send and monitor logs
+
 ## Provision ##
 ### Bare Metal - Metal as a Service ###
 - [Metal-As-A-Service (MAAS)](https://maas.io/) : Open-source bare metal server provisionning - [Uses PXE, IPMI, DHCP, DNS, KVM, LXD, etc](https://maas.io/how-it-works) - [Documentation](https://maas.io/docs) - Ubuntu based.

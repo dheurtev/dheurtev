@@ -2,12 +2,20 @@
 
 Technologies I use, I have used or consider using.
 
--[Comparison](https://prometheus.io/docs/introduction/comparison/)
+- [Comparison](https://prometheus.io/docs/introduction/comparison/)
+- [ELK stack alternatives](https://betterstack.com/community/comparisons/elk-stack-alternatives/)
 - [Kubernetes monitoring tools](https://medium.com/codex/5-top-kubernetes-log-monitoring-tools-d8c0494deb30)
 
 ## Basic Monitoring ##
 - [SNMP](https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol): Simple Network Management Protocol (SNMP) is an IP-based application layer protocol that exchanges information between a network management solution and any SNMP-enabled device. [using]
 - [Nagios Core - Nagios](https://www.nagios.org/): free and open-source computer-software application that monitors systems, networks and infrastructure. GPLv2 [considering]
+
+### ELK Stack ###
+- [ELK](https://www.elastic.co/fr/elastic-stack/): Elasticsearch, Kibana, Beats et Logstash [considering]
+  * [Beats](https://www.elastic.co/fr/beats/): Beats is a free and open platform for single-purpose data shippers. 
+  * [Logstash](https://www.elastic.co/fr/logstash/): free and open server-side data processing pipeline that ingests data from a multitude of sources, transforms it, and then sends it to an Elasticsearch data warehouse.
+  * [Elasticsearch](https://www.elastic.co/): search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents.
+  * [Kibana](https://www.elastic.co/fr/kibana/): source-available data visualization dashboard software for Elasticsearch. Proprietary.
 
 ## Event monitoring, Agent and metrics ##
 - [Jabbix](https://www.zabbix.com/): open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services. Zabbix collects and displays basic metrics. Agent. GPLv2. [used]

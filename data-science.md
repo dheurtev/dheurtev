@@ -10,25 +10,12 @@
 - **Julia** for fast computations
 - **Matlab** is legacy
 
-## Python ##
-- [Python](https://www.python.org/): high-level, interpreted, general-purpose programming language. Cross-platform. Python Software Licence.
-- [Anaconda](https://anaconda.org/): distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment. Windows, Linux, Mac. Freemium.
-- [Jupyter](https://jupyter.org/): web-based interactive computing platform. modified BSD license.
-- [Pandas](https://pandas.pydata.org/): software library written for the Python programming language for data manipulation and analysis. New BSD License.
-- [NumPy](https://numpy.org/): library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays. BSD.
-- [SciPy](https://scipy.org/): free and open-source Python library used for scientific computing and technical computing. BSD-new license
-- [Numba](https://numba.pydata.org/): open-source JIT compiler that translates a subset of Python and NumPy into fast machine code using LLVM, via the llvmlite Python package
-
-### References ###
-- [NumPy vs. NumPy+Numba](https://dataconomy.com/2017/07/big-data-numpy-numba-python/)
-- [Numba for data science](https://www.analyticsvidhya.com/blog/2021/04/numba-for-data-science-make-your-py-code-run-1000x-faster/)
-- [Numba + Pandas](https://coderzcolumn.com/tutorials/python/guide-to-speed-up-code-involving-pandas-dataframe-using-numba)
+## Python libraries ##
+https://github.com/dheurtev/dheurtev/blob/main/python.md
 
 ## ETL Tools ##
 - [Hevo](https://hevodata.com/): No code data pipelines plateform. Proprietary. Free plan [considering]
 - [Apache Airflow](https://airflow.apache.org/): Complex alternative to scripts. Apache License 2.0 [not considering]
-- [Bonobo](https://www.bonobo-project.org/) : Data pipelines. lightweight Extract-Transform-Load (ETL) framework for Python 3.5+ [considering]
-- [Mara]](https://github.com/mara) : Halfway between scripts and complex solutions like Airflow [considering]
 - [Talend Open Studio](https://www.talend.com/products/talend-open-studio/): free open source ETL tool for Data Integration and Big Data [past]
 
 ## Business Intelligence ##

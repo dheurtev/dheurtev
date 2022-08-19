@@ -39,28 +39,6 @@
 ### considering ###
 ### used ###
 
-## IDE ##
-### using ###
-- [Microsoft Visual Studio Code](https://code.visualstudio.com/): VS Code. Source-code editor made by Microsoft for Windows, Linux and macOS. free for private or commercial use.
-- [Jetbrains PyCharm CE](https://www.jetbrains.com/pycharm/): Python IDE.
-### considering ###
-### used ###
-- [Eclipse](https://www.eclipse.org/): integrated development environment used in computer programming. Eclipse Public License (EPL)
-- [PyDev](https://www.pydev.org/): Python IDE for Eclipse. Eclipse Public License (EPL)
-- [Microsoft Visual Studio](https://visualstudio.microsoft.com/fr/): integrated development environment from Microsoft. Proprietary
-
-## Data Science / Statistics / Mathematics ##
-### using ###
-- [R](https://www.r-project.org/): programming language for statistical computing and graphics. Cross-platform. GPLv2.
-- [R Studio Dektop]():
-- [Anaconda]():
-### considering ###
-### used ###
-- [Microsoft BI]
-- [Matlab]():
-
-
-
 ## Others ##
 ### using ###
 ### considering ###

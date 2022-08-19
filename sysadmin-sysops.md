@@ -21,9 +21,7 @@ Technologies I am using or used in recent years or considering.
   * [cockpit-podman](https://github.com/cockpit-project/cockpit-podman): Cockpit User Interface for Podman. GNU Lesser General Public License v2.1 
 - [oVirt](https://www.ovirt.org/): open-source virtualization management platform. Red-Hat based. Uses GlusterFS and Ansible. [Considering]
 - [Microsoft Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v): Native Level 1 hypervisor to create virtual machines on x86-64 systems running Windows
-- [Proxmox VE](https://www.proxmox.com/en/proxmox-ve): uses LXD, [Corosync](https://corosync.github.io/corosync/) and [Pacemaker](https://clusterlabs.org/pacemaker/).
-- [Kubernetes](https://kubernetes.io/): open-source container orchestration system for automating software deployment, scaling, and management. Apache License 2.0.
-- [LXD Clustering](https://linuxcontainers.org/lxd/docs/master/clustering/): Works with [Metal-As-A-Service (MAAS)](https://maas.io/)
+- [LXD Clustering](https://linuxcontainers.org/lxd/docs/master/clustering/): Works with [Metal-As-A-Service (MAAS)](https://maas.io/) [Considering]
 - [Clusterlabs](https://clusterlabs.org/quickstart.html): High Availability. Combines Corosync, Pacemaker, DRBD, ScanCore. [Considering]
 
 ## Level 2 - Virtualization and Container Provisioning platforms ##
@@ -45,18 +43,28 @@ Technologies I am using or used in recent years or considering.
 ### Applications - Single host ###
 - [Docker](https://www.docker.com/): open platform for developing, shipping, and running applications. Apache version 2.0 
 - [Podman](https://podman.io/): Daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Containers can either be run as root or in rootless mode. Apache License 2.0. [Github](https://github.com/containers/podman)
+### Orchestration ###
+- [Kubernetes](https://kubernetes.io/): K8s. open-source container orchestration system for automating software deployment, scaling, and management. Apache License 2.0. Google Project [Considering]
+- [Docker Swarm](https://docs.docker.com/engine/swarm/): Lightweight orchestration of docker containers. [Considering]
+#### Utils ####
+- [KubeVirt](https://kubevirt.io/): Unified development platform where developers can build, modify, and deploy applications residing in both Application Containers as well as Virtual Machines in a common, shared environment. [Considering]
+- [Minikube](https://minikube.sigs.k8s.io/docs/start/): Kubernetes on local computer [Considering] 
+- [MicroK8s](https://microk8s.io/): small, fast, single-package Kubernetes for developers, IoT and edge. Local or multi-node [Considering]. Canonical Project. 
+
 #### Useful sites ####
 - [Docker Hub](https://hub.docker.com/search?q=): Search docker images
 - [Quay](https://quay.io/): Container Image repository server
 - [Fedora Registry](registry.fedoraproject.org/)
 
 ## Infrastructure as a service (IAAS) tools ##
+### Instance initialization ###
 - [Cloud-init](https://cloud-init.io/): industry standard multi-distribution method for cross-platform cloud instance initialization - [Documentation](https://cloudinit.readthedocs.io/en/latest/) - Canonical Project
+### Server automation tool ###
 - [Ansible](https://www.ansible.com/): agentless automation tool that you install on a single host - [Documentation](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) - RedHat Project
+- Chef, Puppet, Salt [not used]
+### Plateform automation tool ###
 - [Terraform](https://www.terraform.io/): Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON to create, change and improve infrastructure. HashiCorp Project. [Considering]
 
-## Utils ##
-- [KubeVirt](https://kubevirt.io/): Unified development platform where developers can build, modify, and deploy applications residing in both Application Containers as well as Virtual Machines in a common, shared environment. [Considering]
 
 
 

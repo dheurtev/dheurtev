@@ -48,7 +48,7 @@ Tools and technologies i am using, have used or consider using
 - lxc : low level
 - [Multipass](https://multipass.run/): a CLI to launch and manage VMs on Windows, Mac and Linux that simulates a cloud environment with support for cloud-init. Canonical project
 - [Vagrant](https://www.vagrantup.com/): open-source software product for building and maintaining portable virtual software development environments; e.g., for VirtualBox, KVM, Hyper-V, Docker containers, VMware, and AWS. It tries to simplify the software configuration management of virtualization. Typically creates Virtualbox VMs but plugins support other platforms. HashiCorp Project.
-#### GUI ####
+### GUI ###
 - [Oracle VM VirtualBox](https://www.virtualbox.org/): Open Source Level 2 x86 and AMD64/Intel64 virtualization product. Runs as an app on Windows, Linux, OS X, Solaris [past].
 - [Virt-Manager](https://virt-manager.org/): Desktop virtual machine monitor for KVM/QEMU/Libvirt. GPLv2. [past]
 
@@ -64,3 +64,15 @@ Tools and technologies i am using, have used or consider using
 - [Ansible](https://www.ansible.com/): agentless automation tool that you install on a single host - Connects to the server via SSH - Apply config changes, configuration of systems, software install, uses yaml documentation. Mutable. Typically to configure VMs or for bare metal operations - RedHat Project
    * [Documentation](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
    * Ansible Tower or Ansible Semaphore : WebUI for Ansible
+
+## Other tools ##
+
+### Load Balancer and reverse proxy ###
+https://geekflare.com/open-source-load-balancer/
+
+- [Nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/):  Open-source web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. BSD 2.0 license.
+
+### Virtual Networking ###
+- [Linux Bridge](https://wiki.linuxfoundation.org/networking/bridge): Linux native bridges, bonds, and vlan interfaces
+- [Open vSwitch (OVS)](https://www.openvswitch.org/): open-source implementation of a distributed virtual multilayer switch. Apache License 2.0 [Used]
+

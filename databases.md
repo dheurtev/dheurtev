@@ -1,6 +1,7 @@
 # My picks for databases
 
-Technologies I am currently using or have used in recent years.
+Tools and technologies i am using, have used or consider using
+
 ## SQL Databases
 
 ### SQL ###

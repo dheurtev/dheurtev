@@ -1,5 +1,7 @@
 # My picks for databases
 
+Technologies I am currently using or have recently used.
+
 ## SQL Databases
 
 ### SQL ###

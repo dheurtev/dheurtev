@@ -89,7 +89,6 @@ https://geekflare.com/open-source-load-balancer/
 #### Cron Alternatives ####
 - [Jobber](https://github.com/dshearer/jobber): Written in GO. Keeps logs of tasks success or failure [considering]
 - [Anacron](https://linux.die.net/man/8/anacron): Cron that can turn on the server [past]
-- [Fcron](http://fcron.free.fr/): Similar to Anacron, but can work with hourly and minutes [past]
 
 ### Networking ###
 #### Routers ####

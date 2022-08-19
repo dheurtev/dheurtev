@@ -1,6 +1,6 @@
 # My Picks for DevOps
 
-Tools i have used or consider using
+Tools and technologies i am using, have used or consider using
 
 ## Collaborate - Application lifecycle management - Code Repository - Registry - Artefact Management ##
 - [Gihub](https://github.com/)
@@ -9,25 +9,25 @@ Tools i have used or consider using
 - [Portainer CE](https://hub.docker.com/r/portainer/portainer-ce): Portainer CE - a lightweight service delivery platform for containerized applications. docker pull portainer/portainer-ce
 - [Docker Registry Frontend](https://hub.docker.com/r/konradkleine/docker-registry-frontend/): Browse and modify your Docker registry in a browser. docker pull konradkleine/docker-registry-frontend
 - [CraneOperator](https://hub.docker.com/r/parabuzzle/craneoperator): UI for browsing a Registry using the v2 api
-- [Jira](https://www.atlassian.com/software/jira):  issue tracking product developed by Atlassian that allows bug tracking and agile project management. Atlassian Project. Proprietary [used]
+- [Jira](https://www.atlassian.com/software/jira):  issue tracking product developed by Atlassian that allows bug tracking and agile project management. Atlassian Project. Proprietary [past]
 
 ## Code ##
 ### Code Versioning (SCM/VCS) ###
 - [Git](https://git-scm.com/): free and open source software for distributed version control. GPL 2.0 - [Documentation](https://git-scm.com/docs)
-- [Apache Subversion](https://subversion.apache.org/): software versioning and revision control system distributed as open source under the Apache License. Apache-2.0 [used]
+- [Apache Subversion](https://subversion.apache.org/): software versioning and revision control system distributed as open source under the Apache License. Apache-2.0 [past]
 ### Development environment ###
 - [WSL/WSL2](https://docs.microsoft.com/en-us/windows/wsl/compare-versions): Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10, Windows 11, and Windows Server 2019.
 - [MobaXTerm](https://mobaxterm.mobatek.net/): Xserver and tabbed SSH client for Windows. Proprietary.
 ### Code Editors ###
 - [Microsoft Visual Studio Code](https://code.visualstudio.com/): VS Code. Source-code editor made by Microsoft for Windows, Linux and macOS. free for private or commercial use.
 - [Notepad ++](https://notepad-plus-plus.org/): Text and source code editor for use with Microsoft Windows. GPLv2. [Use in Linux](https://itsfoss.com/notepad-plus-plus-linux/) - [Linux Clone - notepadqq](https://notepadqq.com/s/)
-- [Atom](https://atom.io/): free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in JavaScript, and embedded Git Control. Cross-platform. MIT license. Sunsetting Dec. 2022. [used]
+- [Atom](https://atom.io/): free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in JavaScript, and embedded Git Control. Cross-platform. MIT license. Sunsetting Dec. 2022. [past]
 
 ### IDE ###
 - [Jetbrains PyCharm CE](https://www.jetbrains.com/pycharm/): Python IDE.
-- [Eclipse](https://www.eclipse.org/): integrated development environment used in computer programming. Eclipse Public License (EPL) [used]
-- [PyDev](https://www.pydev.org/): Python IDE for Eclipse. Eclipse Public License (EPL) [used]
-- [Microsoft Visual Studio](https://visualstudio.microsoft.com/fr/): integrated development environment from Microsoft. Proprietary [used]
+- [Eclipse](https://www.eclipse.org/): integrated development environment used in computer programming. Eclipse Public License (EPL) [past]
+- [PyDev](https://www.pydev.org/): Python IDE for Eclipse. Eclipse Public License (EPL) [past]
+- [Microsoft Visual Studio](https://visualstudio.microsoft.com/fr/): integrated development environment from Microsoft. Proprietary [past]
 
 ### API development ###
 - [OpenAPI](https://www.openapis.org/):OpenAPI Specification, previously known as the Swagger Specification, is a specification for machine-readable interface files for describing, producing, consuming, and visualizing RESTful web services [considering]
@@ -45,7 +45,7 @@ Tools i have used or consider using
 
 ### Test ###
 - [PyTest](https://docs.pytest.org/en/7.1.x/): Python testing framework. MIT License.
-- [Selenium](https://www.selenium.dev/): open source umbrella project for a range of tools and libraries aimed at supporting browser automation. Apache License 2.0
+- [Selenium](https://www.selenium.dev/): open source umbrella project for a range of tools and libraries aimed at supporting browser automation. Apache License 2.0 [past]
 #### CI/CD Platforms ####
 - [Jenkins](https://www.jenkins.io/): open-source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery. MIT license. [considering]
 - [Circle CI](https://circleci.com/): continuous integration and continuous delivery platform [considering]
@@ -61,7 +61,3 @@ Tools i have used or consider using
 
 #### Security ####
 - [HashiCorp Vault](https://www.vaultproject.io/): Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API. Self hosted possible. HashiCorp Project. [Considering]
-
-
-
-

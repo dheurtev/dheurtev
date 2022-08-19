@@ -40,6 +40,8 @@ Technologies I am using or used in recent years or considering.
 #### Traditional server configuration (pets) ####
 - SSH
 - Bash
+- Python
+
 #### Instance initialization ####
 - [Cloud-init](https://cloud-init.io/): industry standard multi-distribution method for cross-platform cloud instance initialization - [Documentation](https://cloudinit.readthedocs.io/en/latest/) - Canonical Project
 #### Server automation tool ####

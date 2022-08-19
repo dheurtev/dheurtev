@@ -1,4 +1,4 @@
-# My picks for system admin operations and sysops
+# My picks for system admin and operations (sysops)
 
 Technologies I am using or used in recent years or considering.
 

@@ -15,6 +15,11 @@ Tools i have used or consider using
 - [Jira](https://www.atlassian.com/software/jira):  issue tracking product developed by Atlassian that allows bug tracking and agile project management. Atlassian Project. Proprietary
 
 ## Code ##
+### Code Versioning (SCM/VCS) ###
+#### using ####
+- [Git](https://git-scm.com/): free and open source software for distributed version control. GPL 2.0 - [Documentation](https://git-scm.com/docs)
+#### used ####
+- [Apache Subversion](https://subversion.apache.org/): software versioning and revision control system distributed as open source under the Apache License. Apache-2.0 [old]
 ### Development environment ###
 - [WSL/WSL2](https://docs.microsoft.com/en-us/windows/wsl/compare-versions): Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10, Windows 11, and Windows Server 2019.
 - [MobaXTerm](https://mobaxterm.mobatek.net/): Xserver and tabbed SSH client for Windows. Proprietary
@@ -51,13 +56,7 @@ Tools i have used or consider using
 #### considering ####
 - [OpenAPI](https://www.openapis.org/):OpenAPI Specification, previously known as the Swagger Specification, is a specification for machine-readable interface files for describing, producing, consuming, and visualizing RESTful web services 
 - [Swagger](https://swagger.io/): suite of tools for API developers. Apache 2.0 License.
-
-### Code Versioning (SCM/VCS) ###
-#### using ####
-- [Git](https://git-scm.com/): free and open source software for distributed version control. GPL 2.0 - [Documentation](https://git-scm.com/docs)
-#### used ####
-- [Apache Subversion](https://subversion.apache.org/): software versioning and revision control system distributed as open source under the Apache License. Apache-2.0 [old]
-        
+       
 ## Continuous Integration / Continous Distribution (CI/CD) ##
 ### Build ###
 #### considering ####

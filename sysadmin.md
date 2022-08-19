@@ -1,6 +1,6 @@
-# SysAdmin Technologies (Pets management)
+# My picks for SysAdmin Technologies (Pets management)
 
-Technologies I am using or used in recent years or considering.
+Tools and technologies i am using, have used or consider using
 
 #### To create Metal As A Service - Bare Metal ####
 - [Metal-As-A-Service (MAAS)](https://maas.io/) : Open-source bare metal server provisionning - [Uses PXE, IPMI, DHCP, DNS, KVM, LXD, etc](https://maas.io/how-it-works) - [Documentation](https://maas.io/docs) - Ubuntu based.

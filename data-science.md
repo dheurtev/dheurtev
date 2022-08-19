@@ -10,23 +10,6 @@
 - Julia for fast computations
 - Mathlab is legacy
 
-## Source code editor ##
-### using ###
-- [Microsoft Visual Studio Code](https://code.visualstudio.com/): VS Code. Source-code editor made by Microsoft for Windows, Linux and macOS. free for private or commercial use.
-- [Notepad ++](https://notepad-plus-plus.org/): Text and source code editor for use with Microsoft Windows. GPLv2. [Use in Linux](https://itsfoss.com/notepad-plus-plus-linux/) - [Linux Clone - notepadqq](https://notepadqq.com/s/)
-### considering ###
-### used ###
-- [Atom](https://atom.io/): free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in JavaScript, and embedded Git Control. Cross-platform. MIT license. Sunsetting Dec. 2022.
-
-## IDE ##
-### using ###
-- [Jetbrains PyCharm CE](https://www.jetbrains.com/pycharm/): Python IDE.
-### considering ###
-### used ###
-- [Eclipse](https://www.eclipse.org/): integrated development environment used in computer programming. Eclipse Public License (EPL)
-- [PyDev](https://www.pydev.org/): Python IDE for Eclipse. Eclipse Public License (EPL)
-- [Microsoft Visual Studio](https://visualstudio.microsoft.com/fr/): integrated development environment from Microsoft. Proprietary
-
 ## Python ##
 - [Python](https://www.python.org/): high-level, interpreted, general-purpose programming language. Cross-platform. Python Software Licence.
 - [Anaconda](https://anaconda.org/): distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment. Windows, Linux, Mac. Freemium.

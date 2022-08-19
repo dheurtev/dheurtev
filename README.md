@@ -19,9 +19,12 @@ cryptopyutils is a high-level Python3 cryptography library using cryptography wi
 [Repository](https://github.com/dheurtev/cryptopyutils)
 
 ### My interests and work ###
-- [My picks for Virtualization and server administration](https://github.com/dheurtev/dheurtev/blob/main/sysops.md)
-- [My picks for Databases](https://github.com/dheurtev/dheurtev/blob/main/databases.md)
-- [My picks for Data Science Tools](https://github.com/dheurtev/dheurtev/blob/main/data-science.md)
+Tools and technologies I am using, have used or i am considering using.
+- [Virtualization and containers technologies](https://github.com/dheurtev/dheurtev/edit/main/virtualization-containers.md)
+- [SysAdmin - MAAS/IAAS and Pets management](https://github.com/dheurtev/dheurtev/blob/main/sysadmin.md)
+- [System operations (sysops) - Platform As A Service (PAAS) and cattle management](https://github.com/dheurtev/dheurtev/blob/main/sysops.md)
+- [Databases](https://github.com/dheurtev/dheurtev/blob/main/databases.md)
+- [Data Science tools](https://github.com/dheurtev/dheurtev/blob/main/data-science.md)
 
 ## Support ##
 

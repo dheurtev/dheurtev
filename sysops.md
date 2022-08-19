@@ -1,5 +1,6 @@
-# My picks for system admin and operations (sysops)
+# My picks for system operations (sysops)
 
+Tools and technologies i am using, have used or consider using
 
 ## Best practices ##
 - Avoid manual changes and GUI as leads to non-reproductible environment.
@@ -17,28 +18,8 @@
 - [heartbeat + floating IPs with Corosync and Pacemaker - Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-high-availability-setup-with-heartbeat-and-floating-ips-on-ubuntu-14-04) [Used]
 - [Microstack](https://microstack.run/docs): OpenStack on a single machine. Supported services are currently Glance, Horizon, Keystone, Neutron (with OVN), and Nova. single-node install and a multi-node deployment. [Considering]
 
-
-
 ## Deploy ##
 
-### Traditional server configuration (pets) ###
-- Single server : ssh, scp
-- Multiple servers simult : parallel-scp, pssh
-- Script languages : Bash, Python
-#### KVM Management - CLI #####
-- virsh
-#### LXC container management ####
-- lxc
-
-### Configuration Management ###
-#### Instance initialization ####
-- [Cloud-init](https://cloud-init.io/): industry standard multi-distribution method for cross-platform cloud instance initialization. Provision server instance by bootstraping a bare minimum OS config (ssh, ssh-key, hostname, fqdn, manage-etc, network, ip, gw), account setup - Canonical Project
-  * [Documentation](https://cloudinit.readthedocs.io/en/latest/)
-#### Server automation tool ####
-- [Ansible](https://www.ansible.com/): agentless automation tool that you install on a single host - Connects to the server via SSH - Apply config changes, configuration of systems, software install, uses yaml documentation. Mutable. Typically to configure VMs or for bare metal operations - RedHat Project
-   * [Documentation](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
-   * Ansible Tower or Ansible Semaphore : WebUI for Ansible
-- Chef, Puppet, Salt [not used]
 #### Infrastruction provision ####
 - [Terraform](https://www.terraform.io/): Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON to create, change and improve infrastructure. immutable infrastructure based on images. Typically for cloud and kubernetes. Config changes delete or recreate machines - Immutable / Déclarative - HashiCorp Project. [Considering]
 

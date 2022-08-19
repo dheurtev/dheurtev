@@ -42,25 +42,26 @@ Tools and technologies i am using, have used or consider using
 - [OpenStack](https://www.openstack.org/): free, open standard cloud computing platform. Apache 2.0 License. [Considering]
 - [Microstack](https://microstack.run/docs): OpenStack on a single machine. Supported services are currently Glance, Horizon, Keystone, Neutron (with OVN), and Nova. single-node install and a multi-node deployment. [Considering]
 
-## Provision Management ##
-### CLI ###
+## Deploy ##
+### Provision Management ###
+#### CLI ####
 - virsh: low level
 - lxc : low level
 - [Multipass](https://multipass.run/): a CLI to launch and manage VMs on Windows, Mac and Linux that simulates a cloud environment with support for cloud-init. Canonical project
 - [Vagrant](https://www.vagrantup.com/): open-source software product for building and maintaining portable virtual software development environments; e.g., for VirtualBox, KVM, Hyper-V, Docker containers, VMware, and AWS. It tries to simplify the software configuration management of virtualization. Typically creates Virtualbox VMs but plugins support other platforms. HashiCorp Project.
-### GUI ###
+#### GUI ####
 - [Oracle VM VirtualBox](https://www.virtualbox.org/): Open Source Level 2 x86 and AMD64/Intel64 virtualization product. Runs as an app on Windows, Linux, OS X, Solaris [past].
 - [Virt-Manager](https://virt-manager.org/): Desktop virtual machine monitor for KVM/QEMU/Libvirt. GPLv2. [past]
 
-## Configuration Management ##
-### Traditional server configuration ###
+### Configuration Management ###
+#### Traditional server configuration ####
 - Single server : ssh, scp
 - Multiple servers simult : parallel-scp, pssh
 - Script languages : Bash, Python
-### Instance initialization ###
+#### Instance initialization ####
 - [Cloud-init](https://cloud-init.io/): industry standard multi-distribution method for cross-platform cloud instance initialization. Provision server instance by bootstraping a bare minimum OS config (ssh, ssh-key, hostname, fqdn, manage-etc, network, ip, gw), account setup - Canonical Project
   * [Documentation](https://cloudinit.readthedocs.io/en/latest/)
-## Server automation tool ##
+#### Server automation tool ####
 - [Ansible](https://www.ansible.com/): agentless automation tool that you install on a single host - Connects to the server via SSH - Apply config changes, configuration of systems, software install, uses yaml documentation. Mutable. Typically to configure VMs or for bare metal operations - RedHat Project
    * [Documentation](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
    * Ansible Tower or Ansible Semaphore : WebUI for Ansible

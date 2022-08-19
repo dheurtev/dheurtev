@@ -2,7 +2,8 @@
 
 Tools and technologies i am using, have used or consider using
 
-#### To create Metal As A Service - Bare Metal ####
+## Provision ##
+### Bare Metal - Metal as a Service ###
 - [Metal-As-A-Service (MAAS)](https://maas.io/) : Open-source bare metal server provisionning - [Uses PXE, IPMI, DHCP, DNS, KVM, LXD, etc](https://maas.io/how-it-works) - [Documentation](https://maas.io/docs) - Ubuntu based.
 - [Foreman](https://theforeman.org/introduction.html): open source complete life cycle systems management tool for provisioning, configuring and monitoring of physical and virtual servers - Host provisioning, configuration, monitoring WebUI + CLI + API - GPL-3.0 - [Considering]
   * Discover, provision and upgrade your entire bare-metal infrastructure
@@ -18,7 +19,7 @@ Tools and technologies i am using, have used or consider using
   * DNS and identity management: DNS or realm entries can be automatically created for each host in Foreman inventory.  
   * OS supported: Red Hat Enterprise Linux, CentOS, Fedora, Ubuntu, Debian, Solaris 8, 10, OpenSUSE, SLES, Oracle Linux, CoreOS, FreeBSD, Junos
   * Cloud provider supported : Amazon EC2, Google Compute Engine, Libvirt, OpenStack, oVirt, RHEV, Rackspace, VMware
-#### Provision platform - Linux ####
+### Platforms - Linux ###
 - [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) : Open-source virtualization management platform - Uses KVM, LXD, CEPH, etc - [Documentation](https://pve.proxmox.com/pve-docs/) - Debian based.
 - [Cockpit](https://cockpit-project.org/): See your server in a web browser and perform system tasks with a mouse. Linux. GNU LGPL.
   * [How to manage KVM Machines](https://www.tecmint.com/manage-kvm-virtual-machines-using-cockpit-web-console/)
@@ -26,3 +27,20 @@ Tools and technologies i am using, have used or consider using
   * [cockpit-podman](https://github.com/cockpit-project/cockpit-podman): Cockpit User Interface for Podman. GNU Lesser General Public License v2.1 
 - [oVirt](https://www.ovirt.org/): open-source virtualization management platform. Red-Hat based. Uses GlusterFS and Ansible. [Considering]
 
+## Configuration Management ##
+### Traditional server configuration ###
+- Single server : ssh, scp
+- Multiple servers simult : parallel-scp, pssh
+- Script languages : Bash, Python
+### KVM Management - CLI ###
+- virsh
+### LXC container management ###
+- lxc
+## Instance initialization ##
+- [Cloud-init](https://cloud-init.io/): industry standard multi-distribution method for cross-platform cloud instance initialization. Provision server instance by bootstraping a bare minimum OS config (ssh, ssh-key, hostname, fqdn, manage-etc, network, ip, gw), account setup - Canonical Project
+  * [Documentation](https://cloudinit.readthedocs.io/en/latest/)
+## Server automation tool ##
+- [Ansible](https://www.ansible.com/): agentless automation tool that you install on a single host - Connects to the server via SSH - Apply config changes, configuration of systems, software install, uses yaml documentation. Mutable. Typically to configure VMs or for bare metal operations - RedHat Project
+   * [Documentation](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
+   * Ansible Tower or Ansible Semaphore : WebUI for Ansible
+- Chef, Puppet, Salt [not used]

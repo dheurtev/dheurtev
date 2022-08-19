@@ -1,4 +1,4 @@
-# My picks for Python tools
+# My picks for Python tools and packages
 
 ## Introduction - my thoughts
 - Python is an interpreted scripting language 

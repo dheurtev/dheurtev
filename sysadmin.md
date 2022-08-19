@@ -2,13 +2,6 @@
 
 Technologies I am using or used in recent years or considering.
 
-## Virtualization technologies ##
-### Level 1 Virtualization on Windows ###
-- [Microsoft Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v): Native Level 1 hypervisor to create virtual machines on x86-64 systems running Windows
-### Level 1 Virtualization on Linux ###
-- [Qemu](https://www.qemu.org/): Generic and open-source machine emulator and virtualizer for Linux
-- [KVM](https://www.linux-kvm.org/page/Main_Page) : KVM (for Kernel-based Virtual Machine) is an open-source full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V)
-- [Libvirt/libvirtd](https://libvirt.org/): Open-source API, daemon and management tool for managing platform virtualization in Linux
 #### To create Metal As A Service - Bare Metal ####
 - [Metal-As-A-Service (MAAS)](https://maas.io/) : Open-source bare metal server provisionning - [Uses PXE, IPMI, DHCP, DNS, KVM, LXD, etc](https://maas.io/how-it-works) - [Documentation](https://maas.io/docs) - Ubuntu based.
 - [Foreman](https://theforeman.org/introduction.html): open source complete life cycle systems management tool for provisioning, configuring and monitoring of physical and virtual servers - Host provisioning, configuration, monitoring WebUI + CLI + API - GPL-3.0 - [Considering]

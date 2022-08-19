@@ -1,4 +1,4 @@
-# My picks for SysAdmin Technologies - MAAS/IAAS and Pets management
+# My picks for SysAdmin - MAAS/IAAS and Pets management
 
 Tools and technologies i am using, have used or consider using
 

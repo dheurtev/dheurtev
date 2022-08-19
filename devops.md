@@ -9,7 +9,7 @@ Tools i have used or consider using
 - [Docker Registry](https://docs.docker.com/registry/): Docker registry - Docker Project - [https://hub.docker.com/_/registry](docker pull registry)
 - [Portainer CE](https://hub.docker.com/r/portainer/portainer-ce): Portainer CE - a lightweight service delivery platform for containerized applications. docker pull portainer/portainer-ce
 - [Docker Registry Frontend](https://hub.docker.com/r/konradkleine/docker-registry-frontend/): Browse and modify your Docker registry in a browser. docker pull konradkleine/docker-registry-frontend
-- [CraneOperator](https://hub.docker.com/r/parabuzzle/craneoperator): UI for browsing a Registry using the v2 api. 
+- [CraneOperator](https://hub.docker.com/r/parabuzzle/craneoperator): UI for browsing a Registry using the v2 api
 
 #### used ####
 - [Jira](https://www.atlassian.com/software/jira):  issue tracking product developed by Atlassian that allows bug tracking and agile project management. Atlassian Project. Proprietary
@@ -46,6 +46,11 @@ Tools i have used or consider using
 - [Eclipse](https://www.eclipse.org/): integrated development environment used in computer programming. Eclipse Public License (EPL)
 - [PyDev](https://www.pydev.org/): Python IDE for Eclipse. Eclipse Public License (EPL)
 - [Microsoft Visual Studio](https://visualstudio.microsoft.com/fr/): integrated development environment from Microsoft. Proprietary
+
+### API development ###
+#### considering ####
+- [OpenAPI](https://www.openapis.org/):OpenAPI Specification, previously known as the Swagger Specification, is a specification for machine-readable interface files for describing, producing, consuming, and visualizing RESTful web services 
+- [Swagger](https://swagger.io/): suite of tools for API developers. Apache 2.0 License.
 
 ### Code Versioning (SCM/VCS) ###
 #### using ####

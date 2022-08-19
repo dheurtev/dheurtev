@@ -27,13 +27,20 @@ Tools and technologies i am using, have used or consider using
   * DNS and identity management: DNS or realm entries can be automatically created for each host in Foreman inventory.  
   * OS supported: Red Hat Enterprise Linux, CentOS, Fedora, Ubuntu, Debian, Solaris 8, 10, OpenSUSE, SLES, Oracle Linux, CoreOS, FreeBSD, Junos
   * Cloud provider supported : Amazon EC2, Google Compute Engine, Libvirt, OpenStack, oVirt, RHEV, Rackspace, VMware
-### Platforms - Linux ###
-- [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) : Open-source virtualization management platform - Uses KVM, LXD, CEPH, etc - [Documentation](https://pve.proxmox.com/pve-docs/) - Debian based.
+### Server management ###
 - [Cockpit](https://cockpit-project.org/): See your server in a web browser and perform system tasks with a mouse. Linux. GNU LGPL.
   * [How to manage KVM Machines](https://www.tecmint.com/manage-kvm-virtual-machines-using-cockpit-web-console/)
   * [cockpit-machines](https://github.com/cockpit-project/cockpit-machines): Cockpit User Interface for virtual machines. GNU Lesser General Public License v2.1. 
   * [cockpit-podman](https://github.com/cockpit-project/cockpit-podman): Cockpit User Interface for Podman. GNU Lesser General Public License v2.1 
+### Clustering ###
+- [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) : Open-source virtualization management platform - Uses KVM, LXD, CEPH, etc - [Documentation](https://pve.proxmox.com/pve-docs/) - Debian based.
 - [oVirt](https://www.ovirt.org/): open-source virtualization management platform. Red-Hat based. Uses GlusterFS and Ansible. [Considering]
+- [LXD Clustering](https://linuxcontainers.org/lxd/docs/master/clustering/): Works with [Metal-As-A-Service (MAAS)](https://maas.io/) [Considering]
+- [Clusterlabs](https://clusterlabs.org/quickstart.html): High Availability. Combines Corosync, Pacemaker, DRBD, ScanCore.  [Considering]
+- [heartbeat + floating IPs with Corosync and Pacemaker - Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-high-availability-setup-with-heartbeat-and-floating-ips-on-ubuntu-14-04) [Used]
+### Infrastructure As a Service (IAAS) ###
+- [OpenStack](https://www.openstack.org/): free, open standard cloud computing platform. Apache 2.0 License. [Considering]
+- [Microstack](https://microstack.run/docs): OpenStack on a single machine. Supported services are currently Glance, Horizon, Keystone, Neutron (with OVN), and Nova. single-node install and a multi-node deployment. [Considering]
 
 ## Provision Management ##
 ### CLI ###
@@ -44,7 +51,6 @@ Tools and technologies i am using, have used or consider using
 #### GUI ####
 - [Oracle VM VirtualBox](https://www.virtualbox.org/): Open Source Level 2 x86 and AMD64/Intel64 virtualization product. Runs as an app on Windows, Linux, OS X, Solaris [past].
 - [Virt-Manager](https://virt-manager.org/): Desktop virtual machine monitor for KVM/QEMU/Libvirt. GPLv2. [past]
-
 
 ## Configuration Management ##
 ### Traditional server configuration ###

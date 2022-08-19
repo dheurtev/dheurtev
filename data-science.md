@@ -5,10 +5,10 @@
 [Econometric packages](https://collinsdwight.medium.com/9-econometric-software-packages-for-financial-and-economic-data-analysis-83285c51a9b5)
 [R Python Matlab Octave Julia (2016)](https://www.linkedin.com/pulse/r-vs-python-matlab-octave-julia-who-winner-siva-prasad-katru/)
 [Julia Matlab Python R](https://cepr.org/voxeu/columns/choosing-numerical-programming-language-economic-research-julia-matlab-python-or-r)
-- Python is the best language for data handling : pipelines and machine learning applications
-- R for plotting
-- Julia for fast computations
-- Mathlab is legacy
+- **Python** is the best language for data handling : pipelines and machine learning applications
+- **R** for plotting
+- **Julia** for fast computations
+- **Matlab** is legacy
 
 ## Python ##
 - [Python](https://www.python.org/): high-level, interpreted, general-purpose programming language. Cross-platform. Python Software Licence.

@@ -1,6 +1,6 @@
 # Virtualization and containers technologies
 
-Technologies I am using, have used or i am considering.
+Tools and technologies I am using, have used or i am considering using.
 
 ## Virtualization technologies ##
 ### Level 1 Virtualization on Windows ###

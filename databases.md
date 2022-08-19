@@ -9,6 +9,9 @@ Technologies I am currently using or have used in recent years.
 - [PgAdmin](https://www.pgadmin.org/): most popular and feature rich Open Source administration and development platform for PostgreSQL and EnterpriseDB. Cross-platform. PostgreSQL licence.
 
 #### MySQL / Maria DB ####
+
+Often used with PHP.
+
 - [MariaDB](https://mariadb.org/): Open-source SQL relational database management system. MySQL fork.
 - [MySQL](https://www.mysql.com/): Open-source SQL relational database management system. GPLv2 or proprietary
 - [MySQL Workbench](https://www.mysql.com/products/workbench/): visual database design tool that integrates SQL development, administration, database design, creation and maintenance into a single integrated development environment for the MySQL database system. Cross-Platform. GPL free edition.
@@ -19,6 +22,9 @@ Technologies I am currently using or have used in recent years.
 ## No SQL ##
 
 ### Documents : MongoDB ###
+
+Often used with Javascript/NodeJS.
+
 - [MongoDB](https://www.mongodb.com/): source-available cross-platform document-oriented database program. JSON like storage. Server Side Public License - [Documentation](https://www.mongodb.com/docs/)
 - [Studio3T free](https://studio3t.com/free): RoboMongo successor.
 - [Robo Mongo 3T](https://robomongo.org/): free, lightweight, open-source MongoDB GUI with an embedded mongo shell, real auto-completion, and support for MongoDB. GPLv3. [Github](https://github.com/Studio3T/robomongo). Abandonned

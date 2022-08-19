@@ -14,6 +14,7 @@ Often used with PHP.
 
 - [MariaDB](https://mariadb.org/): Open-source SQL relational database management system. MySQL fork.
 - [MySQL](https://www.mysql.com/): Open-source SQL relational database management system. GPLv2 or proprietary
+- [Vitess](https://vitess.io/): Database clustering system for horizontal scaling of MySQL. Apache License 2.0 [Considering]
 - [MySQL Workbench](https://www.mysql.com/products/workbench/): visual database design tool that integrates SQL development, administration, database design, creation and maintenance into a single integrated development environment for the MySQL database system. Cross-Platform. GPL free edition.
 
 #### SQLITE ####
@@ -32,11 +33,11 @@ Often used with Javascript/NodeJS.
 
 ### Key Value : Redis ###
 - [Redis](https://redis.io/): Open source in-memory data structure store, used as a database, cache, and message broker. BSD 3 licensed - [Documentation](https://redis.io/docs/)
-- [RedisInsight](https://redis.com/redis-enterprise/redis-insight/#insight-form): REDIS GUI, browser tool, advanced CLI, custom data visualization, and built-in guides to help with using Redis data models like JSON and time series.
+- [RedisInsight](https://redis.com/redis-enterprise/redis-insight/#insight-form): REDIS GUI, browser tool, advanced CLI, custom data visualization, and built-in guides to help with using Redis data models like JSON and time series. [Considering]
 
 ### Time Series : InfluxDB ###
 - [InfluxDB](https://www.influxdata.com/): open-source time series database. MIT Licensed
 
 #### Embedded ####
-- [Oracle BerkeleyDB](https://www.oracle.com/fr/database/technologies/related/berkeleydb.html): Embedded Key-Value database. Dual licensed (GNU Affero General Public License and proprietary license
-- [HDF5](https://www.hdfgroup.org/solutions/hdf5/): Hierarchical Data Format. Primarily used in Science. BSD-like Licence.
+- [Oracle BerkeleyDB](https://www.oracle.com/fr/database/technologies/related/berkeleydb.html): Embedded Key-Value database. Dual licensed (GNU Affero General Public License and proprietary license [used]
+- [HDF5](https://www.hdfgroup.org/solutions/hdf5/): Hierarchical Data Format. Primarily used in Science. BSD-like Licence. [Used]

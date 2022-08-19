@@ -1,4 +1,4 @@
-# My picks for system operations (sysops) -  Platform As A Service (PAAS)
+# My picks for system operations (sysops) -  Platform As A Service (PAAS) and cattle management
 
 Tools and technologies i am using, have used or consider using
 
@@ -16,9 +16,6 @@ Tools and technologies i am using, have used or consider using
 #### Application automation tool ####
 - Chef, Puppet, Salt [not used]
 
-### Virtual Networking ###
-- [Project Calico](https://www.tigera.io/project-calico/): Container networking and security. Apache 2.0 license 
-
 ## Operate - Infrastructure as a Service ##
 ### Orchestration ###
 - [Kubernetes (K8s)](https://kubernetes.io/): open-source container orchestration system for automating software deployment, scaling, and management. Orchestrator and clustering solution for Docker containers + HELM (webui for its management). Apache License 2.0. Google Project [Considering]
@@ -32,3 +29,7 @@ Tools and technologies i am using, have used or consider using
 
 ## Monitor ##
 https://github.com/dheurtev/dheurtev/blob/main/monitoring.md
+
+## Other tools ##
+### Virtual Networking ###
+- [Project Calico](https://www.tigera.io/project-calico/): Container networking and security. Apache 2.0 license 

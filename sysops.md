@@ -2,58 +2,101 @@
 
 Technologies I am using or used in recent years or considering.
 
-## Virtualization Technology ##
-### Linux ###
+## Deploy ##
+
+### Bare Metal provisioning platform ###
+- [Metal-As-A-Service (MAAS)](https://maas.io/) : Open-source bare metal server provisionning - [Uses PXE, IPMI, DHCP, DNS, KVM, LXD, etc](https://maas.io/how-it-works) - [Documentation](https://maas.io/docs) - Ubuntu based.
+### Level 1 Virtualization on Linux ###
 - [Qemu](https://www.qemu.org/): Generic and open-source machine emulator and virtualizer for Linux
 - [KVM](https://www.linux-kvm.org/page/Main_Page) : KVM (for Kernel-based Virtual Machine) is an open-source full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V)
 - [Libvirt](https://libvirt.org/): Open-source API, daemon and management tool for managing platform virtualization in Linux
-
-### Windows ###
-- [Microsoft Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v): Native Level 1 hypervisor to create virtual machines on x86-64 systems running Windows
-
-## Bare Metal provisioning platform ##
-- [Metal-As-A-Service (MAAS)](https://maas.io/) : Open-source bare metal server provisionning - [Uses PXE, IPMI, DHCP, DNS, KVM, LXD, etc](https://maas.io/how-it-works) - [Documentation](https://maas.io/docs) - Ubuntu based.
-
-## Level 1 Virtualization and Container hypervisors - provisioning platforms - clustering ##
 - [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) : Open-source virtualization management platform - Uses KVM, LXD, CEPH, etc - [Documentation](https://pve.proxmox.com/pve-docs/) - Debian based.
 - [Cockpit](https://cockpit-project.org/): See your server in a web browser and perform system tasks with a mouse. Linux. GNU LGPL.
   * [cockpit-machines](https://github.com/cockpit-project/cockpit-machines): Cockpit User Interface for virtual machines. GNU Lesser General Public License v2.1. 
   * [cockpit-podman](https://github.com/cockpit-project/cockpit-podman): Cockpit User Interface for Podman. GNU Lesser General Public License v2.1 
 - [oVirt](https://www.ovirt.org/): open-source virtualization management platform. Red-Hat based. Uses GlusterFS and Ansible. [Considering]
+### Level 1 Virtualization on Windows ###
 - [Microsoft Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v): Native Level 1 hypervisor to create virtual machines on x86-64 systems running Windows
-- [LXD Clustering](https://linuxcontainers.org/lxd/docs/master/clustering/): Works with [Metal-As-A-Service (MAAS)](https://maas.io/) [Considering]
-- [Clusterlabs](https://clusterlabs.org/quickstart.html): High Availability. Combines Corosync, Pacemaker, DRBD, ScanCore. [Considering]
 
-## Container technologies ##
-### Virtual Environment ###
+### Container technologies ###
+#### Virtual Environment ####
 - [chroot](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/): How to use the chroot command on Linux
 - [LXC/LXD](https://linuxcontainers.org/): Linux Containers is an operating-system-level virtualization method for running multiple isolated Linux systems on a control host using a single Linux kernel. GNU LGPL v.2.1. A Canonical Project
   * LXC : Linux container runtime that consists of tools, templates, and library and language bindings
   * LXD : System container and virtual machine manager
-### Applications - Single host ###
+#### Applications - Single host ####
 - [Docker](https://www.docker.com/): open platform for developing, shipping, and running applications. Apache version 2.0 
 - [Podman](https://podman.io/): Daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Containers can either be run as root or in rootless mode. Apache License 2.0. [Github](https://github.com/containers/podman)
-### Orchestration ###
-- [Kubernetes](https://kubernetes.io/): K8s. open-source container orchestration system for automating software deployment, scaling, and management. Apache License 2.0. Google Project [Considering]
+#### Artefact Management - Registries ####
+- [Docker Hub](https://hub.docker.com/search?q=): Search docker images
+- [Quay](https://quay.io/): Container Image repository server
+- [Fedora Registry](registry.fedoraproject.org/)
+- [PyPi](https://pypi.org/): repository of software for the Python programming language.
+- [npm](https://www.npmjs.com/): npm is a package manager for the JavaScript programming language
+### Security ###
+- [HashiCorp Vault](https://www.vaultproject.io/): Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API. Self hosted possible. HashiCorp Project. [Considering]
+
+### Configuration Management ###
+#### Traditional server configuration (pets) ####
+- SSH
+- Bash
+#### Instance initialization ####
+- [Cloud-init](https://cloud-init.io/): industry standard multi-distribution method for cross-platform cloud instance initialization - [Documentation](https://cloudinit.readthedocs.io/en/latest/) - Canonical Project
+#### Server automation tool ####
+- [Ansible](https://www.ansible.com/): agentless automation tool that you install on a single host - [Documentation](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) - RedHat Project
+- Chef, Puppet, Salt [not used]
+#### Infrastruction provision ####
+- [Terraform](https://www.terraform.io/): Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON to create, change and improve infrastructure. HashiCorp Project. [Considering]
+
+## Operate - Infrastructure as a Service##
+### Orchestration - Bare Metal and VMs###
+- [LXD Clustering](https://linuxcontainers.org/lxd/docs/master/clustering/): Works with [Metal-As-A-Service (MAAS)](https://maas.io/) [Considering]
+- [OpenStack](https://www.openstack.org/): free, open standard cloud computing platform. Apache 2.0 License. [Considering]
+- [Clusterlabs](https://clusterlabs.org/quickstart.html): High Availability. Combines Corosync, Pacemaker, DRBD, ScanCore. [Considering]
+#### OpenStack Utils ####
+- [Microstack](https://microstack.run/docs): OpenStack on a single machine. Supported services are currently Glance, Horizon, Keystone, Neutron (with OVN), and Nova. single-node install and a multi-node deployment. [Considering]
+### Orchestration - Containers ###
+- [Kubernetes (K8s)](https://kubernetes.io/): open-source container orchestration system for automating software deployment, scaling, and management. Apache License 2.0. Google Project [Considering]
 - [Docker Swarm](https://docs.docker.com/engine/swarm/): Lightweight orchestration of docker containers. [Considering]
-#### Utils ####
+- [Nomad](https://www.nomadproject.io/): A cluster manager and scheduler. Task scheduling platform that can orchestrate different workload types as an extended feature Self-hosted possible. HashiCorp Project. [Considering]
+- [Rancher](https://rancher.com/): Open Source Platform for Running a Private Container Service. Rancher is an open source container management platform that includes full distributions of Kubernetes, Apache Mesos and Docker Swarm, and makes it simple to operate container clusters on any cloud or infrastructure platform. HashiCorp Project. [Considering]
+#### Kubernetes Utils ####
 - [KubeVirt](https://kubevirt.io/): Unified development platform where developers can build, modify, and deploy applications residing in both Application Containers as well as Virtual Machines in a common, shared environment. [Considering]
 - [Minikube](https://minikube.sigs.k8s.io/docs/start/): Kubernetes on local computer [Considering] 
 - [MicroK8s](https://microk8s.io/): small, fast, single-package Kubernetes for developers, IoT and edge. Local or multi-node [Considering]. Canonical Project. 
 
-#### Useful sites ####
-- [Docker Hub](https://hub.docker.com/search?q=): Search docker images
-- [Quay](https://quay.io/): Container Image repository server
-- [Fedora Registry](registry.fedoraproject.org/)
+### Load Balancer ###
+https://geekflare.com/open-source-load-balancer/
 
-## Infrastructure as a service (IAAS) tools ##
-### Instance initialization ###
-- [Cloud-init](https://cloud-init.io/): industry standard multi-distribution method for cross-platform cloud instance initialization - [Documentation](https://cloudinit.readthedocs.io/en/latest/) - Canonical Project
-### Server automation tool ###
-- [Ansible](https://www.ansible.com/): agentless automation tool that you install on a single host - [Documentation](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) - RedHat Project
-- Chef, Puppet, Salt [not used]
-### Plateform automation tool ###
-- [Terraform](https://www.terraform.io/): Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON to create, change and improve infrastructure. HashiCorp Project. [Considering]
+### Virtual Networking ###
+- [Linux Bridge](https://wiki.linuxfoundation.org/networking/bridge)
+- [Open vSwitch (OVS)](https://www.openvswitch.org/): open-source implementation of a distributed virtual multilayer switch. Apache License 2.0 [Used]
+- [Project Calico](https://www.tigera.io/project-calico/): Container networking and security. Apache 2.0 license 
+
+### Reverse Proxy ###
+- [Nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/):  Open-source web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. BSD 2.0 license.
+
+### CDN ###
+- [CloudFlare CDN](https://www.cloudflare.com/cdn/): content delivery network [used]
+
+### DNS ###
+- [CloudFlare DNS](https://www.cloudflare.com/dns/): enterprise-grade authoritative DNS service that offers the fastest response time, unparalleled redundancy, and advanced security with built-in DDoS mitigation and DNSSEC.
+
+## Monitor ##
+### Network ###
+- [Jabbix](https://www.zabbix.com/): open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services. Zabbix collects and displays basic metrics. GPLv2. [used]
+- [Nagios Core - Nagios](https://www.nagios.org/): Basic monitoring - free and open-source computer-software application that monitors systems, networks and infrastructure. GPLv2 [considering]
+### Event Monitoring - Logging ###
+[Comparison](https://prometheus.io/docs/introduction/comparison/)
+#### Event Logging ####
+- [InfluxDB](https://www.influxdata.com/): open-source time series database. MIT Licensed
+#### Event Monitoring - Metrics ####
+- [Prometheus](https://prometheus.io/): free software application used for event monitoring and alerting. It records real-time metrics in a time series database built using a HTTP pull model, with flexible queries and real-time alerting. Apache License 2.0 [considering]
+### Dashboard ###
+- [Grafana](https://grafana.com/): multi-platform open source analytics and interactive visualization web application. GNU Affero General Public License, version 3.0 [Considering]
+
+
+
 
 
 

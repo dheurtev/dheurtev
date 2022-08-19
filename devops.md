@@ -45,10 +45,11 @@ Tools i have used or consider using
 - [Swagger](https://swagger.io/): suite of tools for API developers. Apache 2.0 License [considering].
        
 ## Continuous Integration / Continous Distribution (CI/CD) ##
-### Build tools ####
+### Build ###
+#### Build tools #####
 - [Maven](https://maven.apache.org/): build automation tool used primarily for Java projects. can also be used to build and manage projects written in C#, Ruby, Scala, and other languages. Apache license 2.0
 
-### Build images ###
+#### Build images ####
 - [Docker (docker build)](https://docs.docker.com/engine/reference/commandline/build/)
 - [Podman (podman build)](https://docs.podman.io/en/latest/markdown/podman-build.1.html)
 - [Packer](https://www.packer.io/): free and open source tool for creating golden images for multiple platforms from a single source configuration. AWS, Docker, Vagrant, VirtualBox, VMWARE, Openstack, etc [considering].

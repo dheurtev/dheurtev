@@ -2,12 +2,11 @@
 
 - [System](#system)
 - [Print, scan](#print--scan)
-- [Compression](#compression)
 - [Cleaning, Protection](#cleaning-protection)
 - [Remote file transfer](#remote-file-transfer)
 - [Bootable image creation, CD-ROM, ISO](#bootable-image-creation-cd-rom-iso)
 - [Backup + manage](#backup--manage)
-- [File managers](#file-managers)
+- [File managers (disk utils, compression, recovery)](#file-managers)
 - [Network troubleshooting](#network-troubleshooting)
 
 ## System ##
@@ -25,10 +24,6 @@
 - Canon Inkjet Print Utility `APP` `⚠ Proprietary` `in use`
 - Samsung Printer Experience `APP` `⚠ Proprietary` `in use`
 - Microsoft Windows Scan `APP` `⚠ Proprietary` `in use`
-
-## Compression ##
-**[`^        back to top        ^`](#)**
-- [7-zip](https://www.7-zip.org/): a file archiver with a high compression ratio. `APP` `EXE` `GNU LGPL license` `in use`
 
 ### Cleaning, Protection ###
 **[`^        back to top        ^`](#)**
@@ -66,13 +61,17 @@
 [Comparison Duplicati vs RClone](https://appmus.com/vs/duplicati-vs-rclone)
 [Comparison Bacula vs Duplicati](https://appmus.com/vs/duplicati-vs-bacula)
 - [Rclone](https://rclone.org/): rsync for cloud storage. open source, multi threaded, command line computer program to manage or migrate content on cloud and other high latency storage. Its capabilities include sync, transfer, crypt, cache, union, compress and mount. The rclone website lists supported backends including S3, and Google Drive. `EXE` `MIT License` `past`
-- [Duplicati](https://www.duplicati.com/): Free backup software to store encrypted backups online. Works with standard protocols like FTP, SSH, WebDAV as well as popular services like Backblaze B2, Tardigrade, Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, hubiC. Incremental backup. Automatic Backup. `LGPL License` `past` 
-- [Bacula](https://www.bacula.org/): Open Source, computer programs that permit you (or the system administrator) to manage backup, recovery, and verification of computer data across a network of computers of different kinds. `AGPL License` `past`
+- [Duplicati](https://www.duplicati.com/): Free backup software to store encrypted backups online. Works with standard protocols like FTP, SSH, WebDAV as well as popular services like Backblaze B2, Tardigrade, Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, hubiC. Incremental backup. Automatic Backup. `EXE` `LGPL License` `past` 
+- [Bacula](https://www.bacula.org/): Open Source, computer programs that permit you (or the system administrator) to manage backup, recovery, and verification of computer data across a network of computers of different kinds. `EXE` `AGPL License` `past`
 
 ## File managers ##
 **[`^        back to top        ^`](#)**
+### Compression ###
+- [7-zip](https://www.7-zip.org/): a file archiver with a high compression ratio. `APP` `EXE` `GNU LGPL license` `in use`
 ### Drive Utils ###
 - [WinDirStat](https://windirstat.net/): free and open-source graphical disk usage analyzer for Microsoft Windows. `EXE` `GPLv2` `in use`
+### File Recovery ###
+- [Recuva](https://www.ccleaner.com/recuva): undeletion program for Windows. `EXE` `Freemium` `past`
 
 ## Network troubleshooting ##
 **[`^        back to top        ^`](#)**

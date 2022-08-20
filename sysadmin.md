@@ -34,6 +34,7 @@ Tools and packages I used are marked as `past`.
   * DNS and identity management: DNS or realm entries can be automatically created for each host in Foreman inventory.  
   * OS supported: Red Hat Enterprise Linux, CentOS, Fedora, Ubuntu, Debian, Solaris 8, 10, OpenSUSE, SLES, Oracle Linux, CoreOS, FreeBSD, Junos
   * Cloud provider supported : Amazon EC2, Google Compute Engine, Libvirt, OpenStack, oVirt, RHEV, Rackspace, VMware
+- [Portainer CE](https://hub.docker.com/r/portainer/portainer-ce): Portainer CE - a lightweight service delivery platform for containerized applications. docker pull portainer/portainer-ce. `zlib license (permissive free software license)` `in use`
 ### Server management ###
 - [Cockpit](https://cockpit-project.org/): See your server in a web browser and perform system tasks with a mouse. Linux. `GNU LGPL` `in use`
   * [How to manage KVM Machines](https://www.tecmint.com/manage-kvm-virtual-machines-using-cockpit-web-console/)

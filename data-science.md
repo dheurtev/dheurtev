@@ -1,5 +1,8 @@
 # Data Science and Python programming tools
 
+Tools and packages I am using are marked `in use`.
+Tools and packages I used are marked as `past`.
+
 ## Choices ##
 [Comparison of statistical packages - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_statistical_packages)
 [Econometric packages](https://collinsdwight.medium.com/9-econometric-software-packages-for-financial-and-economic-data-analysis-83285c51a9b5)

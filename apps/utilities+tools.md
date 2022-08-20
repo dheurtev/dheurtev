@@ -48,10 +48,10 @@
 - [Balena Etcher](https://www.balena.io/etcher/): free and open-source utility used for writing image files such as .iso and .img files, as well as zipped folders onto storage media to create live SD cards and USB flash drives. `EXE` `Apache License 2.0` `in use`
 - [Rufus](https://rufus.ie/): Free and open-source portable application for Microsoft Windows that can be used to format and create bootable USB flash drives or Live USBs. `APP` `EXE` `GPLv3` `past`
 ### CD-ROM, ISO Burner ###
--[Best ISO Burning Software](https://www.techpout.com/best-iso-burner-software/)
+- [Best ISO Burning Software](https://www.techpout.com/best-iso-burner-software/)
 - CDBurnerX: free ISO burner application that helps you burn DVDs, CDs, Blu-ray discs, and HD DVDs.`APP`
--[CDBurnerXP](https://cdburnerxp.se/en/home): free ISO burner application that helps you burn DVDs, CDs, Blu-ray discs, and HD DVDs. `Freeware` `past`
--[imgburn](https://www.imgburn.com/) `Freeware` `past` `⚠ Dev stopped in 2013`
+- [CDBurnerXP](https://cdburnerxp.se/en/home): free ISO burner application that helps you burn DVDs, CDs, Blu-ray discs, and HD DVDs. `Freeware` `past`
+- [imgburn](https://www.imgburn.com/) `Freeware` `past` `⚠ Dev stopped in 2013`
 ### Mounting ###
 - [WinCDEmu](https://wincdemu.sysprogs.org/): open-source CD/DVD/BD emulator - a tool that allows you to mount optical disc images by simply clicking on them in Windows Explorer. ``GPL` `past`.
 

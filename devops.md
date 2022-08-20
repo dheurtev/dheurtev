@@ -8,6 +8,7 @@ Tools and packages I used are marked as `past`.
 - [Continuous Integration / Continous Distribution (CICD)](https://github.com/dheurtev/dheurtev/blob/main/devops.md#continuous-integration--continous-distribution-cicd)
 
 ## Collaborate ##
+**[`^        back to top        ^`](#)**
 ### Application lifecycle management ###
 - [Jira](https://www.atlassian.com/software/jira):  issue tracking product developed by Atlassian that allows bug tracking and agile project management. Atlassian Project. `⚠ Proprietary` `Past`
 - [Taiga](https://www.taiga.io/): free and open-source project management tool. `MPL 2.0`
@@ -18,6 +19,7 @@ Tools and packages I used are marked as `past`.
 - [Odoo](https://www.odoo.com/): suite of business management software tools including, for example, CRM, e-commerce, billing, accounting, manufacturing, warehouse, project management, and inventory management. "Community" version: `GNU Lesser General Public License v3`; "Enterprise" version: `⚠ Proprietary license`.
 
 ## Code ##
+**[`^        back to top        ^`](#)**
 ### Code Versioning (SCM/VCS) ###
 - [Git](https://git-scm.com/): free and open source software for distributed version control. `GPLv2` `in use` 
   * [Documentation](https://git-scm.com/docs)
@@ -69,6 +71,7 @@ Cross-platform :
 - [Swagger](https://swagger.io/): suite of tools for API developers. `Apache 2.0 License`.
        
 ## Continuous Integration / Continous Distribution (CI/CD) ##
+**[`^        back to top        ^`](#)**
 ### Build ###
 #### Build tools #####
 - [Maven](https://maven.apache.org/): build automation tool used primarily for Java projects. can also be used to build and manage projects written in C#, Ruby, Scala, and other languages. `Apache license 2.0`

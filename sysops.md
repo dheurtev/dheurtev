@@ -40,6 +40,23 @@ Tools and packages I used are marked as `past`.
 - [Minio](https://min.io/): highly-available, S3 compatible object storage solution. `Affero General Public License Version 3 (AGPLv3)`
 - [Rook](https://rook.io/): Open-Source Cloud-Native Storage for Kubernetes. for File, Block and Object Storage. [CCNF Graduated project](https://www.cncf.io/projects/rook/) [Github repo](https://github.com/rook/rook) `Apache v2.0 License`
 
+### Network ###
+
+#### DNS ####
+- [CoreDNS](https://coredns.io/): DNS server/forwarder, written in Go, that chains plugins. Integrates with Kubernetes and etcd. Plugs with somme DNS as a service providers [Github repo](https://github.com/coredns/coredns). [CNCF graduated project](https://www.cncf.io/projects/coredns/). `Apache 2.0 License` 
+
+#### Virtual Networking ####
+**[`^        back to top        ^`](#)**
+- [Project Calico](https://www.tigera.io/project-calico/): Container networking and security. `Apache 2.0 license` 
+
+
+#### Proxy ####
+- [Envoy](https://www.envoyproxy.io/): Open source edge and service proxy, designed for cloud-native applications. high performance C++ distributed proxy. `Apache 2.0 license`. [CCNF graduated project](https://www.cncf.io/projects/envoy/) - [Github repo](https://github.com/envoyproxy/envoy). `Apache 2.0 license`   
+
+
+
+
+
 ## Monitor ##
 **[`^        back to top        ^`](#)**
 [My monitoring page](https://github.com/dheurtev/dheurtev/blob/main/monitoring.md)
@@ -48,10 +65,4 @@ Tools and packages I used are marked as `past`.
 **[`^        back to top        ^`](#)**
 [Cloud Native Computing Foundation (CNCF) Projects](https://www.cncf.io/projects/)
 
-### Virtual Networking ###
-**[`^        back to top        ^`](#)**
-- [Project Calico](https://www.tigera.io/project-calico/): Container networking and security. `Apache 2.0 license` 
-
-### Proxy ###
-- [Envoy](https://www.envoyproxy.io/): Open source edge and service proxy, designed for cloud-native applications. high performance C++ distributed proxy. `Apache 2.0 license`. [CCNF graduated project](https://www.cncf.io/projects/envoy/) - [Github repo](https://github.com/envoyproxy/envoy). `Apache 2.0 license`   
 

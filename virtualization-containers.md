@@ -2,6 +2,10 @@
 
 Tools and technologies I am using, have used or i am considering using.
 
+- [Virtualization technologies](https://github.com/dheurtev/dheurtev/blob/main/virtualization-containers.md#virtualization-technologies)
+- [Virtual Environment](https://github.com/dheurtev/dheurtev/blob/main/virtualization-containers.md#virtual-environment)
+- [Application containers](https://github.com/dheurtev/dheurtev/blob/main/virtualization-containers.md#application-containers)
+
 ## Virtualization technologies ##
 ### Level 1 Virtualization on Windows ###
 - [Microsoft Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v): Native Level 1 hypervisor to create virtual machines on x86-64 systems running Windows
@@ -25,7 +29,7 @@ Tools and technologies I am using, have used or i am considering using.
   * LXC does not allow live migration
 - [chroot](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/): How to use the chroot command on Linux. Uses standard Linux backup tools. [old]
 
-## Applications containers ##
+## Application containers ##
 - [Docker](https://www.docker.com/): open platform for developing, shipping, and running applications. Deployment constistence, portable (but not between Linux and Windows Docker), versioning, component reuse, REST API oriented but layered file system, ephemeral instances (persistent data storage is complicated), not native speed performance, limited monitoring - Apache version 2.0
   * For single app containers/microservices in large numbers
   * Good to try new software or software with multiple dependencies 

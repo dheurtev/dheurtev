@@ -1,6 +1,7 @@
 # My picks for databases
 
-Tools and technologies i am using, have used or consider using
+Tools and packages I am using are marked `in use`.
+Tools and packages I used are marked as `past`.
 
 ## SQL Databases
 

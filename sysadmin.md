@@ -13,14 +13,16 @@ Tools and packages I used are marked as `past`.
 - [Other tools](#other-tools)
 
 ## Best practices ##
-- Avoid manual changes and GUI as leads to non-reproductible environment.
-- Immutable configuration to avoid configuration drift
-- Infrastructure should be reproductible, disposable, consistent, with no end state
+**[`^        back to top        ^`](#)**
 - Provisioning should be automated after the server starts.
+- Avoid manual changes with a GUI as leads to non-reproductible environment.
+- Infrastructure should be reproductible, disposable, consistent, with no end state
+- Immutable configuration to avoid configuration drift => use containers
 - Do not store passwords in code. Use instead IAM or Vault. 
 - Send and monitor logs
 
 ## Provision ##
+**[`^        back to top        ^`](#)**
 ### Bare Metal - Metal as a Service ###
 - [Metal-As-A-Service (MAAS)](https://maas.io/) : Open-source bare metal server provisionning - [Uses PXE, IPMI, DHCP, DNS, KVM, LXD, etc](https://maas.io/how-it-works) - [Documentation](https://maas.io/docs) - Ubuntu based. `GNU AGPL, v3` `in use`
 - [Foreman](https://theforeman.org/introduction.html): open source complete life cycle systems management tool for provisioning, configuring and monitoring of physical and virtual servers - Host provisioning, configuration, monitoring WebUI + CLI + API - `GPL-3.0`

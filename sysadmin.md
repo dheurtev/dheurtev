@@ -1,4 +1,4 @@
-# My picks for SysAdmin - MAAS/IAAS and Pets management
+# My picks for SysAdmin and Ops - Pets management and MAAS/IAAS 
 
 Tools and packages I am using are marked `in use`.
 Tools and packages I used are marked as `past`.

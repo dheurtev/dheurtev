@@ -36,6 +36,11 @@ Tools and packages I used are marked as `past`.
 - [KubeVirt](https://kubevirt.io/): Unified development platform where developers can build, modify, and deploy applications residing in both Application Containers as well as Virtual Machines in a common, shared environment.  [CNCF project](https://www.cncf.io/projects/kubevirt/). `Apache License 2.0`
 - [Minikube](https://minikube.sigs.k8s.io/docs/start/): Kubernetes on local computer. Kuberneted project. `Apache License 2.0`
 - [MicroK8s](https://microk8s.io/): small, fast, single-package Kubernetes for developers, IoT and edge. Local or multi-node. Canonical Project. `Apache 2.0 license` 
+#### Storage ####
+- [Minio](https://min.io/): highly-available, S3 compatible object storage solution. `Affero General Public License Version 3 (AGPLv3)`
+- [Rook](https://rook.io/): Open-Source Cloud-Native Storage for Kubernetes. for File, Block and Object Storage. `Apache v2.0 License`
+
+
 
 ## Monitor ##
 **[`^        back to top        ^`](#)**

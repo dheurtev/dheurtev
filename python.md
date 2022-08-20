@@ -120,6 +120,7 @@ Tools and packages I used are marked as `past`.
 
 ## ETL Tools ##
 **[`^        back to top        ^`](#)**
+[Top 9 Python ETL tools](https://blog.panoply.io/top-9-python-etl-tools-and-when-to-use-them)
 - [Bonobo](https://www.bonobo-project.org/) : Data pipelines. lightweight Extract-Transform-Load (ETL) framework for Python 3.5+. `Apache 2.0 License`
 - [Mara](https://github.com/mara) : Halfway between scripts and complex solutions like Airflow. `BSD License`
 

@@ -6,7 +6,8 @@
 - [Cisco Webex](https://www.webex.com/downloads.html) `EXE` `⚠ Proprietary` `past`
 
 ## Email ##
-- Mail and Calendar: Outlook `⚠ Proprietary` `in use`
+- Mail and Calendar
+- [Outlook](https://login.live.com) `⚠ Proprietary` `in use`
 - [Gmail](https://mail.google.com) `⚠ Proprietary` `in use`
 - [Yahoo mail](https://mail.yahoo.com) `⚠ Proprietary` `in use`
 - [Mozilla Thunderbird](https://www.thunderbird.net/) `EXE` `Mozilla Public License` `in use` `⚠ No longer actively developed by Mozilla`

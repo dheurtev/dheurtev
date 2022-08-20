@@ -17,6 +17,8 @@ Tools and packages I used are marked as `past`.
 - Do not store passwords in code. Use instead IAM or Vault. 
 - Send and monitor logs
 
+[List of cloud native tools - awesome-cloudnative](https://github.com/wh211212/awesome-cloudnative)
+
 ## Deploy ##
 **[`^        back to top        ^`](#)**
 ### Configuration management ###

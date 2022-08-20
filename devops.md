@@ -4,18 +4,19 @@ Tools and technologies i am using, have used or consider using
 
 - [Collaborate](https://github.com/dheurtev/dheurtev/blob/main/devops.md#collaborate)
 - [Code](https://github.com/dheurtev/dheurtev/blob/main/devops.md#code)
-- [Code](https://github.com/dheurtev/dheurtev/blob/main/devops.md#code)
-- [Continuous Integration / Continous Distribution](https://github.com/dheurtev/dheurtev/blob/main/devops.md#continuous)
+- [Continuous Integration / Continous Distribution (CICD)](https://github.com/dheurtev/dheurtev/blob/main/devops.md#continuous-integration--continous-distribution-cicd))
 
 ## Collaborate ##
-Application lifecycle management - Code Repository - Registry - Artefact Management
+### Application lifecycle management ###
+- [Jira](https://www.atlassian.com/software/jira):  issue tracking product developed by Atlassian that allows bug tracking and agile project management. Atlassian Project. Proprietary [past]
+### Code Repository ###
 - [Gihub](https://github.com/)
 - [Gitea](https://gitea.io/en-us/): open-source forge software package for hosting software development version control using Git as well as other collaborative features like bug tracking, wikis and code review. Self-hosted Github alternative. Apache License.
+### Registry ###
 - [Docker Registry](https://docs.docker.com/registry/): Docker registry - Docker Project - [https://hub.docker.com/_/registry](docker pull registry)
-- [Portainer CE](https://hub.docker.com/r/portainer/portainer-ce): Portainer CE - a lightweight service delivery platform for containerized applications. docker pull portainer/portainer-ce
+### Artefact Management ###
 - [Docker Registry Frontend](https://hub.docker.com/r/konradkleine/docker-registry-frontend/): Browse and modify your Docker registry in a browser. docker pull konradkleine/docker-registry-frontend
 - [CraneOperator](https://hub.docker.com/r/parabuzzle/craneoperator): UI for browsing a Registry using the v2 api
-- [Jira](https://www.atlassian.com/software/jira):  issue tracking product developed by Atlassian that allows bug tracking and agile project management. Atlassian Project. Proprietary [past]
 
 ## Code ##
 ### Code Versioning (SCM/VCS) ###

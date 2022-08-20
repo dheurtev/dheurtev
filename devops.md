@@ -3,9 +3,12 @@
 Tools and packages I am using are marked `in use`.
 Tools and packages I used are marked as `past`.
 
-- [Collaborate](https://github.com/dheurtev/dheurtev/blob/main/devops.md#collaborate)
-- [Code](https://github.com/dheurtev/dheurtev/blob/main/devops.md#code)
-- [Continuous Integration / Continous Distribution (CICD)](https://github.com/dheurtev/dheurtev/blob/main/devops.md#continuous-integration--continous-distribution-cicd)
+- [Collaborate](#collaborate)
+- [Code](#code)
+- [Continuous Integration / Continous Distribution (CICD)](#continuous-integration--continous-distribution-cicd)
+  * [Build](#build)
+  * [Release](#release)
+  * [Security](#security)
 
 ## Collaborate ##
 **[`^        back to top        ^`](#)**

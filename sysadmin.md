@@ -86,7 +86,7 @@ Tools and packages I used are marked as `past`.
 - User remote access to files : SMB (SAMBA)
 - Shares for backups (on NAS) : NFS
 
-## Scheduling (CRON) ##
+## Scheduling ##
 #### Traditional approach #### 
 - BASH + Cron 
 - Python or Node scrips + Cron

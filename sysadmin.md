@@ -74,7 +74,7 @@ Tools and packages I used are marked as `past`.
    * Ansible Tower or Ansible Semaphore : WebUI for Ansible
 
 ## Monitor ##
-https://github.com/dheurtev/dheurtev/blob/main/monitoring.md
+[My monitoring page](https://github.com/dheurtev/dheurtev/blob/main/monitoring.md)
 
 ## Other tools ##
 

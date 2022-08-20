@@ -38,7 +38,7 @@ Tools and packages I used are marked as `past`.
 - [MicroK8s](https://microk8s.io/): small, fast, single-package Kubernetes for developers, IoT and edge. Local or multi-node. Canonical Project. `Apache 2.0 license` 
 #### Storage ####
 - [Minio](https://min.io/): highly-available, S3 compatible object storage solution. `Affero General Public License Version 3 (AGPLv3)`
-- [Rook](https://rook.io/): Open-Source Cloud-Native Storage for Kubernetes. for File, Block and Object Storage. [CCNF Graduated project](https://www.cncf.io/projects/rook/) [Github repo](https://github.com/rook/rook) `Apache v2.0 License`
+- [Rook](https://rook.io/): Open-Source Cloud-Native Storage for Kubernetes. for File, Block and Object Storage. [CNCF Graduated project](https://www.cncf.io/projects/rook/) [Github repo](https://github.com/rook/rook) `Apache v2.0 License`
 
 ### Network ###
 
@@ -47,15 +47,14 @@ Tools and packages I used are marked as `past`.
 
 #### Virtual Networking ####
 **[`^        back to top        ^`](#)**
-- [Project Calico](https://www.tigera.io/project-calico/): Container networking and security. `Apache 2.0 license` 
-
+- [Project Calico](https://www.tigera.io/project-calico/): Container networking and security. `Apache 2.0 license`
+- [CNI](https://www.cni.dev/): Container Networking Interface. a specification and libraries for writing plugins to configure network interfaces in Linux containers, along with a number of supported plugins. [CNCF incubated project](https://www.cncf.io/projects/container-network-interface-cni/) - [Github Repo](https://github.com/containernetworking/cni) `Apache 2.0 License` 
 
 #### Proxy ####
-- [Envoy](https://www.envoyproxy.io/): Open source edge and service proxy, designed for cloud-native applications. high performance C++ distributed proxy. `Apache 2.0 license`. [CCNF graduated project](https://www.cncf.io/projects/envoy/) - [Github repo](https://github.com/envoyproxy/envoy). `Apache 2.0 license`   
+- [Envoy](https://www.envoyproxy.io/): Open source edge and service proxy, designed for cloud-native applications. high performance C++ distributed proxy. `Apache 2.0 license`. [CNCF graduated project](https://www.cncf.io/projects/envoy/) - [Github repo](https://github.com/envoyproxy/envoy). `Apache 2.0 license`   
 
-
-
-
+#### Message broker ####
+- [NATS](https://nats.io/): cloud native open-source messaging system. written in the Go programming language. Client libraries to interface with the server are available for dozens of major programming languages. deployments models using clusters, superclusters, and leaf nodes. [CNCF incubated project](https://www.cncf.io/projects/nats/) - [Githbub repo](https://github.com/nats-io/nats-server) `Apache 2.0 license`. 
 
 ## Monitor ##
 **[`^        back to top        ^`](#)**

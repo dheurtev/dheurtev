@@ -77,6 +77,7 @@ Cross-platform :
 **[`^        back to top        ^`](#)**
 [CI/CD, the what, why and how - Github](https://resources.github.com/ci-cd/)
 ### Build ###
+**[`^        back to top        ^`](#)**
 #### Build tools #####
 - [Maven](https://maven.apache.org/): build automation tool used primarily for Java projects. can also be used to build and manage projects written in C#, Ruby, Scala, and other languages. `Apache license 2.0`
 
@@ -96,7 +97,7 @@ Cross-platform :
 - Gitlab
 
 ### Release ###
-
+**[`^        back to top        ^`](#)**
 #### Artefact Management - Registries ####
 ##### Public #####
 - [Docker Hub](https://hub.docker.com/search?q=): Search docker images
@@ -119,4 +120,5 @@ Create your own docker hub :
 - [Harbor](https://goharbor.io/): open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted. Takes time to setup. LDAP/AD integration.[CCNF Graduated project](https://www.cncf.io/projects/harbor/) - [Github repo](https://github.com/goharbor/harbor). `Apache 2.0 License`
 
 #### Security ####
+**[`^        back to top        ^`](#)**
 - [HashiCorp Vault](https://www.vaultproject.io/): Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API. Self hosted possible. HashiCorp Project. `Mozilla Public License 2.0`

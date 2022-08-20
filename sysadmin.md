@@ -7,11 +7,6 @@ Tools and packages I used are marked as `past`.
 - [Deploy](#deploy)
 - [Operate](#operate)
 - [Monitor](#monitor)
-
-
-- [Store](#store)
-- [Scheduleg](#schedule)
-- [Network](#network)
 - [Other tools](#other-tools)
 
 ## Best practices ##
@@ -143,7 +138,8 @@ https://geekflare.com/open-source-load-balancer/
 
 ## Monitor ##
 **[`^        back to top        ^`](#)**
-[My monitoring (logging and tracing) page](https://github.com/dheurtev/dheurtev/blob/main/monitoring.md)
+
+[My monitoring (logging and tracing)](monitoring.md)
 
 ## Other tools ##
 **[`^        back to top        ^`](#)**

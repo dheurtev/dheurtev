@@ -1,10 +1,5 @@
 # My Windows software
 
-## Productivity ##
-- [Foxit PDF Reader](https://www.foxit.com/pdf-reader/): PDF Reader. Proprietary [in use]
-- [CutePDF Writer](https://www.cutepdf.com/products/cutepdf/writer.asp): PDF Writer - converter and editor. Proprietary [in use]
-- [PDF SAM Basic](https://pdfsam.org/download-pdfsam-basic/): open-source cross-platform desktop application to split, merge, extract pages, rotate and mix PDF documents. AGPLv3 [in use]
-
 ## Remote Desktop ##
 - [AnyDesk](https://anydesk.com/en): Remote desktop application. Cross-platform. Proprietary. [in use]
 - [TeamViewer](https://www.teamviewer.com/fr/): Remote access and remote control computer software, allowing maintenance of computers and other devices. Cross-platform. Proprietary [in use]

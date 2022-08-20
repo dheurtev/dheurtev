@@ -1,4 +1,4 @@
-# Data Science and Python programming tools
+# My picks for Data Science
 
 Tools and packages I am using are marked `in use`.
 Tools and packages I used are marked as `past`.

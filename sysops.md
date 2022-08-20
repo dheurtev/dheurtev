@@ -2,6 +2,12 @@
 
 Tools and technologies i am using, have used or consider using
 
+-[Best practices](https://github.com/dheurtev/dheurtev/blob/main/sysops.md#best-practices)
+-[Deploy](https://github.com/dheurtev/dheurtev/blob/main/sysops.md#deploy)
+-[Operate - infrastructure as a service](https://github.com/dheurtev/dheurtev/blob/main/sysops.md#operate---infrastructure-as-a-service)
+-[Monitor](https://github.com/dheurtev/dheurtev/blob/main/sysops.md#monitor)
+-[Other tools](https://github.com/dheurtev/dheurtev/blob/main/sysops.md#other-tools)
+
 ## Best practices ##
 - Infrastructure should be reproductible, disposable, consistent, with no end state
 - Better to build and deploy server images often to avoid drift accumulation

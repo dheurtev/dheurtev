@@ -62,7 +62,7 @@ Tools and packages I used are marked as `past`.
 - [black](https://github.com/psf/black). uncompromising code formatter. `MIT License` `in use`
 ## Test ##
 - [PyTest](https://docs.pytest.org/en/7.1.x/): Python testing framework. `MIT License` `in use`
-- [Python Selenium bindings](https://selenium-python.readthedocs.io/) Apache 2.0 License` `past`
+- [Python Selenium bindings](https://selenium-python.readthedocs.io/) `Apache 2.0 License` `past`
 ### Documentation ###
 - [Sphinx](https://www.sphinx-doc.org/en/master/): Python Documentation generator. `BSD 2-Clause "Simplified" License` `in use`
 - [myst-parser](https://pypi.org/project/myst-parser/): An extended commonmark compliant parser, with bridges to docutils & sphinx. `MIT License` `in use` 

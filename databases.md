@@ -82,16 +82,18 @@ Use rethinkDB or [PostgreSQL with jsonb](https://www.postgresql.org/docs/9.5/fun
 key–value, document (JSON), property graph, streaming, time-series
 
 #### Etcd ####
-[etcd](): strongly consistent, distributed key-value store that provides a reliable way to store data that needs to be accessed by a distributed system or cluster of machines. [CNCF graduated project](https://www.cncf.io/projects/etcd/). [Github repo](https://github.com/etcd-io/etcd) `Apache v2.0 License`
+[etcd](https://etcd.io/): strongly consistent, distributed key-value store that provides a reliable way to store data that needs to be accessed by a distributed system or cluster of machines. [CNCF graduated project](https://www.cncf.io/projects/etcd/). [Github repo](https://github.com/etcd-io/etcd) `Apache v2.0 License`
 
-#### Embedded ####
-- [Oracle BerkeleyDB](https://www.oracle.com/fr/database/technologies/related/berkeleydb.html): Embedded Key-Value database. Dual licensed `GNU Affero General Public License` and `proprietary license` `past`
-- [HDF5](https://www.hdfgroup.org/solutions/hdf5/): Hierarchical Data Format. Primarily used in Science. `BSD-like Licence` `past`
+#### TiKV ####
+[TiKV](https://tikv.org/): distributed transactional key-value database. Provides both raw and ACID-compliant transactional key-value API. based on the design of Google Spanner and HBase, but simpler to manage without dependencies on any distributed file system. [CCNF Graduated project](https://www.cncf.io/projects/tikv/) - [Github repo](https://github.com/tikv/tikv) `Apache 2.0 License`
+
+#### Embedded : Berkeley DB ####
+[Oracle BerkeleyDB](https://www.oracle.com/fr/database/technologies/related/berkeleydb.html): Embedded Key-Value database. Dual licensed `GNU Affero General Public License` and `proprietary license` `past`
 
 ### Column-family databases: Cassandra ###
-- [Cassandra](https://cassandra.apache.org/_/index.html): free and open-source, distributed, wide-column store, NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. `Apache 2.0 License`
+[Cassandra](https://cassandra.apache.org/_/index.html): free and open-source, distributed, wide-column store, NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. `Apache 2.0 License`
 
-### Time Series : InfluxDB ###
+### Time Series ###
 - [InfluxDB](https://www.influxdata.com/): open-source time series database. `MIT License` `in use`
 - [Prometheus](https://prometheus.io/): free software application used for event monitoring and alerting. It records real-time metrics in a time series database built using a HTTP pull model, with flexible queries and real-time alerting. `Apache License 2.0`
 
@@ -102,9 +104,11 @@ document (JSON), graph, key–value
 ## Hierarchical ##
 **[`^        back to top        ^`](#)**
 - [Hierarchical Database Model - Wikipedia](https://en.wikipedia.org/wiki/Hierarchical_database_model)
-### LDAP ###
+### Embedded : HDF5 ###
+- [HDF5](https://www.hdfgroup.org/solutions/hdf5/): Hierarchical Data Format. Primarily used in Science. `BSD-like Licence` `past`
+### Server : LDAP ###
 - [LDAP - Wikipedia](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
-- [openLDAP](https://www.openldap.org/): open source implementation of the Lightweight Directory Access Protocol. Cross-platform. `OpenLDAP Public License`
+- [openLDAP](https://www.openldap.org/): open source implementation of the Lightweight Directory Access Protocol. Cross-platform. `OpenLDAP Public License` `past`
 ### XML Database ###
 Supported by Postgresql among others.
 - [XML Database - Wikipedia](https://en.wikipedia.org/wiki/XML_database)

@@ -1,6 +1,7 @@
 # My picks for monitoring
 
-Technologies I use, I have used or consider using.
+Tools and packages I am using are marked `in use`.
+Tools and packages I used are marked as `past`.
 
 - [Comparison](https://prometheus.io/docs/introduction/comparison/)
 - [ELK stack alternatives](https://betterstack.com/community/comparisons/elk-stack-alternatives/)

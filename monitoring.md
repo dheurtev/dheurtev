@@ -55,8 +55,15 @@ Following the license change of ELK, the project has been forked.
   * OpenSearch Dashboards : default visualization tool for data in OpenSearch. It also serves as a user interface for many of the OpenSearch plugins, including security, alerting, Index State Management, SQL, and more.
   * Ingest Tools: compatible with a variety of ingestion and processing tools including beats, fluentbit and fluentd.
 
+#### Ingestion and processing tools ####
+- [Fluentd](https://www.fluentd.org/): Unified logging layer. open source data collector, which lets you unify the data collection and consumption [CNCF graduated project](https://www.cncf.io/projects/fluentd/) - [Github Repo](https://github.com/fluent/fluentd) - `Apache 2.0 License`
+  * Input:
+   - SNMP
+   - syslog 
+   - 
+
 #### Databases ####
-[My databases section on time series databases](https://github.com/dheurtev/dheurtev/blob/main/databases.md#time-series)
+[My databases section on time series databases](databases.md#time-series)
 
 #### Dashboard ####
 **[`^        back to top        ^`](#)**

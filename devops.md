@@ -15,7 +15,6 @@ Tools and packages I used are marked as `past`.
 - [Microsoft Teams](https://www.microsoft.com/en/microsoft-teams/group-chat-software): workspace chat and videoconferencing, file storage, and application integration. `⚠ Proprietary`
 - [Slack](https://slack.com/): messaging program designed specifically for the office, but has also been adopted for personal use). `⚠ Proprietary`
 - [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat): text-based chat system for instant messaging. IRC is designed for group communication in discussion forums, called channels, but also allows one-on-one communication via private messages as well as chat and data transfer, including file sharing.
-- 
 
 ### Application lifecycle management ###
 - [Jira](https://www.atlassian.com/software/jira):  issue tracking product developed by Atlassian that allows bug tracking and agile project management. Atlassian Project. `⚠ Proprietary` `Past`
@@ -86,6 +85,7 @@ Cross-platform :
 - API specifications : [OpenAPI](https://www.openapis.org/):OpenAPI Specification, previously known as the Swagger Specification, is a specification for machine-readable interface files for describing, producing, consuming, and visualizing RESTful web services.
 - API tools : [Swagger](https://swagger.io/): suite of tools for API developers. `Apache 2.0 License`.
 - API Gateway: [gloo](https://www.solo.io/products/gloo-edge/): Kubernetes-native API Gateway Built on Envoy. `Apache 2.0 License`. 
+- [Twilio](https://www.twilio.com/): programmable communication tools for making and receiving phone calls, sending and receiving text messages, and performing other communication functions using its web service APIs.
 ### Databases ###
 [My page on databases](databases.md)
 ### Streaming and messaging ####

@@ -4,11 +4,12 @@
 - [Personal security](#personal-security)
 
 ## PC protection ## 
+**[`^        back to top        ^`](#)**
 - Microsoft Security Essentials (or built-in equivalent) `⚠ Proprietary` `in use`
 - [MalwareBytes](https://www.malwarebytes.com/): Anti-Malware Software. `EXE` `⚠ Proprietary` `in use`
 
 ## Personal security ## 
-
+**[`^        back to top        ^`](#)**
 ### Password Managers ####
 - [LastPass](https://www.lastpass.com/): Password manager and Vault app. Cross-platform and browser. `EXE` `APP` `⚠ Proprietary` `in use`
 - [Bitwarden](https://bitwarden.com/): free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault. Core: `GPL 3 and A-GPL 3.Licensed`. Some features: `⚠ Proprietary`, source available. `EXE` `APP`

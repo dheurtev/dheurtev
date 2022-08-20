@@ -36,7 +36,7 @@ Tools and packages I used are marked as `past`.
 - [Gitlab](https://about.gitlab.com): automate the builds, integration, and verification of your code. With SAST, DAST, code quality analysis, plus pipelines. [Self-hosted option](https://docs.gitlab.com/ee/topics/offline/quick_start_guide.html). GitLab Community Edition (CE) is licensed under the terms of the  `MIT License`. GitLab Enterprise Edition (EE) is licensed under `The GitLab Enterprise Edition (EE) license - ⚠ Proprietary license`  `past` 
 ### Terminals ###
 #### Windows ####
-- [Windows Terminal](https://github.com/microsoft/terminal): multi-tabbed terminal emulator that Microsoft has developed for Windows 10 and later as a replacement for Windows Console. `MIT License`. [Windows Store](https://www.microsoft.com/store/apps/9n0dx20hk701) `in use`
+- [Windows Terminal](https://github.com/microsoft/terminal): multi-tabbed terminal emulator that Microsoft has developed for Windows 10 and later as a replacement for Windows Console. [Windows Store](https://www.microsoft.com/store/apps/9n0dx20hk701) `MIT License` `in use`
 - [WSL/WSL2](https://docs.microsoft.com/en-us/windows/wsl/compare-versions): Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10, Windows 11, and Windows Server 2019. `⚠ Proprietary` `in use`
 - [Cygwin](https://www.cygwin.com/): POSIX-compatible programming and runtime environment that runs natively on Microsoft Windows. `LGPLv3` `in use` (via git for windows)
 - [MobaXTerm](https://mobaxterm.mobatek.net/): Xserver and tabbed SSH client for Windows. Free edition. `⚠ Proprietary` `past`

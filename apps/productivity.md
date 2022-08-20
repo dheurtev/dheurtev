@@ -1,5 +1,11 @@
 # Productivity
 
+- [Messaging - Video Conference](#messaging--video-conference)
+- [Email](#email)
+- [PDF](#pdf)
+- [Remote Desktop](#remote-desktop)
+
+
 ## Messaging - Video Conference ##
 - [Zoom Cloud Meetings](https://apps.microsoft.com/store/detail/zoom-cloud-meetings/XP99J3KP4XZ4VV) `APP` `⚠ Proprietary` `in use`
 - [Microsoft Teams](https://apps.microsoft.com/store/detail/microsoft-teams/XP8BT8DW290MPQ) `APP` `⚠ Proprietary` `in use`

@@ -43,7 +43,7 @@ Tools and packages I used are marked as `past`.
 
 ### Code Editors ###
 - [Microsoft Visual Studio Code - VS Code](https://code.visualstudio.com/): Source-code editor made by Microsoft for Windows, Linux and macOS. free for private or commercial use. `MIT License` `in use`
-- [Notepad ++](https://notepad-plus-plus.org/): Text and source code editor for use with Microsoft Windows. `GPLv2`. `in use`
+- [Notepad ++](https://notepad-plus-plus.org/): Text and source code editor for use with Microsoft Windows. `GPLv2` `in use`
   * [Use in Linux](https://itsfoss.com/notepad-plus-plus-linux/)
   * [Linux Clone - notepadqq](https://notepadqq.com/s/)
 - [Atom](https://atom.io/): free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in JavaScript, and embedded Git Control. Cross-platform. `MIT license`. Sunsetting Dec. 2022. `past`

@@ -6,7 +6,7 @@
 - [Cleaning, Protection](#cleaning-protection)
 - [Remote file transfer](#remote-file-transfer)
 - [Bootable image creation, CD-ROM, ISO](#bootable-image-creation-cd-rom-iso)
-- [Backup + manage](#backup-manage)
+- [Backup + manage](#backup--manage)
 - [File managers](#file-managers)
 - [Network](#network)
 

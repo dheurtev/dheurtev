@@ -33,9 +33,16 @@ Tools and packages I used are marked as `past`.
 - [TortoiseSVN](https://tortoisesvn.net/): Apache Subversion (SVN) client, implemented as a Windows shell extension. `GPLv2` `past`
 - [TortoiseHG](https://tortoisehg.bitbucket.io/): Windows shell extension and a series of applications for the Mercurial distributed revision control system . `GPLv2` `past`
 - [WinMerge](https://winmerge.org/source-code/?lang=en): Open Source differencing and merging tool for Windows. `GPLv2` `past`
-### Code Repository ###
-- [Gihub](https://github.com/) `in use`
+### Code Repository and packages ###
+#### Public ####
+- Python :
+  * [PyPi](https://pypi.org/): repository of software for the Python programming language.
+- Javascript:
+  * [npm](https://www.npmjs.com/): npm is a package manager for the JavaScript programming language
+#### Private ####
 - [Gitea](https://gitea.io/en-us/): open-source forge software package for hosting software development version control using Git as well as other collaborative features like bug tracking, wikis and code review. Self-hosted Github alternative. `Apache License` `in use`
+#### Both ####
+- [Gihub](https://github.com/) `in use`
 - [Bitbucket](https://bitbucket.org/product): Git-based source code repository hosting service owned by Atlassian. Bitbucket offers both commercial plans and free accounts with an unlimited number of private repositories. Git solution for teams using Jira. `⚠ Proprietary` `past`
 - [Gitlab](https://about.gitlab.com): automate the builds, integration, and verification of your code. With SAST, DAST, code quality analysis, plus pipelines. [Self-hosted option](https://docs.gitlab.com/ee/topics/offline/quick_start_guide.html). GitLab Community Edition (CE) is licensed under the terms of the  `MIT License`. GitLab Enterprise Edition (EE) is licensed under `The GitLab Enterprise Edition (EE) license - ⚠ Proprietary license`  `past` 
 ### Terminals ###
@@ -68,10 +75,19 @@ Cross-platform :
   * [Why Use](https://www.lazarus-ide.org/index.php?page=whyuse) 
   * [Licensing](https://wiki.lazarus.freepascal.org/licensing#Licensing_relating_to_FPC.2FLazarus_usage)
 - [Delphi Community Edition (Embarcadero)](https://www.embarcadero.com/fr/products/delphi/starter):  integrated development environment (IDE) for rapid application development of desktop, mobile, web, and console software. For freelance developers, startups, students and non-profits. Startups (<5000$ revenus par an). iOS, Android, Windows et MacOS. `⚠ Proprietary` `past` 
+
 ### API development ###
-- [OpenAPI](https://www.openapis.org/):OpenAPI Specification, previously known as the Swagger Specification, is a specification for machine-readable interface files for describing, producing, consuming, and visualizing RESTful web services.
-- [Swagger](https://swagger.io/): suite of tools for API developers. `Apache 2.0 License`.
-       
+- API specifications : [OpenAPI](https://www.openapis.org/):OpenAPI Specification, previously known as the Swagger Specification, is a specification for machine-readable interface files for describing, producing, consuming, and visualizing RESTful web services.
+- API tools : [Swagger](https://swagger.io/): suite of tools for API developers. `Apache 2.0 License`.
+- API Gateway: [gloo](https://www.solo.io/products/gloo-edge/): Kubernetes-native API Gateway Built on Envoy. `Apache 2.0 License`. 
+### Databases ###
+[My page on databases](databases.md)
+### Streaming and messaging ####
+- Messaging Broker: [RabbitMQ](https://www.rabbitmq.com/): open-source message-broker software that originally implemented the Advanced Message Queuing Protocol and has since been extended with a plug-in architecture to support Streaming Text Oriented Messaging Protocol, MQ Telemetry Transport, and other protocols. `Mozilla Public License` `in use`
+		 * MQTT broker: [Eclipse Mosquito](https://mosquitto.org/): Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol.
+- Message Broker (horizontal scaling): [Apache Kafka](https://kafka.apache.org/): distributed event store and stream-processing platform. It is an open-source system developed by the Apache Software Foundation written in Java and Scala. The project aims to provide a unified, high-throughput, low-latency platform for handling real-time data feed.  distributed publish-subscribe messaging system that receives data from disparate source systems and makes the data available to target systems in real time. `Apache License 2.0`
+- Remote Procedure Call: [gRPC](open source high performance Remote Procedure Call (RPC) framework that can run in any environment). Uses a binary payload that is efficient to create and to parse, and it exploits HTTP/2 for efficient management of connectionsGoogle Project. `Apache 2.0 License`.
+
 ## Continuous Integration / Continous Distribution (CI/CD) ##
 **[`^        back to top        ^`](#)**
 [CI/CD, the what, why and how - Github](https://resources.github.com/ci-cd/)
@@ -97,13 +113,15 @@ Cross-platform :
 
 ### Release ###
 **[`^        back to top        ^`](#)**
-#### Artefact Management - Registries ####
-##### Public #####
-- [Docker Hub](https://hub.docker.com/search?q=): Search docker images
-- [Quay](https://quay.io/): Container Image repository server
-- [Fedora Registry](registry.fedoraproject.org/)
-- [PyPi](https://pypi.org/): repository of software for the Python programming language.
-- [npm](https://www.npmjs.com/): npm is a package manager for the JavaScript programming language
+#### Artefact Management - Image Registries ####
+- Docker:
+  * [Docker Hub](https://hub.docker.com/search?q=): Search docker images
+  * [Quay](https://quay.io/): Container Image repository server
+  * [Fedora Registry](registry.fedoraproject.org/)
+- Kubernetes:
+  * [Artifacthub](https://artifacthub.io/)
+  * [Helm](https://helm.sh/): Package manager for Kubernetes - [Github](https://github.com/helm/helm) `Apache 2.0 License`
+
 ##### Private #####
 Create your own docker hub :
 

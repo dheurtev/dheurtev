@@ -1,6 +1,21 @@
 # My picks for Python tools and packages
 
-## Introduction - when to use Python
+- [Introduction - when to use Python](https://github.com/dheurtev/dheurtev/blob/main/python.md#introduction---when-to-use-python)
+- [Implementations](https://github.com/dheurtev/dheurtev/blob/main/python.md#implementations)
+- [Distributions](https://github.com/dheurtev/dheurtev/blob/main/python.md#distributions)
+- [Development tool chain : scaffold, coding style checkers, test, documentation, repository](https://github.com/dheurtev/dheurtev/blob/main/python.md#development-tool-chain--scaffold-coding-style-checkers-test-documentation-repository)
+- [Virtual Environment, Package installers](https://github.com/dheurtev/dheurtev/blob/main/python.md#virtual-environment-package-installers)
+- [Data Science Libraries](https://github.com/dheurtev/dheurtev/blob/main/python.md#data-science-libraries)
+- [Machine Learning Libraries](https://github.com/dheurtev/dheurtev/blob/main/python.md#machine-learning-libraries)
+- [Data vizualization](https://github.com/dheurtev/dheurtev/blob/main/python.md#data-vizualization)
+- [Natural Language Processing](https://github.com/dheurtev/dheurtev/blob/main/python.md#natural-language-processing)
+- [Image processing](https://github.com/dheurtev/dheurtev/blob/main/python.md#image-processing)
+- [ETL Tools](https://github.com/dheurtev/dheurtev/blob/main/python.md#etl-tools)
+- [Data : ORM, Validation](https://github.com/dheurtev/dheurtev/blob/main/python.md#data--orm-validation)
+- [Web](https://github.com/dheurtev/dheurtev/blob/main/python.md#web)
+- [Other tools](https://github.com/dheurtev/dheurtev/blob/main/python.md#other-tools)
+
+## Introduction - when to use Python ##
 - Python is an interpreted scripting language 
 - It is great to act as a glue with modules in other languages (C, C++).
 - It is slow if the code is written in pure Python (>x100 times C). PyPy can make it faster (approximately x5).

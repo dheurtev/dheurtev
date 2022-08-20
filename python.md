@@ -1,5 +1,8 @@
 # My picks for Python tools and packages
 
+Tools and packages I am using are marked `in use`.
+Tools and packages I used are marked as `past`.
+
 - [Introduction - when to use Python](#introduction---when-to-use-python)
 - [Implementations](#implementations)
 - [Distributions](#distributions)

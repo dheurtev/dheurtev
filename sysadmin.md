@@ -67,6 +67,7 @@ Tools and packages I used are marked as `past`.
 ### Configuration Management ###
 [Comparison : Chef, Puppet, Ansible, Saltstack](https://www.edureka.co/blog/chef-vs-puppet-vs-ansible-vs-saltstack/)
 [Comparison : Chef, Puppet, Ansible, Saltstack](https://www.liquidweb.com/kb/puppet-salt-chef-ansible-a-comparison/)
+[Comparison : Chef, Puppet, Ansible, Saltstack - IBM](https://www.ibm.com/cloud/blog/chef-ansible-puppet-terraform)
 
 #### Traditional server configuration ####
 - Single server : ssh, scp
@@ -82,11 +83,15 @@ Tools and packages I used are marked as `past`.
    * Ansible Tower or Ansible Semaphore : WebUI for Ansible
 - [Chef](https://www.chef.io/), Chef DSL (dev oriented). Master-agent model. Client pulls config. Chef's configuration options consist of Cookbooks and Recipes. The recipes are the definition files that can be combined with attributes, files, libraries, and other recipes to build Cookbooks. These cookbooks can then be used for client deployment. Procedural style. Mutable. [License](https://docs.chef.io/chef_license/). Some `Apache 2.0 License`, some `⚠ Proprietary`.
 #### Declarative style ####
-- [Puppet](https://puppet.com/): software configuration management tool which includes its own declarative language to describe system configuration. It is a model-driven solution that requires limited programming knowledge to use. Master-agent model. Ruby DSL (sysadmin oriented). Client pulls config. Manifest files are fundamentally a set of configurations or tasks that determine how your network and operating system resources (such as services, packages, and files) are configured. Declarative style. Mutable. Open Source Puppet: `Apache` for >2.7.0, GPL for prior versions. Puppet Enterprise: `⚠ Proprietary`.
+- [Saltstack - Salt](https://saltproject.io/): Python-based, open-source software for event-driven IT automation, remote task execution, and configuration management. synchronous file server to speed deployment. Parallel execution of multiple commands at once encrypted via AES (Advanced Encryption Standard) and pushed to the client nodes via the SSH protocol. Yaml (admin oriented). Master-agent model. Push configuration. Declarative style. Mutable. Web Gui. Suitable for cloud use.  `Apache License 2.0`.
+  * [Alcali](https://alcali.dev/): ``MIT License`  `⚠ Last commit 2021`
+  * [SaltGUI - A web interface for managing SaltStack based infrastructure](https://github.com/erwindon/SaltGUI): covers only the basic functions of Salt (viewing minion status, executing jobs, applying states, etc) 
+  * [Uyuni Project](https://www.uyuni-project.org/): Uyuni is an open source systems management solution, forked from Spacewalk. upstream community project from which SUSE Manager is derived. Enterprise oriented. `GPLv2`
+- [Puppet](https://puppet.com/): software configuration management tool which includes its own declarative language to describe system configuration. It is a model-driven solution that requires limited programming knowledge to use. Master-agent model. Ruby DSL (sysadmin oriented). Client pulls config. Manifest files are fundamentally a set of configurations or tasks that determine how your network and operating system resources (such as services, packages, and files) are configured. Declarative style. Mutable. Suitable for cloud use. Open Source Puppet: `Apache` for >2.7.0, GPL for prior versions. Puppet Enterprise: `⚠ Proprietary`.
 
 `Use Terraform for declarative immutable in container orchestration`
 
-![image](https://user-images.githubusercontent.com/4304311/185752513-7fde06dc-b6ad-4849-8bcd-14f897c61693.png)
+![image](https://user-images.githubusercontent.com/4304311/185752513-7fde06dc-b6ad-4849-8bcd-14f897c61693.png )
 Source: [IBM](https://www.ibm.com/cloud/blog/chef-ansible-puppet-terraform)
 
 ## Monitor ##

@@ -1,6 +1,7 @@
 # Virtualization and containers technologies
 
-Tools and technologies I am using, have used or i am considering using.
+Tools and packages I am using are marked `in use`.
+Tools and packages I used are marked as `past`.
 
 - [Virtualization technologies](https://github.com/dheurtev/dheurtev/blob/main/virtualization-containers.md#virtualization-technologies)
 - [Virtual Environment](https://github.com/dheurtev/dheurtev/blob/main/virtualization-containers.md#virtual-environment)

@@ -26,18 +26,18 @@ Tools and packages I used are marked as `past`.
 
 ## Virtual Environment ##
 **[`^        back to top        ^`](#)**
-- [LXC/LXD](https://linuxcontainers.org/): Linux Containers is an operating-system-level virtualization method for running multiple isolated Linux systems on a control host using a single Linux kernel. Chroot on steroids, near bare metal performance, not a VM, fully functionnal OS, standard Linux tools (CLI), Data stored in or outside the container, can be used for composite stacks, file system neutral, but shares same kernel as host, limited portability - GNU LGPL v.2.1. A Canonical Project
+- [LXC/LXD](https://linuxcontainers.org/): Linux Containers is an operating-system-level virtualization method for running multiple isolated Linux systems on a control host using a single Linux kernel. Chroot on steroids, near bare metal performance, not a VM, fully functionnal OS, standard Linux tools (CLI), Data stored in or outside the container, can be used for composite stacks, file system neutral, but shares same kernel as host, limited portability - Canonical Project - `GNU LGPL v.2.1`
   * LXC : Linux container runtime that consists of tools, templates, and library and language bindings
   * LXD : System container and virtual machine manager
   * Used for stateful containers (e.g. stable services, database)
   * LXC does not allow live migration
-- [chroot](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/): How to use the chroot command on Linux. Uses standard Linux backup tools. [old]
+- [chroot](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/): How to use the chroot command on Linux. Uses standard Linux backup tools. `past`
 
 ## Application containers ##
-- [Docker](https://www.docker.com/): open platform for developing, shipping, and running applications. Deployment constistence, portable (but not between Linux and Windows Docker), versioning, component reuse, REST API oriented but layered file system, ephemeral instances (persistent data storage is complicated), not native speed performance, limited monitoring - `Apache version 2.0` with proprietary tools `in use`
+- [Docker](https://www.docker.com/): open platform for developing, shipping, and running applications. Deployment constistence, portable (but not between Linux and Windows Docker), versioning, component reuse, REST API oriented but layered file system, ephemeral instances (persistent data storage is complicated), not native speed performance, limited monitoring - `Apache version 2.0` with `Proprietary` tools `in use`
   * For single app containers/microservices in large numbers
   * Good to try new software or software with multiple dependencies 
-  * [Docker Desktop Windows](https://docs.docker.com/desktop/install/windows-install/): Docker Desktop for Windows
-  * [Docker Desktop Linux](https://docs.docker.com/desktop/install/linux-install/): Docker Desktop for Linux [old]
-- [Podman](https://podman.io/): Daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Containers can either be run as root or in rootless mode. `Apache License 2.0`
+  * [Docker Desktop Windows](https://docs.docker.com/desktop/install/windows-install/): Docker Desktop for Windows `in use`
+  * [Docker Desktop Linux](https://docs.docker.com/desktop/install/linux-install/): Docker Desktop for Linux `past`
+- [Podman](https://podman.io/): Daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Containers can either be run as root or in rootless mode. `Apache License 2.0` `in use`
   * [Github](https://github.com/containers/podman)

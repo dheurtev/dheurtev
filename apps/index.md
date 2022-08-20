@@ -9,8 +9,8 @@
 
 ## Package managers ##
 ### Windows ###
-- [Chocolatey](https://chocolatey.org/) : Free or paid version. 
-- [Scoop](https://scoop.sh/): Free
+- [Chocolatey](https://chocolatey.org/) : Free or paid version - [Github](https://github.com/chocolatey)  `Apache v2 License` `in use`
+- [Scoop](https://scoop.sh/): Free - [Github](https://github.com/ScoopInstaller) `UNLICENSE` or `MIT` `in use`
 
 ### Apple ###
 

@@ -56,9 +56,11 @@ Often used with PHP.
 ### Documents : RethinkDB, MongoDB ###
 Often used with Javascript/NodeJS.
 
+#### RethinkDB ####
 - [RethinkDB](https://rethinkdb.com/): open-source database for the realtime web. JSON. `Apache 2.0 License`.
-  * [Github](https://github.com/rethinkdb/rethinkdb) 
+  * [Github](https://github.com/rethinkdb/rethinkdb)
 
+#### MongoDB ####
 - [MongoDB](https://www.mongodb.com/): source-available cross-platform document-oriented database program. JSON like storage. `⚠ Server Side Public License [pseudo free]` `past`
   * [Documentation](https://www.mongodb.com/docs/)
 - [Robo Mongo 3T](https://robomongo.org/): free, lightweight, open-source MongoDB GUI with an embedded mongo shell, real auto-completion, and support for MongoDB. `GPLv3` `past`. 
@@ -85,6 +87,7 @@ Alternatives: Memcached, etcd
 
 ### Time Series : InfluxDB ###
 - [InfluxDB](https://www.influxdata.com/): open-source time series database. `MIT License` `in use`
+- [Prometheus](https://prometheus.io/): free software application used for event monitoring and alerting. It records real-time metrics in a time series database built using a HTTP pull model, with flexible queries and real-time alerting. `Apache License 2.0`
 
 ### Object Storage ###
 - [Minio](https://min.io/): highly-available, S3 compatible object storage solution. `Affero General Public License Version 3 (AGPLv3)`

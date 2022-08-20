@@ -125,8 +125,6 @@ Traditional approach :
 - [dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html): lightweight, easy to configure DNS forwarder, designed to provide DNS (and optionally DHCP and TFTP) services to a small-scale network. `GPLv2` or `GPLv3` `in use`
 #### Authoritative or local network ####
 - [Bind9](https://www.isc.org/bind/): Suite of software for interacting with the Domain Name System. Its most prominent component, named, performs both of the main DNS server roles, acting as an authoritative name server for DNS zones and as a recursive resolver in the network. `Mozilla Public License` `in use`
-#### Configurable ####
-- [CoreDNS](https://coredns.io/): DNS server/forwarder, written in Go, that chains plugins. Integrates with Kubernetes and etcd. [Github repo](https://github.com/coredns/coredns). [CNCF graduated project](https://www.cncf.io/projects/coredns/). `Apache 2.0 License` 
 #### DNS as a service ####
 - [Microsoft Azure DNS](https://azure.microsoft.com/en-us/services/dns/)
 - [GCP Cloud DNS](https://cloud.google.com/dns)

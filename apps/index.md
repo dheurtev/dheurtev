@@ -1,16 +1,41 @@
 # My Favorite software, apps and websites
 
 ## Introduction ##
+- Strongly encourage the use of package managers
 - Favors open source software if possible
 - Uses proprietary software if widely used
 - Follows the categories and sub-categories of [Microsoft Windows development app](https://docs.microsoft.com/en-us/windows/uwp/publish/category-and-subcategory-table)
 - Tagged `in use` if currently using, `past` if past use
 
-## How to search for an app of a software ##
-- 
-
 ## Package managers ##
-- 
+### Windows ###
+- [Chocolatey](https://chocolatey.org/) : Free or paid version. 
+- [Scoop](https://scoop.sh/): Free
+
+### Apple ###
+
+## How to search for an app of a software ##
+### For home users ###
+#### Windows ####
+- [Windows App store](https://apps.microsoft.com/store/apps)
+- [Chocolatey Packages](https://community.chocolatey.org/packages)
+- [Scoop Packages](https://scoop.sh/#/)
+#### Apple ####
+- [Apple Store](https://apps.apple.com/us/genre/ios/id36)
+#### Android ####
+- [Google Store](https://store.google.com/)
+#### Linux ####
+- [App store for Linux](https://snapcraft.io/)
+- [Appimage for Linux](https://www.appimagehub.com/browse)
+### For business users ###
+- [AlternativeTo](https://alternativeto.net/): To find alternatives. Crowdsources software recommandations.
+- [SaasWorthy](https://www.saasworthy.com/): To find cloud business software (Software-As-a-Service)
+- [Sourceforge](https://sourceforge.net/)
+#### For Linux users ###
+- [Debian packages](https://www.debian.org/distrib/packages)
+- [Ubuntu packages](https://packages.ubuntu.com/)
+- [RedHat Marketplace](https://marketplace.redhat.com/en-us/search)
+- [RPM find](https://rpmfind.net/)
 
 ## Categories ##
 - [Books + reference](books+reference.md)

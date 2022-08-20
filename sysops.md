@@ -1,6 +1,7 @@
 # My picks for system operations (sysops) -  Platform As A Service (PAAS) and cattle management
 
-Tools and technologies i am using, have used or consider using
+Tools and packages I am using are marked `in use`.
+Tools and packages I used are marked as `past`.
 
 - [Best practices](https://github.com/dheurtev/dheurtev/blob/main/sysops.md#best-practices)
 - [Deploy](https://github.com/dheurtev/dheurtev/blob/main/sysops.md#deploy)

@@ -7,7 +7,10 @@ Tools and packages I used are marked as `past`.
 - [Provision](#provision)
 - [Deploy](#deploy)
 - [Monitor](#monitor)
-- [Other tools (File systems, scheduling, networking)](#other-tools)
+- [File Systems](#file-systems)
+- [Scheduling](#scheduling)
+- [Network](#network)
+- [Other tools](#other-tools)
 
 ## Best practices ##
 - Avoid manual changes and GUI as leads to non-reproductible environment.
@@ -77,26 +80,20 @@ Tools and packages I used are marked as `past`.
 ## Monitor ##
 [My monitoring page](https://github.com/dheurtev/dheurtev/blob/main/monitoring.md)
 
-## Other tools ##
-
-### File Systems ###
+## File Systems ##
 - Scaling with additional disks in a node (scale up) : ZFS with mirror or RAID-Z
 - Scaling between nodes (scale out): CEPH
 - User remote access to files : SMB (SAMBA)
 - Shares for backups (on NAS) : NFS
 
-### Load Balancer and reverse proxy ###
-https://geekflare.com/open-source-load-balancer/
-- [Nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/):  Open-source web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. `BSD 2.0 license` `in use`
-
-### Scheduling (CRON) ###
+## Scheduling (CRON) ##
 #### Traditional approach #### 
 - BASH + Cron 
 - Python or Node scrips + Cron
 - JAVA + Cron [past]
 - [Anacron](https://linux.die.net/man/8/anacron): Cron that can turn on the server `GPLv2` `past`
 
-### Networking ###
+## Network ##
 #### Routers ####
 - Non Linux Networking / Router distribution : [OPNsense](https://opnsense.org/) : PfSense fork. Can be virtualized. `BSD license`
 #### Virtual Networking ####
@@ -105,3 +102,8 @@ https://geekflare.com/open-source-load-balancer/
 #### VPN ####
 - [Wireguard](https://www.wireguard.com/): communication protocol and free and open-source software that implements encrypted virtual private networks. Cross-platform. `GPLv2` `in use` 
 - [Tinc](https://www.tinc-vpn.org/): Virtual Private Network (VPN) daemon that uses tunnelling and encryption to create a secure private network between hosts on the Internet. Automatic full mesh routing. Cross-platform. `GPLv2`
+
+## Other tools ##
+### Load Balancer and reverse proxy ###
+https://geekflare.com/open-source-load-balancer/
+- [Nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/):  Open-source web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. `BSD 2.0 license` `in use`

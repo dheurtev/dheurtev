@@ -30,7 +30,7 @@ Often used with PHP.
 
 - [MariaDB](https://mariadb.org/): Open-source SQL relational database management system. MySQL fork. `GPLv2` `in use`
 - [MySQL](https://www.mysql.com/): Open-source SQL relational database management system. `GPLv2` or `proprietary`. `in use`
-- [Vitess](https://vitess.io/): Database clustering system for horizontal scaling of MySQL. `Apache License 2.0`
+- [Vitess](https://vitess.io/): Database clustering system for horizontal scaling of MySQL. [CNCF Graduated project](https://www.cncf.io/projects/vitess/) `Apache License 2.0`
 - [MySQL Workbench](https://www.mysql.com/products/workbench/): visual database design tool that integrates SQL development, administration, database design, creation and maintenance into a single integrated development environment for the MySQL database system. Cross-Platform. Free edition. `GPLv2`
 - [PhpMyAdmin](https://www.phpmyadmin.net/): free and open source administration tool for MySQL and MariaDB. `GPLv2` `in use`
 

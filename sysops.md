@@ -20,10 +20,6 @@ Tools and packages I used are marked as `past`.
 ### Configuration management ###
 #### Infrastruction provision ####
 - [Terraform](https://www.terraform.io/): Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON to create, change and improve infrastructure. immutable infrastructure based on images. Typically for cloud and kubernetes. Config changes delete or recreate machines - Immutable / Déclarative - HashiCorp Project. `Mozilla Public License v2`
-#### Configuration / Application automation tool ####
-- Chef, 
-- Puppet, 
-- Salt
 
 ## Operate - Infrastructure as a Service ##
 ### Scheduling and Orchestration ###

@@ -75,17 +75,22 @@ Use rethinkDB or [PostgreSQL with jsonb](https://www.postgresql.org/docs/9.5/fun
 ### Key Value ###
 
 #### Redis ####
-[Redis](https://redis.io/): Open source in-memory data structure store, used as a database, cache, and message broker. `BSD 3 licensed` `in use`
+key–value, document (JSON), property graph, streaming, time-series
+
+- [Redis](https://redis.io/): Open source in-memory data structure store, used as a database, cache, and message broker. `BSD 3 licensed` `in use`
   * [Documentation](https://redis.io/docs/)
 - [RedisInsight](https://redis.com/redis-enterprise/redis-insight/#insight-form): REDIS GUI, browser tool, advanced CLI, custom data visualization, and built-in guides to help with using Redis data models like JSON and time series. `⚠ Server Side Public License [pseudo free]`
-
-key–value, document (JSON), property graph, streaming, time-series
+- [Resp.app - formerly Redis Desktop ] : Cross-platform open source GUI for Redis. easy-to-use GUI to access your Redis servers and perform some basic operations.  `⚠ proprietary`  
 
 #### Etcd ####
 [etcd](https://etcd.io/): strongly consistent, distributed key-value store that provides a reliable way to store data that needs to be accessed by a distributed system or cluster of machines. [CNCF graduated project](https://www.cncf.io/projects/etcd/). [Github repo](https://github.com/etcd-io/etcd) `Apache v2.0 License`
 
 #### TiKV ####
 [TiKV](https://tikv.org/): distributed transactional key-value database. Provides both raw and ACID-compliant transactional key-value API. based on the design of Google Spanner and HBase, but simpler to manage without dependencies on any distributed file system. [CCNF Graduated project](https://www.cncf.io/projects/tikv/) - [Github repo](https://github.com/tikv/tikv) `Apache 2.0 License`
+
+##### Multi-databases administration tools #####
+[FasttoNoSQL](https://fastonosql.com/): open source cross-platform GUI manager for NoSQL databases. [Github Repo](https://github.com/fastogt/fastonosql/)
+Supports: Redis, Memcached, SSDB, LevelDB, RocksDB, UnQLite, LMDB, ForestDB (Available in PRO version), Pika (Available in PRO version), Dynomite (Available in PRO version), KeyDB. `GPLv3 License`
 
 #### Embedded : Berkeley DB ####
 [Oracle BerkeleyDB](https://www.oracle.com/fr/database/technologies/related/berkeleydb.html): Embedded Key-Value database. Dual licensed `GNU Affero General Public License` and `proprietary license` `past`

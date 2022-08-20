@@ -1,6 +1,7 @@
 # My Picks for DevOps
 
-Tools and technologies i am using, have used or consider using
+Tools and packages I am using are marked `in use`.
+Tools and packages I used are marked as `past`.
 
 - [Collaborate](https://github.com/dheurtev/dheurtev/blob/main/devops.md#collaborate)
 - [Code](https://github.com/dheurtev/dheurtev/blob/main/devops.md#code)

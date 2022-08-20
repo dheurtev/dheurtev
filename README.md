@@ -24,7 +24,7 @@ Tools and technologies I am using, have used or i am considering using. It has a
 - [SysAdmin - MAAS/IAAS and Pets management](sysadmin.md)
 - [DevOps - Collaborate, Code, CI/CD](devops.md)
 - [System operations (sysops) - Platform As A Service (PAAS) and cattle management](sysops.md)
-- [Monitoring](monitoring.md)
+- [Monitoring (logging and tracing)](monitoring.md)
 - [Databases](databases.md)
 - [Python tools and packages](python.md)
 - [Data Science tools](data-science.md)

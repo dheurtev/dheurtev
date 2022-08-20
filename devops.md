@@ -112,5 +112,8 @@ Create your own docker hub :
 - [CraneOperator](https://hub.docker.com/r/parabuzzle/craneoperator): UI for browsing a Registry using the v2 api. *docker pull parabuzzle/craneoperator* `MIT License` `in use`
 - [Portus](http://port.us.org/): open source authorization service and user interface for docker. Private registry. Enterprise oriented: LDAP, Oauth, OpenID integration. Suse project. `Apache 2.0 License` `⚠ Last updated in 2019`
 
+##### Kubernetes Docker Registry Management #####
+- [Harbor](https://goharbor.io/): open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted. Takes time to setup. LDAP/AD integration.[CCNF Graduated project](https://www.cncf.io/projects/harbor/) - [Github repo](https://github.com/goharbor/harbor). `Apache 2.0 License`
+
 #### Security ####
 - [HashiCorp Vault](https://www.vaultproject.io/): Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API. Self hosted possible. HashiCorp Project. `Mozilla Public License 2.0`

@@ -86,7 +86,7 @@ Cross-platform :
 - Messaging Broker: [RabbitMQ](https://www.rabbitmq.com/): open-source message-broker software that originally implemented the Advanced Message Queuing Protocol and has since been extended with a plug-in architecture to support Streaming Text Oriented Messaging Protocol, MQ Telemetry Transport, and other protocols. `Mozilla Public License` `in use`
 		 * MQTT broker: [Eclipse Mosquito](https://mosquitto.org/): Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol.
 - Message Broker (horizontal scaling): [Apache Kafka](https://kafka.apache.org/): distributed event store and stream-processing platform. It is an open-source system developed by the Apache Software Foundation written in Java and Scala. The project aims to provide a unified, high-throughput, low-latency platform for handling real-time data feed.  distributed publish-subscribe messaging system that receives data from disparate source systems and makes the data available to target systems in real time. `Apache License 2.0`
-- Remote Procedure Call: [gRPC](open source high performance Remote Procedure Call (RPC) framework that can run in any environment). Uses a binary payload that is efficient to create and to parse, and it exploits HTTP/2 for efficient management of connectionsGoogle Project. `Apache 2.0 License`.
+- Remote Procedure Call: [gRPC](open source high performance Remote Procedure Call (RPC) framework that can run in any environment). Uses a binary payload that is efficient to create and to parse, and it exploits HTTP/2 for efficient management of connectionsGoogle Project. [CNCF incubating project](https://www.cncf.io/projects/grpc/) `Apache 2.0 License`.
 
 ## Continuous Integration / Continous Distribution (CI/CD) ##
 **[`^        back to top        ^`](#)**
@@ -120,7 +120,7 @@ Cross-platform :
   * [Fedora Registry](registry.fedoraproject.org/)
 - Kubernetes:
   * [Artifacthub](https://artifacthub.io/)
-  * [Helm](https://helm.sh/): Package manager for Kubernetes - [Github](https://github.com/helm/helm) `Apache 2.0 License`
+  * [Helm](https://helm.sh/): Package manager for Kubernetes - [CNCF graduated project](https://www.cncf.io/projects/helm/) - [Github](https://github.com/helm/helm) `Apache 2.0 License`
 
 ##### Private #####
 Create your own docker hub :
@@ -134,7 +134,7 @@ Create your own docker hub :
 - [Portus](http://port.us.org/): open source authorization service and user interface for docker. Private registry. Enterprise oriented: LDAP, Oauth, OpenID integration. Suse project. `Apache 2.0 License` `⚠ Last updated in 2019`
 
 ##### Kubernetes Docker Registry Management #####
-- [Harbor](https://goharbor.io/): open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted. Takes time to setup. LDAP/AD integration.[CCNF Graduated project](https://www.cncf.io/projects/harbor/) - [Github repo](https://github.com/goharbor/harbor). `Apache 2.0 License`
+- [Harbor](https://goharbor.io/): open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted. Takes time to setup. LDAP/AD integration.[CNCF Graduated project](https://www.cncf.io/projects/harbor/) - [Github repo](https://github.com/goharbor/harbor). `Apache 2.0 License`
 
 #### Security ####
 **[`^        back to top        ^`](#)**

@@ -12,11 +12,6 @@ Tools and technologies i am using, have used or consider using
 ### Code Repository ###
 - [Gihub](https://github.com/)
 - [Gitea](https://gitea.io/en-us/): open-source forge software package for hosting software development version control using Git as well as other collaborative features like bug tracking, wikis and code review. Self-hosted Github alternative. Apache License.
-### Registry ###
-- [Docker Registry](https://docs.docker.com/registry/): Docker registry - Docker Project - [https://hub.docker.com/_/registry](docker pull registry)
-### Artefact Management ###
-- [Docker Registry Frontend](https://hub.docker.com/r/konradkleine/docker-registry-frontend/): Browse and modify your Docker registry in a browser. docker pull konradkleine/docker-registry-frontend
-- [CraneOperator](https://hub.docker.com/r/parabuzzle/craneoperator): UI for browsing a Registry using the v2 api
 
 ## Code ##
 ### Code Versioning (SCM/VCS) ###
@@ -61,12 +56,19 @@ Tools and technologies i am using, have used or consider using
 - [Travis CI](https://www.travis-ci.com/): hosted continuous integration service used to build and test software projects hosted on GitHub and Bitbucket [considering]
 
 ### Release ###
+
 #### Artefact Management - Registries ####
+##### Public #####
 - [Docker Hub](https://hub.docker.com/search?q=): Search docker images
 - [Quay](https://quay.io/): Container Image repository server
 - [Fedora Registry](registry.fedoraproject.org/)
 - [PyPi](https://pypi.org/): repository of software for the Python programming language.
 - [npm](https://www.npmjs.com/): npm is a package manager for the JavaScript programming language
+##### Private #####
+- [Docker Registry](https://docs.docker.com/registry/): Docker registry - Docker Project - [https://hub.docker.com/_/registry](docker pull registry)
+##### Docker Registry Management #####
+- [Docker Registry Frontend](https://hub.docker.com/r/konradkleine/docker-registry-frontend/): Browse and modify your Docker registry in a browser. docker pull konradkleine/docker-registry-frontend
+- [CraneOperator](https://hub.docker.com/r/parabuzzle/craneoperator): UI for browsing a Registry using the v2 api
 
 #### Security ####
 - [HashiCorp Vault](https://www.vaultproject.io/): Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API. Self hosted possible. HashiCorp Project. [Considering]

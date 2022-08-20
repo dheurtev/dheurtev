@@ -56,6 +56,7 @@ Tools and packages I used are marked as `past`.
 - [Microstack](https://microstack.run/docs): OpenStack on a single machine. Supported services are currently Glance, Horizon, Keystone, Neutron (with OVN), and Nova. single-node install and a multi-node deployment. `MIT License`
 
 ## Deploy ##
+**[`^        back to top        ^`](#)**
 ### Provision Management ###
 #### CLI ####
 - virsh: low level
@@ -97,15 +98,18 @@ Tools and packages I used are marked as `past`.
 Source: [IBM](https://www.ibm.com/cloud/blog/chef-ansible-puppet-terraform)
 
 ## Monitor ##
+**[`^        back to top        ^`](#)**
 [My monitoring page](https://github.com/dheurtev/dheurtev/blob/main/monitoring.md)
 
 ## File Systems ##
+**[`^        back to top        ^`](#)**
 - Scaling with additional disks in a node (scale up) : ZFS with mirror or RAID-Z
 - Scaling between nodes (scale out): CEPH
 - User remote access to files : SMB (SAMBA)
 - Shares for backups (on NAS) : NFS
 
 ## Scheduling ##
+**[`^        back to top        ^`](#)**
 #### Traditional approach #### 
 - BASH + Cron 
 - Python or Node scrips + Cron
@@ -113,6 +117,7 @@ Source: [IBM](https://www.ibm.com/cloud/blog/chef-ansible-puppet-terraform)
 - [Anacron](https://linux.die.net/man/8/anacron): Cron that can turn on the server `GPLv2` `past`
 
 ## Network ##
+**[`^        back to top        ^`](#)**
 #### Routers ####
 - Non Linux Networking / Router distribution : [OPNsense](https://opnsense.org/) : PfSense fork. Can be virtualized. `BSD license`
 #### Virtual Networking ####
@@ -123,6 +128,7 @@ Source: [IBM](https://www.ibm.com/cloud/blog/chef-ansible-puppet-terraform)
 - [Tinc](https://www.tinc-vpn.org/): Virtual Private Network (VPN) daemon that uses tunnelling and encryption to create a secure private network between hosts on the Internet. Automatic full mesh routing. Cross-platform. `GPLv2`
 
 ## Other tools ##
+**[`^        back to top        ^`](#)**
 ### Load Balancer and reverse proxy ###
 https://geekflare.com/open-source-load-balancer/
 - [Nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/):  Open-source web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. `BSD 2.0 license` `in use`

@@ -3,22 +3,32 @@
 Tools and packages I am using are marked `in use`.
 Tools and packages I used are marked as `past`.
 
+[Choices](#choices)
+[Python libraries](#python-libraries)
+[ETL Tools](#etl-tools)
+[Business Intelligence](#business-intelligence)
+[Statistics](#statistics)
+[Mathematics - Econometrics](#mathematics-econometrics)
+
 ## Choices ##
-[Comparison of statistical packages - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_statistical_packages)
-[Econometric packages](https://collinsdwight.medium.com/9-econometric-software-packages-for-financial-and-economic-data-analysis-83285c51a9b5)
-[R Python Matlab Octave Julia (2016)](https://www.linkedin.com/pulse/r-vs-python-matlab-octave-julia-who-winner-siva-prasad-katru/)
-[Julia Matlab Python R](https://cepr.org/voxeu/columns/choosing-numerical-programming-language-economic-research-julia-matlab-python-or-r)
+### Programming languages ###
+- [R Python Matlab Octave Julia (2016)](https://www.linkedin.com/pulse/r-vs-python-matlab-octave-julia-who-winner-siva-prasad-katru/)
+- [Julia Matlab Python R](https://cepr.org/voxeu/columns/choosing-numerical-programming-language-economic-research-julia-matlab-python-or-r)
 - **Python** is the best language for data handling : pipelines and machine learning applications
 - **R** for plotting
 - **Julia** for fast computations
 - **Matlab** is legacy
+### Software packages ###
+- [Comparison of statistical packages - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_statistical_packages)
+- [Econometric packages](https://collinsdwight.medium.com/9-econometric-software-packages-for-financial-and-economic-data-analysis-83285c51a9b5)
+
 
 ## Python libraries ##
 https://github.com/dheurtev/dheurtev/blob/main/python.md
 
 ## ETL Tools ##
-- [Hevo](https://hevodata.com/): No code data pipelines plateform. Proprietary. Free plan [considering]
-- [Apache Airflow](https://airflow.apache.org/): Complex alternative to scripts. Apache License 2.0 [not considering]
+- [Hevo](https://hevodata.com/): No code data pipelines plateform. Proprietary. Free plan.
+- [Apache Airflow](https://airflow.apache.org/): Complex alternative to scripts. `Apache License 2.0`
 - [Talend Open Studio](https://www.talend.com/products/talend-open-studio/): free open source ETL tool for Data Integration and Big Data [past]
 
 ## Business Intelligence ##

@@ -11,6 +11,12 @@ Tools and packages I used are marked as `past`.
 
 ## Collaborate ##
 **[`^        back to top        ^`](#)**
+### Communications ###
+- [Microsoft Teams](https://www.microsoft.com/en/microsoft-teams/group-chat-software): workspace chat and videoconferencing, file storage, and application integration. `⚠ Proprietary`
+- [Slack](https://slack.com/): messaging program designed specifically for the office, but has also been adopted for personal use). `⚠ Proprietary`
+- [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat): text-based chat system for instant messaging. IRC is designed for group communication in discussion forums, called channels, but also allows one-on-one communication via private messages as well as chat and data transfer, including file sharing.
+- 
+
 ### Application lifecycle management ###
 - [Jira](https://www.atlassian.com/software/jira):  issue tracking product developed by Atlassian that allows bug tracking and agile project management. Atlassian Project. `⚠ Proprietary` `Past`
 - [Taiga](https://www.taiga.io/): free and open-source project management tool. `MPL 2.0`

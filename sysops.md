@@ -10,6 +10,7 @@ Tools and packages I used are marked as `past`.
 - [Other tools](#other-tools)
 
 ## Best practices ##
+**[`^        back to top        ^`](#)**
 - Infrastructure should be reproductible, disposable, consistent, with no end state
 - Better to build and deploy server images often to avoid drift accumulation
 - Immutable configuration to avoid configuration drift
@@ -17,11 +18,13 @@ Tools and packages I used are marked as `past`.
 - Send and monitor logs
 
 ## Deploy ##
+**[`^        back to top        ^`](#)**
 ### Configuration management ###
 #### Infrastruction provision ####
 - [Terraform](https://www.terraform.io/): Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON to create, change and improve infrastructure. immutable infrastructure based on images. Typically for cloud and kubernetes. Config changes delete or recreate machines - Immutable / Déclarative - HashiCorp Project. `Mozilla Public License v2`
 
 ## Operate - Infrastructure as a Service ##
+**[`^        back to top        ^`](#)**
 ### Scheduling and Orchestration ###
 - [Kubernetes (K8s)](https://kubernetes.io/): open-source container orchestration system for automating software deployment, scaling, and management. Orchestrator and clustering solution for Docker containers + HELM (webui for its management). Google Project. [CNCF graduated project](https://www.cncf.io/projects/kubernetes/). `Apache 2.0 License`
 - [Docker Swarm](https://docs.docker.com/engine/swarm/): Lightweight orchestration of docker containers. `Apache 2.0 license`
@@ -33,10 +36,13 @@ Tools and packages I used are marked as `past`.
 - [MicroK8s](https://microk8s.io/): small, fast, single-package Kubernetes for developers, IoT and edge. Local or multi-node. Canonical Project. `Apache 2.0 license` 
 
 ## Monitor ##
-https://github.com/dheurtev/dheurtev/blob/main/monitoring.md
+**[`^        back to top        ^`](#)**
+[My monitoring page](https://github.com/dheurtev/dheurtev/blob/main/monitoring.md)
 
 ## Other tools ##
+**[`^        back to top        ^`](#)**
 [Cloud Native Computing Foundation (CNCF) Projects](https://www.cncf.io/projects/)
 
 ### Virtual Networking ###
+**[`^        back to top        ^`](#)**
 - [Project Calico](https://www.tigera.io/project-calico/): Container networking and security. `Apache 2.0 license` 

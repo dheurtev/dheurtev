@@ -1,6 +1,6 @@
 # My picks for Python tools and packages
 
-## Introduction - my thoughts
+## Introduction - when to use Python
 - Python is an interpreted scripting language 
 - It is great to act as a glue with modules in other languages (C, C++).
 - It is slow if the code is written in pure Python (>x100 times C). PyPy can make it faster (approximately x5).

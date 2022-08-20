@@ -2,6 +2,8 @@
 
 Tools and technologies i am using, have used or consider using
 
+[Collaborate](https://github.com/dheurtev/dheurtev/blob/main/devops.md#collaborate)
+
 ## Collaborate - Application lifecycle management - Code Repository - Registry - Artefact Management ##
 - [Gihub](https://github.com/)
 - [Gitea](https://gitea.io/en-us/): open-source forge software package for hosting software development version control using Git as well as other collaborative features like bug tracking, wikis and code review. Self-hosted Github alternative. Apache License.

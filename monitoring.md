@@ -79,6 +79,7 @@ Following the license change of ELK, the project has been forked.
   * Zabbix agent (plugin)
   * SQL (plugin)
   * Twitter (plugin)
+  * RSS (plugin), Feedly (plugin)
 - [Outputs](https://www.fluentd.org/dataoutputs) include:
   * Log Management: Elastic Search + Kibana, Splunk, opensearch (plugin) 
   * Big Data: Hadoop, Mongodb, InfluxDB (plugin), Redis

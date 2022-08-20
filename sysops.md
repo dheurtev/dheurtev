@@ -38,9 +38,7 @@ Tools and packages I used are marked as `past`.
 - [MicroK8s](https://microk8s.io/): small, fast, single-package Kubernetes for developers, IoT and edge. Local or multi-node. Canonical Project. `Apache 2.0 license` 
 #### Storage ####
 - [Minio](https://min.io/): highly-available, S3 compatible object storage solution. `Affero General Public License Version 3 (AGPLv3)`
-- [Rook](https://rook.io/): Open-Source Cloud-Native Storage for Kubernetes. for File, Block and Object Storage. `Apache v2.0 License`
-
-
+- [Rook](https://rook.io/): Open-Source Cloud-Native Storage for Kubernetes. for File, Block and Object Storage. [CCNF Graduated project](https://www.cncf.io/projects/rook/) [Github repo](https://github.com/rook/rook) `Apache v2.0 License`
 
 ## Monitor ##
 **[`^        back to top        ^`](#)**
@@ -53,3 +51,7 @@ Tools and packages I used are marked as `past`.
 ### Virtual Networking ###
 **[`^        back to top        ^`](#)**
 - [Project Calico](https://www.tigera.io/project-calico/): Container networking and security. `Apache 2.0 license` 
+
+### Proxy ###
+- [Envoy](https://www.envoyproxy.io/): Open source edge and service proxy, designed for cloud-native applications. high performance C++ distributed proxy. `Apache 2.0 license`. [CCNF graduated project](https://www.cncf.io/projects/envoy/) - [Github repo](https://github.com/envoyproxy/envoy). `Apache 2.0 license`   
+

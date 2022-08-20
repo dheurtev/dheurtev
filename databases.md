@@ -61,12 +61,14 @@ Often used with Javascript/NodeJS.
   * [Github](https://github.com/rethinkdb/rethinkdb)
 
 #### MongoDB ####
-- [MongoDB](https://www.mongodb.com/): source-available cross-platform document-oriented database program. JSON like storage. `⚠ Server Side Public License [pseudo free]` `past`
+- [MongoDB](https://www.mongodb.com/): source-available cross-platform document-oriented database program. JSON like storage. `⚠ Server Side Public License  = proprietary]` `past`
   * [Documentation](https://www.mongodb.com/docs/)
 - [Robo Mongo 3T](https://robomongo.org/): free, lightweight, open-source MongoDB GUI with an embedded mongo shell, real auto-completion, and support for MongoDB. `GPLv3` `past`. 
   * [Github](https://github.com/Studio3T/robomongo). `⚠ Abandonned`
 - [Studio3T free](https://studio3t.com/free): RoboMongo successor. `⚠ Proprietary`
 - [NoSQL Booster](https://nosqlbooster.com/): Cross-platform IDE for MongoDB v2.6-6.0, which provides a build-in MongoDB script debugger, SQL query, server monitoring tools. `⚠ Proprietary`
+
+[The SSPL is Not an Open Source License - OSI ](https://opensource.org/node/1099)
 
 ### Key Value : Redis ###
 

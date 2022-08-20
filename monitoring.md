@@ -5,7 +5,7 @@ Tools and packages I used are marked as `past`.
 
 - [Introduction](#introduction)
 - [Basic Monitoring](#basic-monitoring)
-- [Event monitoring, Agent and metrics (ELK Stack and alternatives)](#event-monitoring-agent-and-metrics)
+- [Event monitoring, Agent and metrics (ELK Stack, OpenSearch (fork) and alternatives)](#event-monitoring-agent-and-metrics)
 - [Event Logging - Dashboard](#event-logging---dashboard)
 - [Monitoring as a service](#monitoring-as-a-service)
 

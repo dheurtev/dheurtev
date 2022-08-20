@@ -34,10 +34,15 @@ Tools and packages I used are marked as `past`.
 - [chroot](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/): How to use the chroot command on Linux. Uses standard Linux backup tools. `past`
 
 ## Application containers ##
+[Compare Docker vs Containerd - Docker by itself is more suitable for a developer desktop environment than a production setup](https://earthly.dev/blog/containerd-vs-docker/)
+[Compare Docker vs. Podman - No significant differences between Docker and Podman](https://www.techtarget.com/searchitoperations/tip/Compare-Docker-vs-Podman-for-container-management)
+
 - [Docker](https://www.docker.com/): open platform for developing, shipping, and running applications. Deployment constistence, portable (but not between Linux and Windows Docker), versioning, component reuse, REST API oriented but layered file system, ephemeral instances (persistent data storage is complicated), not native speed performance, limited monitoring - `Apache version 2.0` with `Proprietary` tools `in use`
   * For single app containers/microservices in large numbers
   * Good to try new software or software with multiple dependencies 
   * [Docker Desktop Windows](https://docs.docker.com/desktop/install/windows-install/): Docker Desktop for Windows `in use`
   * [Docker Desktop Linux](https://docs.docker.com/desktop/install/linux-install/): Docker Desktop for Linux `past`
-- [Podman](https://podman.io/): Daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Containers can either be run as root or in rootless mode. `Apache License 2.0` `in use`
+- [Containerd](https://containerd.io/): container runtime with an emphasis on simplicity, robustness and portability. Available as a daemon for Linux and Windows, which can manage the complete container lifecycle of its host system: image transfer and storage, container execution and supervision, low-level storage and network attachments, etc - [CNCF graduated project](https://www.cncf.io/projects/containerd/) - [Github repo](https://github.com/containerd/containerd) - Linux and Windows - `Apache v2.0 license`
+- [Podman](https://podman.io/): Daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Containers can either be run as root or in rootless mode - Linux only - `Apache License 2.0` `in use`
   * [Github](https://github.com/containers/podman)
+

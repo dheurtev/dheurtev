@@ -69,6 +69,7 @@ Often used with Javascript/NodeJS.
 - [NoSQL Booster](https://nosqlbooster.com/): Cross-platform IDE for MongoDB v2.6-6.0, which provides a build-in MongoDB script debugger, SQL query, server monitoring tools. `⚠ Proprietary`
 
 [The SSPL is Not an Open Source License - OSI ](https://opensource.org/node/1099)
+
 Use rethinkDB or [PostgreSQL with jsonb](https://www.postgresql.org/docs/9.5/functions-json.html).
 
 ### Key Value : Redis ###

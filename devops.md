@@ -8,7 +8,6 @@ Tools and packages I used are marked as `past`.
 - [Continuous Integration / Continous Distribution (CICD)](#continuous-integration--continous-distribution-cicd)
   * [Build](#build)
   * [Release](#release)
-  * [Security](#security)
 
 ## Collaborate ##
 **[`^        back to top        ^`](#)**

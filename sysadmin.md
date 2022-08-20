@@ -7,7 +7,7 @@ Tools and packages I used are marked as `past`.
 - [Provision](#provision)
 - [Deploy](#deploy)
 - [Monitor](#monitor)
-- [File Systems](#file-systems)
+- [Storage](#storage)
 - [Scheduling](#scheduling)
 - [Network](#network)
 - [Other tools](#other-tools)
@@ -101,7 +101,7 @@ Source: [IBM](https://www.ibm.com/cloud/blog/chef-ansible-puppet-terraform)
 **[`^        back to top        ^`](#)**
 [My monitoring page](https://github.com/dheurtev/dheurtev/blob/main/monitoring.md)
 
-## File Systems ##
+## Storage ##
 **[`^        back to top        ^`](#)**
 - Scaling with additional disks in a node (scale up) : ZFS with mirror or RAID-Z
 - Scaling between nodes (scale out): CEPH
@@ -110,7 +110,7 @@ Source: [IBM](https://www.ibm.com/cloud/blog/chef-ansible-puppet-terraform)
 
 ## Scheduling ##
 **[`^        back to top        ^`](#)**
-#### Traditional approach #### 
+Traditional approach :
 - BASH + Cron 
 - Python or Node scrips + Cron
 - JAVA + Cron [past]
@@ -118,12 +118,26 @@ Source: [IBM](https://www.ibm.com/cloud/blog/chef-ansible-puppet-terraform)
 
 ## Network ##
 **[`^        back to top        ^`](#)**
-#### Routers ####
+### Routers ###
 - Non Linux Networking / Router distribution : [OPNsense](https://opnsense.org/) : PfSense fork. Can be virtualized. `BSD license`
-#### Virtual Networking ####
+### DNS Servers ###
+#### Local network ####
+- [dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html): lightweight, easy to configure DNS forwarder, designed to provide DNS (and optionally DHCP and TFTP) services to a small-scale network. `GPLv2` or `GPLv3` `in use`
+#### Authoritative or local network ####
+- [Bind9](https://www.isc.org/bind/): Suite of software for interacting with the Domain Name System. Its most prominent component, named, performs both of the main DNS server roles, acting as an authoritative name server for DNS zones and as a recursive resolver in the network. `Mozilla Public License` `in use`
+#### Configurable ####
+- [CoreDNS](https://coredns.io/): DNS server/forwarder, written in Go, that chains plugins. Integrates with Kubernetes and etcd. [Github repo](https://github.com/coredns/coredns). [CNCF graduated project](https://www.cncf.io/projects/coredns/). `Apache 2.0 License` 
+#### DNS as a service ####
+- [Microsoft Azure DNS](https://azure.microsoft.com/en-us/services/dns/)
+- [GCP Cloud DNS](https://cloud.google.com/dns)
+- [AWS Route53](https://aws.amazon.com/route53/?nc1=h_ls)
+- [Cloudflare DNS](https://www.cloudflare.com/dns/) `in use`
+### Virtual Networking ###
 - [Linux Bridge](https://wiki.linuxfoundation.org/networking/bridge): Linux native bridges, bonds, and vlan interfaces. `in use`
 - [Open vSwitch (OVS)](https://www.openvswitch.org/): open-source implementation of a distributed virtual multilayer switch. `Apache License 2.0` `past`
-#### VPN ####
+
+
+### VPN ###
 - [Wireguard](https://www.wireguard.com/): communication protocol and free and open-source software that implements encrypted virtual private networks. Cross-platform. `GPLv2` `in use` 
 - [Tinc](https://www.tinc-vpn.org/): Virtual Private Network (VPN) daemon that uses tunnelling and encryption to create a secure private network between hosts on the Internet. Automatic full mesh routing. Cross-platform. `GPLv2`
 

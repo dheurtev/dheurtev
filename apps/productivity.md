@@ -1,17 +1,19 @@
 # Productivity
 
-- [Messaging - Video Conference](#messaging--video-conference)
+- [Messaging - Video Conference](#messaging---video-conference)
 - [Email](#email)
 - [PDF](#pdf)
 - [Remote Desktop](#remote-desktop)
 
 
 ## Messaging - Video Conference ##
+**[`^        back to top        ^`](#)**
 - [Zoom Cloud Meetings](https://apps.microsoft.com/store/detail/zoom-cloud-meetings/XP99J3KP4XZ4VV) `APP` `⚠ Proprietary` `in use`
 - [Microsoft Teams](https://apps.microsoft.com/store/detail/microsoft-teams/XP8BT8DW290MPQ) `APP` `⚠ Proprietary` `in use`
 - [Cisco Webex](https://www.webex.com/downloads.html) `EXE` `⚠ Proprietary` `past`
 
 ## Email ##
+**[`^        back to top        ^`](#)**
 - Microsoft Mail and Calendar `APP` `⚠ Proprietary` `in use`
 - [Outlook](https://login.live.com) `⚠ Proprietary` `in use`
 - [Gmail](https://mail.google.com) `⚠ Proprietary` `in use`
@@ -19,11 +21,13 @@
 - [Mozilla Thunderbird](https://www.thunderbird.net/) `EXE` `Mozilla Public License` `in use` `⚠ No longer actively developed by Mozilla`
 
 ## PDF ##
+**[`^        back to top        ^`](#)**
 - [Foxit PDF Reader](https://www.foxit.com/pdf-reader/): PDF Reader. `EXE` `APP` `⚠ Proprietary` `in use`
 - [CutePDF Writer](https://www.cutepdf.com/products/cutepdf/writer.asp): PDF Writer - converter and editor. `EXE` `⚠ Proprietary` `in use`
 - [PDF SAM Basic](https://pdfsam.org/download-pdfsam-basic/): open-source cross-platform desktop application to split, merge, extract pages, rotate and mix PDF documents. `EXE` `AGPLv3` `in use`
 
 ## Remote Desktop ##
+**[`^        back to top        ^`](#)**
 - [AnyDesk](https://anydesk.com/en): Remote desktop application. Cross-platform. Proprietary. `EXE` `⚠ Proprietary` `in use`
 - [TeamViewer](https://www.teamviewer.com/fr/): Remote access and remote control computer software, allowing maintenance of computers and other devices. Cross-platform. Proprietary `EXE` `APP` `⚠ Proprietary` `in use`
 - [RustDesk](https://rustdesk.com/): An open-source self-hosted AnyDesk clone. [Server component](https://github.com/rustdesk/rustdesk-server) - [Desktop component](https://github.com/rustdesk/rustdesk) `EXE` `AGPL-3.0`

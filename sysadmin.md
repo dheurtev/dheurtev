@@ -14,10 +14,10 @@ Tools and packages I used are marked as `past`.
 
 ## Best practices ##
 **[`^        back to top        ^`](#)**
-- Provisioning should be automated after the server starts.
-- Avoid manual changes with a GUI as leads to non-reproductible environment.
+- Provisioning should be automated after the server starts (use cloud-init).
 - Infrastructure should be reproductible, disposable, consistent, with no end state
-- Immutable configuration to avoid configuration drift => use containers
+- Avoid manual changes with a GUI as it leads to non-reproductible environment.
+- Declarative configuration to avoid configuration drift => use containers, try to become immutable
 - Do not store passwords in code. Use instead IAM or Vault. 
 - Send and monitor logs
 

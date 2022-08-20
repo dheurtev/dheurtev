@@ -35,6 +35,7 @@ Tools and packages I used are marked as `past`.
 
 ## Application containers ##
 [Compare Docker vs Containerd - Docker by itself is more suitable for a developer desktop environment than a production setup](https://earthly.dev/blog/containerd-vs-docker/)
+
 [Compare Docker vs. Podman - No significant differences between Docker and Podman](https://www.techtarget.com/searchitoperations/tip/Compare-Docker-vs-Podman-for-container-management)
 
 - [Docker](https://www.docker.com/): open platform for developing, shipping, and running applications. Deployment constistence, portable (but not between Linux and Windows Docker), versioning, component reuse, REST API oriented but layered file system, ephemeral instances (persistent data storage is complicated), not native speed performance, limited monitoring - `Apache version 2.0` with `Proprietary` tools `in use`

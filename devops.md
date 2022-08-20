@@ -72,6 +72,7 @@ Cross-platform :
        
 ## Continuous Integration / Continous Distribution (CI/CD) ##
 **[`^        back to top        ^`](#)**
+[CI/CD, the what, why and how - Github](https://resources.github.com/ci-cd/)
 ### Build ###
 #### Build tools #####
 - [Maven](https://maven.apache.org/): build automation tool used primarily for Java projects. can also be used to build and manage projects written in C#, Ruby, Scala, and other languages. `Apache license 2.0`
@@ -84,10 +85,12 @@ Cross-platform :
 ### Test ###
 - [PyTest](https://docs.pytest.org/en/7.1.x/): Python testing framework. `MIT License` `in use`
 - [Selenium](https://www.selenium.dev/): open source umbrella project for a range of tools and libraries aimed at supporting browser automation. `Apache License 2.0` `past`
+
 #### CI/CD Platforms ####
 - [Jenkins](https://www.jenkins.io/): open-source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery. `MIT license`
 - [Circle CI](https://circleci.com/): continuous integration and continuous delivery platform.
 - [Travis CI](https://www.travis-ci.com/): hosted continuous integration service used to build and test software projects hosted on GitHub and Bitbucket.
+- Gitlab
 
 ### Release ###
 
@@ -99,10 +102,15 @@ Cross-platform :
 - [PyPi](https://pypi.org/): repository of software for the Python programming language.
 - [npm](https://www.npmjs.com/): npm is a package manager for the JavaScript programming language
 ##### Private #####
+Create your own docker hub :
+
 - [Docker Registry](https://docs.docker.com/registry/): Docker registry - Docker Project - [https://hub.docker.com/_/registry](docker pull registry) `Apache License 2.0` `in use`
+  * [How to in Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-docker-registry-on-ubuntu-18-04)
+- [GitLab Container Registry](https://docs.gitlab.com/ee/user/packages/container_registry/): Docker registry integrated into Gitlab. Good for Gitlab users CI/CD.
 ##### Docker Registry Management #####
-- [Docker Registry Frontend](https://hub.docker.com/r/konradkleine/docker-registry-frontend/): Browse and modify your Docker registry in a browser. docker pull konradkleine/docker-registry-frontend. `MIT License` `in use`
-- [CraneOperator](https://hub.docker.com/r/parabuzzle/craneoperator): UI for browsing a Registry using the v2 api. `MIT License` `in use` 
+- [Docker Registry Frontend](https://hub.docker.com/r/konradkleine/docker-registry-frontend/): Browse and modify your Docker registry in a browser. *docker pull konradkleine/docker-registry-frontend*. `MIT License` `in use`
+- [CraneOperator](https://hub.docker.com/r/parabuzzle/craneoperator): UI for browsing a Registry using the v2 api. *docker pull parabuzzle/craneoperator* `MIT License` `in use`
+- [Portus](http://port.us.org/): open source authorization service and user interface for docker. Private registry. Enterprise oriented: LDAP, Oauth, OpenID integration. Suse project. `Apache 2.0 License` `⚠ Last updated in 2019`
 
 #### Security ####
 - [HashiCorp Vault](https://www.vaultproject.io/): Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API. Self hosted possible. HashiCorp Project. `Mozilla Public License 2.0`

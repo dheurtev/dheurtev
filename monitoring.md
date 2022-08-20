@@ -1,19 +1,27 @@
-# My picks for monitoring
+# My picks for monitoring (including logging and tracing)
 
 Tools and packages I am using are marked `in use`.
 Tools and packages I used are marked as `past`.
 
 - [Introduction](#introduction)
-- [Event monitoring](#event-monitoring)
+- [Network monitoring](#network-monitoring)
 - [Event Logging](#event-logging)
+- [Ingestion and processing tools](#ingestion-and-processing-tools)
+- [Databases](#databases)
+- [Dashboard](#dashboard)
 - [Monitoring as a service](#monitoring-as-a-service)
 
 ## Introduction ##
+- [Monitoring vs. logging vs. tracing](https://www.bmc.com/blogs/monitoring-logging-tracing/)
 - [Comparison](https://prometheus.io/docs/introduction/comparison/)
 - [ELK stack alternatives](https://betterstack.com/community/comparisons/elk-stack-alternatives/)
 - [Kubernetes monitoring tools](https://medium.com/codex/5-top-kubernetes-log-monitoring-tools-d8c0494deb30)
 
-## Event Monitoring ##
+- **Logging** : track error reporting and related data in a centralized way. can show any discrete event within an application or system, such as a failure, and error, or a state transformation. Sysadmin oriented. High level review. Human warning.
+- **Tracing**: overview to a discrete, event-triggered log, tracing encompasses a much wider, continuous view of an application. following a program’s flow and data progression. Dev oriented. Noisy. Which function, The function’s duration, Parameters passed, How deep into the function the user could get
+- **Monitoring**: instrumenting an application and then collecting, aggregating, and analyzing metrics to improve your understanding of how the system behaves. primarily diagnostic – for instance, alerting developers when a system isn’t work as it should. Dev oriented. Noisy. Human warning.
+
+## Network monitoring ##
 **[`^        back to top        ^`](#)**
 ### Push model ###
 #### Protocols ####
@@ -55,20 +63,45 @@ Following the license change of ELK, the project has been forked.
   * OpenSearch Dashboards : default visualization tool for data in OpenSearch. It also serves as a user interface for many of the OpenSearch plugins, including security, alerting, Index State Management, SQL, and more.
   * Ingest Tools: compatible with a variety of ingestion and processing tools including beats, fluentbit and fluentd.
 
-#### Ingestion and processing tools ####
-- [Fluentd](https://www.fluentd.org/): Unified logging layer. open source data collector, which lets you unify the data collection and consumption [CNCF graduated project](https://www.cncf.io/projects/fluentd/) - [Github Repo](https://github.com/fluent/fluentd) - `Apache 2.0 License`
-  * Input:
-   - SNMP
-   - syslog 
-   - 
+## Ingestion and processing tools ###
+**[`^        back to top        ^`](#)**
+[Fluentd](https://www.fluentd.org/): Unified logging layer. open source data collector, which lets you unify the data collection and consumption [CNCF graduated project](https://www.cncf.io/projects/fluentd/) - [Github Repo](https://github.com/fluent/fluentd) - Cross-platform `Apache 2.0 License`
+- [500+ plugins](https://www.fluentd.org/plugins/all)
+- [Inputs / Sources](https://www.fluentd.org/datasources) include: 
+  * SNMP
+  * syslog 
+  * Apache / Nginx logs
+  * Mobile / Webapp logs
+  * Sensors / IoT (RaspberryPi)
+  * MQTT (plugin)
+  * UFW logs (plugin)
+  * MYSQL / Postgre Slow query logs (plugin)
+  * Zabbix agent (plugin)
+  * SQL (plugin)
+  * Twitter (plugin)
+- [Outputs](https://www.fluentd.org/dataoutputs) include:
+  * Log Management: Elastic Search + Kibana, Splunk, opensearch (plugin) 
+  * Big Data: Hadoop, Mongodb, InfluxDB (plugin), Redis
+  * Data Archiving: File, Amazon AWS S3, Azure storage (plugin), Google cloud storage (plugin)
+  * Pub/Sub Queue: RabbitMQ, Kafka, nats (plugin)
+  * DataWareHouse: BigQuery, MySQL, PostGresql, SQL (plugin)
+  * Monitoring : Zabbix, Graphite, Statsd, Datadog, nagios (plugin), prometheus (plugin)
+  * Notification : Email, Slack, Hipchat, IRC, Twilio, Jabber(plugin), Twitter (plugin) 
+  * Other processor: beats (plugin)
 
-#### Databases ####
+## Databases ##
 [My databases section on time series databases](databases.md#time-series)
 
-#### Dashboard ####
+## Dashboard ##
 **[`^        back to top        ^`](#)**
 - [Graphite](https://graphiteapp.org/): Monitoring tool that runs equally well on cheap hardware or Cloud infrastructure. Teams use Graphite to track the performance of their websites, applications, business services, and networked servers. Store numeric time-series data. Render graphs of this data on demand. Not a collecting agent. [Github repo](https://github.com/tmm1/graphite) `Apache License 2.0`
 - [Grafana](https://grafana.com/): multi-platform open source analytics and interactive visualization web application. `AGPLv3`
+
+## Tracing ##
+[Top distributed tracing tools](https://signoz.io/blog/distributed-tracing-tools/)
+[Zipkin vs. Jaeger (2019)](https://epsagon.com/observability/zipkin-or-jaeger-the-best-open-source-tools-for-distributed-tracing/)
+
+[Jaeger](https://www.jaegertracing.io/): Monitor and troubleshoot transactions in complex distributed systems - [CNCF Graduated project](https://www.cncf.io/projects/jaeger/) - [Github repo](https://github.com/jaegertracing/jaeger) `Apache 2.0 License`
 
 ## Monitoring as a service ##
 **[`^        back to top        ^`](#)**

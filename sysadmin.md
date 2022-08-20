@@ -65,17 +65,29 @@ Tools and packages I used are marked as `past`.
 - [Virt-Manager](https://virt-manager.org/): Desktop virtual machine monitor for KVM/QEMU/Libvirt. `GPLv2` `past`
 
 ### Configuration Management ###
+[Comparison : Chef, Puppet, Ansible, Saltstack](https://www.edureka.co/blog/chef-vs-puppet-vs-ansible-vs-saltstack/)
+[Comparison : Chef, Puppet, Ansible, Saltstack](https://www.liquidweb.com/kb/puppet-salt-chef-ansible-a-comparison/)
+
 #### Traditional server configuration ####
 - Single server : ssh, scp
 - Multiple servers simult : parallel-scp, pssh
 - Script languages : Bash, Python
+#### Infrastructure automation ####
 #### Instance initialization ####
 - [Cloud-init](https://cloud-init.io/): industry standard multi-distribution method for cross-platform cloud instance initialization. Provision server instance by bootstraping a bare minimum OS config (ssh, ssh-key, hostname, fqdn, manage-etc, network, ip, gw), account setup - Canonical Project. Dual licensing `GPLv3` or `Apache 2.0` `in use`
   * [Documentation](https://cloudinit.readthedocs.io/en/latest/)
-#### Server automation tool ####
-- [Ansible](https://www.ansible.com/): agentless automation tool that you install on a single host - Connects to the server via SSH - Apply config changes, configuration of systems, software install, uses yaml documentation. Mutable. Typically to configure VMs or for bare metal operations - RedHat Project. `GPL-3.0 license` `in use`
+#### Procedural style ####
+- [Ansible](https://www.ansible.com/): agentless automation tool that you install on a single host - Connects to the server via SSH - Apply config changes, configuration of systems, software install, uses yaml documentation (admin oriented). Procedural style. Mutable. Pushed configuration. - Ansible uses the SSH (or RDP for Windows) protocols to open a connection to the client servers to execute its sequential commands Typically to configure VMs or for bare metal operations - RedHat Project. `GPL-3.0 license` `in use`
    * [Documentation](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
    * Ansible Tower or Ansible Semaphore : WebUI for Ansible
+- [Chef](https://www.chef.io/), Chef DSL (dev oriented). Master-agent model. Client pulls config. Chef's configuration options consist of Cookbooks and Recipes. The recipes are the definition files that can be combined with attributes, files, libraries, and other recipes to build Cookbooks. These cookbooks can then be used for client deployment. Procedural style. Mutable. [License](https://docs.chef.io/chef_license/). Some `Apache 2.0 License`, some `⚠ Proprietary`.
+#### Declarative style ####
+- [Puppet](https://puppet.com/): software configuration management tool which includes its own declarative language to describe system configuration. It is a model-driven solution that requires limited programming knowledge to use. Master-agent model. Ruby DSL (sysadmin oriented). Client pulls config. Manifest files are fundamentally a set of configurations or tasks that determine how your network and operating system resources (such as services, packages, and files) are configured. Declarative style. Mutable. Open Source Puppet: `Apache` for >2.7.0, GPL for prior versions. Puppet Enterprise: `⚠ Proprietary`.
+
+`Use Terraform for declarative immutable in container orchestration`
+
+![image](https://user-images.githubusercontent.com/4304311/185752513-7fde06dc-b6ad-4849-8bcd-14f897c61693.png)
+Source: [IBM](https://www.ibm.com/cloud/blog/chef-ansible-puppet-terraform)
 
 ## Monitor ##
 [My monitoring page](https://github.com/dheurtev/dheurtev/blob/main/monitoring.md)

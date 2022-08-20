@@ -1,18 +1,18 @@
 # My Favorite software, apps and websites
 
 ## Introduction ##
-- Strongly encourage the use of package managers
-- Favors open source software if possible
-- Uses proprietary software if widely used
-- Follows the categories and sub-categories of [Microsoft Windows development app](https://docs.microsoft.com/en-us/windows/uwp/publish/category-and-subcategory-table)
-- Tagged `in use` if currently using, `past` if past use
+- Strongly encourage you to use package managers
+- Favor open source software if possible
+- Use proprietary software if widely used
+- My classification follows the categories and some sub-categories of [Microsoft Windows development app](https://docs.microsoft.com/en-us/windows/uwp/publish/category-and-subcategory-table)
+- Tagged `in use` if currently using, `past` if past use, `EXE` for executable, `APP` for Windows Store
 
 ## Package managers ##
 ### Windows ###
 - [Chocolatey](https://chocolatey.org/) : Free or paid version - [Github](https://github.com/chocolatey)  `Apache v2 License` `in use`
 - [Scoop](https://scoop.sh/): Free - [Github](https://github.com/ScoopInstaller) `UNLICENSE` or `MIT` `in use`
-
-### Apple ###
+### Apple or Linux ###
+- [https://brew.sh/](Homebrew): The Missing Package Manager for macOS (or Linux)
 
 ## How to search for an app of a software ##
 ### For home users ###
@@ -27,6 +27,7 @@
 #### Linux ####
 - [App store for Linux](https://snapcraft.io/)
 - [Appimage for Linux](https://www.appimagehub.com/browse)
+- [Homebrew packages](https://formulae.brew.sh/formula/)
 ### For business users ###
 - [AlternativeTo](https://alternativeto.net/): To find alternatives. Crowdsources software recommandations.
 - [SaasWorthy](https://www.saasworthy.com/): To find cloud business software (Software-As-a-Service)

@@ -20,7 +20,7 @@ cryptopyutils is a high-level Python3 cryptography library using cryptography wi
 
 ### My interests and work ###
 Tools and technologies I am using, have used or i am considering using. It has a Python bias.
-- [Virtualization and containers technologies](https://github.com/dheurtev/dheurtev/blob/main/virtualization-containers.md)
+- [Virtualization and containers technologies](virtualization-containers.md)
 - [SysAdmin - MAAS/IAAS and Pets management](https://github.com/dheurtev/dheurtev/blob/main/sysadmin.md)
 - [System operations (sysops) - Platform As A Service (PAAS) and cattle management](https://github.com/dheurtev/dheurtev/blob/main/sysops.md)
 - [Monitoring](https://github.com/dheurtev/dheurtev/blob/main/monitoring.md)

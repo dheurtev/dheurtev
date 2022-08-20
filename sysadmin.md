@@ -6,7 +6,7 @@ Tools and technologies i am using, have used or consider using
 - [Provision](https://github.com/dheurtev/dheurtev/blob/main/sysadmin.md#provision)
 - [Deploy](https://github.com/dheurtev/dheurtev/blob/main/sysadmin.md#deploy)
 - [Monitor](https://github.com/dheurtev/dheurtev/blob/main/sysadmin.md#monitor)
-- [Other tools](https://github.com/dheurtev/dheurtev/blob/main/sysadmin.md#other-tools)
+- [Other tools (File systems, scheduling, networking)](https://github.com/dheurtev/dheurtev/blob/main/sysadmin.md#other-tools)
 
 ## Best practices ##
 - Avoid manual changes and GUI as leads to non-reproductible environment.

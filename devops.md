@@ -17,57 +17,74 @@ Tools and packages I used are marked as `past`.
 ### ERP/CRM with project management ###
 - [Odoo](https://www.odoo.com/): suite of business management software tools including, for example, CRM, e-commerce, billing, accounting, manufacturing, warehouse, project management, and inventory management. "Community" version: `GNU Lesser General Public License v3`; "Enterprise" version: `⚠ Proprietary license`.
 
+## Code ##
+### Code Versioning (SCM/VCS) ###
+- [Git](https://git-scm.com/): free and open source software for distributed version control. `GPLv2` `in use` 
+  * [Documentation](https://git-scm.com/docs)
+- [Apache Subversion](https://subversion.apache.org/): software versioning and revision control system distributed as open source under the Apache License. `Apache-2.0` `past`
+- [Mercurial](https://www.mercurial-scm.org/): distributed revision control tool for software developers. `GPLv2` `past`
+#### Code Versioning tools ####
+- [Git for Windows](https://gitforwindows.org/): lightweight, native set of tools that bring the full feature set of the Git SCM to Windows. Offers GNU tools terminal with Cygwin. `GPLv2` `in use`
+- [TortoiseGIT](https://tortoisegit.org/): Windows Shell Interface to Git. `GPLv2` `past`
+- [TortoiseSVN](https://tortoisesvn.net/): Apache Subversion (SVN) client, implemented as a Windows shell extension. `GPLv2` `past`
+- [TortoiseHG](https://tortoisehg.bitbucket.io/): Windows shell extension and a series of applications for the Mercurial distributed revision control system . `GPLv2` `past`
+- [WinMerge](https://winmerge.org/source-code/?lang=en): Open Source differencing and merging tool for Windows. `GPLv2` `past`
 ### Code Repository ###
 - [Gihub](https://github.com/) `in use`
 - [Gitea](https://gitea.io/en-us/): open-source forge software package for hosting software development version control using Git as well as other collaborative features like bug tracking, wikis and code review. Self-hosted Github alternative. `Apache License` `in use`
 - [Bitbucket](https://bitbucket.org/product): Git-based source code repository hosting service owned by Atlassian. Bitbucket offers both commercial plans and free accounts with an unlimited number of private repositories. Git solution for teams using Jira. `⚠ Proprietary` `past`
 - [Gitlab](https://about.gitlab.com): automate the builds, integration, and verification of your code. With SAST, DAST, code quality analysis, plus pipelines. [Self-hosted option](https://docs.gitlab.com/ee/topics/offline/quick_start_guide.html). GitLab Community Edition (CE) is licensed under the terms of the  `MIT License`. GitLab Enterprise Edition (EE) is licensed under `The GitLab Enterprise Edition (EE) license - ⚠ Proprietary license`  `past` 
-
-## Code ##
-### Code Versioning (SCM/VCS) ###
-- [Git](https://git-scm.com/): free and open source software for distributed version control. `GPL 2.0` `in use` 
-  * [Documentation](https://git-scm.com/docs)
-- [Apache Subversion](https://subversion.apache.org/): software versioning and revision control system distributed as open source under the Apache License. `Apache-2.0` `past`
-- [Mercurial](https://www.mercurial-scm.org/): distributed revision control tool for software developers. `GPLv2` `past`
-#### Code Versioning tools ####
-
-- [WinMerge](https://winmerge.org/source-code/?lang=en): Open Source differencing and merging tool for Windows. `GPLv2` `past`
-
-### Development environment ###
+### Terminals ###
+#### Windows ####
+- [Windows Terminal](https://github.com/microsoft/terminal): multi-tabbed terminal emulator that Microsoft has developed for Windows 10 and later as a replacement for Windows Console. `MIT License`. [Windows Store](https://www.microsoft.com/store/apps/9n0dx20hk701) `in use`
 - [WSL/WSL2](https://docs.microsoft.com/en-us/windows/wsl/compare-versions): Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10, Windows 11, and Windows Server 2019. `⚠ Proprietary` `in use`
+- [Cygwin](https://www.cygwin.com/): POSIX-compatible programming and runtime environment that runs natively on Microsoft Windows. `LGPLv3` `in use` (via git for windows)
 - [MobaXTerm](https://mobaxterm.mobatek.net/): Xserver and tabbed SSH client for Windows. Free edition. `⚠ Proprietary` `past`
+
 ### Code Editors ###
-- [Microsoft Visual Studio Code](https://code.visualstudio.com/): VS Code. Source-code editor made by Microsoft for Windows, Linux and macOS. free for private or commercial use.
-- [Notepad ++](https://notepad-plus-plus.org/): Text and source code editor for use with Microsoft Windows. GPLv2. [Use in Linux](https://itsfoss.com/notepad-plus-plus-linux/) - [Linux Clone - notepadqq](https://notepadqq.com/s/)
-- [Atom](https://atom.io/): free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in JavaScript, and embedded Git Control. Cross-platform. MIT license. Sunsetting Dec. 2022. [past]
+- [Microsoft Visual Studio Code - VS Code](https://code.visualstudio.com/): Source-code editor made by Microsoft for Windows, Linux and macOS. free for private or commercial use. `MIT License` `in use`
+- [Notepad ++](https://notepad-plus-plus.org/): Text and source code editor for use with Microsoft Windows. `GPLv2`. `in use`
+  * [Use in Linux](https://itsfoss.com/notepad-plus-plus-linux/)
+  * [Linux Clone - notepadqq](https://notepadqq.com/s/)
+- [Atom](https://atom.io/): free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in JavaScript, and embedded Git Control. Cross-platform. `MIT license`. Sunsetting Dec. 2022. `past`
+- [Geany](https://www.geany.org/): free and open-source lightweight GUI text editor. `GPLv2` `past` 
 
 ### IDE ###
-- [Jetbrains PyCharm CE](https://www.jetbrains.com/pycharm/): Python IDE.
-- [Eclipse](https://www.eclipse.org/): integrated development environment used in computer programming. Eclipse Public License (EPL) [past]
-- [PyDev](https://www.pydev.org/): Python IDE for Eclipse. Eclipse Public License (EPL) [past]
-- [Microsoft Visual Studio](https://visualstudio.microsoft.com/fr/): integrated development environment from Microsoft. Proprietary [past]
-
+#### General ####
+- [Eclipse](https://www.eclipse.org/): integrated development environment used in computer programming. `Eclipse Public License (EPL)` `past`
+- [Microsoft Visual Studio](https://visualstudio.microsoft.com/fr/): integrated development environment from Microsoft. `⚠ Proprietary` `past`
+#### Python ####
+- [Jetbrains PyCharm CE](https://www.jetbrains.com/pycharm/): Python IDE. Community Edition : `Apache 2.0 license` and Professional edition : `⚠ Proprietary`. `in use`
+- [PyDev](https://www.pydev.org/): Python IDE for Eclipse. `Eclipse Public License (EPL)` `past`
+#### Desktop Development  / RAD ####
+Cross-platform :
+- CLI + API + HTML + CSS + JS + Webserver
+- [Qt + Python](https://www.qt.io/qt-for-python): cross-platform. Usable in commercial projects. Dual license`GPL and LGPLv3 open source licenses`. 
+- [Lazarus (Delphi)](https://www.lazarus-ide.org/): free cross-platform visual integrated development environment for rapid application development using the Free Pascal compiler. Usable in commercial projects. `GPL/LGPL` 
+  * [Why Use](https://www.lazarus-ide.org/index.php?page=whyuse) 
+  * [Licensing](https://wiki.lazarus.freepascal.org/licensing#Licensing_relating_to_FPC.2FLazarus_usage)
+- [Delphi Community Edition (Embarcadero)](https://www.embarcadero.com/fr/products/delphi/starter):  integrated development environment (IDE) for rapid application development of desktop, mobile, web, and console software. For freelance developers, startups, students and non-profits. Startups (<5000$ revenus par an). iOS, Android, Windows et MacOS. `⚠ Proprietary` `past` 
 ### API development ###
-- [OpenAPI](https://www.openapis.org/):OpenAPI Specification, previously known as the Swagger Specification, is a specification for machine-readable interface files for describing, producing, consuming, and visualizing RESTful web services [considering]
-- [Swagger](https://swagger.io/): suite of tools for API developers. Apache 2.0 License [considering].
+- [OpenAPI](https://www.openapis.org/):OpenAPI Specification, previously known as the Swagger Specification, is a specification for machine-readable interface files for describing, producing, consuming, and visualizing RESTful web services.
+- [Swagger](https://swagger.io/): suite of tools for API developers. `Apache 2.0 License`.
        
 ## Continuous Integration / Continous Distribution (CI/CD) ##
 ### Build ###
 #### Build tools #####
-- [Maven](https://maven.apache.org/): build automation tool used primarily for Java projects. can also be used to build and manage projects written in C#, Ruby, Scala, and other languages. Apache license 2.0
+- [Maven](https://maven.apache.org/): build automation tool used primarily for Java projects. can also be used to build and manage projects written in C#, Ruby, Scala, and other languages. `Apache license 2.0`
 
 #### Build images ####
 - [Docker (docker build)](https://docs.docker.com/engine/reference/commandline/build/)
 - [Podman (podman build)](https://docs.podman.io/en/latest/markdown/podman-build.1.html)
-- [Packer](https://www.packer.io/): free and open source tool for creating golden images for multiple platforms from a single source configuration. AWS, Docker, Vagrant, VirtualBox, VMWARE, Openstack, etc [considering].
+- [Packer](https://www.packer.io/): free and open source tool for creating golden images for multiple platforms from a single source configuration. AWS, Docker, Vagrant, VirtualBox, VMWARE, Openstack, etc. HashiCorp Project. `Mozilla Public License 2.0`
 
 ### Test ###
-- [PyTest](https://docs.pytest.org/en/7.1.x/): Python testing framework. MIT License.
-- [Selenium](https://www.selenium.dev/): open source umbrella project for a range of tools and libraries aimed at supporting browser automation. Apache License 2.0 [past]
+- [PyTest](https://docs.pytest.org/en/7.1.x/): Python testing framework. `MIT License` `in use`
+- [Selenium](https://www.selenium.dev/): open source umbrella project for a range of tools and libraries aimed at supporting browser automation. `Apache License 2.0` `past`
 #### CI/CD Platforms ####
-- [Jenkins](https://www.jenkins.io/): open-source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery. MIT license. [considering]
-- [Circle CI](https://circleci.com/): continuous integration and continuous delivery platform [considering]
-- [Travis CI](https://www.travis-ci.com/): hosted continuous integration service used to build and test software projects hosted on GitHub and Bitbucket [considering]
+- [Jenkins](https://www.jenkins.io/): open-source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery. `MIT license`
+- [Circle CI](https://circleci.com/): continuous integration and continuous delivery platform.
+- [Travis CI](https://www.travis-ci.com/): hosted continuous integration service used to build and test software projects hosted on GitHub and Bitbucket.
 
 ### Release ###
 
@@ -79,10 +96,10 @@ Tools and packages I used are marked as `past`.
 - [PyPi](https://pypi.org/): repository of software for the Python programming language.
 - [npm](https://www.npmjs.com/): npm is a package manager for the JavaScript programming language
 ##### Private #####
-- [Docker Registry](https://docs.docker.com/registry/): Docker registry - Docker Project - [https://hub.docker.com/_/registry](docker pull registry)
+- [Docker Registry](https://docs.docker.com/registry/): Docker registry - Docker Project - [https://hub.docker.com/_/registry](docker pull registry) `Apache License 2.0` `in use`
 ##### Docker Registry Management #####
-- [Docker Registry Frontend](https://hub.docker.com/r/konradkleine/docker-registry-frontend/): Browse and modify your Docker registry in a browser. docker pull konradkleine/docker-registry-frontend
-- [CraneOperator](https://hub.docker.com/r/parabuzzle/craneoperator): UI for browsing a Registry using the v2 api
+- [Docker Registry Frontend](https://hub.docker.com/r/konradkleine/docker-registry-frontend/): Browse and modify your Docker registry in a browser. docker pull konradkleine/docker-registry-frontend. `MIT License` `in use`
+- [CraneOperator](https://hub.docker.com/r/parabuzzle/craneoperator): UI for browsing a Registry using the v2 api. `MIT License` `in use` 
 
 #### Security ####
-- [HashiCorp Vault](https://www.vaultproject.io/): Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API. Self hosted possible. HashiCorp Project. [Considering]
+- [HashiCorp Vault](https://www.vaultproject.io/): Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API. Self hosted possible. HashiCorp Project. `Mozilla Public License 2.0`

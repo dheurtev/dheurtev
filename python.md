@@ -1,21 +1,22 @@
 # My picks for Python tools and packages
 
-- [Introduction - when to use Python](https://github.com/dheurtev/dheurtev/blob/main/python.md#introduction---when-to-use-python)
-- [Implementations](https://github.com/dheurtev/dheurtev/blob/main/python.md#implementations)
-- [Distributions](https://github.com/dheurtev/dheurtev/blob/main/python.md#distributions)
-- [Development tool chain : scaffold, coding style checkers, test, documentation, repository](https://github.com/dheurtev/dheurtev/blob/main/python.md#development-tool-chain--scaffold-coding-style-checkers-test-documentation-repository)
-- [Virtual Environment, Package installers](https://github.com/dheurtev/dheurtev/blob/main/python.md#virtual-environment-package-installers)
-- [Data Science Libraries](https://github.com/dheurtev/dheurtev/blob/main/python.md#data-science-libraries)
-- [Machine Learning Libraries](https://github.com/dheurtev/dheurtev/blob/main/python.md#machine-learning-libraries)
-- [Data vizualization](https://github.com/dheurtev/dheurtev/blob/main/python.md#data-vizualization)
-- [Natural Language Processing](https://github.com/dheurtev/dheurtev/blob/main/python.md#natural-language-processing)
-- [Image processing](https://github.com/dheurtev/dheurtev/blob/main/python.md#image-processing)
-- [ETL Tools](https://github.com/dheurtev/dheurtev/blob/main/python.md#etl-tools)
-- [Data : ORM, Validation](https://github.com/dheurtev/dheurtev/blob/main/python.md#data--orm-validation)
-- [Web](https://github.com/dheurtev/dheurtev/blob/main/python.md#web)
-- [Other tools](https://github.com/dheurtev/dheurtev/blob/main/python.md#other-tools)
+- [Introduction - when to use Python](#introduction---when-to-use-python)
+- [Implementations](#implementations)
+- [Distributions](#distributions)
+- [Development tool chain : scaffold, coding style checkers, test, documentation, repository](#development-tool-chain--scaffold-coding-style-checkers-test-documentation-repository)
+- [Virtual Environment, Package installers](#virtual-environment-package-installers)
+- [Data Science Libraries](#data-science-libraries)
+- [Machine Learning Libraries](#machine-learning-libraries)
+- [Data vizualization](#data-vizualization)
+- [Natural Language Processing](#natural-language-processing)
+- [Image processing](#image-processing)
+- [ETL Tools](#etl-tools)
+- [Data : ORM, Validation](#data--orm-validation)
+- [Web](#web)
+- [Other tools](#other-tools)
 
 ## Introduction - when to use Python ##
+**[`^        back to top        ^`](#)**
 - Python is an interpreted scripting language 
 - It is great to act as a glue with modules in other languages (C, C++).
 - It is slow if the code is written in pure Python (>x100 times C). PyPy can make it faster (approximately x5).
@@ -33,17 +34,20 @@
   * API, Microservices : ASP.NET core, Spring Boot, express.js, GO
   * Native android/iOS apps: Swift, Java, Kotlin
   * Cross-platform mobile apps: flutter
-  * Desktop GUI: C#, C++
+  * Desktop GUI: C#, C++, Pascal/Delphi (RAD)
 
 ## Implementations ##
+**[`^        back to top        ^`](#)**
 - [Python - CPython](https://www.python.org/): high-level, interpreted, general-purpose programming language. Cross-platform. Python Software Licence. [in use]
 - [PyPy](https://www.pypy.org/): ternative implementation of the Python programming language to CPython. PyPy often runs faster than CPython because PyPy uses a just-in-time compiler. MIT License.
 
 ## Distributions ##
+**[`^        back to top        ^`](#)**
 - [Anaconda](https://anaconda.org/): distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment. Windows, Linux, Mac. Freemium. [in use]
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html): Free minimal installer for conda. It is a small, bootstrap version of Anaconda that includes only conda, Python, the packages they depend on, and a small number of other useful packages, including pip, zlib and a few others. Has access to conda. [in use]
 
 ## Development tool chain : scaffold, coding style checkers, test, documentation, repository ##
+**[`^        back to top        ^`](#)**
 [Packaging Python Projects - Official](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 [How to publish a package on PyPi - Real Python](https://realpython.com/pypi-publish-python-package/)
 [Python package lesson](https://github.com/BillMills/pythonPackageLesson)
@@ -64,6 +68,7 @@
 - [PyPi](https://pypi.org/): repository of software for the Python programming language. [in use]
 
 ## Virtual Environment, Package installers ##
+**[`^        back to top        ^`](#)**
 [Virtual Environment Primer - Real Python](https://realpython.com/python-virtual-environments-a-primer/)
 - conda (see Anaconda or Miniconda)
 - [pip](https://pypi.org/project/pip/): package installer for Python. MIT License. [in use]
@@ -75,6 +80,7 @@
 - [Tox](https://tox.readthedocs.io/): generic virtualenv management and test command line tool. MIT License [in use]
 
 ## Data Science Libraries ##
+**[`^        back to top        ^`](#)**
 - [IPython](https://ipython.org/): command shell for interactive computing in multiple programming languages. BSD License [in use]
 - [Jupyter](https://jupyter.org/): web-based interactive computing platform. modified BSD license. [in use]
 - [Pandas](https://pandas.pydata.org/): software library written for the Python programming language for data manipulation and analysis. New BSD License. [past]
@@ -88,6 +94,7 @@
 - [Numba + Pandas](https://coderzcolumn.com/tutorials/python/guide-to-speed-up-code-involving-pandas-dataframe-using-numba)
 
 ## Machine Learning Libraries ##
+**[`^        back to top        ^`](#)**
 - [Tensor Flow](https://www.tensorflow.org/): Machine Learning. Apache 2.0 License.
 - [Scikit-Learn](https://scikit-learn.org/stable/): Unsupervised learning algorithms. Feature extraction. It features various classification, regression and clustering algorithms including support-vector machines, random forests, gradient boosting, k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciP. New BSD License
 - [PyTorch](https://pytorch.org/): computer vision and natural language processing. BSD License.
@@ -95,25 +102,31 @@
 - [LightGBM](https://lightgbm.readthedocs.io/en/v3.3.2/): redefined elementary models and namely decision trees. MIT License
 
 ## Data vizualization ##
+**[`^        back to top        ^`](#)**
 [Data visualization libraries](https://mode.com/blog/python-data-visualization-libraries/)
 - [Matplotlib](https://matplotlib.org/): plotting library for the Python programming language and its numerical mathematics extension NumPy. [in use] 
 - [Seaborn](https://seaborn.pydata.org/): Python data visualization library based on matplotlib.
 
 ## Natural Language Processing ##
+**[`^        back to top        ^`](#)**
 - [NLTK](https://www.nltk.org/): suite of libraries and programs for symbolic and statistical natural language processing for English. Apache 2.0 License.
 
 ## Image processing ###
+**[`^        back to top        ^`](#)**
 - [Pillow](https://pillow.readthedocs.io/en/stable/): free and open-source additional library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats
 
 ## ETL Tools ##
+**[`^        back to top        ^`](#)**
 - [Bonobo](https://www.bonobo-project.org/) : Data pipelines. lightweight Extract-Transform-Load (ETL) framework for Python 3.5+ [considering]
 - [Mara]](https://github.com/mara) : Halfway between scripts and complex solutions like Airflow [considering]
 
 ## Data : ORM, Validation ##
+**[`^        back to top        ^`](#)**
 - [SQLAlchemy](https://sqlalchemy.org/): Database toolkit, Object Relationship Mapper. Compatible with Flask and Pyramid [in use]
 - [Pydantic](https://pydantic-docs.helpmanual.io/):Data validation and settings management using python type annotations. MIT License.
 
 ## Web ##
+**[`^        back to top        ^`](#)**
 ### HTTP Library ###
 - [urllib3](https://urllib3.readthedocs.io/): powerful, user-friendly HTTP client for Python. MIT License [in use]
 - [Requests](https://pypi.org/project/requests/): HTTP library for the Python programming language. Apache 2.0 License. [in use]
@@ -170,6 +183,7 @@ https://viewflow.medium.com/top-102-most-downloaded-django-packages-in-2020-108f
 - social-auth-app-django
 
 ## Other tools ##
+**[`^        back to top        ^`](#)**
 - [Click](https://click.palletsprojects.com/en/8.1.x/): Beautiful command line interfaces in a composable way with as little code as necessary. BSD License (BSD-3-Clause) [in use]
 - [Six](https://github.com/benjaminp/six): Python 2 and 3 compatibility utilities. MIT License
 - [PyYAML](https://pyyaml.org/): YAML parser and emitter for Python [in use]

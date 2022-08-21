@@ -32,6 +32,18 @@
 - [Wireshark](https://www.wireshark.org/): free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education `EXE` `Free` `GPLv2` `in use`
 - [Nmap](https://nmap.org/): A command line port scanner for Windows, Mac OS, and Linux. `EXE` `Free` `Nmap Public Source License` `in use`
 
+### VPN ###
+- OpenVPN
+- Wireguard
+- ShadowSocks
+- Stunnel
+- StrongSwan
+- TincVPN
+- https://www.softether.org/
+
+### Zero Trust ###
+- https://www.twingate.com/pricing/
+
 ## Remote File Transfer ##
 **[`^        back to top        ^`](#)**
 - [OpenSSH](https://www.openssh.com/): suite of secure networking utilities based on the Secure Shell protocol, which provides a secure channel over an unsecured network in a client–server architecture. [Now available for windows in the windows extra apps](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui). `Free` `BSD, ISC, public domain` `in use`

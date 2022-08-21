@@ -4,7 +4,6 @@
 - [Music production](#music-production)
 - [Photo + video production](#photo--video-production)
 
-
 ## Illustration + graphic design ## 
 **[`^        back to top        ^`](#)**
 
@@ -28,3 +27,6 @@
 ### Live Streaming ###
 - [OBS Studio](https://obsproject.com/): free, open-source, and cross-platform screencasting and streaming app. It is available for Windows, macOS, Linux distributions, and BSD. `EXE` `APP` `Free` `past`
 - [Twitch Studio](https://www.twitch.tv/broadcast/studio): Free streaming software, designed to help new streamers get started. With features like guided setup, customizable templates, and integrated alerts. `EXE` `SAAS` `⚠ Proprietary`
+
+### 3D ###
+- [Blender](https://www.blender.org/): free and open-source 3D computer graphics software tool set used for creating animated films, visual effects, art, 3D-printed models, motion graphics, interactive 3D applications, virtual reality, and, formerly, video games. `EXE` `APP` `Free` `GPLv2`

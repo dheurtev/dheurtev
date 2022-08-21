@@ -3,9 +3,9 @@
 - [Messaging - Video Conference](#messaging---video-conference)
 - [Web browsers](#web-browsers)
 - [Email](#email)
+- [Office Suite](#office-suite)
 - [PDF](#pdf)
 - [Remote Desktop](#remote-desktop)
-
 
 ## Messaging - Video Conference ##
 **[`^        back to top        ^`](#)**
@@ -32,7 +32,7 @@
 ## Office Suite ##
 - [Microsoft Office](https://www.office.com/): `EXE` `⚠ Proprietary` `in use` `pay`
 - [Libre Office](https://www.libreoffice.org/): free and open-source office productivity software suite, a project of The Document Foundation. It was forked in 2010 from OpenOffice.org, an open-sourced version of the earlier StarOffice. `EXE` `Mozilla Public License 2.0` `in use`
-- [WPS Office free](https://www.wps.com/): Office suite for Microsoft Windows, macOS, Linux, iOS, Android, and HarmonyOS developed by Zhuhai-based Chinese software developer Kingsoft. Often on tablets and phones. `⚠ Proprietary` Personal: Freeware; Business: Commercial `in use`
+- [WPS Office free](https://www.wps.com/): Office suite for Microsoft Windows, macOS, Linux, iOS, Android, and HarmonyOS developed by Zhuhai-based Chinese software developer Kingsoft. Often on tablets and phones. `APP` `EXE` `⚠ Proprietary` Personal: Freeware; Business: Commercial `in use`
 
 ## PDF ##
 **[`^        back to top        ^`](#)**

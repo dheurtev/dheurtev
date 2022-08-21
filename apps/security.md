@@ -21,4 +21,12 @@
 - [Veracrypt](https://www.veracrypt.fr/en/Home.html): free and open-source utility for on-the-fly encryption. Creates a virtual encrypted disk that works just like a regular disk but within a file (volume). [TrueCrypt 7.1.a](http://truecrypt.sourceforge.net/) successor. Cross-platform. Multi-licensed as `Apache License 2.0` and `TrueCrypt License 3.0`. `EXE` `in use`
 - Microsoft Bitlocker `⚠ Proprietary` `past`
 
+### Encryption ###
+- Gpg4win
+
+### Tor ###
+- Tor Browser
+- Tor
+- Torifier
+
 

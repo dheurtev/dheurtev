@@ -21,10 +21,13 @@
 ## Video ##
 **[`^        back to top        ^`](#)**
 
-## Video player and Streaming ##
+### Video player ###
 - [VLC](https://www.videolan.org/):  free and open-source, portable, cross-platform media player software and streaming media server developed by the VideoLAN project. VLC is available for desktop operating systems and mobile platforms, such as Android, iOS and iPadOS. `EXE` `APP` `Free` `GPLv2` `in use`
 
-## Editing and transcoding ##
+### Streaming ###
+- [Twitch](https://www.twitch.tv/): American video live streaming service. `EXE` `APP` `Free` `⚠ Proprietary` `in use`
+
+### Editing and transcoding ###
 - [Avidemux](http://avidemux.sourceforge.net/): free and open-source software application for non-linear video editing and transcoding multimedia files. `EXE` `APP` `Free` `GPLv2.0` `Past`
 
 

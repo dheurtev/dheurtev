@@ -34,6 +34,14 @@
 - [Libre Office](https://www.libreoffice.org/): free and open-source office productivity software suite, a project of The Document Foundation. It was forked in 2010 from OpenOffice.org, an open-sourced version of the earlier StarOffice. `EXE` `Mozilla Public License 2.0` `in use`
 - [WPS Office free](https://www.wps.com/): Office suite for Microsoft Windows, macOS, Linux, iOS, Android, and HarmonyOS developed by Zhuhai-based Chinese software developer Kingsoft. Often on tablets and phones. `APP` `EXE` `⚠ Proprietary` Personal: Freeware; Business: Commercial `in use`
 
+## Note taking ##
+Online notepad
+- [Evernote](https://evernote.com/) `APP` `EXE` `⚠ Proprietary` `in use`
+- [Microsoft OneNote](https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app) `APP` `EXE` `⚠ Proprietary` `in use`
+
+## Bibliography - Research ##
+- [Zotero](https://www.zotero.org/): free and open-source reference management software to manage bibliographic data and related research materials. `EXE` `AGPL` `past`
+
 ## PDF ##
 **[`^        back to top        ^`](#)**
 - [Foxit PDF Reader](https://www.foxit.com/pdf-reader/): PDF Reader. `EXE` `APP` `⚠ Proprietary` `in use`

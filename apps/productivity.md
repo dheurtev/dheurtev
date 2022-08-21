@@ -16,7 +16,7 @@
 ## Web browsers ##
 **[`^        back to top        ^`](#)**
 - [Google Chrome](https://www.google.com/chrome/) Chromium based `EXE` `⚠ Proprietary` `in use`
-- [Microsoft Edge](https://www.microsoft.com/en-us/edge) Chromium based `APP` `⚠ Proprietary` `in use`
+- [Microsoft Edge](https://www.microsoft.com/en-us/edge) Chromium based `APP` `EXE` `⚠ Proprietary` `in use`
 - [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) `APP` `EXE` `Mozillar Public License` `in use`
 - [Opera](https://www.opera.com/) Chromium based `APP` `EXE` `⚠ Proprietary` `in use`
 - [Chromium](https://www.chromium.org/) free and open-source web browser project, mainly developed and maintained by Google. For developers. `BSD-3`

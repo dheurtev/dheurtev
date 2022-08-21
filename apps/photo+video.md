@@ -24,6 +24,10 @@
 ### Video player ###
 - [VLC](https://www.videolan.org/):  free and open-source, portable, cross-platform media player software and streaming media server developed by the VideoLAN project. VLC is available for desktop operating systems and mobile platforms, such as Android, iOS and iPadOS. `EXE` `APP` `Free` `GPLv2` `in use`
 
+### Media centers ###
+- Kodi
+- Plex
+
 ### Streaming ###
 - [Twitch](https://www.twitch.tv/): American video live streaming service. `EXE` `APP` `Free` `⚠ Proprietary` `in use`
 

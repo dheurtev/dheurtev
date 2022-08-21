@@ -6,6 +6,10 @@
 - IDampiere
 - Dolibarr
 - Apache OfBiz: https://ofbiz.apache.org/
+### EDMS ###
+- Mayan EDMS
+- Alfresco Community Edition
+## Groupware ##
 ## Collaboration ## 
 ## Data + analytics ## 
 ## File management ## 

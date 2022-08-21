@@ -1,16 +1,47 @@
 # Business
 
+- [Introduction](#introduction)
 - [Data + Analytics](#data-analytics)
 - [ERP/CRM](#erp-crm)
 - [File Management (EDMS)](#file-management)
-- [Groupware - Collaboration](#groupware-collaboration)
+- [Collaboration](#collaboration)
 - [Legal - HR](#legal-hr)
 - [Project Management](#project-management)
 
+
+## Collaboration ##
+**[`^        back to top        ^`](#)**
+https://en.wikipedia.org/wiki/Collaborative_software
+Favor multiple collaboration tools with API and OAuth / Open ID integration, to avoid lock-in 
+
+- Electronic calendars (also called time management software) — schedule events and automatically notify and remind group members
+- Project management systems — schedule, track, and chart the steps in a project as it is being completed
+- Online proofing — share, review, approve, and reject web proofs, artwork, photos, or videos between designers, customers, and clients
+- Workflow systems — collaborative management of tasks and documents within a knowledge-based business process
+- Knowledge management systems — collect, organize, manage, and share various forms of information
+- Enterprise bookmarking — collaborative bookmarking engine to tag, organize, share, and search enterprise data
+- Prediction markets — let a group of people predict together the outcome of future events
+- Extranet systems (sometimes also known as 'project extranets') — collect, organize, manage and share information associated with the delivery of a project (e.g.: the - construction of a building)
+- Intranet systems — quickly share company information to members within a company via Internet (e.g.: marketing and product info)[27]
+- Social software systems — organize social relations of groups
+- Online spreadsheets — collaborate and share structured data and information
+- Client portals — interact and share with your clients in a private online environmen
+
+Some [open source groupware](https://medevel.com/top-8-open-source-groupware-systems/)
+### Software as a service ###
+[Google Workspace's (formerly G Suite)](https://workspace.google.com/): secure collaboration and productivity apps for businesses of all sizes. Includes Gmail, Drive, Meet and more. `⚠ Proprietary` `⚠ Lock-in experience` `in use` 
+### On Premise ###
+
+- [Kollab Community](https://www.kolab.org/): Free Software groupware solution for Email communications, Events & Appointments, Contacts and more. It supports mixed client environments because of an open storage format, and the use of well-established, standard protocols such as IMAP and SMTP - [Github](https://github.com/kolab-groupware) `Free` `Various open source license` `⚠ Legacy - DO NOT USE - Last version 2016`
+
 ## Data + analytics ## 
+**[`^        back to top        ^`](#)**
 [My page on Data Science](../data-science.md)
 
 ## ERP/CRM ##
+**[`^        back to top        ^`](#)**
+ERP - CRM solutions are strongly subject to vendor lock-in.
+Some open sources choices listed below :
 [ERP Tiers](https://erpmeaning.com/erp/erp-tiers-1-2-3/)
 [Open Source ERP](https://dynamics.folio3.com/blog/open-source-enterprise-resource-planning-software/)
 ### Tier 1 ###
@@ -28,12 +59,16 @@
 ### Time + expenses ###
 
 ## File management ## 
+**[`^        back to top        ^`](#)**
+EDMS/ECM solutions are strongly subject to vendor lock-in.
+Some open sources choices listed below :
 ### EDMS ###
-- [Mayan EDMS]
-- [Alfresco Community Edition]
-
-## Groupware, Collaboration ##
+- [Mayan EDMS](https://www.mayan-edms.com/): web-based free/libre document management system for managing documents within an organization. advanced search, tagging and categorization capabilities. Automate you business processes with workflows. OCR. REST API. `Free` `Apache 2.0 License` `past` `RECOMMENDED`
+### ECM ###
+- [Alfresco Community Edition](https://www.alfresco.com/ecm-software). an open source Enterprise Content Management (ECM) system that manages all the content within an enterprise and provides the services and controls that manage this content. Enterprise supported edition availbale, no support on free version. Note from experience : Scriptable in Python  `Free` `LGPL` `past` 
 
 ## Legal, HR ##
+**[`^        back to top        ^`](#)**
 
 ## Project management ## 
+**[`^        back to top        ^`](#)**

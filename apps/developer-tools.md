@@ -55,6 +55,7 @@ https://arcai.com/what-is-netcut/
 ## Remote File Transfer ##
 **[`^        back to top        ^`](#)**
 - [OpenSSH](https://www.openssh.com/): suite of secure networking utilities based on the Secure Shell protocol, which provides a secure channel over an unsecured network in a client–server architecture. [Now available for windows in the windows extra apps](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui). `Free` `BSD, ISC, public domain` `in use`
+- Cyberduck
 - [Bitvise SSH Client](https://www.bitvise.com/): Secure remote access software developed for Windows and available as a client and server. `EXE` `Free 
 `⚠ Proprietary` `in use`
 - [WinSCP](https://winscp.net/eng/download.php): WinSCP is a free and open-source SFTP, SCP, Amazon S3, WebDAV, and FTP client for Windows. `EXE` `Free` `GPLv3` `in use` (`APP` `Pay`) `in use`

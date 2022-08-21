@@ -1,10 +1,10 @@
 # Productivity
 
 
-- [Flowcharts Diagrams](#flowcharts-diagrams)
-- [File Storage Sharing](#file-storage-and-sharing)
-
 - [Email](#email)
+- [File Storage Sharing](#file-storage)
+- [File Transfer](#file-transfer)
+- [Flowcharts Diagrams](#flowcharts-diagrams)
 - [Note taking](#note-taking)
 - [Office Suite](#office-suite)
 - [PDF](#pdf)
@@ -23,7 +23,7 @@
 - [Yahoo mail](https://mail.yahoo.com) `Free` `⚠ Proprietary` `in use` `⚠ legacy`
 - [Mozilla Thunderbird](https://www.thunderbird.net/) `EXE` `Free` `Mozilla Public License` `in use` `⚠ legacy - No longer actively developed by Mozilla`
 
-## File Storage and Sharing ##
+## File Storage ##
 **[`^        back to top        ^`](#)**
 
 ### File Storage ###
@@ -36,6 +36,8 @@
 - Dropbox
 - Syncthing
 
+## File Transfer ##
+**[`^        back to top        ^`](#)**
 ### File sharing and transfer ###
 - qTorrent
 - Share.it

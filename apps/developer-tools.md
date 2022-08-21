@@ -19,6 +19,10 @@
 ### Automation ###
 - [AutoHotKey](https://www.autohotkey.com/): free and open-source custom scripting language for Microsoft Windows, initially aimed at providing easy keyboard shortcuts or hotkeys, fast macro-creation and software automation that allows users of most levels of computer skill to automate repetitive tasks in any Windows application `EXE` `APP` `Free` `GPLv2` `in use`
 - [Auto Mouse Click](https://www.murgee.com/auto-mouse-click/) : Automate Mouse clicks. Define Click Type, X Co-ordinates, Y-Co-ordinate and specify whether to return mouse cursor back to original location and automate mouse clicks. `EXE` `Freemium`
+
+### Multimedia ###
+- [FFMPEG](https://ffmpeg.org/): free and open-source software project consisting of a suite of libraries and programs for handling video, audio, and other multimedia files and streams. At its core is the command-line ffmpeg tool itself, designed for processing of video and audio files. `EXE` `Free` `LGPLv2.1` `in use`
+
 ## Networking ##
 **[`^        back to top        ^`](#)**
 - WiFi Analyzer: `APP` `Free` `⚠ Proprietary` `in use`

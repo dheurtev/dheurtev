@@ -2,7 +2,7 @@
 
 
 - [Email](#email)
-- [File Storage Sharing](#file-storage)
+- [File Storage - File Sync](#file-storage-sync)
 - [File Transfer](#file-transfer)
 - [Flowcharts Diagrams](#flowcharts-diagrams)
 - [Note taking](#note-taking)
@@ -23,7 +23,7 @@
 - [Yahoo mail](https://mail.yahoo.com) `Free` `⚠ Proprietary` `in use` `⚠ legacy`
 - [Mozilla Thunderbird](https://www.thunderbird.net/) `EXE` `Free` `Mozilla Public License` `in use` `⚠ legacy - No longer actively developed by Mozilla`
 
-## File Storage ##
+## File Storage Sync ##
 **[`^        back to top        ^`](#)**
 
 ### File Storage ###

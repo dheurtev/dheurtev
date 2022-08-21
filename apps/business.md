@@ -1,5 +1,7 @@
 # Business
 ## Accounting + finance ##
+- Gnucash
+
 ## Collaboration ## 
 ## CRM ##
 ## Data + analytics ## 

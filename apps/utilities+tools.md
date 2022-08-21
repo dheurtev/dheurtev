@@ -21,6 +21,9 @@
 - [Don't Sleep](https://softwareok.com/?seite=Microsoft/DontSleep/History): Small portable Windows program to prevent system shutdown, Standby, Hibernate, Turn Off and Restart. `EXE` `Free` `MIT License`
 - [WakeMeOnLan](https://www.nirsoft.net/utils/wake_on_lan.html): easily turn on one or more computers remotely by sending Wake-on-LAN (WOL) packet to the remote computers. `EXE` `Freeware` `past`
 - [ProcessHacker](https://processhacker.sourceforge.io/): TaskMgr alternative. A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware. `EXE` `Free` `GPLv3`
+#### Clipboard replacement ####
+- Clip Clip
+- Ditto
 ### Hardware monitoring ###
 - CPUID
 - CPU-Z
@@ -61,10 +64,14 @@
 ### File Cleaning ###
 - [CCleaner](https://www.ccleaner.com/): utility used to clean potentially unwanted files and invalid Windows Registry entries from a computer. `APP` `EXE` `Freemium` `⚠ Proprietary` `in use`
 - BleachIt
+- Eraser
+- File shredder
 ### Drive Utils ###
 - [WinDirStat](https://windirstat.net/): free and open-source graphical disk usage analyzer for Microsoft Windows. `EXE` `Free` `GPLv2` `in use`
 ### File Recovery ###
 - [Recuva](https://www.ccleaner.com/recuva): undeletion program for Windows. `EXE` `Freemium` `⚠ Proprietary` `past`
 ### ISO drive mounting ###
 - [WinCDEmu](https://wincdemu.sysprogs.org/): open-source CD/DVD/BD emulator - a tool that allows you to mount optical disc images by simply clicking on them in Windows Explorer. `EXE` `Free` `GPL` `past`.
-
+### Filesystems reader ###
+- Linux Reader: https://www.diskinternals.com/linux-reader/
+- ext2FSD

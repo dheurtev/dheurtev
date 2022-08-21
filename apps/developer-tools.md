@@ -63,6 +63,12 @@ https://arcai.com/what-is-netcut/
 **[`^        back to top        ^`](#)**
 ## Servers ## 
 **[`^        back to top        ^`](#)**
+### FTP Server ###
+- Filezilla
+### HTTP server ###
+- MiniShare - Minimal HTTP Server
+
+
 ## Utilities ## 
 **[`^        back to top        ^`](#)**
 ## Web hosting ## 

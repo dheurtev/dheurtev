@@ -6,6 +6,7 @@
 - Use proprietary software if widely used
 - My classification follows the categories and some sub-categories of [Microsoft Windows development app](https://docs.microsoft.com/en-us/windows/uwp/publish/category-and-subcategory-table)
 - Tagged `in use` if currently using, `past` if past use, `EXE` for executable, `APP` for Windows Store
+- `⚠ NO LIABILITY FOR YOUR CHOICES`
 
 ## Package managers ##
 ### Windows ###

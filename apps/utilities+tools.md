@@ -5,7 +5,6 @@
 - [Remote file transfer](#remote-file-transfer)
 - [Backup + manage](#backup--manage)
 - [File managers (disk utils, compression, recovery, file systems)](#file-managers)
-- [Network troubleshooting](#network-troubleshooting)
 
 ## System ##
 **[`^        back to top        ^`](#)**
@@ -67,12 +66,4 @@
 - [Recuva](https://www.ccleaner.com/recuva): undeletion program for Windows. `EXE` `Freemium` `⚠ Proprietary` `past`
 ### ISO drive mounting ###
 - [WinCDEmu](https://wincdemu.sysprogs.org/): open-source CD/DVD/BD emulator - a tool that allows you to mount optical disc images by simply clicking on them in Windows Explorer. `EXE` `Free` `GPL` `past`.
-
-## Network troubleshooting ##
-**[`^        back to top        ^`](#)**
-- WiFi Analyzer: `APP` `Free` `⚠ Proprietary` `in use`
-- [AngryIPScanner](https://angryip.org/): open-source and cross-platform network scanner designed to be fast and simple to use. `EXE` `Free` `GPLv2` `in use`
-- [Wireshark](https://www.wireshark.org/): free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education `EXE` `Free` `GPLv2` `in use`
-- [Nmap](https://nmap.org/): A command line port scanner for Windows, Mac OS, and Linux. `EXE` `Free` `Nmap Public Source License` `in use`
-
 

@@ -24,6 +24,9 @@
 ## Video player and Streaming ##
 - [VLC](https://www.videolan.org/):  free and open-source, portable, cross-platform media player software and streaming media server developed by the VideoLAN project. VLC is available for desktop operating systems and mobile platforms, such as Android, iOS and iPadOS. `EXE` `APP` `Free` `GPLv2` `in use`
 
+## Editing and transcoding ##
+- [Avidemux](): free and open-source software application for non-linear video editing and transcoding multimedia files. `EXE` `APP` `Free` `GPLv2.0` `Past`
+
 
 
 

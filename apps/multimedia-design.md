@@ -1,8 +1,8 @@
 # Multimedia design
 
-- [Illustration + graphic design](#illustration---graphic-design)
+- [Illustration + graphic design](#illustration--graphic-design)
 - [Music production](#music-production)
-- [Photo + video production](#photo---video-production)
+- [Photo + video production](#photo--video-production)
 
 
 ## Illustration + graphic design ## 

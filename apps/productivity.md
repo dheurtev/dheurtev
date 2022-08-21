@@ -1,6 +1,7 @@
 # Productivity
 
 - [Messaging - Video Conference](#messaging---video-conference)
+- [Web browsers](#web-browsers)
 - [Email](#email)
 - [PDF](#pdf)
 - [Remote Desktop](#remote-desktop)
@@ -11,6 +12,14 @@
 - [Zoom Cloud Meetings](https://apps.microsoft.com/store/detail/zoom-cloud-meetings/XP99J3KP4XZ4VV) `APP` `⚠ Proprietary` `in use`
 - [Microsoft Teams](https://apps.microsoft.com/store/detail/microsoft-teams/XP8BT8DW290MPQ) `APP` `⚠ Proprietary` `in use`
 - [Cisco Webex](https://www.webex.com/downloads.html) `EXE` `⚠ Proprietary` `past`
+
+## Web browsers ##
+**[`^        back to top        ^`](#)**
+- [Google Chrome](https://www.google.com/chrome/) Chromium based `EXE` `⚠ Proprietary` `in use`
+- [Microsoft Edge](https://www.microsoft.com/en-us/edge) Chromium based `APP` `⚠ Proprietary` `in use`
+- [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) `APP` `EXE` `Mozillar Public License` `in use`
+- [Opera](https://www.opera.com/) Chromium based `APP` `EXE` `⚠ Proprietary` `in use`
+- [Chromium](https://www.chromium.org/) free and open-source web browser project, mainly developed and maintained by Google. For developers. `BSD-3`
 
 ## Email ##
 **[`^        back to top        ^`](#)**
@@ -35,3 +44,5 @@
 - [X2GO (NX)](https://wiki.x2go.org/doku.php):  open source remote desktop software for Linux that uses a modified NX 3 protocol. Cross-Platform. `EXE` `GPLv2` `past`
 - [TightVNC](https://www.tightvnc.com/): TightVNC is a free and open-source remote desktop software server and client application for Linux and Windows. A server for macOS is available under a commercial source code license only. `EXE` `GPLv2` `past`
 - [UltraVNC](https://uvnc.com/): open-source remote-administration/remote-desktop-software utility. The client supports Microsoft Windows and Linux but the server only supports Windows. `EXE` `GPLv2` `past`
+
+

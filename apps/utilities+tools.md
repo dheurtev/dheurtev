@@ -2,7 +2,6 @@
 
 - [System](#system)
 - [Print, scan](#print--scan)
-- [Remote file transfer](#remote-file-transfer)
 - [Backup + manage](#backup--manage)
 - [File managers (disk utils, compression, recovery, file systems)](#file-managers)
 
@@ -24,13 +23,6 @@
 - Canon Inkjet Print Utility `APP` `Free` `⚠ Proprietary` `in use`
 - Samsung Printer Experience `APP` `Free` `⚠ Proprietary` `in use`
 - Microsoft Windows Scan `APP` `⚠ Proprietary` `in use`
-
-## Remote File Transfer ##
-**[`^        back to top        ^`](#)**
-- [Bitvise SSH Client](https://www.bitvise.com/): Secure remote access software developed for Windows and available as a client and server. `EXE` `Free `⚠ Proprietary` `in use`
-- [WinSCP](https://winscp.net/eng/download.php): WinSCP is a free and open-source SFTP, SCP, Amazon S3, WebDAV, and FTP client for Windows. `EXE` `Free` `GPLv3` `in use` (`APP` `Pay`)
-- [FileZilla client](https://filezilla-project.org/): free and open-source, cross-platform FTP application. FTP, FTPS, SFTP. `EXE` `Free` `GPLv2` `past`
-- [Putty](https://www.putty.org/):free and open-source terminal emulator, serial console and network file transfer application. It supports several network protocols, including SCP, SSH, Telnet, rlogin, and raw socket connection. `APP` `EXE` `Free ``MIT License` `past`
 
 ## Backup + manage ## 
 **[`^        back to top        ^`](#)**

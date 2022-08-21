@@ -63,9 +63,11 @@ Online notepad
 
 ## Remote Desktop ##
 **[`^        back to top        ^`](#)**
+- [Google Chrome Remote Desktop](https://remotedesktop.google.com/?pli=1): `Chrome extension` `⚠ Proprietary` `Free` `in use`
 - [AnyDesk](https://anydesk.com/en): Remote desktop application. Cross-platform. Proprietary. `EXE` `⚠ Proprietary` `Free or pay` `in use`
-- [TeamViewer](https://www.teamviewer.com/fr/): Remote access and remote control computer software, allowing maintenance of computers and other devices. Cross-platform. Proprietary `EXE` `APP` `⚠ Proprietary` `Free or pay` `in use`
+- [TeamViewer](https://www.teamviewer.com/fr/): Remote access and remote control computer software, allowing maintenance of computers and other devices. Cross-platform. Proprietary `EXE` `APP` `⚠ Proprietary` `Free or pay` `past`
 - [RustDesk](https://rustdesk.com/): An open-source self-hosted AnyDesk clone. [Server component](https://github.com/rustdesk/rustdesk-server) - [Desktop component](https://github.com/rustdesk/rustdesk) `EXE` `AGPL-3.0` `Free`
+- [FreeRDP](https://www.freerdp.com/): free implementation of the Remote Desktop Protocol (RDP). `EXE` `Apache license` `Free`
 - [NoMachine](https://www.nomachine.com/fr): NX. proprietary cross-platform software application for remote access, desktop sharing, virtual desktop and file transfer between computers. Cross-Platform. `EXE` `Freeware` `past`
 - [X2GO (NX)](https://wiki.x2go.org/doku.php):  open source remote desktop software for Linux that uses a modified NX 3 protocol. Cross-Platform. `EXE` `GPLv2` `Free` `past`
 - [TightVNC](https://www.tightvnc.com/): TightVNC is a free and open-source remote desktop software server and client application for Linux and Windows. A server for macOS is available under a commercial source code license only. `EXE` `GPLv2` `Free` `past`

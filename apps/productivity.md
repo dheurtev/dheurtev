@@ -2,8 +2,8 @@
 
 
 - [Email](#email)
+- [File Sharing](#file-sharing)
 - [File Storage - File Sync](#file-storage-sync)
-- [File Transfer](#file-transfer)
 - [Flowcharts Diagrams](#flowcharts-diagrams)
 - [Note taking](#note-taking)
 - [Office Suite](#office-suite)
@@ -23,6 +23,21 @@
 - [Yahoo mail](https://mail.yahoo.com) `Free` `⚠ Proprietary` `in use` `⚠ legacy`
 - [Mozilla Thunderbird](https://www.thunderbird.net/) `EXE` `Free` `Mozilla Public License` `in use` `⚠ legacy - No longer actively developed by Mozilla`
 
+## File Sharing ##
+**[`^        back to top        ^`](#)**
+
+### File downloader ###
+- Internet Download Manager
+
+### File sharing ###
+- qTorrent
+- Share.it
+- Sharedrop
+
+### Large file transfer between users ###
+- SendGB.com (<5GB, no account, password protection, encryption)
+- WeTransfer.com
+
 ## File Storage Sync ##
 **[`^        back to top        ^`](#)**
 
@@ -35,18 +50,6 @@
 - Microsoft OneDrive
 - Dropbox
 - Syncthing
-
-## File Transfer ##
-**[`^        back to top        ^`](#)**
-### File sharing and transfer ###
-- qTorrent
-- Share.it
-- Internet Download Manager
-- Sharedrop
-
-### Large file transfer between users ###
-- SendGB.com (<5GB, no account, password protection, encryption)
-- WeTransfer.com
 
 ## Flowcharts Diagrams ##
 **[`^        back to top        ^`](#)**

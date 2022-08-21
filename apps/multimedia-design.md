@@ -23,5 +23,8 @@
 - [Shotcut](https://shotcut.org/): free and open-source, cross-platform video editing app for FreeBSD, Linux, macOS and Windows. `EXE` `APP` `Free` `GPLv3.0` `in use`
 
 ### Post Production ###
-- [Adobe After Effects](https://www.adobe.com/products/aftereffects.html): Digital visual effects, motion graphics, and compositing application developed by Adobe Systems and used in the post-production process of film making, video games and television production. Among other things, After Effects can be used for keying, tracking, compositing, and animation. `EXE` `SAAS`  `Trialware` `⚠ Proprietary`
+- [Adobe After Effects](https://www.adobe.com/products/aftereffects.html): Digital visual effects, motion graphics, and compositing application developed by Adobe Systems and used in the post-production process of film making, video games and television production. Among other things, After Effects can be used for keying, tracking, compositing, and animation. `EXE` `SAAS` `Trialware` `⚠ Proprietary`
 
+### Live Streaming ###
+- [Twitch Studio](https://www.twitch.tv/broadcast/studio): Free streaming software, designed to help new streamers get started. With features like guided setup, customizable templates, and integrated alerts. `EXE` `SAAS` `⚠ Proprietary`
+- [OBS Studio](https://obsproject.com/): free, open-source, and cross-platform screencasting and streaming app. It is available for Windows, macOS, Linux distributions, and BSD. `EXE` `APP` `Free` `past`

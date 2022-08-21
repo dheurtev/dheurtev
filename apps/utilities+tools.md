@@ -15,6 +15,9 @@
 - Microsoft Windows Clock `APP` `⚠ Proprietary` `in use`
 - Microsoft Windows Voice Recorder `APP` `⚠ Proprietary` `in use`
 - NVIDIA Control Panel `APP` `⚠ Proprietary` `in use`
+- [Don't Sleep](https://softwareok.com/?seite=Microsoft/DontSleep/History): Small portable Windows program to prevent system shutdown, Standby, Hibernate, Turn Off and Restart. `EXE` `Free` `MIT License`
+- [WakeMeOnLan](https://www.nirsoft.net/utils/wake_on_lan.html): easily turn on one or more computers remotely by sending Wake-on-LAN (WOL) packet to the remote computers. `EXE` `Freeware` `past`
+- [ProcessHacker](https://processhacker.sourceforge.io/): TaskMgr alternative. A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware. `EXE` `Free` `GPLv3`
 
 ## Print, scan ##
 **[`^        back to top        ^`](#)**
@@ -65,10 +68,11 @@
 ### ISO drive mounting ###
 - [WinCDEmu](https://wincdemu.sysprogs.org/): open-source CD/DVD/BD emulator - a tool that allows you to mount optical disc images by simply clicking on them in Windows Explorer. ``GPL` `past`.
 
-
 ## Network troubleshooting ##
 **[`^        back to top        ^`](#)**
 - WiFi Analyzer: `APP` `⚠ Proprietary` `in use`
 - [AngryIPScanner](https://angryip.org/): open-source and cross-platform network scanner designed to be fast and simple to use. `EXE` `GPLv2` `in use`
 - [Wireshark](https://www.wireshark.org/): free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education `EXE` `GPLv2` `in use`
 - [Nmap](https://nmap.org/): A command line port scanner for Windows, Mac OS, and Linux. `EXE` `Nmap Public Source License` `in use`
+
+

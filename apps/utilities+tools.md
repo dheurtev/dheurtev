@@ -31,6 +31,8 @@
 #### Multiple monitors / screen splitting ####
 - Display fusion
 - https://www.digitaltrends.com/computing/how-to-split-your-screen-in-windows-10
+#### Android Emulator ####
+- Bluestacks
 
 ### Hardware monitoring ###
 - CPUID
@@ -48,7 +50,6 @@
 - [Macrium Reflect Free](https://www.macrium.com/reflectfree):Free backup, cloning and imaging software for Windows. `EXE` `Free` `⚠ Proprietary` `in use`
 - [Clonezilla](https://clonezilla.org/): open source drive cloning, drive imaging and system deployment utilities used to simplify deployment and maintenance of a group of computers. `EXE` `Free` `GPL` `past`
 ### Backup ###
-- Cyberduck
 - [Rclone](https://rclone.org/): rsync for cloud storage. open source, multi threaded, command line computer program to manage or migrate content on cloud and other high latency storage. Its capabilities include sync, transfer, crypt, cache, union, compress and mount. The rclone website lists supported backends including S3, and Google Drive. `EXE` `Free` `MIT License` `past`
 - [Duplicati](https://www.duplicati.com/): Free backup software to store encrypted backups online. Works with standard protocols like FTP, SSH, WebDAV as well as popular services like Backblaze B2, Tardigrade, Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, hubiC. Incremental backup. Automatic Backup. `EXE` `Free` `LGPL License` `past` 
 - [Bacula](https://www.bacula.org/): Open Source, computer programs that permit you (or the system administrator) to manage backup, recovery, and verification of computer data across a network of computers of different kinds. `EXE` `Free` `AGPL License` `past`

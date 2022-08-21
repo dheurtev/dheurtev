@@ -22,8 +22,6 @@ Tools and packages I used are marked as `past`.
 - [Bugzilla](https://www.bugzilla.org/): open-source web-based bug tracking tool developed by Mozilla. `Mozilla Public License` `past`
 - [Trac](https://trac.edgewall.org/): open-source, web-based project management, and issue tracking tool. Git, Subversion, Wiki. `GPL-2.0-or-later` `past`
 - [Redmine](https://www.redmine.org/): open-source, web-based project management, and issue tracking tool. Some of the main features of Redmine are multiple projects support, flexible role-based access control, flexible issue tracking system, Gantt chart, multi-language support, issue creation via email, etc. SVN, CVS, Git, Mercurial, Bazaar and Darcs. `GPLv2`
-### ERP/CRM with project management ###
-- [Odoo](https://www.odoo.com/): suite of business management software tools including, for example, CRM, e-commerce, billing, accounting, manufacturing, warehouse, project management, and inventory management. "Community" version: `GNU Lesser General Public License v3`; "Enterprise" version: `⚠ Proprietary license`.
 
 ## Code ##
 **[`^        back to top        ^`](#)**

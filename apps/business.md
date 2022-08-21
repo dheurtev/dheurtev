@@ -30,9 +30,6 @@ Favor multiple collaboration tools with API and OAuth / Open ID integration, to 
 Some [open source groupware](https://medevel.com/top-8-open-source-groupware-systems/)
 ### Software as a service ###
 [Google Workspace's (formerly G Suite)](https://workspace.google.com/): secure collaboration and productivity apps for businesses of all sizes. Includes Gmail, Drive, Meet and more. `⚠ Proprietary` `⚠ Lock-in experience` `in use` 
-### On Premise ###
-
-- [Kollab Community](https://www.kolab.org/): Free Software groupware solution for Email communications, Events & Appointments, Contacts and more. It supports mixed client environments because of an open storage format, and the use of well-established, standard protocols such as IMAP and SMTP - [Github](https://github.com/kolab-groupware) `Free` `Various open source license` `⚠ Legacy - DO NOT USE - Last version 2016`
 
 ## Data + analytics ## 
 **[`^        back to top        ^`](#)**

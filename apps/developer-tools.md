@@ -4,13 +4,13 @@
 - [Design tools](#design-tools)
 - [Development kits](#development-kits)
 - [Networking](#networking)
-- [Remote File Transfer](#remote-file-transfer)
+- [Penetration testing](#penetration-testing)
 - [Remote Desktop](#remote-desktop)
+- [Remote File Transfer](#remote-file-transfer)
 - [Reference + training](#reference-training)
 - [Servers](#servers)
 - [Utilities](#utilities)
 - [Web hosting](#web-hosting)
-- [Penetration testing](#penetration-testing)
 
 ## Database ##
 **[`^        back to top        ^`](#)**
@@ -54,6 +54,10 @@ https://arcai.com/what-is-netcut/
 ### Zero Trust ###
 - https://www.twingate.com/pricing/
 
+## Penetration testing ##
+**[`^        back to top        ^`](#)**
+- Metasploit: computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development.
+
 ## Remote Desktop ##
 **[`^        back to top        ^`](#)**
 - [Google Chrome Remote Desktop](https://remotedesktop.google.com/?pli=1): `Chrome extension` `Free` `⚠ Proprietary` `in use`
@@ -93,6 +97,3 @@ https://arcai.com/what-is-netcut/
 **[`^        back to top        ^`](#)**
 - XAMPP
 - Hugo
-## Penetration testing ##
-**[`^        back to top        ^`](#)**
-- Metasploit: computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development.

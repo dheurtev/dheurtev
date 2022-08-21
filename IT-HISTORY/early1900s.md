@@ -23,14 +23,18 @@ https://en.wikipedia.org/wiki/Telegraphy
 
 ## Computers ##
 ### Evolution of Mainframes ###
-- 1911: IBM is founded  
+- 1911: **IBM** is founded  
 IBM was founded in 1911 in Endicott, New York, as the Computing-Tabulating-Recording Company (CTR) and was renamed "International Business Machines" in 1924.
 https://en.wikipedia.org/wiki/IBM
 
-- 1945: "ENIAC (/ˈɛniæk/; Electronic Numerical Integrator and Computer)[1][2] was the first programmable, electronic, general-purpose digital computer, completed in 1945.[3][4] There were other computers that had these features, but the ENIAC had all of them in one package. It was Turing-complete and able to solve "a large class of numerical problems" through reprogramming.[5][6]
+- 1945: "**ENIAC** (/ˈɛniæk/; Electronic Numerical Integrator and Computer)[1][2] was the first programmable, electronic, general-purpose digital computer, completed in 1945.[3][4] There were other computers that had these features, but the ENIAC had all of them in one package. It was Turing-complete and able to solve "a large class of numerical problems" through reprogramming.[5][6]
 ENIAC was designed and primarily used to calculate artillery firing tables for the United States Army's Ballistic Research Laboratory (which later became a part of the Army Research Laboratory),[7][8] its first program was a study of the feasibility of the thermonuclear weapon.[9][10]"
 "Related to ENIAC's role in the hydrogen bomb was its role in the Monte Carlo method becoming popular. Scientists involved in the original nuclear bomb development used massive groups of people doing huge numbers of calculations ("computers" in the terminology of the time) to investigate the distance that neutrons would likely travel through various materials. John von Neumann and Stanislaw Ulam realized the speed of ENIAC would allow these calculations to be done much more quickly.[55] The success of this project showed the value of Monte Carlo methods in science.[56]"
 https://en.wikipedia.org/wiki/ENIAC
+
+### Evolution of hardware ###
+- **Birth of transistor (1947) - Bell Labs**: While the device was constructed a week earlier, Brattain's notes describe the first demonstration to higher-ups at Bell Labs on the afternoon of 23 December 1947, often given as the birthdate of the transistor. What is now known as the "p–n–p point-contact germanium transistor" operated as a speech amplifier with a power gain of 18 in that trial. John Bardeen, Walter Houser Brattain, and William Bradford Shockley were awarded the 1956 Nobel Prize in physics for their work.
+https://en.wikipedia.org/wiki/Semiconductor_device
 
 ### Some computer Applications ###
 - Census

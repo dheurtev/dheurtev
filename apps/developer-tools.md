@@ -31,6 +31,11 @@
 - [AngryIPScanner](https://angryip.org/): open-source and cross-platform network scanner designed to be fast and simple to use. `EXE` `Free` `GPLv2` `in use`
 - [Wireshark](https://www.wireshark.org/): free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education `EXE` `Free` `GPLv2` `in use`
 - [Nmap](https://nmap.org/): A command line port scanner for Windows, Mac OS, and Linux. `EXE` `Free` `Nmap Public Source License` `in use`
+- Advanced IP Scanner
+- psping
+- http-console
+- NetCut is a Tool helping Discover who is on your wireless/Wire network instantly. (IP/Device name/MAC address), Iphone/Xbox/Wii/PS3andriod/andriod
+https://arcai.com/what-is-netcut/
 
 ### VPN ###
 - OpenVPN

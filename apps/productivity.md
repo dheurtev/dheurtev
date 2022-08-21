@@ -53,6 +53,7 @@ Online notepad
 - [Foxit PDF Reader](https://www.foxit.com/pdf-reader/): PDF Reader. `EXE` `APP` `Freemium` `⚠ Proprietary` `in use`
 - [CutePDF Writer](https://www.cutepdf.com/products/cutepdf/writer.asp): PDF Writer - converter and editor. `EXE` `Freemium` `⚠ Proprietary` `in use`
 - [PDF SAM Basic](https://pdfsam.org/download-pdfsam-basic/): open-source cross-platform desktop application to split, merge, extract pages, rotate and mix PDF documents. `EXE` `Free` `AGPLv3` `in use`
+- PDF creator
 - Adobe Acrobat Pro : PDF manipulation, edition
 
 ## Flowcharts Diagrams ##
@@ -73,5 +74,3 @@ Online notepad
 - [X2GO (NX)](https://wiki.x2go.org/doku.php):  open source remote desktop software for Linux that uses a modified NX 3 protocol. Cross-Platform. `EXE` `Free` `GPLv2` `past`
 - [TightVNC](https://www.tightvnc.com/): TightVNC is a free and open-source remote desktop software server and client application for Linux and Windows. A server for macOS is available under a commercial source code license only. `EXE` `Free` `GPLv2` `past`
 - [UltraVNC](https://uvnc.com/): open-source remote-administration/remote-desktop-software utility. The client supports Microsoft Windows and Linux but the server only supports Windows. `EXE` `Free` `GPLv2` `past`
-
-

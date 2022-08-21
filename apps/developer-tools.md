@@ -4,6 +4,8 @@
 - [Design tools](#design-tools)
 - [Development kits](#development-kits)
 - [Networking](#networking)
+- [Remote File Transfer](#remote-file-transfer)
+- [Remote Desktop](#remote-desktop)
 - [Reference + training](#reference-training)
 - [Servers](#servers)
 - [Utilities](#utilities)
@@ -52,6 +54,18 @@ https://arcai.com/what-is-netcut/
 ### Zero Trust ###
 - https://www.twingate.com/pricing/
 
+## Remote Desktop ##
+**[`^        back to top        ^`](#)**
+- [Google Chrome Remote Desktop](https://remotedesktop.google.com/?pli=1): `Chrome extension` `Free` `⚠ Proprietary` `in use`
+- [AnyDesk](https://anydesk.com/en): Remote desktop application. Cross-platform. Proprietary. `EXE` `Freemium` `⚠ Proprietary` `in use`
+- [TeamViewer](https://www.teamviewer.com/fr/): Remote access and remote control computer software, allowing maintenance of computers and other devices. Cross-platform. Proprietary `EXE` `APP` `Freemium` `⚠ Proprietary` `past`
+- [RustDesk](https://rustdesk.com/): An open-source self-hosted AnyDesk clone. [Server component](https://github.com/rustdesk/rustdesk-server) - [Desktop component](https://github.com/rustdesk/rustdesk) `EXE` `Free` `AGPL-3.0` 
+- [FreeRDP](https://www.freerdp.com/): free implementation of the Remote Desktop Protocol (RDP). `EXE` `Apache license` `Free`
+- [NoMachine](https://www.nomachine.com/fr): NX. proprietary cross-platform software application for remote access, desktop sharing, virtual desktop and file transfer between computers. Cross-Platform. `EXE` `Freeware` `past`
+- [X2GO (NX)](https://wiki.x2go.org/doku.php):  open source remote desktop software for Linux that uses a modified NX 3 protocol. Cross-Platform. `EXE` `Free` `GPLv2` `past`
+- [TightVNC](https://www.tightvnc.com/): TightVNC is a free and open-source remote desktop software server and client application for Linux and Windows. A server for macOS is available under a commercial source code license only. `EXE` `Free` `GPLv2` `past`
+- [UltraVNC](https://uvnc.com/): open-source remote-administration/remote-desktop-software utility. The client supports Microsoft Windows and Linux but the server only supports Windows. `EXE` `Free` `GPLv2` `past`
+
 ## Remote File Transfer ##
 **[`^        back to top        ^`](#)**
 - [OpenSSH](https://www.openssh.com/): suite of secure networking utilities based on the Secure Shell protocol, which provides a secure channel over an unsecured network in a client–server architecture. [Now available for windows in the windows extra apps](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui). `Free` `BSD, ISC, public domain` `in use`
@@ -61,7 +75,6 @@ https://arcai.com/what-is-netcut/
 - [WinSCP](https://winscp.net/eng/download.php): WinSCP is a free and open-source SFTP, SCP, Amazon S3, WebDAV, and FTP client for Windows. `EXE` `Free` `GPLv3` `in use` (`APP` `Pay`) `in use`
 - [FileZilla client](https://filezilla-project.org/): free and open-source, cross-platform FTP application. FTP, FTPS, SFTP. `EXE` `Free` `GPLv2` `past`
 - [Putty](https://www.putty.org/):free and open-source terminal emulator, serial console and network file transfer application. It supports several network protocols, including SCP, SSH, Telnet, rlogin, and raw socket connection. `APP` `EXE` `Free ``MIT License` `past`
-
 
 ## Reference + training ## 
 **[`^        back to top        ^`](#)**

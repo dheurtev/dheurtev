@@ -11,6 +11,7 @@
 - [Phone Sync](#phone-sync)
 - [Research](#research)
 - [Search](#search)
+- [Text sharing](#text-sharing)
 - [Video Conference](#video-conference)
 - [Web browsers](#web-browsers)
 
@@ -83,6 +84,10 @@ Online notepad
 ## Search ##
 **[`^        back to top        ^`](#)**
 - DocFetcher
+
+## Text sharing ##
+**[`^        back to top        ^`](#)**
+- Pastebin
 
 ## Video Conference ##
 **[`^        back to top        ^`](#)**

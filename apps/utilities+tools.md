@@ -70,6 +70,12 @@
 **[`^        back to top        ^`](#)**
 ### Compression ###
 - [7-zip](https://www.7-zip.org/): a file archiver with a high compression ratio. `APP` `EXE` `Free` `GNU LGPL license` `in use`
+### Bulk renaming ###
+- Bulk rename: Batch renaming
+### Fast File Copy ####
+- Fastcopy
+- Teracopy
+- Robocopy
 ### File Cleaning ###
 - [CCleaner](https://www.ccleaner.com/): utility used to clean potentially unwanted files and invalid Windows Registry entries from a computer. `APP` `EXE` `Freemium` `⚠ Proprietary` `in use`
 - BleachIt

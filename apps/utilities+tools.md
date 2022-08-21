@@ -18,12 +18,20 @@
 - Canon Inkjet Print Utility `APP` `Free` `⚠ Proprietary` `in use`
 - Samsung Printer Experience `APP` `Free` `⚠ Proprietary` `in use`
 - NVIDIA Control Panel `APP` `Free` `⚠ Proprietary` `in use`
+#### Waking up / Sleeping ####
 - [Don't Sleep](https://softwareok.com/?seite=Microsoft/DontSleep/History): Small portable Windows program to prevent system shutdown, Standby, Hibernate, Turn Off and Restart. `EXE` `Free` `MIT License`
 - [WakeMeOnLan](https://www.nirsoft.net/utils/wake_on_lan.html): easily turn on one or more computers remotely by sending Wake-on-LAN (WOL) packet to the remote computers. `EXE` `Freeware` `past`
+#### Tasks management / Scheduling ####
 - [ProcessHacker](https://processhacker.sourceforge.io/): TaskMgr alternative. A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware. `EXE` `Free` `GPLv3`
+#### Desktop icon organizer ####
+- Stardock Fences: Desktop icons organizer
 #### Clipboard replacement ####
-- Clip Clip
-- Ditto
+- Clip Clip: Clipboard replacement
+- Ditto: Clipboard replacement
+#### Multiple monitors / screen splitting ####
+- Display fusion
+- https://www.digitaltrends.com/computing/how-to-split-your-screen-in-windows-10
+
 ### Hardware monitoring ###
 - CPUID
 - CPU-Z

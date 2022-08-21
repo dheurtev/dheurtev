@@ -27,6 +27,10 @@
 ### Streaming ###
 - [Twitch](https://www.twitch.tv/): American video live streaming service. `EXE` `APP` `Free` `⚠ Proprietary` `in use`
 
+### Downloader ###
+- [youtube-dl](https://youtube-dl.org/): free and open source download manager for video and audio from YouTube and over 1,000 other video hosting websites. `EXE` `Free` `Unlicense` `past`
+- [youtube-dl gui](https://mrs0m30n3.github.io/youtube-dl-gui/): Gui for youtube-dl. `EXE` `Free` `Unlicense` `past`
+
 ### Editing and transcoding ###
 - [Avidemux](http://avidemux.sourceforge.net/): free and open-source software application for non-linear video editing and transcoding multimedia files. `EXE` `APP` `Free` `GPLv2.0` `Past`
 

@@ -62,7 +62,7 @@ https://en.wikipedia.org/wiki/ENIAC
 https://en.wikipedia.org/wiki/ITU-T
 
 ## Consumer Electronics - Automation ##
-### TV ###
+### TV : Black and White TV - First NTSC Standard ###
 The first NTSC standard was developed in 1941 and had no provision for color.
 The National Television System Committee was established in 1940 by the United States Federal Communications Commission (FCC) to resolve the conflicts between companies over the introduction of a nationwide analog television system in the United States. In March 1941, the committee issued a technical standard for black-and-white television that built upon a 1936 recommendation made by the Radio Manufacturers Association (RMA). Technical advancements of the vestigial side band technique allowed for the opportunity to increase the image resolution. The NTSC selected 525 scan lines as a compromise between RCA's 441-scan line standard (already being used by RCA's NBC TV network) and Philco's and DuMont's desire to increase the number of scan lines to between 605 and 800.[5] The standard recommended a frame rate of 30 frames (images) per second, consisting of two interlaced fields per frame at 262.5 lines per field and 60 fields per second. Other standards in the final recommendation were an aspect ratio of 4:3, and frequency modulation (FM) for the sound signal (which was quite new at the time).
 

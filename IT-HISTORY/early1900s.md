@@ -10,6 +10,9 @@ https://en.wikipedia.org/wiki/Fax
 - By the late 1940s, **radiofax** receivers were sufficiently miniaturized to be fitted beneath the dashboard of Western Union's "Telecar" telegram delivery vehicles.
 https://en.wikipedia.org/wiki/Fax
 
+- In 1945 British science fiction writer Arthur C. Clarke proposed a worldwide communications system which would function by means of three satellites equally spaced apart in earth orbit.[39][40] This was published in the October 1945 issue of the Wireless World magazine and won him the Franklin Institute's Stuart Ballantine Medal in 1963.[41][42]
+https://en.wikipedia.org/wiki/Satellite_television
+
 ## Networking ##
 **Global telegraph networks**
 "Getting a cable across the Atlantic Ocean proved much more difficult. The Atlantic Telegraph Company, formed in London in 1856, had several failed attempts. A cable laid in 1858 worked poorly for a few days (sometimes taking all day to send a message despite the use of the highly sensitive mirror galvanometer developed by William Thomson (the future Lord Kelvin) before being destroyed by applying too high a voltage. Its failure and slow speed of transmission prompted Thomson and Oliver Heaviside to find better mathematical descriptions of long transmission lines.[47] The company finally succeeded in 1866 with an improved cable laid by SS Great Eastern, the largest ship of its day, designed by Isambard Kingdom Brunel.[48][47]

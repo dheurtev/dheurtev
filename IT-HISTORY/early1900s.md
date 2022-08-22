@@ -58,6 +58,13 @@ https://en.wikipedia.org/wiki/Semiconductor_device
 By the end of its operation in 1956, ENIAC contained 18,000 vacuum tubes, 7,200 crystal diodes, 1,500 relays, 70,000 resistors, 10,000 capacitors, and approximately 5,000,000 hand-soldered joints. It weighed more than 30 short tons (27 t), was roughly 8 ft × 3 ft × 100 ft (2 m × 1 m × 30 m) in size, occupied 1,800 sq ft (170 m2) and consumed 150 kW of electricity.[20][21] This power requirement led to the rumor that whenever the computer was switched on, lights in Philadelphia dimmed.[22] Input was possible from an IBM card reader and an IBM card punch was used for output. These cards could be used to produce printed output offline using an IBM accounting machine, such as the IBM 405. While ENIAC had no system to store memory in its inception, these punch cards could be used for external memory storage.[23] 
 https://en.wikipedia.org/wiki/ENIAC
 
+- Trackball
+
+The trackball, a related pointing device, was invented in 1946 by Ralph Benjamin as part of a post-World War II-era fire-control radar plotting system called the Comprehensive Display System (CDS). Benjamin was then working for the British Royal Navy Scientific Service. Benjamin's project used analog computers to calculate the future position of target aircraft based on several initial input points provided by a user with a joystick. Benjamin felt that a more elegant input device was needed and invented what they called a "roller ball" for this purpose.[8][9]
+
+The device was patented in 1947,[9] but only a prototype using a metal ball rolling on two rubber-coated wheels was ever built, and the device was kept as a military secret.[8]
+
+
 ### Evolution of uses ###
 - Census
 - Nuclear Weapon

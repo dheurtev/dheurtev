@@ -41,11 +41,11 @@
 
 ## Categories ##
 - [Photo + Video](https://alternativeto.net/list/33642/photo-video/)
+- [Illustation + Graphic Design](https://alternativeto.net/list/33643/illustration--graphic-design/)
 ----
 - [Books + reference](books+reference.md)
 - [Business](business.md)
 - [Developer tools](developer-tools.md)
-- [Multimedia design](multimedia-design.md)
 - [Music](music.md)
 - [Productivity](productivity.md)
 - [Security](security.md)

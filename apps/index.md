@@ -40,14 +40,10 @@
 - [RPM find](https://rpmfind.net/)
 
 ## Categories ##
+- [Photo+Video]([https://alternativeto.net/list/33640/installed-apps-windows/](https://alternativeto.net/list/33642/photo-video/))
 - [Books + reference](books+reference.md)
 - [Business](business.md)
 - [Developer tools](developer-tools.md)
-- [Education](education.md)
-- [Entertainment](entertainment.md)
-- [Food + dining](food+dining.md)
-- [Games](games.md)
-- [Government + politics](government+politics.md)
 - [Health + fitness](health+fitness.md)
 - [Kids + family](kids+family.md)
 - [Lifestyle](lifestyle.md)

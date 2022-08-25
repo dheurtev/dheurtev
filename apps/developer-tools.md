@@ -125,12 +125,13 @@ Used to push device OS and firmware updates. Insecure (local network only).
 - [Metasploit](https://www.metasploit.com/): computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development.
 Framework: `BSD`, Community/Express/Pro: `⚠ Proprietary` `past`
 ### VPN ###
-- Wireguard
-- OpenVPN
-- ShadowSocks
-- Stunnel
-- StrongSwan
-- TincVPN
+- [Wireguard](https://www.wireguard.com/): communication protocol and free and open-source software that implements encrypted virtual private networks. faster, simpler, leaner. cross-platform.
+`Free` `GPLv2`
+- [OpenVPN](): virtual private network system that implements techniques to create secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities. It implements both client and server applications. `Free` `GPLv2` `in use``
+- [ShadowSocks]()
+- [Stunnel]()
+- [StrongSwan]()
+- [TincVPN]()
 - https://www.softether.org/
 ### Zero Trust ###
 - https://www.twingate.com/pricing/

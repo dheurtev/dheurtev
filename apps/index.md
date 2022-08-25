@@ -13,7 +13,7 @@
 - [Chocolatey](https://chocolatey.org/) : Free or paid version - [Github](https://github.com/chocolatey)  `Apache v2 License` `in use`
 - [Scoop](https://scoop.sh/): Free - [Github](https://github.com/ScoopInstaller) `UNLICENSE` or `MIT` `in use`
 ### Apple or Linux ###
-- [https://brew.sh/](Homebrew): The Missing Package Manager for macOS (or Linux)
+- [Homebrew](https://brew.sh/): The Missing Package Manager for macOS (or Linux)
 
 ## How to search for an app of a software ##
 ### For home users ###

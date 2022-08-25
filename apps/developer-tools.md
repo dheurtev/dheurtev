@@ -139,8 +139,8 @@ Framework: `BSD`, Community/Express/Pro: `⚠ Proprietary` `past`
 **[`^        back to top        ^`](#)**
 - [Pastebin](https://pastebin.com/): number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time. Registration required. `SaaS` `Free` `⚠ Proprietary`
 - [Hastebin](https://hastebin.com/about.md): self-hosted pastebin alternative. `SaaS` `Free` `MIT License`
- * [haste-client](https://github.com/toptal/haste-client)
- * [haste-server](https://github.com/toptal/haste-server)
+   * [haste-client](https://github.com/toptal/haste-client)
+   * [haste-server](https://github.com/toptal/haste-server)
 - [Privatebin](https://github.com/PrivateBin/PrivateBin): self-hosted minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted and decrypted in the browser. [Github Repo](). `SaaS` `Free` `Zlib/libpng license` `GPLv2 license components`
 
 ## Utilities ## 

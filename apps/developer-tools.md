@@ -100,7 +100,7 @@ Used to push device OS and firmware updates. Insecure (local network only).
 - [Advanced IP Scanner](https://www.advanced-ip-scanner.com/): scanner to analyze LAN. shows network devices, gives access to shared folders, can remotely switch computers off. runs as a portable edition. `EXE` `Free ` `⚠ Proprietary` `past`
 - [psping](https://docs.microsoft.com/en-us/sysinternals/downloads/psping): Microsoft tool. implements Ping functionality, TCP ping, latency and bandwidth measurement. `EXE` `⚠ Proprietary` `in use`
 - [http-console](https://github.com/cloudhead/http-console): simple and intuitive interface for speaking the HTTP protocol. `NPM package` `Free` `Apache v2 License` `past`
-- [NetCut](https://arcai.com/) is a tool helping discover who is on your wireless/Wire network instantly (IP/Device name/MAC address). Windows/Mac. Android version - [What is netcut](https://arcai.com/what-is-netcut/) - [Download](https://arcai.com/download_netcut/) - `past`
+- [NetCut](https://arcai.com/) is a tool helping discover who is on your wireless/Wire network instantly (IP/Device name/MAC address). Windows/Mac. Android version - [What is netcut](https://arcai.com/what-is-netcut/) - [Download](https://arcai.com/download_netcut/) - `EXE` `past`
 
 ## Reference + training ## 
 **[`^        back to top        ^`](#)**
@@ -124,23 +124,24 @@ Used to push device OS and firmware updates. Insecure (local network only).
 ### Penetration testing ###
 - [Metasploit](https://www.metasploit.com/): computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development.
 Framework: `BSD`, Community/Express/Pro: `⚠ Proprietary` `past`
-### VPN ###
-- [Wireguard](https://www.wireguard.com/): communication protocol and free and open-source software that implements encrypted virtual private networks. faster, simpler, leaner. cross-platform.
-`Free` `GPLv2`
-- [OpenVPN](): virtual private network system that implements techniques to create secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities. It implements both client and server applications. `Free` `GPLv2` `in use``
-- [ShadowSocks]()
-- [Stunnel]()
-- [StrongSwan]()
-- [TincVPN]()
-- https://www.softether.org/
 ### Zero Trust ###
-- https://www.twingate.com/pricing/
+- [Twingate](https://www.twingate.com): Zero-trust cross-platform solution. secure network between your servers, computers, and cloud instances. Even when separated by firewalls or subnets. `EXE`  `Freemium` `⚠ Proprietary` `RECOMMENDED`
+### VPN / Proxies ###
+- [Wireguard](https://www.wireguard.com/): communication protocol and free and open-source software that implements encrypted virtual private networks. faster, simpler, leaner. cross-platform. `EXE` `Free` `GPLv2` `in use` `RECOMMENDED`
+- [OpenVPN](https://openvpn.net/): virtual private network system that implements techniques to create secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities. It implements both client and server applications. `EXE` `Free` `GPLv2` `in use``
+- [ShadowSocks](https://shadowsocks.org/): fast tunnel proxy that helps you bypass firewalls. Free and open-source encryption protocol project. [Github Repo](https://github.com/shadowsocks). `Free` `GPLv3` `in use`
+- [Stunnel](https://www.stunnel.org/): proxy designed to add TLS encryption functionality to existing clients and servers without any changes in the programs' code. `EXE` `Free` `GPLv2` `in use`
+- [StrongSwan](https://strongswan.org/): multiplatform IPsec implementation. [Github Repo](https://github.com/strongswan/strongswan) `EXE` `AndroidApp` `Free` `GPLv2` `in use`
+- [TincVPN](https://www.tinc-vpn.org/): open-source, self-routing, mesh networking protocol and software implementation used for compressed and encrypted virtual private networks. NAT traversal. `EXE` `Free` `GPLv2`
+- [SotfEther](https://www.softether.org/): Open-Source Free Cross-platform Multi-protocol VPN Program, as an academic project from University of Tsukuba. Supports Ethernet over HTTPS, L2TP/IPSEC, MS-SSTP(PPP over HTTPS), OpenVPN. `EXE` `Free` `Apache V2`.
 
 ## Text sharing ##
 **[`^        back to top        ^`](#)**
-- Pastebin
-- Hastebin (self hosted)
-- Privatebin (self hosted)
+- [Pastebin](https://pastebin.com/): number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time. Registration required. `SaaS` `Free` `⚠ Proprietary`
+- [Hastebin](https://hastebin.com/about.md): self-hosted pastebin alternative. `SaaS` `Free` `MIT License`
+ * [haste-client](https://github.com/toptal/haste-client)
+ * [haste-server](https://github.com/toptal/haste-server)
+- [Privatebin](https://github.com/PrivateBin/PrivateBin): self-hosted minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted and decrypted in the browser. [Github Repo](). `SaaS` `Free` `Zlib/libpng license` `GPLv2 license components`
 
 ## Utilities ## 
 **[`^        back to top        ^`](#)**

@@ -17,11 +17,7 @@ Tools and packages I used are marked as `past`.
 - [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat): text-based chat system for instant messaging. IRC is designed for group communication in discussion forums, called channels, but also allows one-on-one communication via private messages as well as chat and data transfer, including file sharing.
 
 ### Application lifecycle management ###
-- [Jira](https://www.atlassian.com/software/jira):  issue tracking product developed by Atlassian that allows bug tracking and agile project management. Atlassian Project. `⚠ Proprietary` `Past`
-- [Taiga](https://www.taiga.io/): free and open-source project management tool. `MPL 2.0`
-- [Bugzilla](https://www.bugzilla.org/): open-source web-based bug tracking tool developed by Mozilla. `Mozilla Public License` `past`
-- [Trac](https://trac.edgewall.org/): open-source, web-based project management, and issue tracking tool. Git, Subversion, Wiki. `GPL-2.0-or-later` `past`
-- [Redmine](https://www.redmine.org/): open-source, web-based project management, and issue tracking tool. Some of the main features of Redmine are multiple projects support, flexible role-based access control, flexible issue tracking system, Gantt chart, multi-language support, issue creation via email, etc. SVN, CVS, Git, Mercurial, Bazaar and Darcs. `GPLv2`
+[My section on project management](https://github.com/dheurtev/dheurtev/blob/main/apps/business.md#project-management)
 
 ## Code ##
 **[`^        back to top        ^`](#)**

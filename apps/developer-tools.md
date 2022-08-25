@@ -122,7 +122,7 @@ Used to push device OS and firmware updates. Insecure (local network only).
 ## Security ##
 **[`^        back to top        ^`](#)**
 ### Penetration testing ###
-- (Metasploit)[https://www.metasploit.com/]: computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development.
+- [Metasploit](https://www.metasploit.com/): computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development.
 Framework: `BSD`, Community/Express/Pro: `⚠ Proprietary` `past`
 ### VPN ###
 - Wireguard

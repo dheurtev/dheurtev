@@ -42,15 +42,13 @@
 ## Categories ##
 - [Photo + Video](https://alternativeto.net/list/33642/photo-video/)
 - [Illustation + Graphic Design](https://alternativeto.net/list/33643/illustration--graphic-design/)
+- [Audio + Music Production](https://alternativeto.net/list/33644/audio-music-production/)
 ----
 - [Books + reference](books+reference.md)
 - [Business](business.md)
 - [Developer tools](developer-tools.md)
-- [Music](music.md)
 - [Productivity](productivity.md)
 - [Security](security.md)
 - [Shopping](shopping.md)
 - [Social](social.md)
-- [Sports](sports.md)
-- [Travel](travel.md)
 - [Utilities + tools](utilities+tools.md)

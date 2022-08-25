@@ -11,8 +11,10 @@
 
 ## Collaboration ##
 **[`^        back to top        ^`](#)**
+
 https://en.wikipedia.org/wiki/Collaborative_software
-Favor multiple collaboration tools with API and OAuth / Open ID integration, to avoid lock-in 
+
+Favor multiple collaboration tools with API and OAuth / Open ID integration, to limit lock-in 
 
 - Electronic calendars (also called time management software) — schedule events and automatically notify and remind group members
 - Project management systems — schedule, track, and chart the steps in a project as it is being completed
@@ -36,10 +38,13 @@ Favor multiple collaboration tools with API and OAuth / Open ID integration, to 
 
 ## ERP/CRM ##
 **[`^        back to top        ^`](#)**
+
 ERP - CRM solutions are strongly subject to vendor lock-in.
+
 Some open sources choices listed below :
 [ERP Tiers](https://erpmeaning.com/erp/erp-tiers-1-2-3/)
 [Open Source ERP](https://dynamics.folio3.com/blog/open-source-enterprise-resource-planning-software/)
+
 ### Tier 1 ###
 - [Apache OfBiz](https://ofbiz.apache.org/): open source enterprise resource planning system. It provides a suite of enterprise applications that integrate and automate many of the business processes of an enterprise `Free` `Apache License 2.0`
 ### Tier 2 ###

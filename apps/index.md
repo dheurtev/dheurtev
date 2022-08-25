@@ -40,7 +40,7 @@
 - [RPM find](https://rpmfind.net/)
 
 ## Categories ##
-- [Photo+Video]([https://alternativeto.net/list/33640/installed-apps-windows/](https://alternativeto.net/list/33642/photo-video/))
+- [Photo+Video](https://alternativeto.net/list/33642/photo-video/)
 - [Books + reference](books+reference.md)
 - [Business](business.md)
 - [Developer tools](developer-tools.md)

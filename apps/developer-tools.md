@@ -38,16 +38,16 @@
 - [WeTransfer.com](https://wetransfer.com/):  `Freemium` `⚠ Proprietary` `SaaS'
 - [Lufi](https://demo.lufi.io/): self hosted file transfer. [Git Repo](https://framagit.org/fiat-tux/hat-softwares/lufi). `Free` `AGPLv3` 
 - [Jirafeau](https://demo.jirafeau.net/): self hosted file transfer [Git Repo](https://gitlab.com/mojo42/Jirafeau). `Free` `AGPLv3`
-- [MiniShare](https://sourceforge.net/projects/minishare/) - Minimal HTTP Server: minimal web server with a simple GUI meant for fast and simple file sharing. `Free`
+- [MiniShare](https://sourceforge.net/projects/minishare/) - Minimal HTTP Server: minimal web server with a simple GUI meant for fast and simple file sharing. `EXE` `Free`
 
 ## File storage ##
-- [NextCloud](https://nextcloud.com/): suite of client-server software for creating and using file hosting services on-premise file access and sync platform. has desktop, mobile and web interfaces. OwnCloud fork. [Github Repo](https://github.com/nextcloud). `Free` `AGPLv3` 
-- [OwnCloud](https://owncloud.com/): suite of client-server software for creating and using file hosting services on-premise file access and sync platform. has desktop, mobile and web interfaces. [Github Repo](https://github.com/owncloud). `Freemium` `Personal : Free, Business: pay`  
+- [NextCloud](https://nextcloud.com/): suite of client-server software for creating and using file hosting services on-premise file access and sync platform. has desktop, mobile and web interfaces. OwnCloud fork. [Github Repo](https://github.com/nextcloud). `SaaS` `Free` `AGPLv3` 
+- [OwnCloud](https://owncloud.com/): suite of client-server software for creating and using file hosting services on-premise file access and sync platform. has desktop, mobile and web interfaces. [Github Repo](https://github.com/owncloud). `SaaS` `Freemium` `Personal : Free, Business: pay`  
 
 ## File transfer ##
 ### Clients ###
 - [OpenSSH](https://www.openssh.com/): suite of secure networking utilities based on the Secure Shell protocol, which provides a secure channel over an unsecured network in a client–server architecture. [Now available for windows in the windows extra apps](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui). `Free` `BSD, ISC, public domain` `in use`
-- [Cyberduck](https://cyberduck.io/): open-source client for FTP and SFTP, WebDAV, and cloud storage, available for macOS and Windows licensed under the GPL. supports : FTP, SFTP, WebDAV, Amazon S3, OpenStack Swift, Backblaze B2, Microsoft Azure & OneDrive, Google Drive and Dropbox. [Github Repo](https://github.com/iterate-ch/cyberduck). `Free` `GPLv3` `in use` 
+- [Cyberduck](https://cyberduck.io/): open-source client for FTP and SFTP, WebDAV, and cloud storage, available for macOS and Windows licensed under the GPL. supports : FTP, SFTP, WebDAV, Amazon S3, OpenStack Swift, Backblaze B2, Microsoft Azure & OneDrive, Google Drive and Dropbox. [Github Repo](https://github.com/iterate-ch/cyberduck). `EXE` `APP` `Free` `GPLv3` `in use` 
 - [WinSCP](https://winscp.net/eng/download.php): WinSCP is a free and open-source SFTP, SCP, Amazon S3, WebDAV, and FTP client for Windows. `EXE` `Free` `GPLv3` `in use` (`APP` `Pay`) `in use`
 - [Bitvise SSH Client](https://www.bitvise.com/): Secure remote access software developed for Windows and available as a client and server. `EXE` `Free 
 `⚠ Proprietary` `past`
@@ -55,15 +55,20 @@
 - [Putty](https://www.putty.org/):free and open-source terminal emulator, serial console and network file transfer application. It supports several network protocols, including SCP, SSH, Telnet, rlogin, and raw socket connection. `APP` `EXE` `Free ``MIT License` `past`
 ### Servers on Windows ###
 #### HTTP server ####
+- [XAMPP](https://www.apachefriends.org/):  Windows web development environment : Apache 2 + MariaDB database  + PHP + Perl. [Github Repo](https://github.com/ApacheFriends). `EXE` `Free` `Apache 2.0 License` `past`
+- [WampServer](https://www.wampserver.com/en/):  Windows web development environment : Apache2, PHP and a MySQL database. [Sourceforge](https://sourceforge.net/projects/wampserver/) `EXE` `Free` `past`
+
+Consider replacing by a docker container environment.
+
 #### FTP Server ####
-- [Filezilla](https://filezilla-project.org/): free open source FTP and FTPS Server. `free` `AGPLv3`
+- [Filezilla](https://filezilla-project.org/): free open source FTP and FTPS Server. `EXE` `free` `AGPLv3`
 #### TFTP Server ####
 
 Used to push device OS and firmware updates. Insecure (local network only).
 
-- [Tftpd64](https://pjo2.github.io/tftpd64/): free, lightweight, opensource IPv6 ready application which includes DHCP, TFTP, DNS, SNTP and Syslog servers as well as a TFTP client. Includes Windows Service. [Github Repo](https://github.com/PJO2/tftpd64/). `Free` `GPLv3` `in use`
-- [Tftpd32](http://philippe.jounin.pagesperso-orange.fr/tftp-server-for-windows.html): Same in 32 bits.  `Free` `GPLv3` `past` 
-- [Solar Winds TFTP server](https://www.solarwinds.com/free-tools/free-tftp-server): TFTP Server for Windows. `Free` `⚠ Proprietary` `past`
+- [Tftpd64](https://pjo2.github.io/tftpd64/): free, lightweight, opensource IPv6 ready application which includes DHCP, TFTP, DNS, SNTP and Syslog servers as well as a TFTP client. Includes Windows Service. [Github Repo](https://github.com/PJO2/tftpd64/). `EXE` `Free` `GPLv3` `in use`
+- [Tftpd32](http://philippe.jounin.pagesperso-orange.fr/tftp-server-for-windows.html): Same in 32 bits. `EXE` `Free` `GPLv3` `past` 
+- [Solar Winds TFTP server](https://www.solarwinds.com/free-tools/free-tftp-server): TFTP Server for Windows. `EXE` `Free` `⚠ Proprietary` `past`
 #### SSH Server ####
 - OpenSSH Server on Windows: 
   * https://www.it-connect.fr/installer-et-configurer-openssh-server-sur-windows-server-2019/
@@ -88,20 +93,19 @@ Used to push device OS and firmware updates. Insecure (local network only).
 
 ## Networking ##
 **[`^        back to top        ^`](#)**
-- WiFi Analyzer: `APP` `Free` `⚠ Proprietary` `in use`
+- [WiFi Analyzer](https://www.wifianalyzer.info/): provide useful information about wireless signals around you. Wi-Fi scanner supports 2.4 GHz and 5 GHz wifi networks. `APP` `Free` `⚠ Proprietary` `in use`
 - [AngryIPScanner](https://angryip.org/): open-source and cross-platform network scanner designed to be fast and simple to use. `EXE` `Free` `GPLv2` `in use`
 - [Wireshark](https://www.wireshark.org/): free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education `EXE` `Free` `GPLv2` `in use`
 - [Nmap](https://nmap.org/): A command line port scanner for Windows, Mac OS, and Linux. `EXE` `Free` `Nmap Public Source License` `in use`
-- Advanced IP Scanner
-- psping
-- http-console
-- NetCut is a Tool helping Discover who is on your wireless/Wire network instantly. (IP/Device name/MAC address), Iphone/Xbox/Wii/PS3andriod/andriod
-https://arcai.com/what-is-netcut/
+- [Advanced IP Scanner](https://www.advanced-ip-scanner.com/): scanner to analyze LAN. shows network devices, gives access to shared folders, can remotely switch computers off. runs as a portable edition. `EXE` `Free ` `⚠ Proprietary` `past`
+- [psping](https://docs.microsoft.com/en-us/sysinternals/downloads/psping): Microsoft tool. implements Ping functionality, TCP ping, latency and bandwidth measurement. `EXE` `⚠ Proprietary` `in use`
+- [http-console](https://github.com/cloudhead/http-console): simple and intuitive interface for speaking the HTTP protocol. `NPM package` `Free` `Apache v2 License` `past`
+- [NetCut](https://arcai.com/) is a tool helping discover who is on your wireless/Wire network instantly (IP/Device name/MAC address). Windows/Mac. Android version - [What is netcut](https://arcai.com/what-is-netcut/) - [Download](https://arcai.com/download_netcut/) - `past`
 
 ## Reference + training ## 
 **[`^        back to top        ^`](#)**
 ### Python ###
-- RealPython
+- [RealPython](https://realpython.com/): Python tutorials. `Website` `Freemium`
 
 ## Remote Desktop ##
 **[`^        back to top        ^`](#)**
@@ -118,10 +122,11 @@ https://arcai.com/what-is-netcut/
 ## Security ##
 **[`^        back to top        ^`](#)**
 ### Penetration testing ###
-- Metasploit: computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development.
+- (Metasploit)[https://www.metasploit.com/]: computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development.
+Framework: `BSD`, Community/Express/Pro: `⚠ Proprietary` `past`
 ### VPN ###
-- OpenVPN
 - Wireguard
+- OpenVPN
 - ShadowSocks
 - Stunnel
 - StrongSwan
@@ -144,7 +149,5 @@ https://arcai.com/what-is-netcut/
 
 ## Web dev ## 
 **[`^        back to top        ^`](#)**
-### Server ###
-- XAMPP
 ### Static site generator ###
-- Hugo
+- [Hugo](https://gohugo.io/): fast open-source static site generator. Go based. Uses Go templates. Shortcodes, built-in templates, multilingual and i18n. `EXE` `Free` `Apache v2.0` `past`

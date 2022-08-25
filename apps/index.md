@@ -44,7 +44,7 @@
 - [Illustation + Graphic Design](https://alternativeto.net/list/33643/illustration--graphic-design/)
 - [Audio + Music Production](https://alternativeto.net/list/33644/audio-music-production/)
 - [Social](https://alternativeto.net/list/33645/social-tools/)
-- [Security]([security.md](https://alternativeto.net/list/33646/security/))
+- [Security](https://alternativeto.net/list/33646/security/)
 
 ----
 - [Business](business.md)

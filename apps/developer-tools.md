@@ -19,6 +19,7 @@
 
 ## Database ##
 **[`^        back to top        ^`](#)**
+
 [My page on databases](../databases.md)
 
 ## Design tools ##
@@ -26,38 +27,43 @@
 ## Development kits ## 
 **[`^        back to top        ^`](#)**
 ### OCR ###
-- Tesseract
+- [Tesseract](https://github.com/tesseract-ocr/tesseract): OCR originally developed at Hewlett-Packard Laboratories. `Apache v2.0 License` `past`
+
 ### Multimedia ###
 - [FFMPEG](https://ffmpeg.org/): free and open-source software project consisting of a suite of libraries and programs for handling video, audio, and other multimedia files and streams. At its core is the command-line ffmpeg tool itself, designed for processing of video and audio files. `EXE` `Free` `LGPLv2.1` `in use`
 
 ## File sharing ##
 ### Large file transfer between users ###
-- SendGB.com (<5GB, no account, password protection, encryption)
-- WeTransfer.com
-- Lufi (self hosted)
-- Jirafeau (self hosted)
+- [SendGB.com](https://www.sendgb.com/): <5GB, no account, password protection, encryption. `Free` `⚠ Proprietary` `SaaS`
+- [WeTransfer.com](https://wetransfer.com/):  `Freemium` `⚠ Proprietary` `SaaS'
+- [Lufi](https://demo.lufi.io/): self hosted file transfer. [Git Repo](https://framagit.org/fiat-tux/hat-softwares/lufi). `Free` `AGPLv3` 
+- [Jirafeau](https://demo.jirafeau.net/): self hosted file transfer [Git Repo](https://gitlab.com/mojo42/Jirafeau). `Free` `AGPLv3`
+- [MiniShare](https://sourceforge.net/projects/minishare/) - Minimal HTTP Server: minimal web server with a simple GUI meant for fast and simple file sharing. `Free`
 
 ## File storage ##
-- NextCloud
-- OwnCloud
+- [NextCloud](https://nextcloud.com/): suite of client-server software for creating and using file hosting services on-premise file access and sync platform. has desktop, mobile and web interfaces. OwnCloud fork. [Github Repo](https://github.com/nextcloud). `Free` `AGPLv3` 
+- [OwnCloud](https://owncloud.com/): suite of client-server software for creating and using file hosting services on-premise file access and sync platform. has desktop, mobile and web interfaces. [Github Repo](https://github.com/owncloud). `Freemium` `Personal : Free, Business: pay`  
 
 ## File transfer ##
 ### Clients ###
 - [OpenSSH](https://www.openssh.com/): suite of secure networking utilities based on the Secure Shell protocol, which provides a secure channel over an unsecured network in a client–server architecture. [Now available for windows in the windows extra apps](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui). `Free` `BSD, ISC, public domain` `in use`
-- Cyberduck
-- [Bitvise SSH Client](https://www.bitvise.com/): Secure remote access software developed for Windows and available as a client and server. `EXE` `Free 
-`⚠ Proprietary` `in use`
+- [Cyberduck](https://cyberduck.io/): open-source client for FTP and SFTP, WebDAV, and cloud storage, available for macOS and Windows licensed under the GPL. supports : FTP, SFTP, WebDAV, Amazon S3, OpenStack Swift, Backblaze B2, Microsoft Azure & OneDrive, Google Drive and Dropbox. [Github Repo](https://github.com/iterate-ch/cyberduck). `Free` `GPLv3` `in use` 
 - [WinSCP](https://winscp.net/eng/download.php): WinSCP is a free and open-source SFTP, SCP, Amazon S3, WebDAV, and FTP client for Windows. `EXE` `Free` `GPLv3` `in use` (`APP` `Pay`) `in use`
+- [Bitvise SSH Client](https://www.bitvise.com/): Secure remote access software developed for Windows and available as a client and server. `EXE` `Free 
+`⚠ Proprietary` `past`
 - [FileZilla client](https://filezilla-project.org/): free and open-source, cross-platform FTP application. FTP, FTPS, SFTP. `EXE` `Free` `GPLv2` `past`
 - [Putty](https://www.putty.org/):free and open-source terminal emulator, serial console and network file transfer application. It supports several network protocols, including SCP, SSH, Telnet, rlogin, and raw socket connection. `APP` `EXE` `Free ``MIT License` `past`
-### Servers ###
+### Servers on Windows ###
 #### HTTP server ####
-- MiniShare - Minimal HTTP Server
 #### FTP Server ####
-- Filezilla
+- [Filezilla](https://filezilla-project.org/): free open source FTP and FTPS Server. `free` `AGPLv3`
 #### TFTP Server ####
-- Tftpd64 / Tftpd32
-- Solar Winds TFTP server
+
+Used to push device OS and firmware updates. Insecure (local network only).
+
+- [Tftpd64](https://pjo2.github.io/tftpd64/): free, lightweight, opensource IPv6 ready application which includes DHCP, TFTP, DNS, SNTP and Syslog servers as well as a TFTP client. Includes Windows Service. [Github Repo](https://github.com/PJO2/tftpd64/). `Free` `GPLv3` `in use`
+- [Tftpd32](http://philippe.jounin.pagesperso-orange.fr/tftp-server-for-windows.html): Same in 32 bits.  `Free` `GPLv3` `past` 
+- [Solar Winds TFTP server](https://www.solarwinds.com/free-tools/free-tftp-server): TFTP Server for Windows. `Free` `⚠ Proprietary` `past`
 #### SSH Server ####
 - OpenSSH Server on Windows: 
   * https://www.it-connect.fr/installer-et-configurer-openssh-server-sur-windows-server-2019/

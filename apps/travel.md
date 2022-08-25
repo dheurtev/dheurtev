@@ -1,3 +1,0 @@
-# Travel
-## City guides ## 
-## Hotels ##

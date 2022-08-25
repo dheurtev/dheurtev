@@ -76,15 +76,8 @@
 - Fastcopy
 - Teracopy
 - Robocopy
-### File Cleaning ###
-- [CCleaner](https://www.ccleaner.com/): utility used to clean potentially unwanted files and invalid Windows Registry entries from a computer. `APP` `EXE` `Freemium` `⚠ Proprietary` `in use`
-- BleachIt
-- Eraser
-- File shredder
 ### Drive Utils ###
 - [WinDirStat](https://windirstat.net/): free and open-source graphical disk usage analyzer for Microsoft Windows. `EXE` `Free` `GPLv2` `in use`
-### File Recovery ###
-- [Recuva](https://www.ccleaner.com/recuva): undeletion program for Windows. `EXE` `Freemium` `⚠ Proprietary` `past`
 ### ISO drive mounting ###
 - [WinCDEmu](https://wincdemu.sysprogs.org/): open-source CD/DVD/BD emulator - a tool that allows you to mount optical disc images by simply clicking on them in Windows Explorer. `EXE` `Free` `GPL` `past`.
 ### Filesystems reader ###

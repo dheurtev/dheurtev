@@ -27,7 +27,6 @@ Favor multiple collaboration tools with API and OAuth / Open ID integration, to 
 - Online spreadsheets — collaborate and share structured data and information
 - Client portals — interact and share with your clients in a private online environmen
 
-Some [open source groupware](https://medevel.com/top-8-open-source-groupware-systems/)
 ### Software as a service ###
 [Google Workspace's (formerly G Suite)](https://workspace.google.com/): secure collaboration and productivity apps for businesses of all sizes. Includes Gmail, Drive, Meet and more. `⚠ Proprietary` `⚠ Lock-in experience` `in use` 
 
@@ -66,6 +65,13 @@ Some open sources choices listed below :
 
 ## Legal, HR ##
 **[`^        back to top        ^`](#)**
+- [Relativity](https://www.relativity.com/): e-discovery and investigations platform. `⚠ Proprietary license` `past`
 
 ## Project management ## 
 **[`^        back to top        ^`](#)**
+- [Jira](https://www.atlassian.com/software/jira):  issue tracking product developed by Atlassian that allows bug tracking and agile project management. Atlassian Project. `⚠ Proprietary` `Past`
+- [Taiga](https://www.taiga.io/): free and open-source project management tool. `MPL 2.0`
+- [Bugzilla](https://www.bugzilla.org/): open-source web-based bug tracking tool developed by Mozilla. `Mozilla Public License` `past`
+- [Trac](https://trac.edgewall.org/): open-source, web-based project management, and issue tracking tool. Git, Subversion, Wiki. `GPL-2.0-or-later` `past`
+- [Redmine](https://www.redmine.org/): open-source, web-based project management, and issue tracking tool. Some of the main features of Redmine are multiple projects support, flexible role-based access control, flexible issue tracking system, Gantt chart, multi-language support, issue creation via email, etc. SVN, CVS, Git, Mercurial, Bazaar and Darcs. `GPLv2` `past`
+

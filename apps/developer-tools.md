@@ -9,7 +9,6 @@
 - [File storage](#file-storage)
 - [File transfer](#file-transfer)
 - [Nas](#nas)
-- [Networking](#networking)
 - [Reference + training](#reference-training)
 - [Remote Desktop](#remote-desktop)
 - [Security](#security)
@@ -91,17 +90,6 @@ Used to push device OS and firmware updates. Insecure (local network only).
 - [OpenMediaVault](https://www.openmediavault.org/): Home user / storage oriented. free Linux distribution designed for network-attached storage. Debian based. It contains services like SSH, (S)FTP, SMB/CIFS, DAAP media server, RSync, BitTorrent client and many more. Plugins available. `Free` `GPLv3` `in use` 
 - [Openfiler](https://www.openfiler.com/): Storage oriented. full-fledged NAS/SAN appliance or IP storage gateway. iSCSI target for virtualization, Fibre Channel target support, block level replication and High Availabilty. 60TB max. `GPLv2` `⚠ Legacy - based on an unmaintained Linux OS distro (rpath)` `past`
 
-## Networking ##
-**[`^        back to top        ^`](#)**
-- [WiFi Analyzer](https://www.wifianalyzer.info/): provide useful information about wireless signals around you. Wi-Fi scanner supports 2.4 GHz and 5 GHz wifi networks. `APP` `Free` `⚠ Proprietary` `in use`
-- [AngryIPScanner](https://angryip.org/): open-source and cross-platform network scanner designed to be fast and simple to use. `EXE` `Free` `GPLv2` `in use`
-- [Wireshark](https://www.wireshark.org/): free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education `EXE` `Free` `GPLv2` `in use`
-- [Nmap](https://nmap.org/): A command line port scanner for Windows, Mac OS, and Linux. `EXE` `Free` `Nmap Public Source License` `in use`
-- [Advanced IP Scanner](https://www.advanced-ip-scanner.com/): scanner to analyze LAN. shows network devices, gives access to shared folders, can remotely switch computers off. runs as a portable edition. `EXE` `Free ` `⚠ Proprietary` `past`
-- [psping](https://docs.microsoft.com/en-us/sysinternals/downloads/psping): Microsoft tool. implements Ping functionality, TCP ping, latency and bandwidth measurement. `EXE` `⚠ Proprietary` `in use`
-- [http-console](https://github.com/cloudhead/http-console): simple and intuitive interface for speaking the HTTP protocol. `NPM package` `Free` `Apache v2 License` `past`
-- [NetCut](https://arcai.com/) is a tool helping discover who is on your wireless/Wire network instantly (IP/Device name/MAC address). Windows/Mac. Android version - [What is netcut](https://arcai.com/what-is-netcut/) - [Download](https://arcai.com/download_netcut/) - `EXE` `past`
-
 ## Reference + training ## 
 **[`^        back to top        ^`](#)**
 ### Python ###
@@ -121,19 +109,7 @@ Used to push device OS and firmware updates. Insecure (local network only).
 
 ## Security ##
 **[`^        back to top        ^`](#)**
-### Penetration testing ###
-- [Metasploit](https://www.metasploit.com/): computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development.
-Framework: `BSD`, Community/Express/Pro: `⚠ Proprietary` `past`
-### Zero Trust ###
-- [Twingate](https://www.twingate.com): Zero-trust cross-platform solution. secure network between your servers, computers, and cloud instances. Even when separated by firewalls or subnets. `EXE`  `Freemium` `⚠ Proprietary` `RECOMMENDED`
-### VPN / Proxies ###
-- [Wireguard](https://www.wireguard.com/): communication protocol and free and open-source software that implements encrypted virtual private networks. faster, simpler, leaner. cross-platform. `EXE` `Free` `GPLv2` `in use` `RECOMMENDED`
-- [OpenVPN](https://openvpn.net/): virtual private network system that implements techniques to create secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities. It implements both client and server applications. `EXE` `Free` `GPLv2` `in use``
-- [ShadowSocks](https://shadowsocks.org/): fast tunnel proxy that helps you bypass firewalls. Free and open-source encryption protocol project. [Github Repo](https://github.com/shadowsocks). `Free` `GPLv3` `in use`
-- [Stunnel](https://www.stunnel.org/): proxy designed to add TLS encryption functionality to existing clients and servers without any changes in the programs' code. `EXE` `Free` `GPLv2` `in use`
-- [StrongSwan](https://strongswan.org/): multiplatform IPsec implementation. [Github Repo](https://github.com/strongswan/strongswan) `EXE` `AndroidApp` `Free` `GPLv2` `in use`
-- [TincVPN](https://www.tinc-vpn.org/): open-source, self-routing, mesh networking protocol and software implementation used for compressed and encrypted virtual private networks. NAT traversal. `EXE` `Free` `GPLv2`
-- [SotfEther](https://www.softether.org/): Open-Source Free Cross-platform Multi-protocol VPN Program, as an academic project from University of Tsukuba. Supports Ethernet over HTTPS, L2TP/IPSEC, MS-SSTP(PPP over HTTPS), OpenVPN. `EXE` `Free` `Apache V2`.
+[My security page](https://alternativeto.net/list/33646/security/)
 
 ## Text sharing ##
 **[`^        back to top        ^`](#)**

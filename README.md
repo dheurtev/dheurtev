@@ -29,6 +29,27 @@ Tools and technologies I am using, have used or i am considering using. It has a
 - [Python tools and packages](python.md)
 - [Data Science tools](data-science.md)
 
+### My lists on Alternativeto ###
+
+I created the following lists of software and tools on [AlternativeTo](https://alternativeto.net/):
+
+- [Audio + Music Production](https://alternativeto.net/list/33644/audio-music-production/)
+- [Backup - Manage files](https://alternativeto.net/list/33657/backup--manage-files/)
+- [Business](https://alternativeto.net/list/33660/some-business-tools/)
+- [File transfer - Windows](https://alternativeto.net/list/33662/file-transfer/)
+- [Illustation + Graphic Design](https://alternativeto.net/list/33643/illustration--graphic-design/)
+- [Photo + Video](https://alternativeto.net/list/33642/photo-video/)
+- [Productivity - File tools](https://alternativeto.net/list/33654/productivity--file-tools/)
+- [Productivity - Office](https://alternativeto.net/list/33656/productivity--office/)
+- [Remote desktop](https://alternativeto.net/list/33663/remote-desktop/)
+- [Social](https://alternativeto.net/list/33645/social-tools/)
+- [Security for users](https://alternativeto.net/list/33646/security/)
+- [Security for IT pros](https://alternativeto.net/list/33647/security-for-it-pros/)
+- [Web Development tools](https://alternativeto.net/list/33665/web-dev-tools/)
+- [Windows System Utils](https://alternativeto.net/list/33658/windows-system-utils/)
+
+
+
 ## Support ##
 
 Please support my non-profit and open source activities with a donation by Paypal :

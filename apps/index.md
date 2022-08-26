@@ -5,6 +5,9 @@
 - I favor open source software if possible, except when proprietary software is widely used (*de-facto* industry standards)
 
 ## My lists on Alternativeto ##
+
+I created the following lists on [AlternativeTo](https://alternativeto.net/):
+
 - [Audio + Music Production](https://alternativeto.net/list/33644/audio-music-production/)
 - [Backup - Manage files](https://alternativeto.net/list/33657/backup--manage-files/)
 - [Business](https://alternativeto.net/list/33660/some-business-tools/)

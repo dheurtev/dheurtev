@@ -39,15 +39,17 @@
 - [RedHat Marketplace](https://marketplace.redhat.com/en-us/search)
 - [RPM find](https://rpmfind.net/)
 
-## Categories ##
-- [Photo + Video](https://alternativeto.net/list/33642/photo-video/)
-- [Illustation + Graphic Design](https://alternativeto.net/list/33643/illustration--graphic-design/)
+## My lists on Alternativeto ##
 - [Audio + Music Production](https://alternativeto.net/list/33644/audio-music-production/)
+- [Backup - Manage files](https://alternativeto.net/list/33657/backup--manage-files/)
+- [Illustation + Graphic Design](https://alternativeto.net/list/33643/illustration--graphic-design/)
+- [Photo + Video](https://alternativeto.net/list/33642/photo-video/)
+- [Productivity - File tools](https://alternativeto.net/list/33654/productivity--file-tools/)
+- [Productivity - Office](https://alternativeto.net/list/33656/productivity--office/)
 - [Social](https://alternativeto.net/list/33645/social-tools/)
 - [Security for users](https://alternativeto.net/list/33646/security/)
 - [Security for IT pros](https://alternativeto.net/list/33647/security-for-it-pros/)
-- [Productivity - File tools](https://alternativeto.net/list/33654/productivity--file-tools/)
-- [Productivity - Office](https://alternativeto.net/list/33656/productivity--office/)
+
 ----
 - [Business](business.md)
 - [Developer tools](developer-tools.md)

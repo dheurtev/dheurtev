@@ -25,6 +25,13 @@ From the 1850s until well into the 20th century, British submarine cable systems
 "
 https://en.wikipedia.org/wiki/Telegraphy
 
+## Cryptography
+
+By World War II, mechanical and electromechanical cipher machines were in wide use, although—where such machines were impractical—code books and manual systems continued in use. Great advances were made in both cipher design and cryptanalysis, all in secrecy. Information about this period has begun to be declassified as the official British 50-year secrecy period has come to an end, as US archives have slowly opened, and as assorted memoirs and articles have appeared.
+
+Claude E. Shannon is considered by many to be the father of mathematical cryptography. Shannon worked for several years at Bell Labs, and during his time there, he produced an article entitled "A mathematical theory of cryptography". This article was written in 1945 and eventually was published in the Bell System Technical Journal in 1949.[31] It is commonly accepted that this paper was the starting point for development of modern cryptography. Shannon was inspired during the war to address "[t]he problems of cryptography [because] secrecy systems furnish an interesting application of communication theory". Shannon identified the two main goals of cryptography: secrecy and authenticity. His focus was on exploring secrecy and thirty-five years later, G.J. Simmons would address the issue of authenticity. Shannon wrote a further article entitled "A mathematical theory of communication" which highlights one of the most significant aspects of his work: cryptography's transition from art to science.
+https://en.wikipedia.org/wiki/History_of_cryptography
+
 ## Computers ##
 ### Evolution of Mainframes ###
 - 1911: **IBM** is founded  

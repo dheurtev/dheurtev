@@ -46,9 +46,9 @@
 - [Social](https://alternativeto.net/list/33645/social-tools/)
 - [Security for users](https://alternativeto.net/list/33646/security/)
 - [Security for IT pros](https://alternativeto.net/list/33647/security-for-it-pros/)
-- [Productivity file tools](https://alternativeto.net/list/33654/productivity--file-tools/)
+- [Productivity - File tools](https://alternativeto.net/list/33654/productivity--file-tools/)
+- [Productivity - Office](https://alternativeto.net/list/33656/productivity--office/)
 ----
 - [Business](business.md)
 - [Developer tools](developer-tools.md)
-- [Productivity](productivity.md)
 - [Utilities + tools](utilities+tools.md)

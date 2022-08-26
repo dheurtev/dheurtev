@@ -8,7 +8,6 @@
 - [PDF](#pdf)
 - [Phone Sync](#phone-sync)
 - [Research](#research)
-- [Search](#search)
 - [Video Conference](#video-conference)
 - [Web browsers](#web-browsers)
 

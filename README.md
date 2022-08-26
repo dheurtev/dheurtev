@@ -41,14 +41,14 @@ I created the following lists of software and tools on [AlternativeTo](https://a
 
 ### My notes ###
 Tools and technologies I am using, have used or i am considering using. It has a Python bias. Open source when possible, proprietary sometimes.
-- [Virtualization and containers technologies](virtualization-containers.md)
-- [SysAdmin and Ops - Pets management and MAAS/IAAS](sysadmin.md)
-- [DevOps - Collaborate, Code, CI/CD](devops.md)
-- [System operations (sysops) - Platform As A Service (PAAS) and cattle management](sysops.md)
-- [Monitoring (logging and tracing)](monitoring.md)
-- [Databases](databases.md)
-- [Python tools and packages](python.md)
-- [Data Science tools](data-science.md)
+- [Virtualization and containers technologies](./notes/virtualization-containers.md)
+- [SysAdmin and Ops - Pets management and MAAS/IAAS](./notes/sysadmin.md)
+- [DevOps - Collaborate, Code, CI/CD](./notes/devops.md)
+- [System operations (sysops) - Platform As A Service (PAAS) and cattle management](./notes/sysops.md)
+- [Monitoring (logging and tracing)](./notes/monitoring.md)
+- [Databases](./notes/databases.md)
+- [Python tools and packages](./notes/python.md)
+- [Data Science tools](./notes/data-science.md)
 
 ## Support ##
 

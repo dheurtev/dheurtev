@@ -36,6 +36,7 @@ I created the following lists of software and tools on [AlternativeTo](https://a
 - [Audio + Music Production](https://alternativeto.net/list/33644/audio-music-production/)
 - [Backup - Manage files](https://alternativeto.net/list/33657/backup--manage-files/)
 - [Business](https://alternativeto.net/list/33660/some-business-tools/)
+- [Data science tools](https://alternativeto.net/list/33667/data-science-tools/)
 - [File transfer - Windows](https://alternativeto.net/list/33662/file-transfer/)
 - [Illustation + Graphic Design](https://alternativeto.net/list/33643/illustration--graphic-design/)
 - [Photo + Video](https://alternativeto.net/list/33642/photo-video/)

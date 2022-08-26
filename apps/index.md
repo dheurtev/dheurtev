@@ -4,24 +4,6 @@
 - I strongly encourage you to use package managers
 - I favor open source software if possible, except when proprietary software is widely used (*de-facto* industry standards)
 
-## My lists on Alternativeto ##
-
-I created the following lists on [AlternativeTo](https://alternativeto.net/):
-
-- [Audio + Music Production](https://alternativeto.net/list/33644/audio-music-production/)
-- [Backup - Manage files](https://alternativeto.net/list/33657/backup--manage-files/)
-- [Business](https://alternativeto.net/list/33660/some-business-tools/)
-- [Illustation + Graphic Design](https://alternativeto.net/list/33643/illustration--graphic-design/)
-- [Photo + Video](https://alternativeto.net/list/33642/photo-video/)
-- [Productivity - File tools](https://alternativeto.net/list/33654/productivity--file-tools/)
-- [Productivity - Office](https://alternativeto.net/list/33656/productivity--office/)
-- [Social](https://alternativeto.net/list/33645/social-tools/)
-- [Security for users](https://alternativeto.net/list/33646/security/)
-- [Security for IT pros](https://alternativeto.net/list/33647/security-for-it-pros/)
-- [Windows System Utils](https://alternativeto.net/list/33658/windows-system-utils/)
-- [File transfer - Windows](https://alternativeto.net/list/33662/file-transfer/)
-- [Remote desktop](https://alternativeto.net/list/33663/remote-desktop/)
-
 ----
 - [Developer tools](developer-tools.md)
 

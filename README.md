@@ -50,6 +50,7 @@ Tools and technologies I am using, have used or i am considering using. It has a
 - [Python tools and packages](./notes/python.md)
 - [Data Science tools](./notes/data-science.md)
 - [How to find and install packages](./notes/packages.md)
+- [Other Developer tools](./notes/developer-tools.md)
 
 ## Support ##
 

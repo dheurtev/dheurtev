@@ -17,6 +17,7 @@
 - [Security for IT pros](https://alternativeto.net/list/33647/security-for-it-pros/)
 - [Windows System Utils](https://alternativeto.net/list/33658/windows-system-utils/)
 - [File transfer - Windows](https://alternativeto.net/list/33662/file-transfer/)
+- [Remote desktop](https://alternativeto.net/list/33663/remote-desktop/)
 
 ----
 - [Developer tools](developer-tools.md)

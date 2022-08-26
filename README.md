@@ -18,17 +18,6 @@ cryptopyutils is a high-level Python3 cryptography library using cryptography wi
 
 [Repository](https://github.com/dheurtev/cryptopyutils)
 
-### My picks ###
-Tools and technologies I am using, have used or i am considering using. It has a Python bias. Open source when possible, proprietary sometimes.
-- [Virtualization and containers technologies](virtualization-containers.md)
-- [SysAdmin and Ops - Pets management and MAAS/IAAS](sysadmin.md)
-- [DevOps - Collaborate, Code, CI/CD](devops.md)
-- [System operations (sysops) - Platform As A Service (PAAS) and cattle management](sysops.md)
-- [Monitoring (logging and tracing)](monitoring.md)
-- [Databases](databases.md)
-- [Python tools and packages](python.md)
-- [Data Science tools](data-science.md)
-
 ### My lists on Alternativeto ###
 
 I created the following lists of software and tools on [AlternativeTo](https://alternativeto.net/):
@@ -50,6 +39,16 @@ I created the following lists of software and tools on [AlternativeTo](https://a
 - [Web Development tools](https://alternativeto.net/list/33665/web-dev-tools/)
 - [Windows System Utils](https://alternativeto.net/list/33658/windows-system-utils/)
 
+### My notes ###
+Tools and technologies I am using, have used or i am considering using. It has a Python bias. Open source when possible, proprietary sometimes.
+- [Virtualization and containers technologies](virtualization-containers.md)
+- [SysAdmin and Ops - Pets management and MAAS/IAAS](sysadmin.md)
+- [DevOps - Collaborate, Code, CI/CD](devops.md)
+- [System operations (sysops) - Platform As A Service (PAAS) and cattle management](sysops.md)
+- [Monitoring (logging and tracing)](monitoring.md)
+- [Databases](databases.md)
+- [Python tools and packages](python.md)
+- [Data Science tools](data-science.md)
 
 ## Support ##
 

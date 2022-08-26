@@ -57,12 +57,6 @@ Online notepad
 **[`^        back to top        ^`](#)**
 - [Zotero](https://www.zotero.org/): free and open-source reference management software to manage bibliographic data and related research materials. `EXE` `AGPL` `Freemium` `past`
 
-## Video Conference ##
-**[`^        back to top        ^`](#)**
-- [Zoom Cloud Meetings](https://apps.microsoft.com/store/detail/zoom-cloud-meetings/XP99J3KP4XZ4VV) `APP` `Free` `⚠ Proprietary` `in use`
-- [Microsoft Teams](https://apps.microsoft.com/store/detail/microsoft-teams/XP8BT8DW290MPQ) `APP` `Free` `⚠ Proprietary` `in use`
-- [Cisco Webex](https://www.webex.com/downloads.html) `EXE` `Free` `⚠ Proprietary` `past`
-
 ## Web browsers ##
 **[`^        back to top        ^`](#)**
 - [Google Chrome](https://www.google.com/chrome/): Chromium based. `EXE` `Free` `⚠ Proprietary` `in use`

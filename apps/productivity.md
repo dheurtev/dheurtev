@@ -23,24 +23,11 @@
 - [Yahoo mail](https://mail.yahoo.com) `Free` `⚠ Proprietary` `in use` `⚠ legacy`
 - [Mozilla Thunderbird](https://www.thunderbird.net/) `EXE` `Free` `Mozilla Public License` `in use` `⚠ legacy - No longer actively developed by Mozilla`
 
-## File Sharing ##
-**[`^        back to top        ^`](#)**
-
 ## E-reader ##
 - [Calibre](https://calibre-ebook.com/): cross-platform free and open-source suite of e-book software. Calibre supports organizing existing e-books into virtual libraries, displaying, editing, creating and converting e-books, as well as syncing e-books with a variety of e-readers. Editing books is supported for EPUB and AZW3 formats. `EXE` `GPLv3` `in use`
 
-
 ### File downloader ###
 - Internet Download Manager
-
-### File sharing ###
-- qTorrent
-- Share.it
-- Sharedrop
-
-### Large file transfer between users ###
-- SendGB.com (<5GB, no account, password protection, encryption)
-- WeTransfer.com
 
 ## File Storage Sync ##
 **[`^        back to top        ^`](#)**
@@ -93,10 +80,6 @@ Online notepad
 ## Search ##
 **[`^        back to top        ^`](#)**
 - DocFetcher
-
-## Text sharing ##
-**[`^        back to top        ^`](#)**
-- Pastebin
 
 ## Video Conference ##
 **[`^        back to top        ^`](#)**

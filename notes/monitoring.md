@@ -13,6 +13,7 @@ Tools and packages I used are marked as `past`.
 
 ## Introduction ##
 - [Monitoring vs. logging vs. tracing](https://www.bmc.com/blogs/monitoring-logging-tracing/)
+- [Monitoring Performance](https://blog.container-solutions.com/monitoring-performance-microservice-architectures): Evolution of monitoring solutions
 - [Comparison](https://prometheus.io/docs/introduction/comparison/)
 - [ELK stack alternatives](https://betterstack.com/community/comparisons/elk-stack-alternatives/)
 - [Kubernetes monitoring tools](https://medium.com/codex/5-top-kubernetes-log-monitoring-tools-d8c0494deb30)

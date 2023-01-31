@@ -25,7 +25,7 @@ Tools and packages I used are marked as `past`.
 **[`^        back to top        ^`](#)**
 #### Nagios ####
 ##### Nagios Core #####
-- [Nagios Core - Nagios](https://www.nagios.org/): free and open-source computer-software application that monitors systems, networks and infrastructure. [github](https://github.com/NagiosEnterprises/nagioscore) `GPLv2` `past`
+- [Nagios Core - Nagios](https://www.nagios.org/): free and open-source computer-software application that monitors systems, networks and infrastructure. Agent or agentless - [github](https://github.com/NagiosEnterprises/nagioscore) `GPLv2` `past`
   * Issues : past standard but archaic : monolithic architecture, not user friendly, lot of manual config files and scripts, needs for plugins (not well maintained), difficult to integrate with other solutions, lack of personalized dashboards, manual nagios core update (security risk)
 ##### Deployment #####
 - [Automate Nagios deployment with Ansible](https://hobo.house/2016/06/24/automate-nagios-deployment-with-ansible/)

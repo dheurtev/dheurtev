@@ -23,25 +23,50 @@ Tools and packages I used are marked as `past`.
 
 ## Network monitoring ##
 **[`^        back to top        ^`](#)**
-#### Tools ####
-- [Zabbix](https://www.zabbix.com/): open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services. Zabbix collects and displays basic metrics. Agent or agentless. `GPLv2` `in use`
-  * Better alternative compared to Nagios Core: Cutomizable dashboard, template and triggers, auto discovery, more flexible notification systems
-- [CheckMK Raw Edition](https://checkmk.com/product/raw-edition): open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services + containers (Kubernetes). Built on NagiosCore. Similar monitoring concepts to Nagios, i.e. it also uses hosts, services, availability status, schedulable downtimes, notifications etc. Lot of pre-packaged plugins. Integration with Prometheus Checkmk. Auto discovery `GPLv2`
-- [Nagios Core - Nagios](https://www.nagios.org/): free and open-source computer-software application that monitors systems, networks and infrastructure. `GPLv2` `past`
-  * Issues : Past standard but archaic : monolithic architecture, not user friendly, lot of manual config files and scripts, needs for plugins (not well maintained), difficult to integrate with other solutions, lack of personalized dashboards  * [Automate Nagios deployment with Ansible](https://hobo.house/2016/06/24/automate-nagios-deployment-with-ansible/)
-  * [Docker-Nagios-Nagvis-Nagiosgraph](https://github.com/loitho/Docker-Nagios-Nagvis-Nagiosgraph) : Docker-Nagios-Nagvis-Nagiosgraph
+#### Nagios ####
+##### Nagios Core #####
+- [Nagios Core - Nagios](https://www.nagios.org/): free and open-source computer-software application that monitors systems, networks and infrastructure. [github](https://github.com/NagiosEnterprises/nagioscore) `GPLv2` `past`
+  * Issues : past standard but archaic : monolithic architecture, not user friendly, lot of manual config files and scripts, needs for plugins (not well maintained), difficult to integrate with other solutions, lack of personalized dashboards, manual nagios core update (security risk)
+##### Plugins #####
+- [opinkerfi nagios-plugins](https://github.com/opinkerfi/nagios-plugins): Small army of nagios-plugins either made or maintained by opinkerfi
+- [HariSekhon nagios-plugins](https://github.com/HariSekhon/Nagios-Plugins): Over 400 programs. Includes:
+  * Hadoop Ecosystem - HDFS, Yarn, HBase, Ambari, Atlas, Ranger
+  * Hadoop Distributions - Cloudera, Hortonworks, MapR, IBM BigInsights
+  * SQL-on-Hadoop - Hive, Drill, Presto
+  * Service Discovery & Coordination - ZooKeeper, Consul, Vault
+  * Cloud - AWS
+  * Docker / Containerization - Docker & Docker Swarm, Mesos, Kubernetes
+  * Search - Elasticsearch, Solr / SolrCloud
+  * NoSQL - Cassandra, Redis, Riak, Memcached, CouchDB
+  * SQL Databases - MySQL
+  * Pub-Sub / Message Queues - Kafka, Redis, RabbitMQ
+  * CI - Continuous Integration & Build Systems - Jenkins, Travis CI, GoCD, DockerHub, Git
+  * Infrastructure
+  * Internet - Web, DNS, SSL & Domain Expiry
+  * Linux - OS, Network, Puppet, RAID, SSH, Clusters, Yum Security Updates
+##### Deployment #####
+  * [Automate Nagios deployment with Ansible](https://hobo.house/2016/06/24/automate-nagios-deployment-with-ansible/)
+  * [Docker-nagios](https://github.com/ethnchao/docker-nagios): Docker-Nagios provide Nagios service running on the docker container and a series of solution for Nagios: Adagios for Web Based Nagios Configuration, Grafana for monitor metric & dashboards, Ndoutils for transfer monitor data to MySQL Database, NCPA&NRDP for nagios passive checks.
+  * [Docker-Nagios-Nagvis-Nagiosgraph](https://github.com/loitho/Docker-Nagios-Nagvis-Nagiosgraph) : Docker + Nagios + Nagvis + Nagiosgraph
   * [Nagios 4 + Nagvis + Nagiosgraph + Nagios plugins Dockerfile / Docker image](https://blog.cppse.nl/nagios4-nagvis-nagiosgraph-docker)
+##### Tools #####
   * [Nagvis](https://www.nagvis.org/screenshots): Nagios Vizualization tool
   * [Adagios](http://adagios.org/):  Web based Nagios configuration interface, exposing less of the clutter under the hood of nagios - [github](https://github.com/opinkerfi/adagios)
   * [PyNag](http://pynag.org/): Python Modules for parsing Nagios configuration and writing plugins- [github](https://github.com/pynag/pynag)
   * [OKconfig](https://github.com/opinkerfi/okconfig): A robust plugin collection with preconfigured nagios template configuration files
   * [PNP4Nagios](https://sourceforge.net/projects/pnp4nagios/) : For Graphing Performance data - [Setup](https://www.sugarbug.fr/framboise/raspmonitoring/pnp4nagios_raspberry/)
   * [MK Livestatus](https://mathias-kettner.de/checkmk_livestatus.html): Broker module for nagios for high performance status information -[Plugin page](https://exchange.nagios.org/directory/Documentation/MK-Livestatus/details)
-  * [RESTlos](https://github.com/Crapworks/RESTlos): generic RESTful api for nagios-like monitoring systems - [Plugin page](https://exchange.nagios.org/directory/Addons/APIs/RESTlos/details)
+  * [RESTlos](https://github.com/Crapworks/RESTlos): generic RESTful api for nagios-like monitoring systems - [Plugin page](https://exchange.nagios.org/directory/Addons/APIs/RESTlos/details) 
+
+#### Zabbix ####
+- [Zabbix](https://www.zabbix.com/): open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services. Zabbix collects and displays basic metrics. Agent or agentless. `GPLv2` `in use`
+  * Better alternative compared to Nagios Core: Cutomizable dashboard, template and triggers, auto discovery, more flexible notification systems
+
+#### CheckMK ####
+- [CheckMK Raw Edition](https://checkmk.com/product/raw-edition): open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services + containers (Kubernetes). Built on NagiosCore. Similar monitoring concepts to Nagios, i.e. it also uses hosts, services, availability status, schedulable downtimes, notifications etc. Lot of pre-packaged plugins. Integration with Prometheus Checkmk. Auto discovery. `GPLv2`
+
+### RRD Tool ###
 - [RRDtool (round-robin database tool)](https://oss.oetiker.ch/rrdtool/): RRDtool aims to handle time series data such as network bandwidth, temperatures or CPU load. The data is stored in a circular buffer based database, thus the system storage footprint remains constant over time. `GPLv2`
-- [Prometheus](https://prometheus.io/): free software application used for event monitoring and alerting. It records real-time metrics in a time series database built using a HTTP pull model, with flexible queries and real-time alerting. [CNCF Graduated Project](https://www.cncf.io/projects/prometheus/).`Apache License 2.0`
-  * Don't feed logs into Prometheus, use ELK
-  * collect and process metrics, not an event logging system
 
 ### Push model- Protocols  ###
 #### Protocols ####
@@ -54,6 +79,10 @@ Tools and packages I used are marked as `past`.
 
 ## Event Logging ##
 **[`^        back to top        ^`](#)**
+### Even Monitoring ###
+- [Prometheus](https://prometheus.io/): free software application used for event monitoring and alerting. It records real-time metrics in a time series database built using a HTTP pull model, with flexible queries and real-time alerting. [CNCF Graduated Project](https://www.cncf.io/projects/prometheus/).`Apache License 2.0`
+  * Don't feed logs into Prometheus, use ELK
+  * collect and process metrics, not an event logging system
 
 ### ELK Stack and OpenSearch (fork)###
 #### ELK ####

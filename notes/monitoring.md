@@ -34,7 +34,7 @@ Tools and packages I used are marked as `past`.
   * [Nagios 4 + Nagvis + Nagiosgraph + Nagios plugins Dockerfile / Docker image](https://blog.cppse.nl/nagios4-nagvis-nagiosgraph-docker)
 ##### Tools #####
   * [Nagvis](https://www.nagvis.org/screenshots): Nagios Vizualization tool
-  * [Adagios](http://adagios.org/):  Web based Nagios configuration interface, exposing less of the clutter under the hood of nagios - [github](https://github.com/opinkerfi/adagios)
+  * [Adagios](http://adagios.org/):  Web based Nagios configuration interface, exposing less of the clutter under the hood of nagios. Lighter than CheckMK - [github](https://github.com/opinkerfi/adagios)
   * [PyNag](http://pynag.org/): Python Modules for parsing Nagios configuration and writing plugins- [github](https://github.com/pynag/pynag)
   * [OKconfig](https://github.com/opinkerfi/okconfig): A robust plugin collection with preconfigured nagios template configuration files
   * [PNP4Nagios](https://sourceforge.net/projects/pnp4nagios/) : For Graphing Performance data - [Setup](https://www.sugarbug.fr/framboise/raspmonitoring/pnp4nagios_raspberry/)

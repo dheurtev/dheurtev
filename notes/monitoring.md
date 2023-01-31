@@ -24,6 +24,17 @@ Tools and packages I used are marked as `past`.
 
 ## Network monitoring ##
 **[`^        back to top        ^`](#)**
+
+#### LibreNMS ####
+- [LibreNMS](): LibreNMS is an auto-discovering PHP/MySQL/SNMP based network monitoring which includes support for a wide range of network hardware and operating systems including Cisco, Linux, FreeBSD, Juniper, Brocade, Foundry, HP and many more. Autodiscovery. Alerting system. Updates. VLAN, ARP table updates. NetFlow, sFlow, IPFIX (NfSen). `GPLv3` `in use`
+  *[Github](https://github.com/librenms/librenms)
+  *[Docker](https://github.com/librenms/docker)
+
+#### Zabbix ####
+- [Zabbix](https://www.zabbix.com/): open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services. Zabbix collects and displays basic metrics. Agent or agentless. `GPLv2` `in use`
+  * Better alternative compared to Nagios Core: Cutomizable dashboard, template and triggers, auto discovery, more flexible notification systems
+  * Stores data in a database.
+
 #### Nagios ####
 ##### Nagios Core #####
 - [Nagios Core - Nagios](https://www.nagios.org/): free and open-source computer-software application that monitors systems, networks and infrastructure. Agent or agentless - [github](https://github.com/NagiosEnterprises/nagioscore) `GPLv2` `past`
@@ -74,14 +85,10 @@ Tools and packages I used are marked as `past`.
   * Internet - Web, DNS, SSL & Domain Expiry
   * Linux - OS, Network, Puppet, RAID, SSH, Clusters, Yum Security Updates
 
-#### Zabbix ####
-- [Zabbix](https://www.zabbix.com/): open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services. Zabbix collects and displays basic metrics. Agent or agentless. `GPLv2` `in use`
-  * Better alternative compared to Nagios Core: Cutomizable dashboard, template and triggers, auto discovery, more flexible notification systems
-
-#### CheckMK ####
+##### CheckMK #####
 - [CheckMK Raw Edition](https://checkmk.com/product/raw-edition): open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services + containers (Kubernetes). Built on NagiosCore. Similar monitoring concepts to Nagios, i.e. it also uses hosts, services, availability status, schedulable downtimes, notifications etc. Lot of pre-packaged plugins. Integration with Prometheus Checkmk. Auto discovery. `GPLv2`
 
-### RRD Tool ###
+#### RRD Tool ####
 - [RRDtool (round-robin database tool)](https://oss.oetiker.ch/rrdtool/): RRDtool aims to handle time series data such as network bandwidth, temperatures or CPU load. The data is stored in a circular buffer based database, thus the system storage footprint remains constant over time. `GPLv2`
 
 ## Event Logging ##

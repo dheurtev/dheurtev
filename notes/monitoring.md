@@ -24,8 +24,10 @@ Tools and packages I used are marked as `past`.
 ## Network monitoring ##
 **[`^        back to top        ^`](#)**
 #### Tools ####
-- [Zabbix](https://www.zabbix.com/): open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services. Zabbix collects and displays basic metrics. Agent. `GPLv2` `in use`
+- [Zabbix](https://www.zabbix.com/): open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services. Zabbix collects and displays basic metrics. Agent or agentless. `GPLv2` `in use`
   * Better alternative compared to Nagios Core: Cutomizable dashboard, template and triggers, auto discovery, more flexible notification systems
+- [CheckMK Raw Edition](https://checkmk.com/product/raw-edition): open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services + containers (Kubernetes). Built on NagiosCore. Similar monitoring concepts to Nagios, i.e. it also uses hosts, services, availability status, schedulable downtimes, notifications etc. Lot of pre-packaged plugins. Integration with Prometheus Checkmk. Auto discovery `GPLv2`
+- 
 - [Nagios Core - Nagios](https://www.nagios.org/): free and open-source computer-software application that monitors systems, networks and infrastructure. `GPLv2` `past`
   * Issues : Past standard but archaic : monolithic architecture, not user friendly, lot of manual config files and scripts, needs for plugins (not well maintained), difficult to integrate with other solutions, lack of personalized dashboards
   * [Nagvis](https://www.nagvis.org/screenshots): Nagios Vizualization tool
@@ -35,6 +37,9 @@ Tools and packages I used are marked as `past`.
   * [PNP4Nagios](https://sourceforge.net/projects/pnp4nagios/) : For Graphing Performance data - [Setup](https://www.sugarbug.fr/framboise/raspmonitoring/pnp4nagios_raspberry/)
   * [MK Livestatus](https://mathias-kettner.de/checkmk_livestatus.html): Broker module for nagios for high performance status information -[Plugin page](https://exchange.nagios.org/directory/Documentation/MK-Livestatus/details)
   * [RESTlos](https://github.com/Crapworks/RESTlos): generic RESTful api for nagios-like monitoring systems - [Plugin page](https://exchange.nagios.org/directory/Addons/APIs/RESTlos/details)
+  * [Automate Nagios deployment with Ansible](https://hobo.house/2016/06/24/automate-nagios-deployment-with-ansible/)
+  * [Docker-Nagios-Nagvis-Nagiosgraph](https://github.com/loitho/Docker-Nagios-Nagvis-Nagiosgraph) : Docker-Nagios-Nagvis-Nagiosgraph
+  * [Nagios 4 + Nagvis + Nagiosgraph + Nagios plugins Dockerfile / Docker image](https://blog.cppse.nl/nagios4-nagvis-nagiosgraph-docker)
 - [RRDtool (round-robin database tool)](https://oss.oetiker.ch/rrdtool/): RRDtool aims to handle time series data such as network bandwidth, temperatures or CPU load. The data is stored in a circular buffer based database, thus the system storage footprint remains constant over time. `GPLv2`
 - [Prometheus](https://prometheus.io/): free software application used for event monitoring and alerting. It records real-time metrics in a time series database built using a HTTP pull model, with flexible queries and real-time alerting. [CNCF Graduated Project](https://www.cncf.io/projects/prometheus/).`Apache License 2.0`
   * Don't feed logs into Prometheus, use ELK

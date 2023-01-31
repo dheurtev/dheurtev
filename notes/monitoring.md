@@ -27,6 +27,20 @@ Tools and packages I used are marked as `past`.
 ##### Nagios Core #####
 - [Nagios Core - Nagios](https://www.nagios.org/): free and open-source computer-software application that monitors systems, networks and infrastructure. [github](https://github.com/NagiosEnterprises/nagioscore) `GPLv2` `past`
   * Issues : past standard but archaic : monolithic architecture, not user friendly, lot of manual config files and scripts, needs for plugins (not well maintained), difficult to integrate with other solutions, lack of personalized dashboards, manual nagios core update (security risk)
+##### Deployment #####
+  * [Automate Nagios deployment with Ansible](https://hobo.house/2016/06/24/automate-nagios-deployment-with-ansible/)
+  * [Docker-nagios](https://github.com/ethnchao/docker-nagios): Docker-Nagios provide Nagios service running on the docker container and a series of solution for Nagios: Adagios for Web Based Nagios Configuration, Grafana for monitor metric & dashboards, Ndoutils for transfer monitor data to MySQL Database, NCPA&NRDP for nagios passive checks.
+  * [Docker-Nagios-Nagvis-Nagiosgraph](https://github.com/loitho/Docker-Nagios-Nagvis-Nagiosgraph) : Docker + Nagios + Nagvis + Nagiosgraph
+  * [Nagios 4 + Nagvis + Nagiosgraph + Nagios plugins Dockerfile / Docker image](https://blog.cppse.nl/nagios4-nagvis-nagiosgraph-docker)
+##### Tools #####
+  * [Nagvis](https://www.nagvis.org/screenshots): Nagios Vizualization tool
+  * [Adagios](http://adagios.org/):  Web based Nagios configuration interface, exposing less of the clutter under the hood of nagios - [github](https://github.com/opinkerfi/adagios)
+  * [PyNag](http://pynag.org/): Python Modules for parsing Nagios configuration and writing plugins- [github](https://github.com/pynag/pynag)
+  * [OKconfig](https://github.com/opinkerfi/okconfig): A robust plugin collection with preconfigured nagios template configuration files
+  * [PNP4Nagios](https://sourceforge.net/projects/pnp4nagios/) : For Graphing Performance data - [Setup](https://www.sugarbug.fr/framboise/raspmonitoring/pnp4nagios_raspberry/)
+  * [MK Livestatus](https://mathias-kettner.de/checkmk_livestatus.html): Broker module for nagios for high performance status information -[Plugin page](https://exchange.nagios.org/directory/Documentation/MK-Livestatus/details)
+  * [RESTlos](https://github.com/Crapworks/RESTlos): generic RESTful api for nagios-like monitoring systems - [Plugin page](https://exchange.nagios.org/directory/Addons/APIs/RESTlos/details) 
+
 ##### Plugins #####
 - [opinkerfi nagios-plugins](https://github.com/opinkerfi/nagios-plugins): Small army of nagios-plugins either made or maintained by opinkerfi
 - [HariSekhon nagios-plugins](https://github.com/HariSekhon/Nagios-Plugins): Over 400 programs. Includes:
@@ -44,19 +58,6 @@ Tools and packages I used are marked as `past`.
   * Infrastructure
   * Internet - Web, DNS, SSL & Domain Expiry
   * Linux - OS, Network, Puppet, RAID, SSH, Clusters, Yum Security Updates
-##### Deployment #####
-  * [Automate Nagios deployment with Ansible](https://hobo.house/2016/06/24/automate-nagios-deployment-with-ansible/)
-  * [Docker-nagios](https://github.com/ethnchao/docker-nagios): Docker-Nagios provide Nagios service running on the docker container and a series of solution for Nagios: Adagios for Web Based Nagios Configuration, Grafana for monitor metric & dashboards, Ndoutils for transfer monitor data to MySQL Database, NCPA&NRDP for nagios passive checks.
-  * [Docker-Nagios-Nagvis-Nagiosgraph](https://github.com/loitho/Docker-Nagios-Nagvis-Nagiosgraph) : Docker + Nagios + Nagvis + Nagiosgraph
-  * [Nagios 4 + Nagvis + Nagiosgraph + Nagios plugins Dockerfile / Docker image](https://blog.cppse.nl/nagios4-nagvis-nagiosgraph-docker)
-##### Tools #####
-  * [Nagvis](https://www.nagvis.org/screenshots): Nagios Vizualization tool
-  * [Adagios](http://adagios.org/):  Web based Nagios configuration interface, exposing less of the clutter under the hood of nagios - [github](https://github.com/opinkerfi/adagios)
-  * [PyNag](http://pynag.org/): Python Modules for parsing Nagios configuration and writing plugins- [github](https://github.com/pynag/pynag)
-  * [OKconfig](https://github.com/opinkerfi/okconfig): A robust plugin collection with preconfigured nagios template configuration files
-  * [PNP4Nagios](https://sourceforge.net/projects/pnp4nagios/) : For Graphing Performance data - [Setup](https://www.sugarbug.fr/framboise/raspmonitoring/pnp4nagios_raspberry/)
-  * [MK Livestatus](https://mathias-kettner.de/checkmk_livestatus.html): Broker module for nagios for high performance status information -[Plugin page](https://exchange.nagios.org/directory/Documentation/MK-Livestatus/details)
-  * [RESTlos](https://github.com/Crapworks/RESTlos): generic RESTful api for nagios-like monitoring systems - [Plugin page](https://exchange.nagios.org/directory/Addons/APIs/RESTlos/details) 
 
 #### Zabbix ####
 - [Zabbix](https://www.zabbix.com/): open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services. Zabbix collects and displays basic metrics. Agent or agentless. `GPLv2` `in use`

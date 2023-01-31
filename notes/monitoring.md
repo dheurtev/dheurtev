@@ -42,6 +42,7 @@ Tools and packages I used are marked as `past`.
   * [RESTlos](https://github.com/Crapworks/RESTlos): generic RESTful api for nagios-like monitoring systems - [Plugin page](https://exchange.nagios.org/directory/Addons/APIs/RESTlos/details) 
 
 ##### Plugins #####
+- [Nagios Plugins](https://github.com/nagios-plugins/nagios-plugins): Official Nagios plugins.
 - [opinkerfi nagios-plugins](https://github.com/opinkerfi/nagios-plugins): Small army of nagios-plugins either made or maintained by opinkerfi
 - [HariSekhon nagios-plugins](https://github.com/HariSekhon/Nagios-Plugins): Over 400 programs. Includes:
   * Hadoop Ecosystem - HDFS, Yarn, HBase, Ambari, Atlas, Ranger

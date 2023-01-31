@@ -102,7 +102,7 @@ Tools and packages I used are marked as `past`.
 - [Collectd](https://collectd.org/): very popular collection agent. Unix daemon that collects, transfers and stores performance data of computers and network equipment. Used by Graphite and in Prometheus. `MIT License` and `GPLv2`
 - [StatsD](https://github.com/statsd/statsd): A network daemon that runs on the Node.js platform and listens for statistics, like counters and timers, sent over UDP or TCP and sends aggregates to one or more pluggable backend services (e.g., Graphite). [Also used in Datadog](https://www.datadoghq.com/blog/statsd/). `MIT License`
 
-### Even Monitoring ###
+### Event Monitoring ###
 - [Prometheus](https://prometheus.io/): free software application used for event monitoring and alerting. It records real-time metrics in a time series database built using a HTTP pull model, with flexible queries and real-time alerting. [CNCF Graduated Project](https://www.cncf.io/projects/prometheus/).`Apache License 2.0`
   * Don't feed logs into Prometheus, use ELK
   * collect and process metrics, not an event logging system

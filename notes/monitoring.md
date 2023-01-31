@@ -28,10 +28,23 @@ Tools and packages I used are marked as `past`.
 - [Nagios Core - Nagios](https://www.nagios.org/): free and open-source computer-software application that monitors systems, networks and infrastructure. [github](https://github.com/NagiosEnterprises/nagioscore) `GPLv2` `past`
   * Issues : past standard but archaic : monolithic architecture, not user friendly, lot of manual config files and scripts, needs for plugins (not well maintained), difficult to integrate with other solutions, lack of personalized dashboards, manual nagios core update (security risk)
 ##### Deployment #####
-  * [Automate Nagios deployment with Ansible](https://hobo.house/2016/06/24/automate-nagios-deployment-with-ansible/)
-  * [Docker-nagios](https://github.com/ethnchao/docker-nagios): Docker-Nagios provide Nagios service running on the docker container and a series of solution for Nagios: Adagios for Web Based Nagios Configuration, Grafana for monitor metric & dashboards, Ndoutils for transfer monitor data to MySQL Database, NCPA&NRDP for nagios passive checks.
-  * [Docker-Nagios-Nagvis-Nagiosgraph](https://github.com/loitho/Docker-Nagios-Nagvis-Nagiosgraph) : Docker + Nagios + Nagvis + Nagiosgraph
-  * [Nagios 4 + Nagvis + Nagiosgraph + Nagios plugins Dockerfile / Docker image](https://blog.cppse.nl/nagios4-nagvis-nagiosgraph-docker)
+- [Automate Nagios deployment with Ansible](https://hobo.house/2016/06/24/automate-nagios-deployment-with-ansible/)
+- [Docker-nagios](https://github.com/ethnchao/docker-nagios): Docker-Nagios provide Nagios service running on the docker container and a series of solution for Nagios: Adagios for Web Based Nagios Configuration, Grafana for monitor metric & dashboards, Ndoutils for transfer monitor data to MySQL Database, NCPA&NRDP for nagios passive checks.
+   * [`Nagios Core 4.4.6`](https://github.com/NagiosEnterprises/nagioscore) Nagios core - the community version
+   * [`Nagios Plugins 2.2.1`](https://github.com/nagios-plugins/nagios-plugins) Nagios plugins
+   * [`Graphios 2.0.3`](https://pypi.python.org/pypi/graphios) Send Nagios spool data to graphite
+   * [`Graphite 1.1.3`](https://github.com/graphite-project/graphite-web/) Grafana's datasource
+   * [`Grafana 5.1.3`](https://grafana.com/) The tool for beautiful monitoring and metric analytics & dashboards for Graphite, InfluxDB & Prometheus & More
+   * [`NDOUtils 2.1.3`](https://github.com/NagiosEnterprises/ndoutils) Allow you save all the data to MySQL database
+   * [`PyNag 0.9.1-1`](https://github.com/pynag/pynag/) A command line tool for managing nagios configuration and provides a framework to write plugins
+   * [`Okconfig 1.3.2-1`](https://github.com/opinkerfi/okconfig) Provides a templated Nagios configuration, Adagios can use okconfig to quickly and easily configure Nagios
+   * [`MK-livestatus 1.2.8p20`](http://mathias-kettner.com/) MK-livestatus can get Nagios status information, loaded as broker module into Nagios configuration, and Adagios uses mk-livestatus to get status information
+   * [`Adagios 1.6.3-2`](https://github.com/opinkerfi/adagios.git) A web based Nagios configuration interface built to be simple and intuitive in design, exposing less of the clutter under the hood of nagios. Adagios is more lighter UI than Check_MK, based on mod_wsgi(so it cannot be used with Check_MK, Check_MK based on mod_python, already deprecated and conflict with mod_wsgi)
+  * [`NRDP 1.5.2`](https://github.com/NagiosEnterprises/nrdp) A flexible data transport mechanism and processor for Nagios. It uses standard ports protocols (HTTP(S) and XML for api response) and can be implemented as a replacement for NSCA. Used with NCPA, omg, those bloody names(nrpe,ncpa,nrds,nrdp,nsti...).
+  * [`NCPA 2.1.3`](https://github.com/NagiosEnterprises/ncpa) The Nagios Cross-Platform Agent; a single monitoring agent that installs on all major operating systems. NCPA with a built-in web GUI, we will use ncpa for passive checks.
+
+- [Docker-Nagios-Nagvis-Nagiosgraph](https://github.com/loitho/Docker-Nagios-Nagvis-Nagiosgraph) : Docker + Nagios + Nagvis + Nagiosgraph
+- [Nagios 4 + Nagvis + Nagiosgraph + Nagios plugins Dockerfile / Docker image](https://blog.cppse.nl/nagios4-nagvis-nagiosgraph-docker)
 ##### Tools #####
   * [Adagios](http://adagios.org/):  Web based Nagios configuration interface, exposing less of the clutter under the hood of nagios. Lighter than CheckMK - [github](https://github.com/opinkerfi/adagios)
   * [PyNag](http://pynag.org/): Python Modules for parsing Nagios configuration and writing plugins- [github](https://github.com/pynag/pynag)

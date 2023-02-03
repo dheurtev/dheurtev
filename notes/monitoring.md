@@ -27,8 +27,8 @@ Tools and packages I used are marked as `past`.
 
 #### LibreNMS ####
 - [LibreNMS](): LibreNMS is an auto-discovering PHP/MySQL/SNMP based network monitoring which includes support for a wide range of network hardware and operating systems including Cisco, Linux, FreeBSD, Juniper, Brocade, Foundry, HP and many more. Autodiscovery. Alerting system. Updates. VLAN, ARP table updates. NetFlow, sFlow, IPFIX (NfSen). `GPLv3` `in use`
-  *[Github](https://github.com/librenms/librenms)
-  *[Docker](https://github.com/librenms/docker)
+  * [Github](https://github.com/librenms/librenms)
+  * [Docker](https://github.com/librenms/docker)
 
 #### Zabbix ####
 - [Zabbix](https://www.zabbix.com/): open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services. Zabbix collects and displays basic metrics. Agent or agentless. `GPLv2` `in use`
@@ -41,7 +41,7 @@ Tools and packages I used are marked as `past`.
   * Issues : past standard but archaic : monolithic architecture, not user friendly, lot of manual config files and scripts, needs for plugins (not well maintained), difficult to integrate with other solutions, lack of personalized dashboards, manual nagios core update (security risk)
 ##### Deployment #####
 - [Automate Nagios deployment with Ansible](https://hobo.house/2016/06/24/automate-nagios-deployment-with-ansible/)
-- [Docker-nagios](https://github.com/ethnchao/docker-nagios): Docker-Nagios provide Nagios service running on the docker container and a series of solution for Nagios: Adagios for Web Based Nagios Configuration, Grafana for monitor metric & dashboards, Ndoutils for transfer monitor data to MySQL Database, NCPA&NRDP for nagios passive checks.
+- [Docker-nagios](https://github.com/ethnchao/docker-nagios): Docker-Nagios provide Nagios service running on the docker container and a series of solution for Nagios: Adagios for Web Based Nagios Configuration, Grafana for monitor metric & dashboards, Ndoutils for transfer monitor data to MySQL Database, NCPA&NRDP for nagios passive checks.**!!Not an official image - Do not use the image as pulls zips and exe from non official sources, but the build file is interesting to see how to integrate the various components**
    * [`Nagios Core 4.4.6`](https://github.com/NagiosEnterprises/nagioscore) Nagios core - the community version
    * [`Nagios Plugins 2.2.1`](https://github.com/nagios-plugins/nagios-plugins) Nagios plugins
    * [`Graphios 2.0.3`](https://pypi.python.org/pypi/graphios) Send Nagios spool data to graphite
@@ -86,7 +86,10 @@ Tools and packages I used are marked as `past`.
   * Linux - OS, Network, Puppet, RAID, SSH, Clusters, Yum Security Updates
 
 ##### CheckMK #####
-- [CheckMK Raw Edition](https://checkmk.com/product/raw-edition): open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services + containers (Kubernetes). Built on NagiosCore. Similar monitoring concepts to Nagios, i.e. it also uses hosts, services, availability status, schedulable downtimes, notifications etc. Lot of pre-packaged plugins. Integration with Prometheus Checkmk. Auto discovery. `GPLv2`
+- [CheckMK Raw Edition](https://checkmk.com/product/raw-edition): open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services + containers (Kubernetes). Originally built on Nagios  (now distinct). Similar monitoring concepts to Nagios, i.e. it also uses hosts, services, availability status, schedulable downtimes, notifications etc. Lot of pre-packaged plugins. Integration with Prometheus Checkmk. Auto discovery. `GPLv2`
+
+##### Centreon #####
+- [Centreon](https://download.centreon.com/): Open Source IT infrastructure monitoring tool. Originally built on Nagios (now distinct). `GPLv2`
 
 #### RRD Tool ####
 - [RRDtool (round-robin database tool)](https://oss.oetiker.ch/rrdtool/): RRDtool aims to handle time series data such as network bandwidth, temperatures or CPU load. The data is stored in a circular buffer based database, thus the system storage footprint remains constant over time. `GPLv2`
@@ -108,6 +111,7 @@ Tools and packages I used are marked as `past`.
   * collect and process metrics, not an event logging system
 
 ### ELK Stack and OpenSearch (fork)###
+
 #### ELK ####
 
 [ELK](https://www.elastic.co/fr/elastic-stack/): Elasticsearch, Kibana, Beats et Logstash

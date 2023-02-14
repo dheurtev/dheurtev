@@ -52,6 +52,11 @@ Tools and technologies I am using, have used or i am considering using. It has a
 - [How to find and install packages](./notes/packages.md)
 - [Other Developer tools](./notes/developer-tools.md)
 
+### My Python notes ###
+
+- [Methods found in Python's standard library in os (v. 3.11)](./notes/python-os-methods.md)
+
+
 ## Support ##
 
 Please support my non-profit and open source activities with a donation by Paypal :

@@ -60,7 +60,8 @@ Tools and technologies I am using, have used or i am considering using. It has a
 - [os.path](./notes/python-os-path-methods.md): Common pathname manipulations (adapts to the system it is running on)
 - [pathlib](./notes/python-pathlib-methods.md): Object-oriented filesystem paths
 - [stat](./notes/python-stat-methods.md): Interpreting stat() results
-- [shutil](./notes/python-shutil-methods.md): High-level file operations 
+- [shutil](./notes/python-shutil-methods.md): High-level file operations
+- [pwd/grp](./notes/python-pwd-grp-methods.md): Users and Groups databases operations 
 
 ## Support ##
 

@@ -54,7 +54,7 @@ Tools and technologies I am using, have used or i am considering using. It has a
 
 ### My Python notes ###
 
-#### Python Standard Library (v. 3.11) - List of methods
+#### Python Standard Library (v. 3.11) - List of methods for some modules
 
 - [os](./notes/python-os-methods.md): Operating system dependent functionality
 - [os.path](./notes/python-os-path-methods.md): Common pathname manipulations (adapts to the system it is running on)

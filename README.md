@@ -54,12 +54,12 @@ Tools and technologies I am using, have used or i am considering using. It has a
 
 ### My Python notes ###
 
-#### Python Standard Library (v. 3.11)
+#### Python Standard Library (v. 3.11) - List of methods
 
-- [os - List of methods](./notes/python-os-methods.md): Operating system dependent functionality
-- [os.path - List of methods](./notes/python-os-path-methods.md): Common pathname manipulations (adapts to the system it is running on)
-- [pathlib - List of methods](./notes/python-pathlib-methods.md): Object-oriented filesystem paths
-- [stat - List of methods](./notes/python-stat-methods.md): Interpreting stat() results
+- [os](./notes/python-os-methods.md): Operating system dependent functionality
+- [os.path](./notes/python-os-path-methods.md): Common pathname manipulations (adapts to the system it is running on)
+- [pathlib](./notes/python-pathlib-methods.md): Object-oriented filesystem paths
+- [stat](./notes/python-stat-methods.md): Interpreting stat() results
 - [shutil](./notes/python-shutil-methods.md): High-level file operations 
 
 ## Support ##

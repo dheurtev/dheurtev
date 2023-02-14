@@ -1,4 +1,4 @@
-# Methods found in Python's standard library in os (v. 3.11)
+# Python Standard Library - os - List of methods found (v. 3.11)
 
 Note: Most is copy pasted from the standard library documentation.
 

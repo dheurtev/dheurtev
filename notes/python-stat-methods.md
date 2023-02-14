@@ -1,6 +1,6 @@
 # Python Standard Library (v. 3.11) - stat - List of Methods
 
-Note: Most is copy pasted from the standard library documentation.
+Note: Most is copy pasted from the standard library documentation - Licensed :Python Software Foundation License Version 2.
 
 ## Reference
 

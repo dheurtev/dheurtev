@@ -1,5 +1,7 @@
 # Python Standard Library (v.3.11) - pathlib - List of methods
 
+Note: Most is copy pasted from the standard library documentation - Licensed :Python Software Foundation License Version 2.
+
 ## Reference
 
 https://docs.python.org/3/library/pathlib.html

@@ -1,4 +1,4 @@
-# Python Standard Library (v. 3.11) - os - List of methods
+# Python Standard Library (v. 3.11) - os.path - List of methods
 
 Note: Most is copy pasted from the standard library documentation.
 

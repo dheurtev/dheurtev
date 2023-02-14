@@ -54,7 +54,7 @@ Tools and technologies I am using, have used or i am considering using. It has a
 
 ### My Python notes ###
 
-- [Methods found in Python's standard library in os (v. 3.11)](./notes/python-os-methods.md)
+- [Python Standard Library - os - List of methods found in os (v. 3.11)](./notes/python-os-methods.md)
 
 
 ## Support ##

@@ -57,7 +57,7 @@ Tools and technologies I am using, have used or i am considering using. It has a
 #### Python Standard Library
 
 - [os - List of methods (v. 3.11)](./notes/python-os-methods.md)
-- [os.path - List of methods (v. 3.11](./notes/python-os-path-methods.md)
+- [os.path - List of methods (v. 3.11)](./notes/python-os-path-methods.md)
 
 
 

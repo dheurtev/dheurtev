@@ -8,9 +8,9 @@ https://docs.python.org/3/library/pathlib.html
 
 *"This module offers classes representing **filesystem paths** with semantics appropriate for different operating systems"*
 
-`py from pathlib import Path
+`py from pathlib import Path`
 
-p = Path('/')`
+`p = Path('/')`
 
 ## Methods
 

@@ -54,11 +54,11 @@ Tools and technologies I am using, have used or i am considering using. It has a
 
 ### My Python notes ###
 
-#### Python Standard Library
+#### Python Standard Library (v. 3.11)
 
-- [os - List of methods (v. 3.11)](./notes/python-os-methods.md)
-- [os.path - List of methods (v. 3.11)](./notes/python-os-path-methods.md)
-
+- [os - List of methods](./notes/python-os-methods.md)
+- [os.path - List of methods](./notes/python-os-path-methods.md)
+- [pathlib - List of methods](./notes/python-pathlib-methods.md)
 
 
 ## Support ##

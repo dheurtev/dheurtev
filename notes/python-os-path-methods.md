@@ -1,4 +1,4 @@
-# Python Standard Library - os - List of methods (v. 3.11)
+# Python Standard Library (v. 3.11) - os - List of methods
 
 Note: Most is copy pasted from the standard library documentation.
 
@@ -7,8 +7,6 @@ Note: Most is copy pasted from the standard library documentation.
 https://docs.python.org/3/library/os.path.html
 
 ## Introduction
-
-Common pathname manipulations (adapts to the system it is running on): 
 
 *This module implements some useful functions on pathnames. **To read or write files see open()**, and **for accessing the filesystem see the os module**.*
 

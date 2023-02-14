@@ -11,55 +11,56 @@ https://docs.python.org/3/library/os.html
 This module provides a portable way of using **operating system dependent functionality**. If you just want to **read or write a file see open()**, if you want to **manipulate paths, see the os.path module**, and if you want **to read all the lines in all the files on the command line see the fileinput module**. For creating **temporary files and directories see the tempfile module**, and for **high-level file and directory handling see the shutil module.**
 
 ## Process Parameters
--**os.ctermid**: Return the filename corresponding to the controlling terminal of the process.
--**os.environ**: A mapping object where keys and values are strings that represent the process environment. For example, environ['HOME'] is the pathname of your home directory (on some platforms), and is equivalent to getenv("HOME") in C.
--**os.environb**: Bytes version of environ: a mapping object where both keys and values are bytes objects representing the process environment. 
--**os.chdir, os.fchdir, os.getcwd**: These functions are described in Files and Directories.
--**os.fsencode**: Encode path-like filename to the filesystem encoding and error handler; return bytes unchanged.
--**os.fsdecode**: Decode the path-like filename from the filesystem encoding and error handler; return str unchanged.
--**os.fspath**: Return the file system representation of the path.
--**os.getenv**: Return the value of the environment variable key as a string if it exists, or default if it doesn’t. 
--**os.getenvb**: Return the value of the environment variable key as bytes if it exists, or default if it doesn’t.
--**os.get_exec_path**: Returns the list of directories that will be searched for a named executable, similar to a shell, when launching a process. 
--**os.getegid**: Return the effective group id of the current process. This corresponds to the “set id” bit on the file being executed in the current process.
--**os.geteuid**: Return the current process’s effective user id.
--**os.getgid**: Return the real group id of the current process.
--**os.getgrouplist**: Return list of group ids that user belongs to. 
--**os.getgroups**: Return list of supplemental group ids associated with the current process.
--**os.getlogin**: Return the name of the user logged in on the controlling terminal of the process. 
--**os.getpgid**: Return the process group id of the process with process id pid. If pid is 0, the process group id of the current process is returned.
--**os.getpgrp**: Return the id of the current process group.
--**os.getpid**: Return the current process id.
--**os.getppid**: Return the parent’s process id. 
--**os.getpriority**: Get program scheduling priority. The value which is one of PRIO_PROCESS, PRIO_PGRP, or PRIO_USER, and who is interpreted relative to which 
--**os.getresuid**: Return a tuple (ruid, euid, suid) denoting the current process’s real, effective, and saved user ids.
--**os.getresgid**: Return a tuple (rgid, egid, sgid) denoting the current process’s real, effective, and saved group ids.
--**os.getuid**: Return the current process’s real user id.
--**os.initgroups**: Call the system initgroups() to initialize the group access list with all of the groups of which the specified username is a member, plus the specified group id.
--**os.putenv**: Set the environment variable named key to the string value. Such changes to the environment affect subprocesses started with os.system(), popen() or fork() and execv().
--**os.setegid**: Set the current process’s effective group id.
--**os.seteuid**: Set the current process’s effective user id.
--**os.setgid**: Set the current process’ group id.
--**os.setgroups**: Set the list of supplemental group ids associated with the current process to groups. 
--**os.setpgrp**: Call the system call setpgrp() or setpgrp(0, 0) depending on which version is implemented (if any). See the Unix manual for the semantics.
--**os.setpgid**: Call the system call setpgid() to set the process group id of the process with id pid to the process group with id pgrp. 
--**os.setpriority**: Set program scheduling priority. 
--**os.setregid**: Set the current process’s real and effective group ids.
--**os.setresgid**: Set the current process’s real, effective, and saved group ids.
--**os.setresuid**: Set the current process’s real, effective, and saved user ids.
--**os.setreuid**: Set the current process’s real and effective user ids.
--**os.getsid**: Call the system call getsid(). See the Unix manual for the semantics.
--**os.setsid**: Call the system call setsid(). See the Unix manual for the semantics.
--**os.setuid**: Set the current process’s user id.
--**os.strerror:** Return the error message corresponding to the error code in code. On platforms where strerror() returns NULL when given an unknown error number, ValueError is raised.
--**os.supports_bytes_environ**: True if the native OS type of the environment is bytes (eg. False on Windows).
--**os.umask**: Set the current numeric umask and return the previous umask.
--**os.uname**: Returns information identifying the current operating system. The return value is an object with five attributes:
-- sysname - operating system name
-- nodename - name of machine on network (implementation-defined)
-- release - operating system release
-- version - operating system version
-- machine - hardware identifier
+
+- **os.ctermid**: Return the filename corresponding to the controlling terminal of the process.
+- **os.environ**: A mapping object where keys and values are strings that represent the process environment. For example, environ['HOME'] is the pathname of your home directory (on some platforms), and is equivalent to getenv("HOME") in C.
+- **os.environb**: Bytes version of environ: a mapping object where both keys and values are bytes objects representing the process environment. 
+- **os.chdir, os.fchdir, os.getcwd**: These functions are described in Files and Directories.
+- **os.fsencode**: Encode path-like filename to the filesystem encoding and error handler; return bytes unchanged.
+- **os.fsdecode**: Decode the path-like filename from the filesystem encoding and error handler; return str unchanged.
+- **os.fspath**: Return the file system representation of the path.
+- **os.getenv**: Return the value of the environment variable key as a string if it exists, or default if it doesn’t. 
+- **os.getenvb**: Return the value of the environment variable key as bytes if it exists, or default if it doesn’t.
+- **os.get_exec_path**: Returns the list of directories that will be searched for a named executable, similar to a shell, when launching a process. 
+- **os.getegid**: Return the effective group id of the current process. This corresponds to the “set id” bit on the file being executed in the current process.
+- **os.geteuid**: Return the current process’s effective user id.
+- **os.getgid**: Return the real group id of the current process.
+- **os.getgrouplist**: Return list of group ids that user belongs to. 
+- **os.getgroups**: Return list of supplemental group ids associated with the current process.
+- **os.getlogin**: Return the name of the user logged in on the controlling terminal of the process. 
+- **os.getpgid**: Return the process group id of the process with process id pid. If pid is 0, the process group id of the current process is returned.
+- **os.getpgrp**: Return the id of the current process group.
+- **os.getpid**: Return the current process id.
+- **os.getppid**: Return the parent’s process id. 
+- **os.getpriority**: Get program scheduling priority. The value which is one of PRIO_PROCESS, PRIO_PGRP, or PRIO_USER, and who is interpreted relative to which 
+- **os.getresuid**: Return a tuple (ruid, euid, suid) denoting the current process’s real, effective, and saved user ids.
+- **os.getresgid**: Return a tuple (rgid, egid, sgid) denoting the current process’s real, effective, and saved group ids.
+- **os.getuid**: Return the current process’s real user id.
+- **os.initgroups**: Call the system initgroups() to initialize the group access list with all of the groups of which the specified username is a member, plus the specified group id.
+- **os.putenv**: Set the environment variable named key to the string value. Such changes to the environment affect subprocesses started with os.system(), popen() or fork() and execv().
+- **os.setegid**: Set the current process’s effective group id.
+- **os.seteuid**: Set the current process’s effective user id.
+- **os.setgid**: Set the current process’ group id.
+- **os.setgroups**: Set the list of supplemental group ids associated with the current process to groups. 
+- **os.setpgrp**: Call the system call setpgrp() or setpgrp(0, 0) depending on which version is implemented (if any). See the Unix manual for the semantics.
+- **os.setpgid**: Call the system call setpgid() to set the process group id of the process with id pid to the process group with id pgrp. 
+- **os.setpriority**: Set program scheduling priority. 
+- **os.setregid**: Set the current process’s real and effective group ids.
+- **os.setresgid**: Set the current process’s real, effective, and saved group ids.
+- **os.setresuid**: Set the current process’s real, effective, and saved user ids.
+- **os.setreuid**: Set the current process’s real and effective user ids.
+- **os.getsid**: Call the system call getsid(). See the Unix manual for the semantics.
+- **os.setsid**: Call the system call setsid(). See the Unix manual for the semantics.
+- **os.setuid**: Set the current process’s user id.
+- **os.strerror:** Return the error message corresponding to the error code in code. On platforms where strerror() returns NULL when given an unknown error number, ValueError is raised.
+- **os.supports_bytes_environ**: True if the native OS type of the environment is bytes (eg. False on Windows).
+- **os.umask**: Set the current numeric umask and return the previous umask.
+- **os.uname**: Returns information identifying the current operating system. The return value is an object with five attributes:
+  - sysname - operating system name
+  - nodename - name of machine on network (implementation-defined)
+  - release - operating system release
+  - version - operating system version
+  - machine - hardware identifier
 - **os.unsetenv**: Unset (delete) the environment variable named key. Such changes to the environment affect subprocesses started with os.system(), popen() or fork() and execv().
 
 ## File Operations

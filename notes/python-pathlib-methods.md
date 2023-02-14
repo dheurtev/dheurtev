@@ -17,6 +17,7 @@ https://docs.python.org/3/library/pathlib.html
 [Table of correspondence between os/os.path and pathlib ](https://docs.python.org/3/library/pathlib.html?highlight=path#module-pathlib)
 
 | os and os.path           | pathlib                                 |
+|--------------------------|-----------------------------------------|
 | os.path.abspath()        | Path.absolute()                         |
 | os.path.realpath()       | Path.resolve()                          |
 | os.chmod()               | Path.chmod()                            |

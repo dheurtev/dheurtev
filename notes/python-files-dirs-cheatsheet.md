@@ -34,6 +34,7 @@ with open('workfile', encoding="utf-8") as f:
 	- `Path(mypath).touch(mode=0o666, exist_ok=True)`
 
 ### Delete a file
+- **Delete a file**
 	- `os.remove(path, *, dir_fd=None)`
 	- `os.unlink(path, *, dir_fd=None)`
 	- `Path(mypath).unlink(missing_ok=False)`

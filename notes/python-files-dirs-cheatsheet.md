@@ -2,6 +2,26 @@
 
 ## Files
 
+### Test
+- **File exists ?**							
+	- `os.path.exists(path)`
+	- `Path(mypath).exists()`																
+
+- **Is a file ?**
+	- `os.path.isfile(path)`
+	- `Path(mypath).is_file()`
+
+### Open a file
+
+`py **with open('workfile', encoding="utf-8") as f:**
+	**read_data = f.read()**`
+
+### Write to a file
+
+`py**with open('workfile', encoding="utf-8") as f:**
+	**f.write('This is a test\n')**`
+
+
 
 
 

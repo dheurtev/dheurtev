@@ -26,24 +26,25 @@ Tools and technologies I am using, have used or i am considering using. It has a
 - [System operations (sysops) - Platform As A Service (PAAS) and cattle management](./notes/sysops.md)
 - [Monitoring (logging and tracing)](./notes/monitoring.md)
 - [Databases](./notes/databases.md)
-- [Python tools and packages](./notes/python.md)
 - [Data Science tools](./notes/data-science.md)
 - [How to find and install packages](./notes/packages.md)
 - [Other Developer tools](./notes/developer-tools.md)
 
 ### My Python notes ###
 
+- [Python tools and packages](./notes/python/tools-packages.md)
+
 #### Python (v. 3.11) cheatsheet ###
-- [Files, symlinks/hardlinks, directories and paths cheatsheet](./notes/python-files-dirs-cheatsheet.md)
+- [Files, symlinks/hardlinks, directories and paths cheatsheet](./notes/python/files-dirs-cheatsheet.md)
 
 #### Python Standard Library (v. 3.11) - List of methods for some modules
 
-- [os](./notes/python-os-methods.md): Operating system dependent functionality
-- [os.path](./notes/python-os-path-methods.md): Common pathname manipulations (adapts to the system it is running on)
-- [pathlib](./notes/python-pathlib-methods.md): Object-oriented filesystem paths
-- [stat](./notes/python-stat-methods.md): Interpreting stat() results
-- [shutil](./notes/python-shutil-methods.md): High-level file operations
-- [pwd/grp](./notes/python-pwd-grp-methods.md): Users and Groups databases operations 
+- [os](./notes/python/os-methods.md): Operating system dependent functionality
+- [os.path](./notes/python/os-path-methods.md): Common pathname manipulations (adapts to the system it is running on)
+- [pathlib](./notes/python/pathlib-methods.md): Object-oriented filesystem paths
+- [stat](./notes/python/stat-methods.md): Interpreting stat() results
+- [shutil](./notes/python/shutil-methods.md): High-level file operations
+- [pwd/grp](./notes/python/pwd-grp-methods.md): Users and Groups databases operations 
 
 ### My lists on Alternativeto ###
 

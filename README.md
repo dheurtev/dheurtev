@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @dheurtev
-- 👀 I’m interested in Python, Javascript (node.js), Data Science, Databases
-- 🌱 I live in France.
+- 👀 I’m interested in Python, Javascript (node.js), Rust, Data Science, Databases
+- 🌱 I live in France (Normandy).
 - 💞️ 
 - 📫 How to reach me [My Linkedin profile](https://www.linkedin.com/in/david-heurtevent/)
 

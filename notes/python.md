@@ -128,6 +128,7 @@ Tools and packages I used are marked as `past`.
 **[`^        back to top        ^`](#)**
 - [SQLAlchemy](https://sqlalchemy.org/): Database toolkit, Object Relationship Mapper. Compatible with Flask and Pyramid. `MIT License`  `in use`
 - [Pydantic](https://pydantic-docs.helpmanual.io/): Data validation and settings management using python type annotations. `MIT License`.
+- [ponyorm](https://github.com/ponyorm/pony): object-relational mapper with ability to write queries to the database using Python generator expressions and lambdas. fast. `Apache 2.0 License`
 - [PyDAL](https://github.com/web2py/pydal): pure Python Database Abstraction Layer. Dynamically generates the SQL/noSQL in realtime using the specified dialect for the database backend, so that you do not have to write SQL code or learn different SQL dialects (the term SQL is used generically). `BSD-3-Clause license`
 
 ## Web ##

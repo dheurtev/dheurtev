@@ -127,7 +127,8 @@ Tools and packages I used are marked as `past`.
 ## Data : ORM, Validation ##
 **[`^        back to top        ^`](#)**
 - [SQLAlchemy](https://sqlalchemy.org/): Database toolkit, Object Relationship Mapper. Compatible with Flask and Pyramid. `MIT License`  `in use`
-- [Pydantic](https://pydantic-docs.helpmanual.io/):Data validation and settings management using python type annotations. `MIT License`.
+- [Pydantic](https://pydantic-docs.helpmanual.io/): Data validation and settings management using python type annotations. `MIT License`.
+- [PyDAL](https://github.com/web2py/pydal): pure Python Database Abstraction Layer. Dynamically generates the SQL/noSQL in realtime using the specified dialect for the database backend, so that you do not have to write SQL code or learn different SQL dialects (the term SQL is used generically). `BSD-3-Clause license`
 
 ## Web ##
 **[`^        back to top        ^`](#)**

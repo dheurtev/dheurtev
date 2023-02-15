@@ -4,6 +4,8 @@
 - [Symlinks/Hardlinks](#symlinks---hardlinks)
 - [Directories](#directories)
 
+Note: does not include all methods from os, os.path, pathlib or shutil.
+
 ## Files
 
 ### Test
@@ -102,6 +104,27 @@ with open('workfile', encoding="utf-8") as f:
 	- `Path(mypath).readlink()`
 
 ## Directories
+
+### Test
+- **is it a directory ?**																
+	- `os.path.isdir(path)`
+	- `Path(mypath).is_dir()`
+- **is is an absolute path ?**
+	- `os.path.isabs(path)`
+	- `PurePath(mypath).is_absolute()`
+
+### Create a directory
+- **Create a directory**
+	- `os.mkdir(path, mode=0o777, *, dir_fd=None)`
+	- `Path(mypath).mkdir(mode=0o777, parents=False, exist_ok=False)` [Note: use exist_ok=True]
+- **Create a directory with his parents**
+    - `os.makedirs(name, mode=0o777, exist_ok=False)` [Note: use exist_ok=True]
+	- `Path(mypath).mkdir(mode=0o777, parents=False, exist_ok=False)`
+
+### Remove a directory
+Note: directory must be empty
+  - `os.rmdir(path, *, dir_fd=None)`
+  - `Path(mypath).rmdir()`
 
 
 

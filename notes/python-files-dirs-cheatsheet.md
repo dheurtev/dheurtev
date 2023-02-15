@@ -25,12 +25,21 @@ with open('workfile', encoding="utf-8") as f:
 	f.write('This is a test\n')
 ```
 
+### Create a file
+- **Create an empty file**														
+	- `Path(mypath).touch(mode=0o666, exist_ok=True)`
 
+### Update a file
+- **Update modification time (touch)**														
+	- `Path(mypath).touch(mode=0o666, exist_ok=True)`
 
-
-
+### Delete a file
+	- `os.remove(path, *, dir_fd=None)`
+	- `os.unlink(path, *, dir_fd=None)`
+	- `Path(mypath).unlink(missing_ok=False)`
 
 ## Directories
+
 
 
 

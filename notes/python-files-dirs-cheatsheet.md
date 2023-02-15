@@ -51,6 +51,31 @@ with open('workfile', encoding="utf-8") as f:
 - **Copy a file object**																	
 	- `shutil.copyfileobj(fsrc, fdst[, length])`
 
+### Move - rename - replace a file
+- **Move a file**
+	- `shutil.move(src, dst, copy_function=copy2)`
+- **Rename a file**
+	- `Path(mypath).rename(target)`
+	- `os.rename(src, dst, *, src_dir_fd=None, dst_dir_fd=None)`
+- **Replace a file**
+	- `os.replace(src, dst, *, src_dir_fd=None, dst_dir_fd=None)`
+	- `Path(mypath).replace(target)`
+
+### Recursive operations
+- **Copy recursively** 																		
+	- `shutil.copytree(src, dst, symlinks=False, ignore=None, copy_function=copy2, ignore_dangling_symlinks=False, dirs_exist_ok=False)`
+- **Delete recursively**																	
+	- `shutil.rmtree(path, ignore_errors=False, onerror=None, *, dir_fd=None) [Note: use ignore_errors=True]`
+
+### Archives
+- **Make a zip or tar or gztar archive**
+	- `shutil.make_archive(base_name, format[, root_dir[, base_dir[, verbose[, dry_run[, owner[, group[, logger]]]]]]])`
+- **Unpack the archive**
+	- `shutil.unpack_archive(filename[, extract_dir[, format]])`
+### Permissions
+- **Change user, group of a file with user name and group name**
+	- `shutil.chown(path, user=None, group=None)`
+
 ## Directories
 
 

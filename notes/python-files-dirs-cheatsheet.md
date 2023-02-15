@@ -13,13 +13,17 @@
 
 ### Open a file
 
-`py with open('workfile', encoding="utf-8") as f:
-	read_data = f.read()`
+```python
+with open('workfile', encoding="utf-8") as f:
+	read_data = f.read()
+```
 
 ### Write to a file
 
-`py with open('workfile', encoding="utf-8") as f:
-	f.write('This is a test\n')`
+```python
+with open('workfile', encoding="utf-8") as f:
+	f.write('This is a test\n')
+```
 
 
 

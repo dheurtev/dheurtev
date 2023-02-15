@@ -33,6 +33,9 @@ Tools and technologies I am using, have used or i am considering using. It has a
 
 ### My Python notes ###
 
+#### Python (v. 3.11) cheatsheet ###
+-[Files, symlinks/hardlinks, directories and paths cheatsheet](./notes/python-files-dirs-cheatsheet.md)
+
 #### Python Standard Library (v. 3.11) - List of methods for some modules
 
 - [os](./notes/python-os-methods.md): Operating system dependent functionality

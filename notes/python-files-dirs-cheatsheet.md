@@ -4,6 +4,7 @@
 - [Symlinks/Hardlinks](#symlinks---hardlinks)
 - [Directories](#directories)
 - [Paths](#paths)
+- [Permissions - Metadata](#permissions---metadata)
 
 Note: does not include all methods from os, os.path, pathlib or shutil.
 
@@ -189,7 +190,7 @@ Note: directory must be empty
 - **Normalize a path (by collapsing redundant separators and up-level references)**
 	- `os.path.normpath(path)`
 
-### Permissions - Statistics
+## Permissions - Metadata
 - **Get the statistics and permissions**
 	- `os.stat(path, *, dir_fd=None, follow_symlinks=True)`
 	- `Path(mypath).stat()`

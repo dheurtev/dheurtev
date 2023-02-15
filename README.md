@@ -34,7 +34,9 @@ Tools and technologies I am using, have used or i am considering using. It has a
 
 - [Python tools and packages](./notes/python/tools-packages.md)
 
-#### Python (v. 3.11) cheatsheet ###
+#### Python (v. 3.11) cheatsheet
+
+#### My selection of tools and packages
 - [Files, symlinks/hardlinks, directories and paths cheatsheet](./notes/python/files-dirs-cheatsheet.md)
 
 #### Python Standard Library (v. 3.11) - List of methods for some modules

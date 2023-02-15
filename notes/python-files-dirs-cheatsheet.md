@@ -41,7 +41,7 @@ with open('workfile', encoding="utf-8") as f:
 
 ### Copy a file
 - **Copy a file and preserve some metadata**													
-	- `**shutil.copy2(src, dst, *, follow_symlinks=True)**`
+	- **`shutil.copy2(src, dst, *, follow_symlinks=True)`**
 - **Copy a file without metadata**															
 	- `shutil.copy(src, dst, *, follow_symlinks=True)`
 - **Copy the file permissions**																	

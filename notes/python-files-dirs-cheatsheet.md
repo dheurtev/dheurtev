@@ -1,8 +1,8 @@
 # Python (v. 3.11) - Files, symlinks/hardlinks and directories cheatsheet
 
-[File](#files)
-[Symlinks/Hardlinks](#symlinks---hardlinks)
-[Directories](#directories)
+- [File](#files)
+- [Symlinks/Hardlinks](#symlinks---hardlinks)
+- [Directories](#directories)
 
 ## Files
 

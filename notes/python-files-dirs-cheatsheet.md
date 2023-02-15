@@ -1,4 +1,8 @@
-# Python (v. 3.11) - Files and directories cheatsheet
+# Python (v. 3.11) - Files, symlinks/hardlinks and directories cheatsheet
+
+[File](#files)
+[Symlinks/Hardlinks](#symlinks---hardlinks)
+[Directories](#directories)
 
 ## Files
 
@@ -76,13 +80,7 @@ with open('workfile', encoding="utf-8") as f:
 - **Change user, group of a file with user name and group name**
 	- `shutil.chown(path, user=None, group=None)`
 
-## Directories
-
-
-
-
-
-## Symlinks/Hardlinks
+## Symlinks - Hardlinks
 
 ### Symlinks
 - **Is a symlink ?**																	
@@ -102,3 +100,11 @@ with open('workfile', encoding="utf-8") as f:
 - **Returns the path to which the symbolic link points**
 	- `os.readlink(path, *, dir_fd=None)`
 	- `Path(mypath).readlink()`
+
+## Directories
+
+
+
+
+
+

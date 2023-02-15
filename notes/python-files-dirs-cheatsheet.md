@@ -14,8 +14,9 @@
 ## Symlinks/Hardlinks
 
 ### Symlinks
-is symlink																	os.path.islink(path)
-																						Path(mypath).is_symlink()
+- **is symlink ?**																	
+	- os.path.islink(path)
+	- Path(mypath).is_symlink()
 
 Create a symlink														os.symlink(src, dst, target_is_directory=False, *, dir_fd=None)
 																						Path(mypath).symlink_to(target, target_is_directory=False)			

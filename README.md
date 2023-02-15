@@ -32,15 +32,13 @@ Tools and technologies I am using, have used or i am considering using. It has a
 
 ### My Python notes ###
 
+#### My selection of tools and packages
 - [Python tools and packages](./notes/python/tools-packages.md)
 
 #### Python (v. 3.11) cheatsheet
-
-#### My selection of tools and packages
 - [Files, symlinks/hardlinks, directories and paths cheatsheet](./notes/python/files-dirs-cheatsheet.md)
 
 #### Python Standard Library (v. 3.11) - List of methods for some modules
-
 - [os](./notes/python/os-methods.md): Operating system dependent functionality
 - [os.path](./notes/python/os-path-methods.md): Common pathname manipulations (adapts to the system it is running on)
 - [pathlib](./notes/python/pathlib-methods.md): Object-oriented filesystem paths

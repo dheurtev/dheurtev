@@ -39,6 +39,18 @@ with open('workfile', encoding="utf-8") as f:
 	- `os.unlink(path, *, dir_fd=None)`
 	- `Path(mypath).unlink(missing_ok=False)`
 
+### Copy a file
+- **Copy a file and preserve some metadata**													
+	- `**shutil.copy2(src, dst, *, follow_symlinks=True)**`
+- **Copy a file without metadata**															
+	- `shutil.copy(src, dst, *, follow_symlinks=True)`
+- **Copy the file permissions**																	
+	- `shutil.copymode(src, dst, *, follow_symlinks=True)`
+- **Copy a file with permission bits, last access time, last modification time, and flags**		
+	- `shutil.copystat(src, dst, *, follow_symlinks=True)`
+- **Copy a file object**																	
+	- `shutil.copyfileobj(fsrc, fdst[, length])`
+
 ## Directories
 
 

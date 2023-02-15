@@ -1,21 +1,26 @@
-# Python (v. 3.11) - Files, symlinks/hardlinks and directories cheatsheet
+# Python (v. 3.11) - Files, symlinks/hardlinks, directories and paths cheatsheet
 
 - [File](#files)
 - [Symlinks/Hardlinks](#symlinks---hardlinks)
 - [Directories](#directories)
+- [Paths](#paths)
 
 Note: does not include all methods from os, os.path, pathlib or shutil.
 
 ## Files
 
-### Test
+### Tests
 - **File exists ?**							
 	- `os.path.exists(path)`
 	- `Path(mypath).exists()`																
 
-- **Is a file ?**
+- **Is it a file ?**
 	- `os.path.isfile(path)`
 	- `Path(mypath).is_file()`
+
+- **Is it the same file?**
+	- `os.path.samefile(path1, path2)`
+	- `Path(mypath).samefile(other_path)`
 
 ### Open a file
 
@@ -63,9 +68,20 @@ with open('workfile', encoding="utf-8") as f:
 - **Rename a file**
 	- `Path(mypath).rename(target)`
 	- `os.rename(src, dst, *, src_dir_fd=None, dst_dir_fd=None)`
+- **Rename recursively**
+	- `os.renames(old, new)`
 - **Replace a file**
 	- `os.replace(src, dst, *, src_dir_fd=None, dst_dir_fd=None)`
 	- `Path(mypath).replace(target)`
+
+### Get a file name
+- **File name with extension**:
+	- `os.path.basename(path)`
+	- `PurePath(mypath).name`
+- **Split the filename and the extension**:
+	- `os.path.splitext(path)`
+	- Filename: `PurePath(mypath).stem`
+	- Extension: `PurePath(mypath).suffix`
 
 ### Recursive operations
 - **Copy recursively** 																		
@@ -78,9 +94,6 @@ with open('workfile', encoding="utf-8") as f:
 	- `shutil.make_archive(base_name, format[, root_dir[, base_dir[, verbose[, dry_run[, owner[, group[, logger]]]]]]])`
 - **Unpack the archive**
 	- `shutil.unpack_archive(filename[, extract_dir[, format]])`
-### Permissions
-- **Change user, group of a file with user name and group name**
-	- `shutil.chown(path, user=None, group=None)`
 
 ## Symlinks - Hardlinks
 
@@ -105,7 +118,7 @@ with open('workfile', encoding="utf-8") as f:
 
 ## Directories
 
-### Test
+### Tests
 - **is it a directory ?**																
 	- `os.path.isdir(path)`
 	- `Path(mypath).is_dir()`
@@ -121,13 +134,74 @@ with open('workfile', encoding="utf-8") as f:
     - `os.makedirs(name, mode=0o777, exist_ok=False)` [Note: use exist_ok=True]
 	- `Path(mypath).mkdir(mode=0o777, parents=False, exist_ok=False)`
 
-### Remove a directory
+### Get the directory name of the file's parent
+- **Parent directory**:
+	- `os.path.dirname(path)`
+	- `PurePath(mypath).parent`
+
+### Delete a directory
 Note: directory must be empty
   - `os.rmdir(path, *, dir_fd=None)`
   - `Path(mypath).rmdir()`
 
+### Move - rename - replace a directory
+- **Move a directory**
+	- `shutil.move(src, dst, copy_function=copy2)`
+- **Rename a directory**
+	- `Path(mypath).rename(target)`
+	- `os.rename(src, dst, *, src_dir_fd=None, dst_dir_fd=None)`
+- **Rename recursively**
+	- `os.renames(old, new)`
+- **Replace a directory**
+	- `os.replace(src, dst, *, src_dir_fd=None, dst_dir_fd=None)`
+	- `Path(mypath).replace(target)`
 
+### List the content of a directory
+- **List the content**
+	- `os.listdir(path='.')`
+	- `Path.iterdir()`
 
+## Paths
 
+### Get the paths
+- **Current working directory**
+	- `os.getcwd()`
+	- `Path(mypath).cwd()`
+- **Get home directory**
+	- `os.path.expanduser(path)`
+	- `Path(mypath).expanduser()`
+	- `Path(mypath).home()`
+- **Absolute path**
+	- `os.path.abspath(path)`
+    	- `Path(mypath).absolute()`
+- **Real path**
+	- `os.path.realpath()`
+	- `Path(mypath).resolve(strict=False)`
+- **Path relative to another**
+	- `os.path.realpath(path, *, strict=False)`
+	- `PurePath(mypath).relative_to(*other)`
 
+### Join and normalize paths
 
+- **Join several paths**
+	- `os.path.join(path, *paths)`
+	- `PurePath(mypath).joinpath(*other)`
+- **Normalize a path (by collapsing redundant separators and up-level references)**
+	- `os.path.normpath(path)`
+
+### Permissions - Statistics
+- **Get the statistics and permissions**
+	- `os.stat(path, *, dir_fd=None, follow_symlinks=True)`
+	- `Path(mypath).stat()`
+	- [os.stat details](https://docs.python.org/3/library/os.html#os.stat)
+- **Get the owner's names**
+	- `Path(mypath).owner()`
+- **Get the group's name**
+	- `Path(mypath).group()`
+- **Change the owner and group with a user name and a group name**
+	- `shutil.chown(path, user=None, group=None)`
+- **Change the owner and group with a user ID and group ID**
+	- `os.chown(path, uid, gid, *, dir_fd=None, follow_symlinks=True)`
+- **Change the permissions with a mode**
+	- `os.chmod(path, mode, *, dir_fd=None, follow_symlinks=True)`
+	- `Path(mypath).chmod(Path.chmod(mode, *, follow_symlinks=True)`

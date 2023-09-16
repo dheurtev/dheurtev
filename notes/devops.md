@@ -138,4 +138,4 @@ Create your own docker hub :
 
 #### Security ####
 **[`^        back to top        ^`](#)**
-- [HashiCorp Vault](https://www.vaultproject.io/): Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API. Self hosted possible. HashiCorp Project. Was `Mozilla Public License 2.0`. Now [`Business Source License 1.1`][(https://github.com/hashicorp/vault/blob/main/LICENSE) = `⚠ Proprietary for production`
+- [HashiCorp Vault](https://www.vaultproject.io/): Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API. Self hosted possible. HashiCorp Project. Was `Mozilla Public License 2.0`. Now [`Business Source License 1.1`](https://github.com/hashicorp/vault/blob/main/LICENSE) = `⚠ Proprietary for production`

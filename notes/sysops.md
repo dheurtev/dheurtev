@@ -24,6 +24,7 @@ Tools and packages I used are marked as `past`.
 ### Configuration management ###
 #### Infrastruction provision ####
 - [Terraform](https://www.terraform.io/): Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON to create, change and improve infrastructure. immutable infrastructure based on images. Typically for cloud and kubernetes. Config changes delete or recreate machines - Immutable / Déclarative - HashiCorp Project. Was `Mozilla Public License v2`. Now [`Business Source License 1.1`](https://github.com/hashicorp/terraform/blob/main/LICENSE) = `⚠ Proprietary for production`
+  * Open Source Fork underway : [OpenTF](https://github.com/opentffoundation/opentf) `Mozilla Public License v2`
 
 ## Operate - Infrastructure as a Service ##
 **[`^        back to top        ^`](#)**

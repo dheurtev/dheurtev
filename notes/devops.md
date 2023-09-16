@@ -99,7 +99,7 @@ Cross-platform :
 #### Build images ####
 - [Docker (docker build)](https://docs.docker.com/engine/reference/commandline/build/)
 - [Podman (podman build)](https://docs.podman.io/en/latest/markdown/podman-build.1.html)
-- [Packer](https://www.packer.io/): free and open source tool for creating golden images for multiple platforms from a single source configuration. AWS, Docker, Vagrant, VirtualBox, VMWARE, Openstack, etc. HashiCorp Project. `Mozilla Public License 2.0`
+- [Packer](https://www.packer.io/): free and open source tool for creating golden images for multiple platforms from a single source configuration. AWS, Docker, Vagrant, VirtualBox, VMWARE, Openstack, etc. HashiCorp Project. Was `Mozilla Public License 2.0`. Now [`Business Source License 1.1`](https://github.com/hashicorp/packer/blob/main/LICENSE) = `⚠ Proprietary for production` 
 
 ### Test ###
 - [PyTest](https://docs.pytest.org/en/7.1.x/): Python testing framework. `MIT License` `in use`
@@ -138,4 +138,4 @@ Create your own docker hub :
 
 #### Security ####
 **[`^        back to top        ^`](#)**
-- [HashiCorp Vault](https://www.vaultproject.io/): Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API. Self hosted possible. HashiCorp Project. `Mozilla Public License 2.0`
+- [HashiCorp Vault](https://www.vaultproject.io/): Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API. Self hosted possible. HashiCorp Project. Was `Mozilla Public License 2.0`. Now [`Business Source License 1.1`][(https://github.com/hashicorp/vault/blob/main/LICENSE) = `⚠ Proprietary for production`

@@ -115,14 +115,14 @@ Tools and packages I used are marked as `past`.
 #### ELK ####
 
 [ELK](https://www.elastic.co/fr/elastic-stack/): Elasticsearch, Kibana, Beats et Logstash
-  * [Beats](https://www.elastic.co/fr/beats/): Beats is a free and open platform for single-purpose data shippers. `Apache 2.0 License` 
-  * [Logstash](https://www.elastic.co/fr/logstash/): free and open server-side data processing pipeline that ingests data from a multitude of sources, transforms it, and then sends it to an Elasticsearch data warehouse. `Apache 2.0 License`
-  * [Elasticsearch](https://www.elastic.co/): search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents. `Apache 2.0 License`
-  * [Kibana](https://www.elastic.co/fr/kibana/): source-available data visualization dashboard software for Elasticsearch. 
+  * [Beats](https://www.elastic.co/fr/beats/): Beats is a free and open platform for single-purpose data shippers. [`Apache 2.0 License` or the Elastic License](https://github.com/elastic/beats/blob/main/LICENSE.txt) `⚠ Proprietary`. 
+  * [Logstash](https://www.elastic.co/fr/logstash/): free and open server-side data processing pipeline that ingests data from a multitude of sources, transforms it, and then sends it to an Elasticsearch data warehouse. [`Apache 2.0 License` or the Elastic License](https://github.com/elastic/logstash/blob/main/LICENSE.txt). `⚠ Proprietary`
+  * [Elasticsearch](https://www.elastic.co/): search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents. See license issue below. `⚠ Proprietary`
+  * [Kibana](https://www.elastic.co/fr/kibana/): source-available data visualization dashboard software for Elasticsearch. See license issue below. `⚠ Proprietary`
 
 **License issue**: "(i) a dual license under the Server Side Public License, v 1 and the Elastic License 2.0 or (ii) an Apache License 2.0 compatible license or (iii) solely under the Elastic License 2.0, in each case, as noted in the applicable header." => Avoid as `⚠ Proprietary`
 
-#### OpenSearch (fork) ####
+#### OpenSearch (ELK fork) ####
 Following the license change of ELK, the project has been forked.
 
 [OpenSearch](https://opensearch.org/) is a community-driven, `Apache 2.0-licensed` open source search and analytics suite that makes it easy to ingest, search, visualize, and analyze data. Developers build with OpenSearch for use cases such as application search, log analytics, data observability, data ingestion, and more
@@ -163,7 +163,7 @@ Following the license change of ELK, the project has been forked.
 ## Dashboard ##
 **[`^        back to top        ^`](#)**
 - [Graphite](https://graphiteapp.org/): Monitoring tool that runs equally well on cheap hardware or Cloud infrastructure. Teams use Graphite to track the performance of their websites, applications, business services, and networked servers. Store numeric time-series data. Render graphs of this data on demand. Not a collecting agent. [Github repo](https://github.com/tmm1/graphite) `Apache License 2.0`
-- [Grafana](https://grafana.com/): multi-platform open source analytics and interactive visualization web application. `AGPLv3`
+- [Grafana](https://grafana.com/): multi-platform open source analytics and interactive visualization web application. `AGPLv3`. [Moved in 2021 from Apache License v2.0 to AGPLv3](https://grafana.com/licensing/). "Users who don’t intend to modify Grafana code can simply use our Enterprise download. This is a free-to-use, proprietary-licensed, compiled binary that matches the features of the AGPL version"
 
 ## Tracing ##
 [Top distributed tracing tools](https://signoz.io/blog/distributed-tracing-tools/)

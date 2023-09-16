@@ -22,7 +22,7 @@ Tools and packages I used are marked as `past`.
 
 ### Level 2 Hypervisors ###
 #### Cross-platform ####
-  * [Oracle VM VirtualBox](https://www.virtualbox.org/): Open Source Level 2 x86 and AMD64/Intel64 virtualization product. Runs as an app on Windows, Linux, OS X, Solaris. Has a gui. `GPLv2` and `Proprietary` extentions `past`
+  * [Oracle VM VirtualBox](https://www.virtualbox.org/): Open Source Level 2 x86 and AMD64/Intel64 virtualization product. Runs as an app on Windows, Linux, OS X, Solaris. Has a gui. `GPLv2`. [`Proprietary` extentions](https://www.oracle.com/assets/oracle-vm-virtualbox-overview-2981353.pdf): A license must be purchased for business/commercial use of the extension pack. `past`
 
 ## Virtual Environment ##
 **[`^        back to top        ^`](#)**

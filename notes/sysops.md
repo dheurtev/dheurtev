@@ -23,14 +23,14 @@ Tools and packages I used are marked as `past`.
 **[`^        back to top        ^`](#)**
 ### Configuration management ###
 #### Infrastruction provision ####
-- [Terraform](https://www.terraform.io/): Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON to create, change and improve infrastructure. immutable infrastructure based on images. Typically for cloud and kubernetes. Config changes delete or recreate machines - Immutable / Déclarative - HashiCorp Project. `Mozilla Public License v2`
+- [Terraform](https://www.terraform.io/): Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON to create, change and improve infrastructure. immutable infrastructure based on images. Typically for cloud and kubernetes. Config changes delete or recreate machines - Immutable / Déclarative - HashiCorp Project. Was `Mozilla Public License v2`. Now [`Business Source License 1.1`](https://github.com/hashicorp/terraform/blob/main/LICENSE) = `⚠ Proprietary for production`
 
 ## Operate - Infrastructure as a Service ##
 **[`^        back to top        ^`](#)**
 ### Scheduling and Orchestration ###
 - [Kubernetes (K8s)](https://kubernetes.io/): open-source container orchestration system for automating software deployment, scaling, and management. Orchestrator and clustering solution for Docker containers + HELM (webui for its management). Google Project. [CNCF graduated project](https://www.cncf.io/projects/kubernetes/). `Apache 2.0 License`
 - [Docker Swarm](https://docs.docker.com/engine/swarm/): Lightweight orchestration of docker containers. `Apache 2.0 license`
-- [Nomad](https://www.nomadproject.io/): A cluster manager and scheduler. Task scheduling platform that can orchestrate different workload types as an extended feature Self-hosted possible. HashiCorp Project. `Mozilla Public License 2.0`
+- [Nomad](https://www.nomadproject.io/): A cluster manager and scheduler. Task scheduling platform that can orchestrate different workload types as an extended feature Self-hosted possible. HashiCorp Project. Was `Mozilla Public License v2`. Now [`Business Source License 1.1`](https://github.com/hashicorp/terraform/blob/main/LICENSE](https://github.com/hashicorp/nomad/blob/main/LICENSE) = `⚠ Proprietary for production`
 - [Rancher](https://rancher.com/): Open Source Platform for Running a Private Container Service. Rancher is an open source container management platform that includes full distributions of Kubernetes, Apache Mesos and Docker Swarm, and makes it simple to operate container clusters on any cloud or infrastructure platform. HashiCorp Project. `Apache License 2.0`
 #### Kubernetes Utils ####
 - [KubeVirt](https://kubevirt.io/): Unified development platform where developers can build, modify, and deploy applications residing in both Application Containers as well as Virtual Machines in a common, shared environment.  [CNCF incubating project](https://www.cncf.io/projects/kubevirt/). `Apache License 2.0`

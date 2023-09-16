@@ -28,7 +28,7 @@ relational, document (JSON and XML), key–value, graph, arrays, objects
 
 Often used with PHP.
 
-- [MariaDB](https://mariadb.org/): Open-source SQL relational database management system. MySQL fork. `GPLv2` `in use`
+- [MariaDB](https://mariadb.org/): SQL relational database management system. MySQL fork. Community Server is `GPLv2` `in use`. Enterprise Server now is [`Business Source License 1.1`](https://mariadb.com/bsl11/) = `⚠ Proprietary for production`
 - [MySQL](https://www.mysql.com/): Open-source SQL relational database management system. `GPLv2` or `proprietary`. `in use`
 - [Vitess](https://vitess.io/): Database clustering system for horizontal scaling of MySQL. [CNCF Graduated project](https://www.cncf.io/projects/vitess/) `Apache License 2.0`
 - [MySQL Workbench](https://www.mysql.com/products/workbench/): visual database design tool that integrates SQL development, administration, database design, creation and maintenance into a single integrated development environment for the MySQL database system. Cross-Platform. Free edition. `GPLv2`
@@ -61,7 +61,7 @@ Often used with Javascript/NodeJS.
   * [Github](https://github.com/rethinkdb/rethinkdb)
 
 #### MongoDB ####
-- [MongoDB](https://www.mongodb.com/): source-available cross-platform document-oriented database program. JSON like storage. `⚠ Server Side Public License  = proprietary]` `past`
+- [MongoDB](https://www.mongodb.com/): source-available cross-platform document-oriented database program. JSON like storage. `⚠ Server Side Public License  = ⚠ proprietary` `past`
   * [Documentation](https://www.mongodb.com/docs/)
 - [Robo Mongo 3T](https://robomongo.org/): free, lightweight, open-source MongoDB GUI with an embedded mongo shell, real auto-completion, and support for MongoDB. `GPLv3` `past`. 
   * [Github](https://github.com/Studio3T/robomongo). `⚠ Abandonned`

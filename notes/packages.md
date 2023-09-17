@@ -12,9 +12,8 @@
 - [Scoop](https://scoop.sh/): Free - [Github](https://github.com/ScoopInstaller) `UNLICENSE` or `MIT` `in use`
 ### Apple or Linux Package managers ###
 - [Homebrew](https://brew.sh/): The Missing Package Manager for macOS (or Linux)
-- [Snap](https://snapcraft.io/) : App store for Linux - initiated by Cannonical - Ubuntu centric. Desktop applications and CLI. `in use`
-- [Flatpak](https://flatpak.org/) : App store for Linux - independent but RedHat founded. Only for desktop applications. Does not require admin privilege. Sandboxing by default.
-
+- [Snap](https://snapcraft.io/) : App store for Linux - initiated by Cannonical - Ubuntu centric. Desktop applications and CLI. Sandboxing by default. `in use`
+- [Flatpak](https://flatpak.org/) : App store for Linux - independent but RedHat founded. Only for desktop applications. Does not require admin privilege. Sandboxing by default. `in use`
 
 ## Find packages ##
 **[`^        back to top        ^`](#)**

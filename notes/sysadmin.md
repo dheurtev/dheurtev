@@ -13,7 +13,7 @@ Tools and packages I used are marked as `past`.
 **[`^        back to top        ^`](#)**
 - Provisioning should be automated after the server starts (use cloud-init).
 - Infrastructure should be reproductible, disposable, consistent, with no end state
-- Avoid manual changes with a GUI as it leads to non-reproductible environment.
+- Avoid manual changes with a GUI as it leads to a non-reproductible environment.
 - Declarative configuration to avoid configuration drift => use containers, try to become immutable
 - Do not store passwords in code. Use instead IAM or Vault. 
 - Send and monitor logs
@@ -40,11 +40,11 @@ Tools and packages I used are marked as `past`.
 #### Server management ####
 - [Cockpit](https://cockpit-project.org/): See your server in a web browser and perform system tasks with a mouse. Linux. `GNU LGPL` `in use`
   * [How to manage KVM Machines](https://www.tecmint.com/manage-kvm-virtual-machines-using-cockpit-web-console/)
-  * [cockpit-machines](https://github.com/cockpit-project/cockpit-machines): Cockpit User Interface for virtual machines. `GNU Lesser General Public License v2.1` ìn use`
+  * [cockpit-machines](https://github.com/cockpit-project/cockpit-machines): Cockpit User Interface for virtual machines. `GNU Lesser General Public License v2.1` `in use`
   * [cockpit-podman](https://github.com/cockpit-project/cockpit-podman): Cockpit User Interface for Podman. `GNU Lesser General Public License v2.1` `in use`
 - [Portainer CE](https://hub.docker.com/r/portainer/portainer-ce): Portainer CE - a lightweight service delivery platform for containerized applications. *docker pull portainer/portainer-ce* `zlib license (permissive free software license)` `in use`
 #### Clustering ####
-- [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) : Open-source virtualization management platform - Uses KVM, LXD, CEPH, etc - [Documentation](https://pve.proxmox.com/pve-docs/) - Debian based - `GNU AGPL, v3` `in use`
+- [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) : Open-source virtualization management platform - Uses KVM, LXD, CEPH, etc - [Documentation](https://pve.proxmox.com/pve-docs/) - Debian based - `GNU AGPL, v3` `past`
 - [oVirt](https://www.ovirt.org/): open-source virtualization management platform. Red-Hat based. Uses GlusterFS and Ansible. `past`
 - [LXD Clustering](https://linuxcontainers.org/lxd/docs/master/clustering/): Works with [Metal-As-A-Service (MAAS)](https://maas.io/)
 - [Clusterlabs](https://clusterlabs.org/quickstart.html): High Availability. Combines Corosync, Pacemaker, DRBD, ScanCore.
@@ -53,15 +53,11 @@ Tools and packages I used are marked as `past`.
 - [OpenStack](https://www.openstack.org/): free, open standard cloud computing platform. `Apache 2.0 License`
 - [Microstack](https://microstack.run/docs): OpenStack on a single machine. Supported services are currently Glance, Horizon, Keystone, Neutron (with OVN), and Nova. single-node install and a multi-node deployment. `MIT License`
 
-#### Provision Management ####
-##### CLI #####
+#### Provision Management (CLI) ####
 - virsh: low level
 - lxc : low level
-- [Vagrant](https://www.vagrantup.com/): open-source software product for building and maintaining portable virtual software development environments; e.g., for VirtualBox, KVM, Hyper-V, Docker containers, VMware, and AWS. It tries to simplify the software configuration management of virtualization. Typically creates Virtualbox VMs but plugins support other platforms. HashiCorp Project. `MIT License` `in use`
-- [Multipass](https://multipass.run/): a CLI to launch and manage VMs on Windows, Mac and Linux that simulates a cloud environment with support for cloud-init. Canonical project. `GPLv3.0`
-##### GUI #####
-- [Oracle VM VirtualBox](https://www.virtualbox.org/): Open Source Level 2 x86 and AMD64/Intel64 virtualization product. Runs as an app on Windows, Linux, OS X, Solaris. `GPLv2` `past`.
-- [Virt-Manager](https://virt-manager.org/): Desktop virtual machine monitor for KVM/QEMU/Libvirt. `GPLv2` `past`
+- [Multipass](https://multipass.run/): a CLI to launch and manage VMs on Windows, Mac and Linux that simulates a cloud environment with support for cloud-init. Canonical project. `GPLv3.0` `in use`
+- [Vagrant](https://www.vagrantup.com/): open-source software product for building and maintaining portable virtual software development environments; e.g., for VirtualBox, KVM, Hyper-V, Docker containers, VMware, and AWS. It tries to simplify the software configuration management of virtualization. Typically creates Virtualbox VMs but plugins support other platforms. HashiCorp Project. Was `MIT License`. Now [`Business Source License 1.1`](https://github.com/hashicorp/vagrant/blob/main/LICENSE) =>  `⚠ Proprietary`. `past`
 
 #### Configuration Management ####
 [Comparison : Chef, Puppet, Ansible, Saltstack](https://www.edureka.co/blog/chef-vs-puppet-vs-ansible-vs-saltstack/)
@@ -87,7 +83,7 @@ Tools and packages I used are marked as `past`.
   * [Uyuni Project](https://www.uyuni-project.org/): Uyuni is an open source systems management solution, forked from Spacewalk. upstream community project from which SUSE Manager is derived. Enterprise oriented. `GPLv2`
 - [Puppet](https://puppet.com/): software configuration management tool which includes its own declarative language to describe system configuration. It is a model-driven solution that requires limited programming knowledge to use. Master-agent model. Ruby DSL (sysadmin oriented). Client pulls config. Manifest files are fundamentally a set of configurations or tasks that determine how your network and operating system resources (such as services, packages, and files) are configured. Declarative style. Mutable. Suitable for cloud use. Open Source Puppet: `Apache` for >2.7.0, GPL for prior versions. Puppet Enterprise: `⚠ Proprietary`.
 
-`Use Terraform for declarative immutable in container orchestration`
+`Use Terraform for declarative immutable in container orchestration` (but beware of license change to non open-source)
 
 ![image](https://user-images.githubusercontent.com/4304311/185752513-7fde06dc-b6ad-4849-8bcd-14f897c61693.png )
 Source: [IBM](https://www.ibm.com/cloud/blog/chef-ansible-puppet-terraform)

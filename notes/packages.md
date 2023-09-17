@@ -7,6 +7,7 @@
 **[`^        back to top        ^`](#)**
 - I strongly encourage you to use package managers rather than binary packages : dependencies management, easier upgrades, sometimes sandboxing
 - ["Flatpak vs. Snap: 10 Differences You Should Know"](https://itsfoss.com/flatpak-vs-snap)
+- ["Comparison Between Snaps, Flatpak, and AppImage Packages"](https://www.baeldung.com/linux/snaps-flatpak-appimage)
 ### Windows Package managers ###
 - [Chocolatey](https://chocolatey.org/) : Free or paid version - [Github](https://github.com/chocolatey)  `Apache v2 License` `in use`
 - [Scoop](https://scoop.sh/): Free - [Github](https://github.com/ScoopInstaller) `UNLICENSE` or `MIT` `in use`

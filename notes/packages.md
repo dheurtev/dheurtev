@@ -5,7 +5,7 @@
 
 ## Install packages ##
 **[`^        back to top        ^`](#)**
-- I strongly encourage you to use package managers rather than binary packages.
+- I strongly encourage you to use package managers rather than binary packages : dependencies management, easier upgrades, sometimes sandboxing
 - ["Flatpak vs. Snap: 10 Differences You Should Know"](https://itsfoss.com/flatpak-vs-snap)
 ### Windows Package managers ###
 - [Chocolatey](https://chocolatey.org/) : Free or paid version - [Github](https://github.com/chocolatey)  `Apache v2 License` `in use`
@@ -35,13 +35,13 @@ How to search for an app or a software
 - [Homebrew packages](https://formulae.brew.sh/formula/)
 - [Snapcraft](https://snapcraft.io/)
 - [Flatpak](https://flatpak.org/)
-### For business users ###
-- [SaasWorthy](https://www.saasworthy.com/): To find cloud business software (Software-As-a-Service)
-- [Sourceforge](https://sourceforge.net/)
 #### Binary packages for Linux users ###
 - [Debian packages](https://www.debian.org/distrib/packages)
 - [Ubuntu packages](https://packages.ubuntu.com/)
 - [RedHat Marketplace](https://marketplace.redhat.com/en-us/search)
 - [RPM find](https://rpmfind.net/)
+### For business users ###
+- [SaasWorthy](https://www.saasworthy.com/): To find cloud business software (Software-As-a-Service)
+- [Sourceforge](https://sourceforge.net/)
 
 

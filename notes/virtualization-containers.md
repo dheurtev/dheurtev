@@ -10,23 +10,26 @@ Tools and packages I used are marked as `past`.
 ## Virtualization technologies ##
 **[`^        back to top        ^`](#)**
 ### Level 1 Hypervisors Virtualization on Windows ###
-- [Microsoft Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v): Native Level 1 hypervisor to create virtual machines on x86-64 systems running Windows. Used by WSL2. `⚠ Proprietary` `in use`
+- [Microsoft Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v): Native Level 1 hypervisor to create virtual machines on x86-64 systems running Windows. Used by WSL2. Replaces Virtualbox + add-ons. `⚠ Proprietary` `in use`
 ### Linux virtualization technologies ###
 - [Qemu](https://www.qemu.org/): Generic and open-source machine emulator and virtualizer for Linux. `GPLv2` `in use`
 - [KVM](https://www.linux-kvm.org/page/Main_Page) : KVM (for Kernel-based Virtual Machine) is an open-source full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V). Part of Linux Kernel. `GPLv2` `in use`
 - [Libvirt/libvirtd](https://libvirt.org/): Open-source API, daemon and management tool for managing platform virtualization in Linux. `LGPL` `in use`
 ### Level 1 Hypervisors in Linux ###
 [Performance Evaluation of Xen, KVM, and Proxmox Hypervisors](https://www.researchgate.net/publication/327482365_Performance_Evaluation_of_Xen_KVM_and_Proxmox_Hypervisors)
-- [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) : Open-source virtualization management platform - Uses KVM, LXD, CEPH, etc - Documentation - Debian based - `GNU AGPL, v3` `in use`
+#### Proxmox ####
+- [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) : Open-source virtualization management platform - Uses KVM, LXD, CEPH, etc - Documentation - Debian based. But, API not versioned, custom kernel, tight integration. `GNU AGPL, v3`. `past`
+#### UI for KVM ####
+- [Cockpit](https://cockpit-project.org/): Web-based graphical interface for servers. Reuses system API. Official add-ons : [cockpit-machines](github.com/cockpit-project/cockpit-machines) for KVM virtual machine, [cockpit-podman](github.com/cockpit-project/cockpit-podman) for podman containers. `GNU LGPLv2.1` `in use`
 - [Virt-Manager](https://virt-manager.org/): Desktop virtual machine monitor for KVM/QEMU/Libvirt. `GPLv2` `past`
 
 ### Level 2 Hypervisors ###
 #### Cross-platform ####
-  * [Oracle VM VirtualBox](https://www.virtualbox.org/): Open Source Level 2 x86 and AMD64/Intel64 virtualization product. Runs as an app on Windows, Linux, OS X, Solaris. Has a gui. `GPLv2`. [`Proprietary` extentions](https://www.oracle.com/assets/oracle-vm-virtualbox-overview-2981353.pdf): A license must be purchased for business/commercial use of the extension pack. `past`
+- [Oracle VM VirtualBox](https://www.virtualbox.org/): Open Source Level 2 x86 and AMD64/Intel64 virtualization product. Runs as an app on Windows, Linux, OS X, Solaris. Has a gui. `GPLv2`. [`Proprietary` extentions](https://www.oracle.com/assets/oracle-vm-virtualbox-overview-2981353.pdf): A license must be purchased for business/commercial use of the extension pack. `past`
 
 ## Virtual Environment ##
 **[`^        back to top        ^`](#)**
-- [LXC/LXD](https://linuxcontainers.org/): Linux Containers is an operating-system-level virtualization method for running multiple isolated Linux systems on a control host using a single Linux kernel. Chroot on steroids, near bare metal performance, not a VM, fully functionnal OS, standard Linux tools (CLI), Data stored in or outside the container, can be used for composite stacks, file system neutral, but shares same kernel as host, limited portability - Canonical Project - `GNU LGPL v.2.1`
+- [LXC/LXD](https://linuxcontainers.org/): Linux Containers is an operating-system-level virtualization method for running multiple isolated Linux systems on a control host using a single Linux kernel. Chroot on steroids, near bare metal performance, not a VM, fully functionnal OS, standard Linux tools (CLI), Data stored in or outside the container, can be used for composite stacks, file system neutral, but shares same kernel as host, limited portability - Canonical Project - `GNU LGPL v.2.1` `in use`
   * LXC : Linux container runtime that consists of tools, templates, and library and language bindings
   * LXD : System container and virtual machine manager
   * Used for stateful containers (e.g. stable services, database)

@@ -5,13 +5,16 @@
 
 ## Install packages ##
 **[`^        back to top        ^`](#)**
-- I strongly encourage you to use package managers
+- I strongly encourage you to use package managers rather than binary packages.
+- ["Flatpak vs. Snap: 10 Differences You Should Know"](https://itsfoss.com/flatpak-vs-snap)
 ### Windows Package managers ###
 - [Chocolatey](https://chocolatey.org/) : Free or paid version - [Github](https://github.com/chocolatey)  `Apache v2 License` `in use`
 - [Scoop](https://scoop.sh/): Free - [Github](https://github.com/ScoopInstaller) `UNLICENSE` or `MIT` `in use`
 ### Apple or Linux Package managers ###
 - [Homebrew](https://brew.sh/): The Missing Package Manager for macOS (or Linux)
-- [Snap : App store for Linux](https://snapcraft.io/)
+- [Snap](https://snapcraft.io/) : App store for Linux - initiated by Cannonical - Ubuntu centric. Desktop applications and CLI. `in use`
+- [Flatpak](https://flatpak.org/) : App store for Linux - independent but RedHat founded. Only for desktop applications. Does not require admin privilege. Sandboxing by default.
+
 
 ## Find packages ##
 **[`^        back to top        ^`](#)**
@@ -30,11 +33,12 @@ How to search for an app or a software
 #### Linux ####
 - [Appimage for Linux](https://www.appimagehub.com/browse)
 - [Homebrew packages](https://formulae.brew.sh/formula/)
-- [Snap : App store for Linux](https://snapcraft.io/)
+- [Snapcraft](https://snapcraft.io/)
+- [Flatpak](https://flatpak.org/)
 ### For business users ###
 - [SaasWorthy](https://www.saasworthy.com/): To find cloud business software (Software-As-a-Service)
 - [Sourceforge](https://sourceforge.net/)
-#### For Linux users ###
+#### Binary packages for Linux users ###
 - [Debian packages](https://www.debian.org/distrib/packages)
 - [Ubuntu packages](https://packages.ubuntu.com/)
 - [RedHat Marketplace](https://marketplace.redhat.com/en-us/search)

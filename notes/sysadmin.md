@@ -54,9 +54,9 @@ Tools and packages I used are marked as `past`.
 - [Microstack](https://microstack.run/docs): OpenStack on a single machine. Supported services are currently Glance, Horizon, Keystone, Neutron (with OVN), and Nova. single-node install and a multi-node deployment. `MIT License`
 
 #### Provision Management (CLI) ####
-- virsh: low level
-- lxc : low level
-- [Multipass](https://multipass.run/): a CLI to launch and manage VMs on Windows, Mac and Linux that simulates a cloud environment with support for cloud-init. Canonical project. `GPLv3.0` `in use`
+- virsh (libvirt): low level  `in use`
+- lxc (LXC/LXD) : low level  `in use`
+- [Multipass](https://multipass.run/): a CLI to launch and manage VMs on Windows, Mac and Linux that simulates a cloud environment with support for cloud-init. Canonical project. `GPLv3.0` `past`
 - [Vagrant](https://www.vagrantup.com/): open-source software product for building and maintaining portable virtual software development environments; e.g., for VirtualBox, KVM, Hyper-V, Docker containers, VMware, and AWS. It tries to simplify the software configuration management of virtualization. Typically creates Virtualbox VMs but plugins support other platforms. HashiCorp Project. Was `MIT License`. Now [`Business Source License 1.1`](https://github.com/hashicorp/vagrant/blob/main/LICENSE) =>  `⚠ Proprietary`. `past`
 
 #### Configuration Management ####
@@ -74,7 +74,8 @@ Tools and packages I used are marked as `past`.
 ##### Procedural style #####
 - [Ansible](https://www.ansible.com/): agentless automation tool that you install on a single host - Connects to the server via SSH - Apply config changes, configuration of systems, software install, uses yaml documentation (admin oriented). Procedural style. Mutable. Pushed configuration. - Ansible uses the SSH (or RDP for Windows) protocols to open a connection to the client servers to execute its sequential commands Typically to configure VMs or for bare metal operations - RedHat Project. `GPL-3.0 license` `in use`
    * [Documentation](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
-   * Ansible Tower or Ansible Semaphore : WebUI for Ansible
+   * [RedHat Ansible Automation platform (replaced Ansible Tower)](https://www.redhat.com/en/technologies/management/ansible/automation-controller)
+   * [Ansible Semaphore](https://www.ansible-semaphore.com/) : WebUI for Ansible. `MIT License`. 
 - [Chef](https://www.chef.io/), Chef DSL (dev oriented). Master-agent model. Client pulls config. Chef's configuration options consist of Cookbooks and Recipes. The recipes are the definition files that can be combined with attributes, files, libraries, and other recipes to build Cookbooks. These cookbooks can then be used for client deployment. Procedural style. Mutable. [License](https://docs.chef.io/chef_license/). Some `Apache 2.0 License`, some `⚠ Proprietary`.
 ##### Declarative style #####
 - [Saltstack - Salt](https://saltproject.io/): Python-based, open-source software for event-driven IT automation, remote task execution, and configuration management. synchronous file server to speed deployment. Parallel execution of multiple commands at once encrypted via AES (Advanced Encryption Standard) and pushed to the client nodes via the SSH protocol. Yaml (admin oriented). Master-agent model. Push configuration. Declarative style. Mutable. Web Gui. Suitable for cloud use.  `Apache License 2.0`.

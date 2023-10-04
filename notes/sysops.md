@@ -57,6 +57,16 @@ Tools and packages I used are marked as `past`.
 #### Message broker ####
 - [NATS](https://nats.io/): cloud native open-source messaging system. written in the Go programming language. Client libraries to interface with the server are available for dozens of major programming languages. deployments models using clusters, superclusters, and leaf nodes. [CNCF incubated project](https://www.cncf.io/projects/nats/) - [Githbub repo](https://github.com/nats-io/nats-server) `Apache 2.0 license`. 
 
+#### API Gateways ####
+[List of API Gateways](https://geekflare.com/api-gateway/)
+- [Kong Gateway](https://konghq.com/products/kong-gateway): It is a popular open sourse cloud-native API gateway that is built on top of a lightweight proxy. It is written in Lua and runs with the help of Nginx. It provides a template engine that helps to accelerate the event time. It guarantees high performance, reliability, and scalability. It has an API and CLI for managing APIs, plugins, and configurations. `Apache 2.0 License`. Enterprise version is proprietary. 
+
+- [Tyk](https://tyk.io/): It is an open-source API gateway that is designed to be fast, scalable, and easy to use. It supports RESTful APIs, GraphQL APIs, and gRPC APIs. It provides features such as rate limiting, authentication, authorization, analytics, and more. It has an API for managing APIs and policies. `Mozilla Public License Version 2.0`.
+
+- [Gravitee](https://www.gravitee.io/): It is an open-source API management platform that provides features such as API gateway, developer portal, analytics, and more. It supports RESTful APIs and GraphQL APIs. It has an API for managing APIs, applications, plans, and subscriptions. `Apache 2.0 License` 
+
+- [KrakenD](https://www.krakend.io/): It is a high-performance open-source API gateway that can transform, aggregate or remove data from your own or third-party services. It implements the Backend for Frontend (BFF) and Micro-frontends patterns to eliminate the necessity of dealing with multiple backends. It has an API for managing APIs and configurations. Community Edition: `Apache 2.0 License`
+
 ## Monitor ##
 **[`^        back to top        ^`](#)**
 [My monitoring page](https://github.com/dheurtev/dheurtev/blob/main/monitoring.md)

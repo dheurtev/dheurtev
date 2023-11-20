@@ -9,6 +9,7 @@ The focus is on everyday computer buyers, including my own personal experience.
 - [Some useful sources](#some-useful-sources)
 
 ## A piece of advice
+**[`^        back to top        ^`](#)**
 - Vacuum clean the dust on old hardware and replace thermal paste. 
 - Do not expose old hardware directly to the internet without a strict firewall (bots are scanning for known security vulnerabilities).
 - Use virtual machines instead of physical machines when installing new untrusted software sources, so you don't damage old hardware.
@@ -16,7 +17,7 @@ The focus is on everyday computer buyers, including my own personal experience.
 - Keep games and other intensive applications to virtual machines to avoid overheating or damaging components.
 
 ## Summary Table
-
+**[`^        back to top        ^`](#)**
 | **Architecture** | 16 bits | 16/32 bits | 32 bits |  32 bits | 32 bits  | 32/64 bits |  32/64 bits |
 |--------------|---------|-------|---------|---|---|------------|---|
 | **Year** | **1989-1993** | **1993-1995** | **1995-1998** | **1998-2000** | **2001** | **2004** | **2009** |
@@ -45,6 +46,7 @@ The focus is on everyday computer buyers, including my own personal experience.
 | **Microsoft Windows - Version last release** | | Windows 3.1.1 | Windows 95 OEM SP 5 | Windows 98 SE / Windows 2000 (SP4) | Window XP SP 4 (unofficial SP5) | Windows XP SP 4 (unofficial SP5) | Win 7 SP 3 |
 
 ## Some useful sources
+**[`^        back to top        ^`](#)**
 ### DOS - Typical PC per year
 - [DOS Days - Typical pc per year](https://www.dosdays.co.uk/topics/typical_pc_per_year.php)
 

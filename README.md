@@ -30,6 +30,9 @@ Tools and technologies I am using, have used or i am considering using. It has a
 - [How to find and install packages](./notes/packages.md)
 - [Other Developer tools](./notes/developer-tools.md)
 
+### My history notes for retrocomputing and retrogaming enthusiasts###
+- [Typical Personal Computer specifications found during the PC golden age (circa 1992-2005)](./IT-HISTORY/typical-pc.md)
+
 ### My Python notes ###
 
 #### My selection of tools and packages

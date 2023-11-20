@@ -4,6 +4,10 @@ The purpose of the summary table below is to help retrocomputing and retrogaming
 It summarizes the typical hardware and software specifications for each PC architecture and period. 
 The focus is on everyday computer buyers, including my own personal experience.
 
+- [A piece of advice](#a-piece-of-advice)
+- [Summary Table](#summary-table)
+- [Some useful sources](#some-useful-sources)
+
 ## A piece of advice
 - Vacuum clean the dust on old hardware and replace thermal paste. 
 - Do not expose old hardware directly to the internet without a strict firewall (bots are scanning for known security vulnerabilities).
@@ -40,7 +44,7 @@ The focus is on everyday computer buyers, including my own personal experience.
 | **Power Format** | AT | AT | ATX | ATX | ATX | ATX | ATX |
 | **Microsoft Windows - Version last release** | | Windows 3.1.1 | Windows 95 OEM SP 5 | Windows 98 SE / Windows 2000 (SP4) | Window XP SP 4 (unofficial SP5) | Windows XP SP 4 (unofficial SP5) | Win 7 SP 3 |
 
-## Useful sources
+## Some useful sources
 ### DOS - Typical PC per year
 - [DOS Days - Typical pc per year](https://www.dosdays.co.uk/topics/typical_pc_per_year.php)
 

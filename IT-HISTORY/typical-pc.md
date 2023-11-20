@@ -88,10 +88,10 @@ The focus is on everyday computer buyers, including my own personal experience.
 ### Floppy disk history
 - 8" floppy: IBM 1971
 - 5"1/4 : 1976
-- 3"1/2 : 1982 until the end of the 90s. Machinstosh 128K made it the de-facto standard
 - 3": Manufactured during the 80s by several companies. Commonly used on Amstrad CPC.
+- 3"1/2 : 1982 until the end of the 90s. Machinstosh 128K made it the de-facto standard
 - Others : Non standard flopy disks (CP/M, Apple, Commodore, etc)
-- Magnetic tape readers (business/enterprise oriented) : [9 track tape](https://en.wikipedia.org/wiki/9-track_tape), QIC, DAT
+- Alternative : Magnetic tape readers (business/enterprise oriented) : [9 track tape](https://en.wikipedia.org/wiki/9-track_tape), QIC, DAT
 - [Wikipedia - History of the floppy disk](https://en.wikipedia.org/wiki/History_of_the_floppy_disk)
 - [Wikipedia - Floppy disk variants](https://en.wikipedia.org/wiki/Floppy_disk_variants)
 

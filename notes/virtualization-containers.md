@@ -18,10 +18,10 @@ Tools and packages I used are marked as `past`.
 ### Level 1 Hypervisors in Linux ###
 [Performance Evaluation of Xen, KVM, and Proxmox Hypervisors](https://www.researchgate.net/publication/327482365_Performance_Evaluation_of_Xen_KVM_and_Proxmox_Hypervisors)
 #### Proxmox ####
-- [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) : Open-source virtualization management platform - Uses KVM, LXD, CEPH, etc - Documentation - Debian based. But, API not versioned, custom kernel, tight integration. `GNU AGPL, v3`. `past`
+- [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) : Open-source virtualization management platform - Uses KVM, LXD, CEPH, etc - Documentation - Debian based. But, API not versioned, custom kernel, tight integration. Each version is supported for 3 years only (same as debian). `GNU AGPL, v3`. `past`
 #### UI for KVM ####
 - [Cockpit](https://cockpit-project.org/): Web-based graphical interface for servers. Reuses system API. Official add-ons : [cockpit-machines](github.com/cockpit-project/cockpit-machines) for KVM virtual machine, [cockpit-podman](github.com/cockpit-project/cockpit-podman) for podman containers. `GNU LGPLv2.1` `in use`
-- [Virt-Manager](https://virt-manager.org/): Desktop virtual machine monitor for KVM/QEMU/Libvirt. `GPLv2` `past`
+- [Virt-Manager](https://virt-manager.org/): Desktop virtual machine monitor for KVM/QEMU/Libvirt. Deprecated by Red Hat. `GPLv2` `past`
 
 ### Level 2 Hypervisors ###
 #### Cross-platform ####

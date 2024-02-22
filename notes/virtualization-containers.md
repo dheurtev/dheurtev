@@ -21,7 +21,7 @@ Tools and packages I used are marked as `past`.
 - [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) : Open-source virtualization management platform - Uses KVM, LXD, CEPH, etc - Documentation - Debian based. But, API not versioned, custom kernel, tight integration. Each version is supported for 3 years only (same as debian). `GNU AGPL, v3`. `past`
 #### UI for KVM ####
 - [Cockpit](https://cockpit-project.org/): Web-based graphical interface for servers. Reuses system API. Official add-ons : [cockpit-machines](github.com/cockpit-project/cockpit-machines) for KVM virtual machine, [cockpit-podman](github.com/cockpit-project/cockpit-podman) for podman containers. `GNU LGPLv2.1` `in use`
-- [Virt-Manager](https://virt-manager.org/): Desktop virtual machine monitor for KVM/QEMU/Libvirt. Deprecated by Red Hat. `GPLv2` `past`
+- [Virt-Manager](https://virt-manager.org/): Desktop virtual machine monitor for KVM/QEMU/Libvirt. This GUI is being deprecated by Red Hat. `GPLv2` `past`
 
 ### Level 2 Hypervisors ###
 #### Cross-platform ####
@@ -35,6 +35,7 @@ Tools and packages I used are marked as `past`.
   * Used for stateful containers (e.g. stable services, database)
   * LXC does not allow live migration
 - [chroot](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/): How to use the chroot command on Linux. Uses standard Linux backup tools. `past`
+- [systemd-nspawn](https://wiki.archlinux.org/title/Systemd-nspawn): systemd-nspawn may be used to run a command or OS in a light-weight namespace container. chroot on steroids.
 
 ## Application containers ##
 [Compare Docker vs Containerd - Docker by itself is more suitable for a developer desktop environment than a production setup](https://earthly.dev/blog/containerd-vs-docker/)

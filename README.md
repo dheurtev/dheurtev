@@ -4,21 +4,21 @@
 - 💞️ 
 - 📫 How to reach me [My Linkedin profile](https://www.linkedin.com/in/david-heurtevent/)
 
-## Projects ##
+## Projects
 
-### MonMotDePasse.com ###
+### MonMotDePasse.com
 A simple free secure password generator in French (uses Javascript, HTML5 Boilerplate and Bootstrap): 
 
 [https://monmotdepasse.com](https://monmotdepasse.com)
 
-### CryptopyUtils ###
+### CryptopyUtils
 cryptopyutils is a high-level Python3 cryptography library using cryptography with sensible configurable defaults and CLI scripts.
 
 [Documentation on ReadTheDocs](https://cryptopyutils.readthedocs.io/en/latest/)
 
 [Repository](https://github.com/dheurtev/cryptopyutils)
 
-### My notes ###
+### My notes
 Tools and technologies I am using, have used or i am considering using. It has a Python bias. Open source when possible, proprietary sometimes.
 - [Virtualization and containers technologies](./notes/virtualization-containers.md)
 - [SysAdmin and Ops - Pets management and MAAS/IAAS](./notes/sysadmin.md)
@@ -30,10 +30,12 @@ Tools and technologies I am using, have used or i am considering using. It has a
 - [How to find and install packages](./notes/packages.md)
 - [Other Developer tools](./notes/developer-tools.md)
 
-### My history notes for retrocomputing and retrogaming enthusiasts###
+### My history notes for retrocomputing and retrogaming enthusiasts
 - [Typical Personal Computer specifications found during the PC golden age (circa 1992-2005)](./IT-HISTORY/typical-pc.md)
+- [Windows support hardware and software details](./IT-HISTORY/retro-windows-support.md) 
+- [Short primer on the history of telecommunications, networking, cryptography, computers, consumer electronics (TV, automation), standards, protocols, programming languages](./IT-HISTORY/index.md)
 
-### My Python notes ###
+### My Python notes
 
 #### My selection of tools and packages
 - [Python tools and packages](./notes/python/tools-packages.md)
@@ -49,7 +51,7 @@ Tools and technologies I am using, have used or i am considering using. It has a
 - [shutil](./notes/python/shutil-methods.md): High-level file operations
 - [pwd/grp](./notes/python/pwd-grp-methods.md): Users and Groups databases operations 
 
-### My lists on Alternativeto ###
+### My lists on Alternativeto
 
 I created the following lists of software and tools on [AlternativeTo](https://alternativeto.net/):
 

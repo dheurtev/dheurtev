@@ -11,13 +11,6 @@ A simple free secure password generator in French (uses Javascript, HTML5 Boiler
 
 [https://monmotdepasse.com](https://monmotdepasse.com)
 
-### CryptopyUtils
-cryptopyutils is a high-level Python3 cryptography library using cryptography with sensible configurable defaults and CLI scripts.
-
-[Documentation on ReadTheDocs](https://cryptopyutils.readthedocs.io/en/latest/)
-
-[Repository](https://github.com/dheurtev/cryptopyutils)
-
 ### My notes
 Tools and technologies I am using, have used or i am considering using. It has a Python bias. Open source when possible, proprietary sometimes.
 - [Virtualization and containers technologies](./notes/virtualization-containers.md)

@@ -29,10 +29,10 @@ The focus is on everyday computer buyers, including my own personal experience.
 | **Microsoft Windows (Consumer)** | 2.11 (1989) | 3.1 / 3.1.1 | 95 | 98 SE | XP | XP 64 SP2 | Windows 7 |
 | **Microsoft Windows (NT Line - Business)** | | NT 3.1 (1994), NT 3.5 (1994) | NT 3.5.1 (1995) / NT 4.0 (1996) | Windows 2000 (Business) | XP Pro |
 | **MS-DOS** | supported -> 6.22 | 3.1 -> 5.0 | 6.22 -> 7.0 | Supported: Windows 98 / Partial support : Windows 2000 | Emulation | | |
-| **Memory - Maximum**| | 256 MB | 480 MB (unstable) | 1GB (problem with DOS Games if memory > 512 MB) | 4 GB | 128 GB | 4 GB (32 bit) / 8 GB (home) / 16 GB (home premium) / 192 GB (enterprise) |
+| **Memory - Maximum**| | 256 MB | 480 MB (unstable) | 1GB (problem with DOS Games if memory > 512 MB) | 4 GB | 128 GB  (XP64), 1TB (2000) | 4 GB (32 bit) / 8 GB (home) / 16 GB (home premium) / 192 GB (enterprise) |
 | **Memory - Typical / Top** | 1 MB / 4 MB | 4 MB/ 8 MB | 8 MB / 32 MB (1997) to 64 MB / 128 MB (1998) | 128 MB / 512 MB | 256 MB/ 512 MB | 256 MB/ 1 GB | 1 GB / 2 GB |
 | **Hard Drive - Typical capacity** | 20-40 MB | 40-320 MB | 1-7 GB | 4-9 GB | 60-120 GB | 200 GB | 500 GB - 1 TB |
-| **Hard Drive - Maximum** | | | 32 GB | 137 GB | 2 TB | 16 TB | 2 TB (32), 16 TB (64) |
+| **Hard Drive - Maximum** | | | 32 GB | 137 GB (Service pack) | 2 TB | 16 TB | 2 TB (32), 16 TB (64) |
 | **Hard drive - Interface** | Mechanical hard drive on PATA (1986)/IDE | PATA/IDE | PATA/IDE | PATA/IDE | PATA/IDE or SATA | PATA/IDE or SATA | SATA with SSD drive (TRIM) |
 | **Hard drive - Partition** | FAT16 / HPFS (NT) | FAT16 / HPFS (NT) | FAT32 / NTFS (NT 3.5.1)| FAT32 / NTFS (NT)  | NTFS (Windows XP default) or FAT32 | NTFS (Windows XP default) | NTFS |
 | **External Media - Floppy Drive** | 3"1/2 (1982) and 5"1/4 (1976) | 3"1/2 and 5"1/4 | 3"1/2 and Zip | 3"1/2 and Jazz | 3"1/2 (obsolete) and multi-format card readers | 3"1/2 (obsolete) and multi-format card readers | 3"1/2 (obsolete)  and multi-format card readers (obsolete) |

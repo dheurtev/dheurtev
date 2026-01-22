@@ -44,27 +44,6 @@ Tools and technologies I am using, have used or i am considering using. It has a
 - [shutil](./notes/python/shutil-methods.md): High-level file operations
 - [pwd/grp](./notes/python/pwd-grp-methods.md): Users and Groups databases operations 
 
-### My lists on Alternativeto
-
-I created the following lists of software and tools on [AlternativeTo](https://alternativeto.net/):
-
-- [Audio + Music Production](https://alternativeto.net/list/33644/audio-music-production/)
-- [Backup - Manage files](https://alternativeto.net/list/33657/backup--manage-files/)
-- [Business](https://alternativeto.net/list/33660/some-business-tools/)
-- [Data science tools](https://alternativeto.net/list/33667/data-science-tools/)
-- [File transfer - Windows](https://alternativeto.net/list/33662/file-transfer/)
-- [Illustation + Graphic Design](https://alternativeto.net/list/33643/illustration--graphic-design/)
-- [Photo + Video](https://alternativeto.net/list/33642/photo-video/)
-- [Productivity - File tools](https://alternativeto.net/list/33654/productivity--file-tools/)
-- [Productivity - Office](https://alternativeto.net/list/33656/productivity--office/)
-- [Remote desktop](https://alternativeto.net/list/33663/remote-desktop/)
-- [Social](https://alternativeto.net/list/33645/social-tools/)
-- [Security for users](https://alternativeto.net/list/33646/security/)
-- [Security for IT pros](https://alternativeto.net/list/33647/security-for-it-pros/)
-- [Virtualization and containers technologies](https://alternativeto.net/list/33666/virtualization-and-containers-technologies/)
-- [Web Development tools](https://alternativeto.net/list/33665/web-dev-tools/)
-- [Windows System Utils](https://alternativeto.net/list/33658/windows-system-utils/)
-
 ### My organization github website ###
 - [fruafr](https://www.github.com/fruafr)
 

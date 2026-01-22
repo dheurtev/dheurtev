@@ -9,6 +9,11 @@
 ### My organization github website ###
 - [fruafr](https://www.github.com/fruafr)
 
+### My history notes for retrocomputing and retrogaming enthusiasts
+- [Typical Personal Computer specifications found during the PC golden age (circa 1992-2005)](./IT-HISTORY/typical-pc.md)
+- [Windows support hardware and software details](./IT-HISTORY/retro-windows-support.md) 
+- [Short primer on the history of telecommunications, networking, cryptography, computers, consumer electronics (TV, automation), standards, protocols, programming languages](./IT-HISTORY/index.md)
+
 ### My notes
 Tools and technologies I am using, have used or i am considering using. It has a Python bias. Open source when possible, proprietary sometimes.
 - [Virtualization and containers technologies](./notes/virtualization-containers.md)
@@ -20,25 +25,4 @@ Tools and technologies I am using, have used or i am considering using. It has a
 - [Data Science tools](./notes/data-science.md)
 - [How to find and install packages](./notes/packages.md)
 - [Other Developer tools](./notes/developer-tools.md)
-
-### My history notes for retrocomputing and retrogaming enthusiasts
-- [Typical Personal Computer specifications found during the PC golden age (circa 1992-2005)](./IT-HISTORY/typical-pc.md)
-- [Windows support hardware and software details](./IT-HISTORY/retro-windows-support.md) 
-- [Short primer on the history of telecommunications, networking, cryptography, computers, consumer electronics (TV, automation), standards, protocols, programming languages](./IT-HISTORY/index.md)
-
-### My Python notes
-
-#### My selection of tools and packages
-- [Python tools and packages](./notes/python/tools-packages.md)
-
-#### Python (v. 3.11) cheatsheet
-- [Files, symlinks/hardlinks, directories and paths cheatsheet](./notes/python/files-dirs-cheatsheet.md)
-
-#### Python Standard Library (v. 3.11) - List of methods for some modules
-- [os](./notes/python/os-methods.md): Operating system dependent functionality
-- [os.path](./notes/python/os-path-methods.md): Common pathname manipulations (adapts to the system it is running on)
-- [pathlib](./notes/python/pathlib-methods.md): Object-oriented filesystem paths
-- [stat](./notes/python/stat-methods.md): Interpreting stat() results
-- [shutil](./notes/python/shutil-methods.md): High-level file operations
-- [pwd/grp](./notes/python/pwd-grp-methods.md): Users and Groups databases operations 
 

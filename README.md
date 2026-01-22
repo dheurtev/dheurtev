@@ -6,11 +6,6 @@
 
 ## Projects
 
-### MonMotDePasse.com
-A simple free secure password generator in French (uses Javascript, HTML5 Boilerplate and Bootstrap): 
-
-[https://monmotdepasse.com](https://monmotdepasse.com)
-
 ### My notes
 Tools and technologies I am using, have used or i am considering using. It has a Python bias. Open source when possible, proprietary sometimes.
 - [Virtualization and containers technologies](./notes/virtualization-containers.md)

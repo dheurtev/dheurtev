@@ -6,6 +6,9 @@
 
 ## Projects
 
+### My organization github website ###
+- [fruafr](https://www.github.com/fruafr)
+
 ### My notes
 Tools and technologies I am using, have used or i am considering using. It has a Python bias. Open source when possible, proprietary sometimes.
 - [Virtualization and containers technologies](./notes/virtualization-containers.md)
@@ -38,13 +41,4 @@ Tools and technologies I am using, have used or i am considering using. It has a
 - [stat](./notes/python/stat-methods.md): Interpreting stat() results
 - [shutil](./notes/python/shutil-methods.md): High-level file operations
 - [pwd/grp](./notes/python/pwd-grp-methods.md): Users and Groups databases operations 
-
-### My organization github website ###
-- [fruafr](https://www.github.com/fruafr)
-
-## Support ##
-
-Please support my non-profit and open source activities with a donation by Paypal :
-
-[![Paypal Donation](https://www.paypalobjects.com/en_US/FR/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=MU8N9KU6VLBME)
 
